@@ -11,7 +11,7 @@
 	<meta charset="utf-8">
 </head>
 <body>
-	<?php get_header(); ?>
+
 
 	<section id="header">
 		<div id="home_picture">
