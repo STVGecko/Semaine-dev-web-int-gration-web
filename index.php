@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-<?php get_header(); ?>
+
 	</header>
 	<section id="header">
 		<div id="home_picture">
@@ -22,7 +22,7 @@
 
 
 	<footer>
-		<?php get_footer(); ?>
+
 	</footer>
 </body>
 </html>
