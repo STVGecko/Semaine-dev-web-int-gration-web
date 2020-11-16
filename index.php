@@ -10,10 +10,10 @@
 </head>
 <body>
 	<header>
-
+<?php get_header(); ?>
 	</header>
 	<footer>
-
+		<?php get_footer(); ?>
 	</footer>
 </body>
 </html>
