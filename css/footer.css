@@ -1,11 +1,14 @@
 #container
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    height: 200px;
+    color: white;
 }
 
 
-img logo_fb {
-	max-width: 20%;
+img.logo_fb {
+	max-width: 15%;
 }
