@@ -8,6 +8,7 @@
 </head>
 <body>
   <header>
+		<div class="wrap">
 			<div class="logo">
 				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
 			</div>
@@ -28,6 +29,7 @@
 		      <?php wp_page_menu('show_home=1'); ?>
 		    </div>
 			</div>
+		</div>
   </header>
 </body>
 </html>

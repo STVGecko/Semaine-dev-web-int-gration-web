@@ -1,6 +1,16 @@
-header{
+div.wrap{
+  max-width: 1218px;
+  padding-left: 111px;
+  padding-right: 111px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+ header{
   background-color: #2c2c2c;
   color: white;
+}
+
+header div.wrap{
   display:flex;
   justify-content: space-between;
 }
