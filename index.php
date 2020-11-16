@@ -25,11 +25,11 @@
 				<div class="icon_2" name="Terrassement"><img src="images/logo_terrassement.png"></div>
 				<div class="icon_3" name="Soubassement"><img src="images/logo_soubassement.png"></div>
 			</div>
-			<div id="line2">
+			<!--<div id="line2">
 				<div class="icon_4" name="Dallage"><img src="images/logo_dallage.png"></div>
 				<div class="icon_5" name="Piscine"><img src="images/logo_piscine.png"></div>
 				<div class="icon_6" name="Terrasse"><img src="images/logo_terrasse.png"></div>
-			</div>
+			</div>-->
 		</div>
 	</section>
 
