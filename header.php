@@ -7,8 +7,7 @@
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
 </head>
-<?php
-  include('include/header.php'); 
+<?php include('include/header.php'); ?>
 <body>
   <header>
     <div class="barre_info">
