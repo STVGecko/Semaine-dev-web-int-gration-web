@@ -20,16 +20,15 @@
 		</div>
 
 		<div id="wrap">
-			<div id="line1">
 				<div class="icon" name="Rénovation"><img src="images/logo_renovation.png"></div>
 				<div class="icon" name="Terrassement"><img src="images/logo_terrassement.png"></div>
 				<div class="icon" name="Soubassement"><img src="images/logo_soubassement.png"></div>
 			</div>
-			<!--<div id="line2">
+		<div id="wrap2">
 				<div class="icon_4" name="Dallage"><img src="images/logo_dallage.png"></div>
 				<div class="icon_5" name="Piscine"><img src="images/logo_piscine.png"></div>
 				<div class="icon_6" name="Terrasse"><img src="images/logo_terrasse.png"></div>
-			</div>-->
+		</div>
 		</div>
 	</section>
 
