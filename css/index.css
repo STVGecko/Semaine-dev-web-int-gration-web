@@ -9,3 +9,8 @@ body{
   height: 656px;
   border: 2px solid black;
 }
+
+#wrap{
+  display: flex;
+  justify-content: center
+}
