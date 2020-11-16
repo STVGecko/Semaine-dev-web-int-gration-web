@@ -38,6 +38,11 @@ display: flex;
   padding-right: 1%;
 }
 
+.devis{
+  background: #C00A23;
+  border-radius: 6px;
+}
+
 .texte_icone{ /*fonctionne si son parent est flex*/
   align-self: center;
 }
