@@ -7,22 +7,22 @@
 </head>
 <body>
   <header>
-            <div class="logo_menu">
-                <a href="#"><img src="images/Logotype.svg"></a>
+            <div class="barre_info">
+              <div class="telephone">
+                <img src="images/tel_header.svg">
+                <span>06 74 11 63 45</span>
+              </div>
+              <div class="mail">
+                <img src="images/mail_header.svg">
+                <span>pa.flamens.@orange.fr</span>
+              </div>
+              <div class="devis">
+                <span>Demande de devis</span>
+              </div>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">POLITICS</a></li>
-                    <li><a href="#">ENTERTAINMENT</a></li>
-                    <li><a href="#">LIFESTYLE</a></li>
-                </ul>
-            </div>
-            <div class="picto">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <span id="menuprincipal">
+              <?php wp_page_menu('show_home=1'); ?>
+            </span>
   </header>
 </body>
 </html>
