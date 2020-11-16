@@ -22,15 +22,15 @@
 		</div>
 
 		<div id="wrap">
-				<div class="icon" name="Rénovation"><img src="images/logo_renovation.png"></div>
-				<div class="icon" name="Terrassement"><img src="images/logo_terrassement.png"></div>
-				<div class="icon" name="Soubassement"><img src="images/logo_soubassement.png"></div>
+				<div class="icon" name="Rénovation"><img src="images/logo_renovation.png" alt="Icône restauration"></div>
+				<div class="icon" name="Terrassement"><img src="images/logo_terrassement.png" alt="Icône terrassement"></div>
+				<div class="icon" name="Soubassement"><img src="images/logo_soubassement.png" alt="Icône reprise en sous-oeuvre"></div>
 			</div>
 		<div id="wrap2">
 
-				<div class="icon"><img src="images/logo_dallage.png">test</div>
-				<div class="icon"><img src="images/logo_piscine.png">test</div>
-				<div class="icon"><img src="images/logo_terrasse.png">test</div>
+				<div class="icon"><img src="images/logo_dallage.png" alt="Icône agrandissement">test</div>
+				<div class="icon"><img src="images/logo_piscine.png" alt="Icône maçonnerie paysagère">test</div>
+				<div class="icon"><img src="images/logo_terrasse.png" alt="Icône enduit">test</div>
 		</div>
 	</section>
 
