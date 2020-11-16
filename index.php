@@ -4,13 +4,15 @@
 <body>
 
 	<section id="header">
+
 		<div id="home_picture">
 			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
 				<?php ?>
 		</div>
-
+	</section>
 		<div id="texte_savoir-faire">
 
+			<h2> Notre savoir-faire </h2>
 			<div id="paragraphe">
 					<p> M2A a pour objectif de mettre à votre disposition son expérience, ses qualifications et <br/>
 						son savoir-faire afin de vous garantir des travaux de qualité qui répondent à vos besoins. </p>
@@ -32,6 +34,12 @@
 
 			</div>
 
-	</section>
+		<div id="a-propos">
+
+			<h3> À-propos </h3>
+
+			<div id="paragraphe">
+
+		</div>
 
 <?php get_footer(); ?>
