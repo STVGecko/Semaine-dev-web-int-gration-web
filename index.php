@@ -12,7 +12,6 @@
 </head>
 <body>
 
-<?php include('include/header.php'); ?>
 	<section id="header">
 		<div id="home_picture">
 			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
@@ -35,6 +34,7 @@
 
 </body>
 </html>
+<?php include('include/header.php'); ?>
 <?php include('include/footer.php'); ?>
 <?php// get_header(); ?>
 <?php //get_footer(); ?>
