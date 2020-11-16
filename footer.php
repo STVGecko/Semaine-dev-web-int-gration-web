@@ -3,7 +3,7 @@
 		<div class="container">
       <div class="logo_footer">
         <ul class="list-logo_footer">
-          <li><a href="#"><img class="logo" src="images/logo.svg" alt="M2A Maçonnerie" /></a></li>
+          <li><a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="M2A Maçonnerie" /></a></li>
         </ul>
       </div>
       <div class="text_logo_footer">
@@ -29,7 +29,7 @@
       <div class="rs">
 				<div class="title_footer">Réseaux sociaux</div>
 				<ul class="list-rs_footer">
-					<li><a href=""><img class="logo_fb" src="images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></li>
+					<li><a href=""><img class="logo_fb" src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></li>
 					<li class="facebook"><a href="">Facebook</a></li>
 				</ul>
 			</div>
