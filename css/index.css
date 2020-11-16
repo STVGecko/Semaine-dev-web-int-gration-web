@@ -14,14 +14,16 @@ body{
 #home_picture img{
   position:absolute;
   z-index: 1;
+  text-align: center;
 }
 #home_picture h1{
+  text-align: center;
+  line-height: 200px;
   background-color: none;
   font-family: 'Noto Sans',sans-serif;
   font-style: bold;
   font-size:80px;
   font-weight: 700;
-  text-align: center;
   margin:auto;
   color:white;
 }
@@ -35,7 +37,7 @@ body{
 #wrap1{
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 
@@ -43,13 +45,13 @@ body{
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 h2 {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 24px;
   color: #C00A23;
 }
