@@ -12,6 +12,7 @@ body{
 
 #wrap{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   width: 1500px;
   border: 2px solid black;
