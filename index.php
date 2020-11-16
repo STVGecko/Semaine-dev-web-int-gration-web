@@ -12,7 +12,7 @@
 		<div id="texte_savoir-faire">
 
 			<div id="paragraphe">
-					<p> M2A a pour objectif de mettre à votre disposition son expérience, ses qualifications et
+					<p> M2A a pour objectif de mettre à votre disposition son expérience, ses qualifications et <br/>
 						son savoir-faire afin de vous garantir des travaux de qualité qui répondent à vos besoins. </p>
 			</div>
 
