@@ -1,1 +1,15 @@
+.barre_info{
+  display : inline-block;
+}
 
+.logo{
+  display : inline-block;
+}
+
+.telephone{
+  display : inline-block;
+}
+
+.mail{
+  display : inline-block;
+}
