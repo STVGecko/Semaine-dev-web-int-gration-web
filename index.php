@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>
 
-	</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<meta name="viewport" content="width=device-width">
-	<meta http-equiv="cache-control" content="no-cache"/>
-	<meta charset="utf-8">
-</head>
-<header>
-	<?php include "include/header.php"; ?>
-</header>
+<?php get_header(); ?>
+
 <body>
 
 	<section id="header">
@@ -34,12 +22,4 @@
 		</div>
 	</section>
 
-
-</body>
-<footer>
-	<?php include "include/footer.php"; ?>
-</footer>
-</html>
-
-<?php// get_header(); ?>
-<?php //get_footer(); ?>
+<?php get_footer(); ?>
