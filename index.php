@@ -7,7 +7,7 @@
 
 		<div id="home_picture">
 			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
-				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.svg" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
+				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.png" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
 		</div>
 	</section>
 		<div id="texte_savoir-faire">
@@ -54,8 +54,12 @@
 
 
 		<div id="contact">
-			<p> Besoin de nos services ? <br/>
-				Contactez-nous ! </p>
-			
 
+			<h3> Besoin de nos services ? <br/>
+				Contactez-nous ! </h3>
+
+			<p> Demande de devis <p>
+
+		</div>
+		
 <?php get_footer(); ?>
