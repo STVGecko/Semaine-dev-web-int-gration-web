@@ -7,6 +7,11 @@
 body{
   font-family: "Mukta Mahee", sans-serif;
 }
+#title{
+  position:absolute;
+  z-index: 2;
+}
+
 #home_picture h1{
   font-family: "Noto-Sans",sans-serif;
   font-style: bold;
@@ -18,6 +23,7 @@ body{
   vertical-align: middle;
 }
 #home_picture{
+  position:relative;
   height: 656px;
   border: 2px solid black;
 }
