@@ -26,9 +26,9 @@
 			</div>
 		<div id="wrap2">
 
-				<div class="icon"><img src="images/logo_renovation.png">test</div>
-				<div class="icon"><img src="images/logo_terrassement.png">test</div>
-				<div class="icon"><img src="images/logo_soubassement.png">test</div>
+				<div class="icon"><img src="images/logo_dallage.png">test</div>
+				<div class="icon"><img src="images/logo_piscine.png">test</div>
+				<div class="icon"><img src="images/logo_terrasse.png">test</div>
 		</div>
 	</section>
 
