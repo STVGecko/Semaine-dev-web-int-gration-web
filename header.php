@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 </head>
 <?php
-  include('include/heade.php'); 
+  include('include/header.php'); 
 <body>
   <header>
     <div class="barre_info">
