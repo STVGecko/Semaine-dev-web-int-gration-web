@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
-	<?php wp_head(); ?>
 </head>
+<?php
+  include('include/heade.php'); 
 <body>
   <header>
     <div class="barre_info">
