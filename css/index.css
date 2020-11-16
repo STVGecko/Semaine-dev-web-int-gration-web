@@ -51,7 +51,7 @@ body{
 .border {
   display : flex;
   justify-content : center;
-  border : 5px red solid;
+  border : 5px #C00A23 solid;
   margin-left: auto;
   margin-right:auto;
   width : 250px;
