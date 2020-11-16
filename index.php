@@ -19,14 +19,12 @@
 		<div id="logo_savoir-faire">
 
 				<div id="wrap1">
-					<h3> Bâti ancien </h3>
 					<div class="icon" name="Rénovation"><img src="<?php echo get_template_directory_uri();?>/images/logo_renovation.png" alt="Icône restauration"></div>
 					<div class="icon" name="Terrassement"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrassement.png" alt="Icône terrassement"></div>
 					<div class="icon" name="Soubassement"><img src="<?php echo get_template_directory_uri();?>/images/logo_soubassement.png" alt="Icône reprise en sous-oeuvre"></div>
 				</div>
 
 				<div id="wrap2">
-					<h3> Maçonnerie traditionnelle </h3>
 					<div class="icon"><img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement"></div>
 					<div class="icon"><img src="<?php echo get_template_directory_uri();?>/images/logo_piscine.png" alt="Icône maçonnerie paysagère"></div>
 					<div class="icon"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrasse.png" alt="Icône enduit"></div>
