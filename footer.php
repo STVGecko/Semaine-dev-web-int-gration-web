@@ -42,7 +42,7 @@
 			</div>
 		</div>
 	</section>
-<?php wp_footer(); ?>
+<?php wp_footer();//barre amin ?> 
 </footer>
 
 </body>
