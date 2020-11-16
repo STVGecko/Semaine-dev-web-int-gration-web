@@ -12,7 +12,7 @@
 	</section>
 		<div id="texte_savoir-faire">
 
-			<h2> Notre savoir-faire </h2>
+			<div class="border"> <h2> Notre savoir-faire </h2> </div>
 			<div id="paragraphe">
 					<p> M2A a pour objectif de mettre à votre disposition son expérience, ses qualifications et <br/>
 						son savoir-faire afin de vous garantir des travaux de qualité qui répondent à vos besoins. </p>
@@ -36,7 +36,7 @@
 
 		<div id="a-propos">
 
-			<h2> À-propos </h2>
+		<div class="border">	<h2> À-propos </h2> </div>
 
 			<div id="paragraphe">
 
