@@ -16,8 +16,7 @@ body{
   border: 2px solid black;
 }
 #wrap img{
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 #wrap2{
   margin-top: 50px;
@@ -26,8 +25,7 @@ body{
   border: 2px solid black;
 }
 #wrap2 img{
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 
 .icon{
