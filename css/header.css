@@ -42,6 +42,7 @@ display: flex;
 .devis{
   background: #C00A23;
   border-radius: 6px;
+  padding: 2%;
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
