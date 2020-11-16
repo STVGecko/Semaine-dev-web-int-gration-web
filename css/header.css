@@ -14,12 +14,12 @@ display: flex;
 
 .telephone{
   display: flex;
-  padding-left: 20%;
+  padding-left: 5%;
 }
 
 .mail{
   display: flex;
-  padding-left: 20%;
+  padding-left: 5%;
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
