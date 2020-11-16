@@ -11,12 +11,12 @@
 </head>
 <body>
 	<header>
-<?php get_header(); ?>
+		<?php get_header(); ?>
 	</header>
 	<section id="header">
 		<div id="home_picture">
-			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
-				<?php ?>
+			<h1>"Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
+			<?php ?>
 		</div>
 	</section>
 
