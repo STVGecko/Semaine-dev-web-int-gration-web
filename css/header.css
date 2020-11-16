@@ -8,6 +8,14 @@ header{
   padding-bottom: 2%;
 }
 
-.texte_icone{
+.telephone{
+  display: flex;
+}
+
+.mail{
+  display: flex;
+}
+
+.texte_icone{ /*fonctionne si son parent est flex*/
   align-self: center;
 }
