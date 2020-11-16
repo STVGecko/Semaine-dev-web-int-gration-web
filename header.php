@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
