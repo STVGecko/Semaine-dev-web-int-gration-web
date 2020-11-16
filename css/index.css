@@ -12,7 +12,6 @@ body{
 
 #wrap{
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   width: 1500px;
   border: 2px solid black;
@@ -24,7 +23,7 @@ body{
 }
 .icon:nth-child(1){
 
-  background-color: yellow;}
+  background-color: red;}
 
 .icon:nth-child(2){
 
@@ -32,5 +31,5 @@ body{
 
 .icon:nth-child(3){
 
-    background-color: yellow;
+    background-color: green;
 }
