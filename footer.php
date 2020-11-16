@@ -1,9 +1,8 @@
 <footer>
-	<section id="footer">
-		<div class="container">
+	<section id="container">
       <div class="logo_footer">
         <ul class="list-logo_footer">
-          <li><a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="M2A Maçonnerie" /></a></li>
+          <li><a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo_sanstxt.svg" alt="M2A Maçonnerie" /></a></li>
         </ul>
       </div>
       <div class="text_logo_footer">
@@ -40,7 +39,6 @@
           <li class="copyright_t3">© 2020, Kanzaï️</li>
 				</ul>
 			</div>
-		</div>
 	</section>
 <?php wp_footer(); ?>
 </footer>
