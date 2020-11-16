@@ -8,25 +8,28 @@
 </head>
 <body>
   <header>
-    <div class="barre_info">
-			<div class="logo">
-				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
-			</div>
+		<div class="logo">
+			<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
+		</div>
+<div class="menuglobal">
+		<div class="barre_info">
       <div class="telephone">
         <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
-        <span>06 74 11 63 45</span>
+        <div class="texte_icone">06 74 11 63 45</div>
       </div>
       <div class="mail">
         <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-        <span>pa.flamens.@orange.fr</span>
-      </div>
-      <div class="devis">
-        <span>Demande de devis</span>
-      </div>
+        <divclass="texte_icone">pa.flamens.@orange.fr</div>
+				<div class="devis">
+	        <span>Demande de devis</span>
+	      </div>
     </div>
-    <span id="menuprincipal">
-      <?php wp_page_menu('show_home=1'); ?>
-    </span>
+
+		</div>
+	    <div id="menuprincipal">
+	      <?php wp_page_menu('show_home=1'); ?>
+	    </div>
+</div>
   </header>
 </body>
 </html>
