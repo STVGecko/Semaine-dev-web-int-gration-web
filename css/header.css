@@ -1,19 +1,20 @@
 header{
   background-color: #2c2c2c;
   height: 144px;
+  color: white;
 }
 .barre_info{
-  display : inline-block;
+  display : flex;
 }
 
 .logo{
-  display : inline-block;
+  display : flex;
 }
 
 .telephone{
-  display : inline-block;
+  display : flex;
 }
 
 .mail{
-  display : inline-block;
+  display : flex;
 }
