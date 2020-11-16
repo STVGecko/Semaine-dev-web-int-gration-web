@@ -13,8 +13,7 @@ body{
 #wrap{
   display: flex;
   justify-content: space-around;
-  flex-wrap:wrap;
-  height: 500px;
+  height: 1500px;
   border: 2px solid black;
 }
 
