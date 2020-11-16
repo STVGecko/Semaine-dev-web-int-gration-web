@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
