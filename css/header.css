@@ -16,12 +16,12 @@ display: flex;
 
 .telephone{
   display: flex;
-  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .mail{
   display: flex;
-  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
