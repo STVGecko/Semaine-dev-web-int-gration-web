@@ -12,6 +12,15 @@
 	<header>
 <?php get_header(); ?>
 	</header>
+	<div id="image">
+
+		<img  class="image1" src="accueil.png" alt="Photo d'accueil de l'entreprise">
+
+		
+
+	</div>
+
+
 	<footer>
 		<?php get_footer(); ?>
 	</footer>
