@@ -15,6 +15,18 @@ body{
   justify-content: space-around;
   border: 2px solid black;
 }
+#wrap img{
+  margin: auto;
+}
+#wrap2{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+#wrap2 img{
+  margin: auto;
+}
 
 .icon{
   width: 384px;
