@@ -50,9 +50,11 @@ body{
 
 h2 {
   display : block;
-  border : 2px red solid;
+  border : 5px red solid;
+  width : 250px;
+  height : 67px;
   text-align: center;
-  padding: 19px 22px 19px 22px;
+  padding: 19px 22px;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 100;
