@@ -6,7 +6,7 @@
 	<section id="header">
 
 		<div id="home_picture">
-			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
+			<div id="title"><h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1></
 				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.png" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
 		</div>
 	</section>
@@ -44,7 +44,7 @@
 					Savoie, mais aussi sur l'ensemble de la région <br/>
 					Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
 					une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
-					prestations et réalisations. <br/> </p>
+					prestations et réalisations. </p>
 
 			</div>
 
@@ -61,5 +61,5 @@
 			<p> Demande de devis <p>
 
 		</div>
-		
+
 <?php get_footer(); ?>
