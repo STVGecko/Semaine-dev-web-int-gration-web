@@ -12,11 +12,11 @@
   <header>
     <div class="barre_info">
       <div class="telephone">
-        <img src="images/tel_header.svg">
+        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
         <span>06 74 11 63 45</span>
       </div>
       <div class="mail">
-        <img src="images/mail_header.svg">
+        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
         <span>pa.flamens.@orange.fr</span>
       </div>
       <div class="devis">
