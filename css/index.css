@@ -16,6 +16,13 @@ body{
   border: 2px solid black;
 }
 
+#wrap2{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
 .icon{
   width: 384px;
   height: 288px;
