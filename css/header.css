@@ -8,13 +8,14 @@ header{
 }
 
 .logo{
-  display : flex;
 }
 
 .telephone{
   display : flex;
+  flex-direction: row;
 }
 
 .mail{
   display : flex;
+  flex-direction: row;
 }
