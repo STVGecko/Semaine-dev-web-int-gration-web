@@ -36,10 +36,17 @@
 
 		<div id="a-propos">
 
-			<h3> À-propos </h3>
+			<h2> À-propos </h2>
 
 			<div id="paragraphe">
 
+				<p> Basée au Bourget du Lac, nous intervenons principalement en <br/>
+					Savoie, mais aussi sur l'ensemble de la région <br/>
+					Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
+					une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
+					prestations et réalisations. <br/>
+
+			</div>
 		</div>
 
 <?php get_footer(); ?>
