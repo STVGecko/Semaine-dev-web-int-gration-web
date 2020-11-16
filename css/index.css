@@ -18,20 +18,19 @@ body{
   border: 2px solid black;
 }
 
-.icon_1{
+.icon{
   width: 200px;
   height: 150px;
-  background-color: red;
 }
-.icon_2{
-  width: 200px;
-  height: 150px;
-  background-color: yellow;
+.icon:nth-child(1){
 
-}
-.icon_3{
-  width: 200px;
-  height: 150px;
-  background-color: green;
+  background-color: yellow;}
 
+.icon:nth-child(2){
+
+  background-color: yellow;}
+
+.icon:nth-child(3){
+
+    background-color: yellow;
 }
