@@ -11,7 +11,10 @@ body{
   position:absolute;
   z-index: 2;
 }
-
+#home_picture img{
+  position:absolute;
+  z-index: 1;
+}
 #home_picture h1{
   font-family: "Noto-Sans",sans-serif;
   font-style: bold;
