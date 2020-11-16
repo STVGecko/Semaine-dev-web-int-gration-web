@@ -10,3 +10,4 @@ function scripts() {
   //wp_enqueue_script(); si besoin de js
 }
 add_action( 'wp_enqueue_scripts', 'scripts' );
+add_theme_support('menus');
