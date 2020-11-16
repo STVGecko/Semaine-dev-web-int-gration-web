@@ -23,7 +23,7 @@ img{
   margin-top: auto;
 }
 h3{
-  display: block;
+  visibility: none;
 }
 #wrap1{
   display: flex;
