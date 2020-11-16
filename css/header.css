@@ -8,12 +8,18 @@ header{
   padding-bottom: 2%;
 }
 
+.barre_info{ /*telephone + mail + deviis*/
+display: flex;
+}
+
 .telephone{
   display: flex;
+  padding-left: 20%;
 }
 
 .mail{
   display: flex;
+  padding-left: 20%;
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
