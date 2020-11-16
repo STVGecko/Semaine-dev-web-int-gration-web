@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
 </head>
 <body>
@@ -24,7 +25,7 @@
 				<div class="icon"><img src="images/logo_renovation.png">test</div>
 				<div class="icon"><img src="images/logo_terrassement.png">test</div>
 				<div class="icon"><img src="images/logo_soubassement.png">test</div>
-			
+
 			<!--<div id="line2">
 				<div class="icon_4" name="Dallage"><img src="images/logo_dallage.png"></div>
 				<div class="icon_5" name="Piscine"><img src="images/logo_piscine.png"></div>
