@@ -4,7 +4,11 @@
 body{
   font-family: "Mukta Mahee", sans-serif;
 }
-
+h1{
+  font-family: Noto-Sans,sans-serif;
+  font-style: bold;
+  font-size:80px; 
+}
 #home_picture{
   height: 656px;
   border: 2px solid black;
