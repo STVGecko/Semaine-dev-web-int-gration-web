@@ -44,9 +44,12 @@
 					Savoie, mais aussi sur l'ensemble de la région <br/>
 					Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
 					une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
-					prestations et réalisations. <br/>
+					prestations et réalisations. <br/> </p>
 
 			</div>
+			
+				<p class="plus">En savoir plus</p>
+
 		</div>
 
 <?php get_footer(); ?>
