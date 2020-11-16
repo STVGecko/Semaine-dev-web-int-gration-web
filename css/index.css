@@ -7,7 +7,9 @@ body{
 h1{
   font-family: Noto-Sans,sans-serif;
   font-style: bold;
-  font-size:80px; 
+  font-size:80px;
+  text-align: center;
+  margin:auto;
 }
 #home_picture{
   height: 656px;
