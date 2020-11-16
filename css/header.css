@@ -1,21 +1,13 @@
 header{
   background-color: #2c2c2c;
-  height: 144px;
   color: white;
-}
-.barre_info{
-  display : flex;
 }
 
 .logo{
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.telephone{
-  display : flex;
-  flex-direction: row;
-}
-
-.mail{
-  display : flex;
-  flex-direction: row;
+.texte_icone{
+  align-self: center;
 }
