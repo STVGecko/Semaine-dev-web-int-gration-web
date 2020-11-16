@@ -1,9 +1,9 @@
 <footer>
 	<section id="footer">
-		<div class="footer">
+		<div class="container">
       <div class="logo_footer">
         <ul class="list-logo_footer">
-          <li><a href="#"><img class="logo" src="images/logo.svg" alt="Logo M2A" /></a></li>
+          <li><a href="#"><img class="logo" src="images/logo.svg" alt="M2A Maçonnerie" /></a></li>
         </ul>
       </div>
       <div class="text_logo_footer">
@@ -14,7 +14,7 @@
         </ul>
       </div>
 			<div class="coordonnees">
-				<h4>Coordonnées</h4>
+				<div class="title_footer">Coordonnées</div>
 				<ul class="list-coordonees_footer">
 					<li class="coordonnees_t1">06 74 11 63 45</li>
 					<li class="coordonnees_t2">pa.flamens@orange.fr</li>
@@ -27,7 +27,7 @@
 				</ul>
 			</div>
       <div class="rs">
-				<h4>Réseaux sociaux</h4>
+				<div class="title_footer">Réseaux sociaux</div>
 				<ul class="list-rs_footer">
 					<li><a href=""><img class="logo_fb" src="images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></li>
 					<li class="facebook"><a href="">Facebook</a></li>
