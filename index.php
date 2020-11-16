@@ -10,6 +10,8 @@
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
 </head>
+<?php include "include/header.php"; ?>
+
 <body>
 
 	<section id="header">
@@ -33,8 +35,8 @@
 
 
 </body>
+<?php include "include/footer.php"; ?>
 </html>
-<?php include('include/header.php'); ?>
-<?php include('include/footer.php'); ?>
+
 <?php// get_header(); ?>
 <?php //get_footer(); ?>
