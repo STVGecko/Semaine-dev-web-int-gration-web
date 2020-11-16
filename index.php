@@ -11,7 +11,6 @@
 	<meta charset="utf-8">
 </head>
 <body>
-<?php get_header(); ?>
 	<section id="header">
 		<div id="home_picture">
 			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
@@ -49,6 +48,5 @@
 	</section>
 
 
-<?php get_footer(); ?>
 </body>
 </html>
