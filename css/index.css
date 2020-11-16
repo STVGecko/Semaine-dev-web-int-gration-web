@@ -1,0 +1,12 @@
+*{
+  background-color: #2C2C2C;
+}
+body{
+  font-family: "Mukta Mahee", sans-serif;
+}
+
+#home_picture{
+  width: 1440px;
+  height: 656px;
+  border: 2px solid black;
+}

@@ -12,13 +12,12 @@
 	<header>
 <?php get_header(); ?>
 	</header>
-	<div id="image">
-
-		<img  class="image1" src="accueil.png" alt="Photo d'accueil de l'entreprise">
-
-		
-
-	</div>
+	<section id="header">
+		<div id="home_picture">
+			<h1>Maçonnerie d'antan et <br>d'aujourd'hui"</h1>
+				<?php ?>
+		</div>
+	</section>
 
 
 	<footer>
