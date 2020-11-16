@@ -17,18 +17,18 @@ body{
 }
 
 .icon{
-  width: 200px;
-  height: 150px;
+  width: 384px;
+  height: 288px;
 }
 .icon:nth-child(1){
 
-  background-color: red;}
+  background-color: #C00A23;}
 
 .icon:nth-child(2){
 
-  background-color: yellow;}
+  background-color: #C00A23;}
 
 .icon:nth-child(3){
 
-    background-color: green;
+    background-color: #C00A23;
 }
