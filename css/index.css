@@ -12,5 +12,23 @@ body{
 
 #wrap{
   display: flex;
-  justify-content: center
+  justify-content: space-around;
+}
+
+.icon_1{
+  width: 50px;
+  height: 25px;
+  background-color: red;
+}
+.icon_2{
+  width: 50px;
+  height: 25px;
+  background-color: red;
+
+}
+.icon_3{
+  width: 50px;
+  height: 25px;
+  background-color: red;
+
 }
