@@ -2,7 +2,7 @@ header{
   background-color: #2c2c2c;
   color: white;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo{
@@ -19,9 +19,17 @@ display: flex;
   padding-right: 5%;
 }
 
+.telephone img{
+  padding-right: 1%;
+}
+
 .mail{
   display: flex;
   padding-right: 5%;
+}
+
+.mail img{
+  padding-right: 1%;
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
