@@ -40,6 +40,10 @@
 				</ul>
 			</div>
 	</section>
+	<div class="background_footer">
+		<p>M2A</p>
+		<hr>
+	</div>
 <?php wp_footer(); ?>
 </footer>
 
