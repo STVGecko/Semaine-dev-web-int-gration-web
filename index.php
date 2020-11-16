@@ -24,12 +24,11 @@
 				<div class="icon"><img src="images/logo_renovation.png">test</div>
 				<div class="icon"><img src="images/logo_terrassement.png">test</div>
 				<div class="icon"><img src="images/logo_soubassement.png">test</div>
-			
-			<!--<div id="line2">
+			</div>
+		<div id="wrap2">
 				<div class="icon_4" name="Dallage"><img src="images/logo_dallage.png"></div>
 				<div class="icon_5" name="Piscine"><img src="images/logo_piscine.png"></div>
 				<div class="icon_6" name="Terrasse"><img src="images/logo_terrasse.png"></div>
-			</div>-->
 		</div>
 	</section>
 
