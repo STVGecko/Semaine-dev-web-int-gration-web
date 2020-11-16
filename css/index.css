@@ -17,7 +17,7 @@ body{
 }
 #home_picture h1{
   background-color: none;
-  font-family: "Noto-Sans",sans-serif;
+  font-family: "Noto-Sans,sans-serif;
   font-style: bold;
   font-size:80px;
   font-weight: 700;
@@ -48,7 +48,7 @@ body{
 }
 
 #texte_savoir-faire h2 {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
