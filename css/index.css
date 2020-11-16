@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
-*{
+html{
   background-color: #2C2C2C;
 }
 body{
@@ -47,7 +47,7 @@ body{
   border: 2px solid black;
 }
 
-#texte_savoir-faire h2 {
+h2 {
   font-family: 'Noto Sans', sans-serif;
   font-style: medium;
   font-weight: 500;
