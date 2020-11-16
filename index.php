@@ -21,9 +21,9 @@
 
 		<div id="wrap">
 			<div id="line1">
-				<div class="icon_1" name="Rénovation"><img src="images/logo_renovation.png"></div>
-				<div class="icon_2" name="Terrassement"><img src="images/logo_terrassement.png"></div>
-				<div class="icon_3" name="Soubassement"><img src="images/logo_soubassement.png"></div>
+				<div class="icon" name="Rénovation"><img src="images/logo_renovation.png"></div>
+				<div class="icon" name="Terrassement"><img src="images/logo_terrassement.png"></div>
+				<div class="icon" name="Soubassement"><img src="images/logo_soubassement.png"></div>
 			</div>
 			<!--<div id="line2">
 				<div class="icon_4" name="Dallage"><img src="images/logo_dallage.png"></div>
