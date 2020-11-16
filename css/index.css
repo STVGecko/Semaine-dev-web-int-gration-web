@@ -49,11 +49,9 @@ body{
 }
 
 h2 {
-  display : block;
   border : 5px red solid;
-  width : 250px;
-  height : 67px;
   text-align: center;
+  vertical-align: middle;
   padding: 19px 22px;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
