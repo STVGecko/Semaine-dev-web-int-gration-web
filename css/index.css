@@ -48,8 +48,17 @@ body{
   /*border: 2px solid black;*/
 }
 
-h2 {
+.border {
+  display : flex;
+  justify-content : center;
   border : 5px red solid;
+  margin-left: auto;
+  margin-right:auto;
+  width : 250px;
+  height : 67px;
+}
+
+ h2 {
   text-align: center;
   padding: 19px 22px;
   font-family: 'Noto Sans', sans-serif;
@@ -58,6 +67,7 @@ h2 {
   font-size: 24px;
   color: #C00A23;
 }
+
 #paragraphe{
   color:white;
   text-align: center;
