@@ -94,7 +94,7 @@ div#nav div.menu ul li a{
   color : white;
 }
 
-li.current_page_item a {
+div#nav div.menu ul li.current_page_item a {
   color: #C00A23;
 }
 
