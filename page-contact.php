@@ -69,7 +69,7 @@
 
 </body>
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
 
 You are nesting in the wrong places ;)
 
@@ -81,7 +81,7 @@ You are nesting in the wrong places ;)
         $(this).animate({'top':'20px','left':'20px' });
       }
  );
-</script>
+</script>-->
 
 
 <?php get_footer(); ?>
