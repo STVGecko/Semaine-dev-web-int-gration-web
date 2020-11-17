@@ -4,6 +4,7 @@
 <section id="contact_page">
   <h2>Pour nous contacter</h2>
   <div id="underline"></div>
+  <br>
   <div id="presentation">
     <p id="bold_text">Pierre-André FLAMENS, gérant de la société M2A</p>
     <p id="small_text">Si vous avez la moindre question, ou si vous souhaitez nous demander un devis, n’hésitez pas.</p>
