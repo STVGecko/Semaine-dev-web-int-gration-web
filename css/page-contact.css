@@ -13,6 +13,11 @@ h2{
   color: #C00A23;
 }
 
+#underline{
+  border-bottom: 1px solid #C00A23;
+  width: 341px;
+}
+
 #small_text{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
@@ -21,7 +26,7 @@ h2{
   line-height: 18px;
   text-align:center;
   color: white;
-  padding-top: 3.5%;
+  padding-top: 2%;
 }
 
 #bold_text{
@@ -47,12 +52,13 @@ h2{
   background-color: #C00A23;}
 
 }
-.icon_contact:nth-child(2){
-  background-color: green;}
 
+.icon_contact:nth-child(2){
+  background-color: blue;}
 
 .icon_contact:nth-child(3){
-  background-color: blue;}
+  background-color: green;}
+
 
 #devis_contact{
   width:710px;
