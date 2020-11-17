@@ -55,11 +55,13 @@ display: flex;
   padding: 2%;
 }
 .devis span{
+  font-size: 24px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 500;
 }
 
 .texte_icone{
+  font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 500;
 }
@@ -81,6 +83,7 @@ div#nav div.menu ul li{
 
 }
 div#nav div.menu ul li a{
+  font-size: 18px;
   text-decoration:none;
   color : white;
 }
