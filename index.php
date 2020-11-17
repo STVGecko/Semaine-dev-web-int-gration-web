@@ -50,6 +50,7 @@
 
 			<div id="a-propos_image">
 				<img alt="Camionnette M2A" src="<?php echo get_template_directory_uri();?>/images/camion.png">
+				<div id="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre.svg"> </div>
 			</div>
 
 			<div id="a-propos_texte">
@@ -71,8 +72,8 @@
 
 		<div id="contact">
 
-			<h3> Besoin de nos services ? <br/>
-				Contactez-nous ! </h3>
+			<h3> Besoin de nos services ?
+				<br/> Contactez-nous ! </h3>
 
 		<div id="devis">	<p> Demande de devis <p> </div>
 
