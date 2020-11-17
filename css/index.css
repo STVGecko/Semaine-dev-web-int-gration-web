@@ -17,11 +17,10 @@ html{
   height : 656px;
 }
 #home_picture h1{
-  margin-top : 15.35%;
-  margin-left : 0.1%;
+  margin-top : 14%;
+  margin-right : 3%;
   text-align: center;
   line-height: 88px;
-  letter-spacing : 1.5px;
   font-family: 'Noto Sans',sans-serif;
   font-size:80px;
   font-weight: 700;
@@ -33,7 +32,8 @@ html{
 }
 
 .paragraphe {
-  margin-top : 6%;
+  margin-top : 5.2%;
+  margin-right : 6%;
 }
 
 .paragraphe p{
@@ -50,10 +50,9 @@ html{
   display: flex;
   justify-content: space-around;
   /*border: 2px solid black;*/
-  margin-top : 3.5%;
-  margin-left : 4.75%;
-  margin-right : 5%;
-  width : 91%;
+  margin-top : 3%;
+  margin-left : 5.7%;
+  margin-right : 11.5%;
   height : auto;
 }
 
@@ -73,16 +72,17 @@ h3 {
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top : 6%;
+  margin-top : 5.6%;
+  margin-right : 6%;
 }
 
 
 #border1 {
   display : block;
-  margin-left : 630px;
+  margin-left : 38.8%;
   border : 5px #C00A23 solid;
-  width : 255px;
-  height : 62px;
+  width : 240px;
+  height : 58px;
 }
 
 #border2 {
@@ -98,9 +98,9 @@ h3 {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 26px;
+  font-size: 24px;
   color: #C00A23;
-  margin-top : 20px;
+  margin-top : 16px;
 }
 
 .wrap div {
@@ -108,8 +108,7 @@ display : block;
 }
 
 .picture img {
-width : 30%;
-margin : 15% 36.5%;
+margin : 55% 70%;
 }
 
 .icon_name{
