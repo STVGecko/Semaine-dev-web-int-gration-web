@@ -11,10 +11,11 @@
     <div class="test"></div>
   </div>
   <div id="wrap_contact">
-    <div class="icon_contact" name="Telephone"></div>
+    <div class="icon_contact" name="Telephone">
+    </div>
     <div class="icon_contact" name="Mail"></div>
     <div class="icon_contact" name="Position"></div>
-    </div>
+  </div>
 </section>
 <div id="devis_contact">
 

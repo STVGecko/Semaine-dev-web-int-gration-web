@@ -40,7 +40,7 @@ h2{
   text-align:center;
   color: white;
 }
-.wrap_contact{
+#wrap_contact{
   display: flex;
   justify-content: center;
   border: 2px solid black;*/
