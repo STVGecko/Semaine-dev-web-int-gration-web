@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 footer{
+background-image: url("<?php echo get_template_directory_uri();?>/images/background_footer.svg");
  color: white;
  font-family: 'Noto Sans', sans-serif;
  font-weight: 700;
