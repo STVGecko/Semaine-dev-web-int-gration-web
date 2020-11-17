@@ -72,13 +72,13 @@ h3 {
   border : 5px #C00A23 solid;
   margin-left: auto;
   margin-right:auto;
-  width : 250px;
+  width : auto;
   height : 67px;
 }
 
  h2 {
   text-align: center;
-  padding: 19px 22px;
+  /*padding: 19px 22px;*/
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -102,18 +102,7 @@ h3 {
 .icon{
   width: 384px;
   height: 288px;
-}
-.icon:nth-child(1){
-
-  background-color: #C00A23;}
-
-.icon:nth-child(2){
-
-  background-color: #C00A23;}
-
-.icon:nth-child(3){
-
-    background-color: #C00A23;
+  background-color: #C00A23;
 }
 
 #a-propos {
