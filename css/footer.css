@@ -22,10 +22,10 @@ footer div.wrap_footer div.touttext_footer{
   display: flex;
 }
 
-.facebook{
+.facebook a{
   text-decoration: none;
 }
 
-.copyright{
+.copyright a{
   text-decoration: none;
 }
