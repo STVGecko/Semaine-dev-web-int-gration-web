@@ -31,16 +31,26 @@ html{
   margin-top : 5.3%;
 }
 
-.paragraphe {
+#paragraphe1 {
   margin-top : 5.2%;
   margin-right : 6%;
 }
 
-.paragraphe p{
+#paragraphe1 p{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height : 30px;
+}
+
+#paragraphe2 p{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
   text-align: center;
   color: #FFFFFF;
   line-height : 30px;
@@ -88,7 +98,7 @@ h3 {
 
 #border2 {
   display : block;
-  margin-left : 630px;
+  /*margin-left : 630px;*/
   border : 5px #C00A23 solid;
   width : 152px;
   height : 62px;
@@ -144,23 +154,37 @@ margin : 60% 35%;
 #a-propos {
   margin-top : 24.15%;
   width : 100%;
+  display : inline-block;
+  position : relative;
 }
 
 #a-propos_image {
   display : inline-block;
+  /*position : absolute;*/
   float : left;
-  margin-left : 11%;
-  width : 39%;
+  margin : -3.3%;
+  margin-left : 10.3%;
 }
-
-/*#a-propos_image img {
-  width : 69%;
-}*/
 
 #a-propos_texte {
   display : inline-block;
-  float : right;
-  width : 50%;
+  /*margin-left : 10.15%;*/
+  margin : -1.1% 10.15%;
+}
+
+#a-propos_texte h2 {
+  display : inline-block;
+}
+
+#a-propos_texte p {
+  display : inline-block;
+}
+
+#paragraphe2 {
+  margin : 4.6% -1%;
+  position : relative;
+  text-align: left;
+  line-height: 1px;
 }
 
 #plus {
@@ -173,6 +197,7 @@ margin : 60% 35%;
 }
 
 #contact {
+  display : inline-block;
   margin-top : 5%;
   margin-bottom : 5%;
 }

@@ -11,7 +11,7 @@
 		<div id="texte_savoir-faire">
 
 			<div id="border1"> <h2> Notre savoir-faire </h2> </div>
-			<div class="paragraphe">
+			<div id="paragraphe1">
 					<p> M2A a pour objectif de mettre à votre disposition son expérience, ses qualifications et <br/>
 						son savoir-faire afin de vous garantir des travaux de qualité qui répondent à vos besoins. </p>
 			</div>
@@ -55,14 +55,12 @@
 			<div id="a-propos_texte">
 						<div id="border2">	<h2> À-propos </h2> </div>
 
-						<div class="paragraphe">
-
+						<div id="paragraphe2">
 								<p> Basée au Bourget du Lac, nous intervenons principalement en <br/>
 										Savoie, mais aussi sur l'ensemble de la région <br/>
 										Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
 										une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
 										prestations et réalisations. </p>
-
 						</div>
 
 				<p id="plus">En savoir plus</p>
