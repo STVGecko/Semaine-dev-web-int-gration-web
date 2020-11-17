@@ -31,7 +31,7 @@ html{
   border: 2px solid black;
 }
 
-p {
+.paragraphe p{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 400;
