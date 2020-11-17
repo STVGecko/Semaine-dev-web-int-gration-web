@@ -49,7 +49,7 @@
 		<div id="a-propos">
 
 			<div id="a-propos_image">
-				<img alt="Camionnette M2A" src="/images/camion.png">
+				<img alt="Camionnette M2A" src="<?php echo get_template_directory_uri();?>/images/camion.png">
 			</div>
 
 			<div id="a-propos_texte">
