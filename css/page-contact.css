@@ -13,7 +13,7 @@ h2{
   color: #C00A23;
 }
 
-#presentation p{
+#small_text{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -21,6 +21,7 @@ h2{
   line-height: 18px;
   text-align:center;
   color: white;
+  padding-top: 3.5%;
 }
 
 #bold_text{
@@ -34,8 +35,7 @@ h2{
 }
 .wrap_contact{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   /*border: 2px solid black;*/
   margin-top : 5%;
 }
@@ -48,8 +48,14 @@ h2{
 
 }
 .icon_contact:nth-child(2){
-  background-color: blue;}
+  background-color: green;}
 
 
 .icon_contact:nth-child(3){
-  background-color: green;}
+  background-color: blue;}
+
+#devis_contact{
+  width:710px;
+  height:603px;
+  background-color: #C00A23;
+}
