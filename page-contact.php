@@ -69,5 +69,19 @@
 
 </body>
 
+<script type="text/javascript">
+
+You are nesting in the wrong places ;)
+
+ $('.icon_contact').hover(
+      function(){
+           $(this).animate({'top':'-20px','left':'-20px'});
+     },
+      function(){
+        $(this).animate({'top':'20px','left':'20px' });
+      }
+ );
+</script>
+
 
 <?php get_footer(); ?>
