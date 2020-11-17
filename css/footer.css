@@ -22,6 +22,10 @@ footer div.wrap_footer div.touttext_footer{
   display: flex;
 }
 
+.text_logo_footer{
+  padding-right: 5%;
+}
+
 .block{
   padding-right: 5%;
 }

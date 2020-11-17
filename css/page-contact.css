@@ -52,8 +52,8 @@ h2#contact_title{
   display: flex;
   justify-content: space-around;
   margin-top : 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #text_wrap_contact{
   display: flex;
