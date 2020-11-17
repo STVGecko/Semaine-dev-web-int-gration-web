@@ -47,6 +47,7 @@
     </div>
   </div>-->
   <div id="devis_contact">
+    <h2 id="devis_title">Demande de devis</h2>
   </div>
 </section>
 
