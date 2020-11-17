@@ -92,6 +92,10 @@ div#nav div.menu ul li a{
   color : white;
 }
 
+div#nav div.menu ul li a:active{
+  color: #C00A23;
+}
+
 
 .texte_icone{ /*fonctionne si son parent est flex*/
   align-self: center;
