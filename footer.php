@@ -2,7 +2,6 @@
 	<div class="wrap_footer">
       <div class="logo_footer">
           <a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo_sanstxt.svg" alt="M2A Maçonnerie" /></a>
-        </ul>
       </div>
 			<div class="touttext_footer">
 	      <div class="text_logo_footer">
@@ -25,20 +24,14 @@
 						<a href=""><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></li>
 						<a href="">Facebook</a>
 					</div>
-	      <div class="copyright">
-					<ul class="list-copyright_footer">
-						<li class="copyright_t1"><a href="">Données personnelles</a></li>
-	          <li class="copyright_t2"><a href="">Mentions légales</a></li>
-	          <li class="copyright_t3">© 2020, Kanzaï️</li>
-					</ul>
 				</div>
-		</section>
-		<!--<div class="background_footer">
-			<p>M2A</p>
-			<hr>
-		</div>-->
+	      <div class="copyright">
+						<a href="">Données personnelles</a></li>
+	          <a href="">Mentions légales</a></li>
+	          <p>© 2020, Kanzaï️</p>
+				</div>
 		</div>
-</div>
+	</div>
 <?php wp_footer(); ?>
 </footer>
 
