@@ -48,20 +48,26 @@
 
 		<div id="a-propos">
 
-			<div class="border">	<h2> À-propos </h2> </div>
-
-			<div class="paragraphe">
-
-				<p> Basée au Bourget du Lac, nous intervenons principalement en <br/>
-					Savoie, mais aussi sur l'ensemble de la région <br/>
-					Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
-					une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
-					prestations et réalisations. </p>
-
+			<div id="a-propos_image">
+				<img alt="Camionnette M2A" src="/images/camion.png">
 			</div>
+
+			<div id="a-propos_texte">
+						<div id="border2">	<h2> À-propos </h2> </div>
+
+						<div class="paragraphe">
+
+								<p> Basée au Bourget du Lac, nous intervenons principalement en <br/>
+										Savoie, mais aussi sur l'ensemble de la région <br/>
+										Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
+										une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
+										prestations et réalisations. </p>
+
+						</div>
 
 				<p id="plus">En savoir plus</p>
 
+			</div>
 		</div>
 
 

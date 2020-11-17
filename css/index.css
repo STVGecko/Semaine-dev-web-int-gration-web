@@ -74,6 +74,14 @@ h3 {
   height : 62px;
 }
 
+#border2 {
+  display : block;
+  margin-left : 630px;
+  border : 5px #C00A23 solid;
+  width : 10.1%;
+  height : 62px;
+}
+
  h2 {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -112,6 +120,17 @@ margin : 15% 36.5%;
 
 #a-propos {
   margin-top : 5%;
+  width : 100%;
+}
+
+#a-propos_image {
+  display : inline-block;
+  width : 50%;
+}
+
+#a-propos_texte {
+  display : inline-block;
+  width : 50%;
 }
 
 #plus {
