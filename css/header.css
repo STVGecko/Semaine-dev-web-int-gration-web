@@ -23,7 +23,7 @@ header div.wrap{
 }
 
 .menuglobal{
-  padding-top: 2%;
+  padding-top: %;
 }
 
 .barre_info{ /*telephone + mail + deviis*/
@@ -46,7 +46,7 @@ display: flex;
 }
 
 .mail img{
-  padding-right: 1%;
+  padding-right: 8%;
 }
 
 .devis{
