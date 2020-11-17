@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
+	<script src="jquery-3.5.1.min.js"></script>
 	<?php wp_head(); ?>
 </head>
 <body>

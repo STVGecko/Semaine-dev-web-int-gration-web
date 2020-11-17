@@ -53,7 +53,7 @@
       <div id="contact_gauche">
         <p class="contact_names" type="Prénom"> <input class="contact_input" placeholder="Ecrivez votre prénom ici..."></input></p>
         <p class="contact_names" type="Mail"> <input class="contact_input" placeholder="Ecrivez votre mail ici..."></input></p>
-        <p class="contact_names" type="Message"><input class="contact_input" placeholder="Ecrivez votre message ici"></input></p>
+        <div class="contact_message"><p class="contact_names" type="Message"><input class="contact_input" placeholder="Ecrivez votre message ici"></input></p></div>
       </div>
       <div id="contact_droite">
         <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
@@ -69,33 +69,19 @@
 
 </body>
 
+<!--<script type="text/javascript">
 
+You are nesting in the wrong places ;)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-
-
-
-
-
-
-
-
-
+ $('.icon_contact').hover(
+      function(){
+           $(this).animate({'top':'-20px','left':'-20px'});
+     },
+      function(){
+        $(this).animate({'top':'20px','left':'20px' });
+      }
+ );
+</script>-->
 
 
 <?php get_footer(); ?>
