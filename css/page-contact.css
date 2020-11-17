@@ -13,6 +13,7 @@ h2{
   color: #C00A23;
 }
 
-#presentation p{
+#presentation{
   text-align:center;
+  clor: white;
 }
