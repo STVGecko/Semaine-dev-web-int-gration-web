@@ -54,6 +54,15 @@ display: flex;
   border-radius: 6px;
   padding: 2%;
 }
+.devis span{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
+
+.texte_icone{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
 
 div#nav div.menu ul{
   display:flex;
