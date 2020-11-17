@@ -22,25 +22,25 @@
 				<h3>Bâti ancien</h3>
 				<div id="wrap1">
 					<div class="icon" name="Restauration"><img src="<?php echo get_template_directory_uri();?>/images/logo_renovation.png" alt="Icône restauration">
-						<p class="icon_name">Restauration</p>
+						<div class="icon_name">Restauration</div>
 					</div>
 					<div class="icon" name="Maçonnerie"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrassement.png" alt="Icône terrassement">
-						<p class="icon_name">Maçonnerie</p>
+						<div class="icon_name">Maçonnerie</div>
 					</div>
 					<div class="icon" name="Reprise en sous oeuvre"><img src="<?php echo get_template_directory_uri();?>/images/logo_soubassement.png" alt="Icône reprise en sous-oeuvre">
-						<p class="icon_name">Reprise en sous oeuvre</p>
+						<div class="icon_name">Reprise en sous oeuvre</div>
 					</div>
 				</div>
 				<h3>Bâti ancien</h3>
 				<div id="wrap2">
 					<div class="icon" name="Agrandissement"><img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement">
-						<p class="icon_name">Agrandissement</p>
+						<div class="icon_name">Agrandissement</div>
 					</div>
 					<div class="icon" name="Maçonnerie paysagère"><img src="<?php echo get_template_directory_uri();?>/images/logo_piscine.png" alt="Icône maçonnerie paysagère">
-						<p class="icon_name">Maçonnerie paysagère</p>
+						<div class="icon_name">Maçonnerie paysagère</div>
 					</div>
 					<div class="icon" name="Enduit"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrasse.png" alt="Icône enduit">
-						<p class="icon_name">Enduit</p>
+						<div class="icon_name">Enduit</div>
 					</div>
 				</div>
 
