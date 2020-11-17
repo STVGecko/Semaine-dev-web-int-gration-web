@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-		<div class="wrap">
+		<div class="wrap_header">
 			<div class="logo">
 				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
 			</div>
@@ -23,7 +23,7 @@
 			        <div class="texte_icone">pa.flamens.@orange.fr</div>
 			    </div>
 					<div class="devis">
-						<span>Demande de devis</span>
+						<p>Demande de devis</p>
 					</div>
 				</div>
 		    <div id="nav">
