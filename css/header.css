@@ -22,7 +22,7 @@ header div.wrap_header{
 }
 
 .menuglobal{
-  padding-right: 10%;
+
 }
 
 .barre_info{ /*telephone + mail + deviis*/
@@ -32,7 +32,7 @@ display: flex;
 
 .telephone{
   display: flex;
-  padding-right: 7%;
+  margin-left: 11px;
 }
 
 .telephone img{
@@ -41,11 +41,11 @@ display: flex;
 
 .mail{
   display: flex;
-  padding-right: 7%;
+  margin-left: 49px;
 }
 
 .mail img{
-  padding-right: 8%;
+  margin-right: 11px;
 }
 
 .devis{
@@ -55,6 +55,7 @@ display: flex;
   background: #C00A23;
   border-radius: 6px;
   padding: 6px 15px; /*haut/bas droite/gauche*/
+  margin-left: 49px;
 }
 .devis p{
   white-space: nowrap; /* interdiction de passer à la ligne */
