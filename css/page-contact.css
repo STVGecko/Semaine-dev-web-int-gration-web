@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
+
 body section #contact_page{
     display:flex;
     justify-content: space-between;
@@ -17,7 +18,7 @@ h2{
   font-size: 36px;
   line-height: 40px;
   color: #C00A23;
-  padding-bottom:18px;
+  padding-bottom:0.5%;
 
 }
 
@@ -51,6 +52,8 @@ h2{
   display: flex;
   justify-content: space-around;
   margin-top : 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #text_wrap_contact{
   display: flex;
@@ -76,4 +79,5 @@ h2{
   width:710px;
   height:603px;
   background-color: #C00A23;
+  margin: 0 auto;
 }

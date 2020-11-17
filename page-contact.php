@@ -46,17 +46,10 @@
       <p>Ouvrir dans Maps ></p>
     </div>
   </div>-->
+  <div id="devis_contact">
+  </div>
 </section>
-<div id="devis_contact">
 
-
-
-
-
-
-
-
-</div>
 </body>
 
 
