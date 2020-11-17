@@ -98,6 +98,7 @@ h2#contact_title{
   height:603px;
   background-color: #C00A23;
   margin: 5% auto;
+  box-shadow:  0 0 10px black;
 }
 h2#devis_title{
   color: white;
@@ -151,6 +152,7 @@ p.contact_names:before{
   color:white;
 }
 button.contact_button{
+  display: inline-block;
   padding:4px 20px;
   margin:8px 0 0;
   font-family:'Mukta Mahee',sans-serif;
@@ -179,17 +181,5 @@ float: right;
 margin-right: 1%;
 }
 
-
-/*div{
-  content:'Hi';
-  position:absolute;
-  bottom:-15px;
-  right:-20px;
-  background:#50505a;
-  color:#fff;
-  width:320px;
-  padding:16px 4px 16px 0;
-  border-radius:6px;
-  font-size:13px;
-  box-shadow:10px 10px 40px -14px #000
-}*/
+#contact_button{
+}

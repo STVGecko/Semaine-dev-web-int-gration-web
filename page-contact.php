@@ -58,7 +58,8 @@
         <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
         <p class="contact_names" type="Phone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
       </div>
-      <button class="contact_button">Envoyer</button>
+      <div id="contact_button"><button class="contact_button">Envoyer</button></div>
+    </form>
   </div>
 </section>
 
