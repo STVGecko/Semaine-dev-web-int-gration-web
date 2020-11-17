@@ -123,6 +123,7 @@ input.contact_input{
   outline:none;
   resize:none;
   border:0;
+  color: white;
   font-family:'Mukta Mahee',sans-serif;
   transition:all .3s;
   border-bottom:2px solid #bebed2;}
@@ -134,7 +135,7 @@ p.contact_names:before{
   display:block;
   margin:28px 0 0;
   font-size:14px;
-  color:#5a5a5a
+  color:white;
 }
 button.contact_button{
   padding:4px 20px;
@@ -144,7 +145,7 @@ button.contact_button{
   font-size: 24px;
   border-radius: 6px;
   background-color:white;
-  color:white;
+  color: black;
   cursor:pointer;
   transition:all .3s;
   border:none;
