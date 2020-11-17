@@ -50,15 +50,15 @@
     <h2 id="devis_title">Demande de devis</h2>
     <form class="form">
       <div id="contact_gauche">
-        <p type="Prenom"> <input placeholder="Ecrivez votre prénom ici..."></input></p>
-        <p type="Email"> <input placeholder="Ecrivez votre mail ici..."></input></p>
+        <p class="contact_names" type="Prenom"> <input class="contact_input" placeholder="Ecrivez votre prénom ici..."></input></p>
+        <p class="contact_names" type="Email"> <input class="contact_input" placeholder="Ecrivez votre mail ici..."></input></p>
       </div>
       <div id="contact_droite">
-        <p type="Nom"> <input placeholder="Ecrivez votre nom ici..."></input></p>
-        <p type="Phone"> <input placeholder="Ecrivez votre téléphone ici..."></input></p>
+        <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
+        <p class="contact_names" type="Phone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
       </div>
-      <p type="Message"><input placeholder="Ecrivez votre message ici"></input></p>
-      <button>Envoyer</button>
+      <!--<p class="contact_names" type="Message"><input class="contact_input" placeholder="Ecrivez votre message ici"></input></p>
+      <button class="contact_button">Envoyer</button>-->
   </div>
 </section>
 
