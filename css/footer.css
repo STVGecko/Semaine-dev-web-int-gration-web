@@ -22,10 +22,6 @@ footer div.wrap_footer div.touttext_footer{
   display: flex;
 }
 
-.facebook a{
-  text-decoration: none;
-}
-
-.copyright a{
+.block a{
   text-decoration: none;
 }
