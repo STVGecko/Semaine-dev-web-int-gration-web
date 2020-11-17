@@ -10,14 +10,14 @@ html{
   z-index: 2;
 }
 #home_picture img{
-  position:absolute;
+  position:relative;
   z-index: 1;
   text-align: center;
   width : 100%;
 }
 #home_picture h1{
-  margin-top : 25%;
-  margin-left : 20%;
+  margin-top : 19%;
+  margin-left : 0.1%;
   text-align: center;
   line-height: 88px;
   font-family: 'Noto Sans',sans-serif;
@@ -26,6 +26,14 @@ html{
   color:#FFFFFF;
 }
 
+div#texte_savoir-faire {
+  position : relative;
+  margin-top : 2.6%;
+}
+
+.paragraphe {
+  margin-top : 5%;
+}
 
 .paragraphe p{
   font-family: 'Mukta Mahee', sans-serif;
@@ -36,38 +44,26 @@ html{
   color: #FFFFFF;
 }
 
-#plus {
-  text-align : center;
-  font-family: 'Mukta Mahee', sans-serif;
+#logo_savoir-faire {
+  margin-top : 5%;
+}
+
+.wrap{
+  display: flex;
+  justify-content: space-around;
+  /*border: 2px solid black;*/
+  margin-top : 5%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  color: #FFFFFF;
-}
-
-#contact p {
-  text-align : center;
-  font-family: 'Mukta Mahee', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   color: #FFFFFF;
+  margin-top : 5%;
 }
-
-#wrap1{
-  display: flex;
-  justify-content: space-around;
-  /*border: 2px solid black;*/
-}
-
-
-#wrap2{
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  /*border: 2px solid black;*/
-}
-
 
 
 .border {
@@ -88,15 +84,6 @@ html{
   font-weight: 100;
   font-size: 24px;
   color: #C00A23;
-}
-
-h3 {
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  color: #FFFFFF;
 }
 
 .icon_name{
@@ -127,4 +114,31 @@ h3 {
 .icon:nth-child(3){
 
     background-color: #C00A23;
+}
+
+#a-propos {
+  margin-top : 5%;
+}
+
+#plus {
+  text-align : center;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#contact {
+  margin-top : 5%;
+  margin-bottom : 5%;
+}
+
+#contact p {
+  text-align : center;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #FFFFFF;
 }

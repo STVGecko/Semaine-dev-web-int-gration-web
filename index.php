@@ -6,10 +6,11 @@
 	<section id="header">
 
 		<div id="home_picture">
-			<div id="title"><h1>Maçonnerie d'antan et <br>d'aujourd'hui</h1></div>
+			<div id="title"><h1>Maçonnerie d'antan et d'aujourd'hui</h1></div>
 				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.png" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
 		</div>
 	</section>
+
 		<div id="texte_savoir-faire">
 
 			<div class="border"> <h2> Notre savoir-faire </h2> </div>
@@ -20,7 +21,7 @@
 
 		<div id="logo_savoir-faire">
 				<h3>Bâti ancien</h3>
-				<div id="wrap1">
+				<div class="wrap">
 					<div class="icon" name="Restauration"><div class="image"<img src="<?php echo get_template_directory_uri();?>/images/logo_renovation.png" alt="Icône restauration"></div>
 						<div class="icon_name">Restauration</div>
 					</div>
@@ -32,7 +33,7 @@
 					</div>
 				</div>
 				<h3>Bâti ancien</h3>
-				<div id="wrap2">
+				<div class="wrap">
 					<div class="icon" name="Agrandissement"><div class="image"<img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement"></div>
 						<div class="icon_name">Agrandissement</div>
 					</div>
@@ -48,7 +49,7 @@
 
 		<div id="a-propos">
 
-		<div class="border">	<h2> À-propos </h2> </div>
+			<div class="border">	<h2> À-propos </h2> </div>
 
 			<div class="paragraphe">
 
