@@ -60,9 +60,10 @@ html{
   display: flex;
   justify-content: space-around;
   /*border: 2px solid black;*/
-  margin-top : 3.5%;
-  margin-left : 5%;
-  margin-right : 5%;
+  margin-top : 3%;
+  margin-left : 5.7%;
+  margin-right : 11.5%;
+  height : auto;
 }
 
 h3 {
@@ -103,12 +104,24 @@ h3 {
   margin-top : 16px;
 }
 
-.wrap div {
-display : block;
-}
 
-.picture img {
-margin : 55% 70%;
+.picture1 img {
+margin : 35% 60%;
+}
+.picture2 img {
+margin : 50% 60%;
+}
+.picture3 img {
+margin : 50% 110%;
+}
+.picture4 img {
+margin : 30% 55%;
+}
+.picture5 img {
+margin : 44% 105%;
+}
+.picture6 img {
+margin : 60% 35%;
 }
 
 .icon_name{
