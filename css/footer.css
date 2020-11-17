@@ -1,4 +1,4 @@
-#container
+/*#container
 {
     display: flex;
     justify-content: space-around;
@@ -17,12 +17,8 @@
 }
 
 
-img.logo_fb {
-	max-width: 15%;
-}
-
 
 .background_footer.p {
   font-family: "Noto Sans", sans-serif;
   color: #333333;
-}
+}*/
