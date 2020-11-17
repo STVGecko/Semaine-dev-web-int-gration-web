@@ -10,7 +10,7 @@ footer{
 
 footer div.wrap_footer{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1218px;
   padding-left: 111px;
   padding-right: 111px;
