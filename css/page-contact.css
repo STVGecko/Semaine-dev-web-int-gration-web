@@ -14,8 +14,10 @@ h2{
 }
 
 #underline{
-  border-bottom: 1px solid #C00A23;
+  border-top: 6px solid #C00A23;
   width: 341px;
+  margin-left: 40%;
+
 }
 
 #small_text{
@@ -41,7 +43,7 @@ h2{
 .wrap_contact{
   display: flex;
   justify-content: center;
-  /*border: 2px solid black;*/
+  border: 2px solid black;*/
   margin-top : 5%;
 }
 .icon_contact{
@@ -50,8 +52,6 @@ h2{
 }
 .icon_contact:nth-child(1){
   background-color: #C00A23;}
-
-}
 
 .icon_contact:nth-child(2){
   background-color: blue;}
