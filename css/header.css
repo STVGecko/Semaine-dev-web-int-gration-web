@@ -59,6 +59,8 @@ div#nav div.menu ul{
 
 div#nav div.menu ul li{
   padding-right: 18%;
+  border-right: 1px solid #C00A23;
+
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
