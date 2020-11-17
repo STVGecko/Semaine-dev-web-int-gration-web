@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee&display=swap');
 
 header div.wrap_header{
   display:flex;
@@ -57,8 +58,8 @@ display: flex;
   white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 24px;
   text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 400;
 }
 
 .texte_icone{
