@@ -70,10 +70,10 @@ h3 {
   display : flex;
   justify-content : center;
   border : 5px #C00A23 solid;
-  margin-left: auto;
-  margin-right:auto;
-  width : auto;
-  height : 67px;
+  /*padding-left : 25px;
+  padding-right : 25px;
+  padding-top : 26px;
+  padding-bottom : 26px;*/
 }
 
  h2 {
@@ -84,6 +84,7 @@ h3 {
   font-weight: 100;
   font-size: 24px;
   color: #C00A23;
+  margin : 25px 26px;
 }
 
 .icon_name{
@@ -130,6 +131,7 @@ h3 {
   font-weight: normal;
   font-size: 24px;
   color: #FFFFFF;
+  margin-top : 3%;
 }
 
 #devis {
@@ -140,8 +142,8 @@ h3 {
   margin-left: auto;
   margin-right:auto;
   width : 226px;
+  height : 39px;
   margin-top : 3%;
-  padding : 6px 0;
 }
 
 #contact h3 {
