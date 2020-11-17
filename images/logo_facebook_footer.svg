@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-</style>
-<g>
-	<g id="post-facebook">
-		<path class="st0" d="M459,0H51C23,0,0,23,0,51v408c0,28,23,51,51,51h408c28,0,51-23,51-51V51C510,23,487,0,459,0z M433.5,51v76.5
-			h-51c-15.3,0-25.5,10.2-25.5,25.5v51h76.5v76.5H357V459h-76.5V280.5h-51V204h51v-63.8c0-48.4,40.8-89.3,89.3-89.3H433.5z"/>
-	</g>
-</g>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.6921 0H2.30786C1.0332 0 0 1.0332 0 2.30786V29.6921C0 30.9668 1.0332 32 2.30786 32H17.0938V19.625H12.9375V14.7812H17.0938V11.2166C17.0938 7.08276 19.6174 4.83276 23.3049 4.83276C25.071 4.83276 26.5889 4.96436 27.0312 5.02319V9.34375H24.4885C22.4822 9.34375 22.0938 10.2971 22.0938 11.6963V14.7812H26.8906L26.2656 19.625H22.0938V32H29.6921C30.9668 32 32 30.9668 32 29.6921V2.30786C32 1.0332 30.9668 0 29.6921 0Z" fill="white"/>
 </svg>
