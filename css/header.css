@@ -50,6 +50,7 @@ display: flex;
 .devis{
   display: flex;
   justify-content: center;
+  width : 226px;
   background: #C00A23;
   border-radius: 6px;
   padding: 2%;
