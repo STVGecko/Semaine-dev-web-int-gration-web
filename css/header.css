@@ -94,9 +94,11 @@ div#nav div.menu ul li a{
   color : white;
 }
 
-div#nav div.menu ul li a:active{
+li.current_page_item a {
   color: #C00A23;
 }
+
+
 
 
 .texte_icone{
