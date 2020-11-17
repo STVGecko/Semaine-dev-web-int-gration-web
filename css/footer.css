@@ -19,6 +19,13 @@ footer div.wrap_footer{
 }
 
 footer div.wrap_footer div.touttext_footer{
-  text-decoration: none;
   display: flex;
+}
+
+.facebook{
+  text-decoration: none;
+}
+
+.copyright{
+  text-decoration: none;
 }
