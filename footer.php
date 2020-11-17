@@ -1,7 +1,6 @@
 <footer>
 	<div class="wrap_footer">
       <div class="logo_footer">
-        <ul class="list-logo_footer">
           <a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo_sanstxt.svg" alt="M2A Maçonnerie" /></a>
         </ul>
       </div>
