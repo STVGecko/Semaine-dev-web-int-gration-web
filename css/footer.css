@@ -1,24 +1,14 @@
-/*#container
-{
-    display: flex;
-    justify-content: space-around;
-    vertical-align: baseline;
-
-    font-family: "Mukta Mahee", sans-serif;
-    color: white;
+footer{
+ background-color: #2c2c2c;
+ color: white;
 }
 
-.text_logo_footer{
-  font-family: "Noto Sans", sans-serif;
+header div.wrap_footer{
+  display:flex;
+  justify-content: space-between;
+  max-width: 1218px;
+  padding-left: 111px;
+  padding-right: 111px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.title_footer{
-  font-weight: bold;
-}
-
-
-
-.background_footer.p {
-  font-family: "Noto Sans", sans-serif;
-  color: #333333;
-}*/
