@@ -64,6 +64,10 @@ display: flex;
   font-weight: 500;
 }
 
+div#nav{
+  padding-top: 5%;
+}
+
 div#nav div.menu ul{
   display:flex;
 }
