@@ -102,8 +102,6 @@ h3 {
 }
 
 .icon{
-  display:flex;
-  flex-direction: column;
   width: 384px;
   height: 288px;
 }
