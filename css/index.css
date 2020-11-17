@@ -32,7 +32,7 @@ html{
 }
 
 #paragraphe p {
-  font-family: Mukta Mahee;
+  font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -89,6 +89,14 @@ h3 {
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF;
+}
+
+p.icon_name{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight:500;
+  font-size: 24px;
 }
 
 .icon{

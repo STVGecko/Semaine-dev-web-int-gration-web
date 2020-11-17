@@ -21,14 +21,14 @@
 		<div id="logo_savoir-faire">
 				<h3>Bâti ancien</h3>
 				<div id="wrap1">
-					<div class="icon" name="Rénovation"><img src="<?php echo get_template_directory_uri();?>/images/logo_renovation.png" alt="Icône restauration">
-						<p class="icon_name">Rénovation</p>
+					<div class="icon" name="Restauration"><img src="<?php echo get_template_directory_uri();?>/images/logo_renovation.png" alt="Icône restauration">
+						<p class="icon_name">Restauration</p>
 					</div>
-					<div class="icon" name="Terrassement"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrassement.png" alt="Icône terrassement">
-						<p class="icon_name">Terrassement</p>
+					<div class="icon" name="Maçonnerie"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrassement.png" alt="Icône terrassement">
+						<p class="icon_name">Maçonnerie</p>
 					</div>
-					<div class="icon" name="Soubassement"><img src="<?php echo get_template_directory_uri();?>/images/logo_soubassement.png" alt="Icône reprise en sous-oeuvre">
-						<p class="icon_name">Soubassement</p>
+					<div class="icon" name="Reprise en sous oeuvre"><img src="<?php echo get_template_directory_uri();?>/images/logo_soubassement.png" alt="Icône reprise en sous-oeuvre">
+						<p class="icon_name">Reprise en sous oeuvre</p>
 					</div>
 				</div>
 				<h3>Bâti ancien</h3>
