@@ -20,7 +20,7 @@
 		      </div>
 		      <div class="mail">
 		        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-		        <divclass="texte_icone">pa.flamens.@orange.fr</div>
+		        <div class="texte_icone">pa.flamens.@orange.fr</div>
 						<div class="devis">
 			        <span>Demande de devis</span>
 			      </div>
