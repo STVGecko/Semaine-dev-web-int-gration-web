@@ -53,8 +53,12 @@ display: flex;
   padding: 2%;
 }
 
-div.menu ul{
+div#nav div.menu ul{
   display:flex;
+}
+
+div#nav div.menu ul li{
+  padding-right: 18%;
 }
 
 .texte_icone{ /*fonctionne si son parent est flex*/
