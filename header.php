@@ -29,6 +29,7 @@
 		    <div id="nav">
 		      <?php wp_page_menu('show_home=1'); ?>
 		    </div>
+			</div>
 		</div>
   </header>
 </body>
