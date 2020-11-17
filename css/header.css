@@ -53,6 +53,10 @@ display: flex;
   padding: 2%;
 }
 
+.menuprincipal{
+  display:flex;
+}
+
 .texte_icone{ /*fonctionne si son parent est flex*/
   align-self: center;
 }
