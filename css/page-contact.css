@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
-
+body section #contact_page{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1218px;
+    margin-left: auto;
+    margin-right: auto;
+}
 h2{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -11,13 +17,14 @@ h2{
   font-size: 36px;
   line-height: 40px;
   color: #C00A23;
+  padding-bottom:18px;
+
 }
 
 #underline{
   border-top: 6px solid #C00A23;
   width: 341px;
   margin-left: 40%;
-
 }
 
 #small_text{
@@ -40,17 +47,22 @@ h2{
   text-align:center;
   color: white;
 }
-.wrap_contact{
+#wrap_contact{
   display: flex;
-  justify-content: center;
-  border: 2px solid black;*/
+  justify-content: space-around;
   margin-top : 5%;
 }
-.icon_contact{
-  width: 100px;
-  height: 100px;
+#text_wrap_contact{
+  display: flex;
+  justify-content: space-around;
+  margin-top : 5%;
+  color: white;
 }
-.icon_contact:nth-child(1){
+.icon_contact{
+
+
+}
+/*.icon_contact:nth-child(1){
   background-color: #C00A23;}
 
 .icon_contact:nth-child(2){
@@ -58,7 +70,7 @@ h2{
 
 .icon_contact:nth-child(3){
   background-color: green;}
-
+*/
 
 #devis_contact{
   width:710px;
