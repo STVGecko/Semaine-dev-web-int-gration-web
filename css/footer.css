@@ -8,6 +8,10 @@ footer{
 
 }
 
+footer div.background-image img{
+  z-index: -1;
+}
+
 footer div.wrap_footer{
   display:flex;
   justify-content: center;
