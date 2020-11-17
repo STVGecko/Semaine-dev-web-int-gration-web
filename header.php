@@ -23,7 +23,7 @@
 			        <div class="texte_icone">pa.flamens.@orange.fr</div>
 			    </div>
 					<div class="devis">
-						<span>Demande de devis</span>
+						<p>Demande de devis</p>
 					</div>
 				</div>
 		    <div id="nav">
