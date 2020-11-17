@@ -21,13 +21,13 @@
 	      <div class="rs">
 					<p>Réseaux sociaux</p>
 					<div class="facebook">
-						<a href=""><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></li>
-						<a href="">Facebook</a>
+						<p><a href=""><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
+						<p><a href="">Facebook</a></p>
 					</div>
 				</div>
 	      <div class="copyright">
-						<a href="">Données personnelles</a></li>
-	          <a href="">Mentions légales</a></li>
+						<p><a href="">Données personnelles</a></p>
+	          <p><a href="">Mentions légales</a></p>
 	          <p>© 2020, Kanzaï️</p>
 				</div>
 		</div>
