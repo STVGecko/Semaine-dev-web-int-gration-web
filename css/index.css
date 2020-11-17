@@ -50,7 +50,9 @@ html{
   display: flex;
   justify-content: space-around;
   /*border: 2px solid black;*/
-  margin-top : 5%;
+  margin-top : 3.5%;
+  margin-left : 6%;
+  margin-right : 6%;
 }
 
 h3 {
@@ -60,7 +62,7 @@ h3 {
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top : 5%;
+  margin-top : 6%;
 }
 
 
@@ -86,10 +88,11 @@ h3 {
 display : block;
 }
 
-.picture {
-  display : flex;
-  justify-content: center;
+.picture img {
+width : 30%;
+margin : 15% 36.5%;
 }
+
 .icon_name{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -102,7 +105,7 @@ display : block;
 .icon{
   display : flex;
   justify-content: center;
-  width: 384px;
+  width: 30%;
   height: 288px;
   background-color: #C00A23;
 }
