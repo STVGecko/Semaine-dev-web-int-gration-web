@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<body>
-
 	<section id="header">
 
 		<div id="home_picture">
@@ -18,28 +16,30 @@
 						son savoir-faire afin de vous garantir des travaux de qualité qui répondent à vos besoins. </p>
 			</div>
 
+		</div>
+
 		<div id="logo_savoir-faire">
 				<h3>Bâti ancien</h3>
 				<div class="wrap">
-					<div class="icon" name="Restauration"><div class="image"><img src="<?php echo get_template_directory_uri();?>/images/logo_restauration.svg" alt="Icône restauration"></div>
+					<div class="icon" name="Restauration"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_restauration.svg" alt="Icône restauration"></div>
 						<div class="icon_name">Restauration</div>
 					</div>
-					<div class="icon" name="Maçonnerie"><div class="image"><img src="<?php echo get_template_directory_uri();?>/images/logo_maconnerie.svg" alt="Icône terrassement"></div>
+					<div class="icon" name="Maçonnerie"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_maconnerie.svg" alt="Icône terrassement"></div>
 						<div class="icon_name">Maçonnerie</div>
 					</div>
-					<div class="icon" name="Reprise en sous oeuvre"><div class="image"><img src="<?php echo get_template_directory_uri();?>/images/logo_reprise.svg" alt="Icône reprise en sous-oeuvre"></div>
+					<div class="icon" name="Reprise en sous oeuvre"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_reprise.svg" alt="Icône reprise en sous-oeuvre"></div>
 						<div class="icon_name">Reprise en sous oeuvre</div>
 					</div>
 				</div>
 				<h3>Bâti ancien</h3>
 				<div class="wrap">
-					<div class="icon" name="Agrandissement"><div class="image"><img src="<?php echo get_template_directory_uri();?>/images/logo_agrandissement.svg" alt="Icône agrandissement"></div>
+					<div class="icon" name="Agrandissement"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_agrandissement.svg" alt="Icône agrandissement"></div>
 						<div class="icon_name">Agrandissement</div>
 					</div>
-					<div class="icon" name="Maçonnerie paysagère"><div class="image"><img src="<?php echo get_template_directory_uri();?>/images/logo_paysagere.svg" alt="Icône maçonnerie paysagère"></div>
+					<div class="icon" name="Maçonnerie paysagère"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_paysagere.svg" alt="Icône maçonnerie paysagère"></div>
 						<div class="icon_name">Maçonnerie paysagère</div>
 					</div>
-					<div class="icon" name="Enduit"><img src="<?php echo get_template_directory_uri();?>/images/logo_enduit.svg" alt="Icône enduit">
+					<div class="icon" name="Enduit"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_enduit.svg" alt="Icône enduit"></div>
 						<div class="icon_name">Enduit</div>
 					</div>
 				</div>

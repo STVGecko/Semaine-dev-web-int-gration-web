@@ -26,8 +26,7 @@ html{
   color:#FFFFFF;
 }
 
-div#texte_savoir-faire {
-  position : relative;
+#texte_savoir-faire {
   margin-top : 2.6%;
 }
 
@@ -42,10 +41,6 @@ div#texte_savoir-faire {
   font-size: 16px;
   text-align: center;
   color: #FFFFFF;
-}
-
-#logo_savoir-faire {
-  margin-top : 5%;
 }
 
 .wrap{
@@ -70,23 +65,28 @@ h3 {
   display : flex;
   justify-content : center;
   border : 5px #C00A23 solid;
-  /*padding-left : 25px;
-  padding-right : 25px;
-  padding-top : 26px;
-  padding-bottom : 26px;*/
+  width : 240px;
+  padding-top : 25px;
+  padding-bottom : 25px;
 }
 
  h2 {
   text-align: center;
-  /*padding: 19px 22px;*/
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 24px;
   color: #C00A23;
-  margin : 25px 26px;
 }
 
+.wrap div {
+display : block;
+}
+
+.picture {
+  display : flex;
+  justify-content: center;
+}
 .icon_name{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -95,12 +95,10 @@ h3 {
   font-size: 24px;
   color: white;
 }
-.image{
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: middle;
-}
+
 .icon{
+  display : flex;
+  justify-content: center;
   width: 384px;
   height: 288px;
   background-color: #C00A23;
