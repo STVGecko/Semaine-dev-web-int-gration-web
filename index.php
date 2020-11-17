@@ -22,22 +22,26 @@
 				<h3>Bâti ancien</h3>
 				<div id="wrap1">
 					<div class="icon" name="Rénovation"><img src="<?php echo get_template_directory_uri();?>/images/logo_renovation.png" alt="Icône restauration">
-						<p>Rénovation</p>
+						<p class="icon_name">Rénovation</p>
 					</div>
 					<div class="icon" name="Terrassement"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrassement.png" alt="Icône terrassement">
-						<p>Terrassement</p>
+						<p class="icon_name">Terrassement</p>
 					</div>
 					<div class="icon" name="Soubassement"><img src="<?php echo get_template_directory_uri();?>/images/logo_soubassement.png" alt="Icône reprise en sous-oeuvre">
-						<p>Soubassement</p>
+						<p class="icon_name">Soubassement</p>
 					</div>
 				</div>
 				<h3>Bâti ancien</h3>
 				<div id="wrap2">
-					<div class="icon"><img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement">
-						<p>Dallage</p>
+					<div class="icon" name="Dallage"><img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement">
+						<p class="icon_name">Dallage</p>
 					</div>
-					<div class="icon"><img src="<?php echo get_template_directory_uri();?>/images/logo_piscine.png" alt="Icône maçonnerie paysagère"></div>
-					<div class="icon"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrasse.png" alt="Icône enduit"></div>
+					<div class="icon" name="Piscine"><img src="<?php echo get_template_directory_uri();?>/images/logo_piscine.png" alt="Icône maçonnerie paysagère">
+						<p class="icon_name">Piscine</p>
+					</div>
+					<div class="icon" name="Terrasse en bois"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrasse.png" alt="Icône enduit">
+						<p class="icon_name">Terrasse en bois</p>
+					</div>
 				</div>
 
 			</div>
