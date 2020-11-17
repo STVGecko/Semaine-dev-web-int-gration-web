@@ -2,18 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 footer{
- background-color: yellow;
  color: white;
  font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
+ font-weight: 700;
+
 }
 
 footer div.wrap_footer{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1218px;
   padding-left: 111px;
   padding-right: 111px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer div.wrap_footer div.touttext_footer{
+  display: flex;
+}
+
+.text_logo_footer{
+  padding-right: 5%;
+}
+
+.block{
+  padding-right: 5%;
+}
+
+.block a{
+  text-decoration: none;
 }

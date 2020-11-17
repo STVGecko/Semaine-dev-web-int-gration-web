@@ -3,7 +3,7 @@
 <body>
   <!-- Présentation de la page -->
 <section id="contact_page">
-  <h2>Pour nous contacter</h2>
+  <h2 id="contact_title">Pour nous contacter</h2>
   <div id="underline"></div>
   <br>
   <div id="presentation">
@@ -29,7 +29,7 @@
       <img src="<?php echo get_template_directory_uri();?>/images/position.png" alt="Icône position">
       <div class="text_contact" name="Position">
         <p>68 Rue Bobby Sands<br>73000 Chambéry</p>
-        <p>Ouvrir dans Maps ></p>
+        <p><span><a href="https://www.google.com/maps">Ouvrir dans Maps ></a></span></p>
       </div>
     </div>
   </div>
@@ -47,6 +47,7 @@
     </div>
   </div>-->
   <div id="devis_contact">
+    <h2 id="devis_title">Demande de devis</h2>
   </div>
 </section>
 

@@ -10,7 +10,7 @@ body section #contact_page{
     margin-left: auto;
     margin-right: auto;
 }
-h2{
+h2#contact_title{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -52,18 +52,35 @@ h2{
   display: flex;
   justify-content: space-around;
   margin-top : 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #text_wrap_contact{
   display: flex;
   justify-content: space-around;
   margin-top : 5%;
-  color: white;
 }
-.icon_contact{
+.text_contact{
+  color: white;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: white;
+  padding-top: 5%;
+  text-align: center;
+}
 
-
+.text_contact span{
+  color: #979393;
+}
+.text_contact span a{
+  text-decoration: none;
+}
+.icon_contact img{
+  display: block;
+  margin: 0 auto;
 }
 /*.icon_contact:nth-child(1){
   background-color: #C00A23;}
@@ -76,8 +93,18 @@ h2{
 */
 
 #devis_contact{
+  z-index: -1;
   width:710px;
   height:603px;
   background-color: #C00A23;
-  margin: 0 auto;
+  margin: 5% auto;
+}
+h2#devis_title{
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  padding-top: 2%;
 }
