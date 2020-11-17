@@ -17,12 +17,12 @@ html{
 }
 #home_picture h1{
   margin-top : 244px;
+  margin-left : 277px;
   text-align: center;
   line-height: 88px;
   font-family: 'Noto Sans',sans-serif;
   font-size:80px;
   font-weight: 700;
-  margin:auto;
   color:#FFFFFF;
 }
 
