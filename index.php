@@ -33,14 +33,14 @@
 				</div>
 				<h3>Bâti ancien</h3>
 				<div id="wrap2">
-					<div class="icon" name="Dallage"><img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement">
-						<p class="icon_name">Dallage</p>
+					<div class="icon" name="Agrandissement"><img src="<?php echo get_template_directory_uri();?>/images/logo_dallage.png" alt="Icône agrandissement">
+						<p class="icon_name">Agrandissement</p>
 					</div>
-					<div class="icon" name="Piscine"><img src="<?php echo get_template_directory_uri();?>/images/logo_piscine.png" alt="Icône maçonnerie paysagère">
-						<p class="icon_name">Piscine</p>
+					<div class="icon" name="Maçonnerie paysagère"><img src="<?php echo get_template_directory_uri();?>/images/logo_piscine.png" alt="Icône maçonnerie paysagère">
+						<p class="icon_name">Maçonnerie paysagère</p>
 					</div>
-					<div class="icon" name="Terrasse en bois"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrasse.png" alt="Icône enduit">
-						<p class="icon_name">Terrasse en bois</p>
+					<div class="icon" name="Enduit"><img src="<?php echo get_template_directory_uri();?>/images/logo_terrasse.png" alt="Icône enduit">
+						<p class="icon_name">Enduit</p>
 					</div>
 				</div>
 
