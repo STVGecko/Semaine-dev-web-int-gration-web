@@ -29,7 +29,7 @@
       <img src="<?php echo get_template_directory_uri();?>/images/position.png" alt="Icône position">
       <div class="text_contact" name="Position">
         <p>68 Rue Bobby Sands<br>73000 Chambéry</p>
-        <p><span>Ouvrir dans Maps ></span></p>
+        <p><span><a href="https://www.google.com/maps">Ouvrir dans Maps ></a></span></p>
       </div>
     </div>
   </div>
