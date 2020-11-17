@@ -60,7 +60,7 @@
 
 			</div>
 
-				<p class="plus">En savoir plus</p>
+				<p id="plus">En savoir plus</p>
 
 		</div>
 
