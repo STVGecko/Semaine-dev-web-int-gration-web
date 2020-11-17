@@ -55,6 +55,7 @@ display: flex;
   padding: 2%;
 }
 .devis span{
+  white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 24px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 500;
@@ -97,6 +98,7 @@ div#nav div.menu ul li a:active{
 }
 
 
-.texte_icone{ /*fonctionne si son parent est flex*/
-  align-self: center;
+.texte_icone{
+  align-self: center;/*fonctionne si son parent est flex*/
+  white-space: nowrap; /* interdiction de passer à la ligne */
 }
