@@ -8,14 +8,13 @@
     <p>Si vous avez la moindre question, ou si vous souhaitez nous demander un devis, n’hésitez pas.</p>
     <div class="test"></div>
   </div>
-  <div id="wrap">
-    <div class="icon" name="Telephone"><div class="image"<img src="<?php echo get_template_directory_uri();?>/images/Telephone.svg" alt="Icône téléphone"></div>
+  <div id="wrap_contact">
+    <div class="icon_contact" name="Telephone"></div>
+    <div class="icon_contact" name="Mail"></div>
+    <div class="icon_contact" name="Position"></div>
     </div>
-    <div class="icon" name="Mail"><div class="image"<img src="<?php echo get_template_directory_uri();?>/images/mail.svg" alt="Icône mail"></div>
-    </div>
-    <div class="icon" name="Position"><div class="image"<img src="<?php echo get_template_directory_uri();?>/images/position" alt="Icône position"></div>
-    </div>
-  </div>
+</section>
+</body>
 
 
 

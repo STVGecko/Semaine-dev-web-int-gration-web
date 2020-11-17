@@ -32,3 +32,24 @@ h2{
   text-align:center;
   color: white;
 }
+.wrap_contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*border: 2px solid black;*/
+  margin-top : 5%;
+}
+.icon_contact{
+  width: 100px;
+  height: 100px;
+}
+.icon_contact:nth-child(1){
+  background-color: #C00A23;}
+
+}
+.icon_contact:nth-child(2){
+  background-color: blue;}
+
+
+.icon_contact:nth-child(3){
+  background-color: green;}
