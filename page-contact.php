@@ -6,6 +6,7 @@
   <div id="presentation">
     <p>Pierre-André FLAMENS, gérant de la société M2A</p>
     <p>Si vous avez la moindre question, ou si vous souhaitez nous demander un devis, n’hésitez pas.</p>
+    <div class="test"></div>
   </div>
 
 
