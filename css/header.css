@@ -53,7 +53,7 @@ display: flex;
   padding: 2%;
 }
 
-.menuprincipal{
+div.menuprincipal div.menu ul{
   display:flex;
 }
 
