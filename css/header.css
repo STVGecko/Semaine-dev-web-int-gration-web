@@ -41,7 +41,7 @@ display: flex;
 
 .mail{
   display: flex;
-  margin-right: 56px;
+  margin-left: 49px;
 }
 
 .mail img{
@@ -55,6 +55,7 @@ display: flex;
   background: #C00A23;
   border-radius: 6px;
   padding: 6px 15px; /*haut/bas droite/gauche*/
+  margin-left: 49px;
 }
 .devis p{
   white-space: nowrap; /* interdiction de passer à la ligne */
