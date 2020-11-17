@@ -52,13 +52,13 @@
       <div id="contact_gauche">
         <p class="contact_names" type="Prenom"> <input class="contact_input" placeholder="Ecrivez votre prénom ici..."></input></p>
         <p class="contact_names" type="Email"> <input class="contact_input" placeholder="Ecrivez votre mail ici..."></input></p>
+        <p class="contact_names" type="Message"><input class="contact_input" placeholder="Ecrivez votre message ici"></input></p>
       </div>
       <div id="contact_droite">
         <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
         <p class="contact_names" type="Phone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
       </div>
-      <!--<p class="contact_names" type="Message"><input class="contact_input" placeholder="Ecrivez votre message ici"></input></p>
-      <button class="contact_button">Envoyer</button>-->
+      <button class="contact_button">Envoyer</button>
   </div>
 </section>
 

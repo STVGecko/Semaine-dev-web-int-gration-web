@@ -117,7 +117,7 @@ h2#devis_title{
 
 input.contact_input{
   width:250px;
-  padding:10px;
+  padding:0 0 5% 0;
   box-sizing:border-box;
   background:none;
   outline:none;
@@ -126,14 +126,27 @@ input.contact_input{
   color: white;
   font-family:'Mukta Mahee',sans-serif;
   transition:all .3s;
-  border-bottom:2px solid #bebed2;}
+  border-bottom:2px solid white;}
 input.contact_input:focus{
   border-bottom:2px solid #78788c;
+}
+input.contact_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+input.contact_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+input.contact_input::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
 }
 p.contact_names:before{
   content:attr(type);
   display:block;
-  margin:28px 0 0;
+  margin: 4% 0;
+  padding-top: 10%;
   font-size:14px;
   color:white;
 }
@@ -165,6 +178,8 @@ button.contact_button:hover{
 float: right;
 margin-right: 1%;
 }
+
+
 /*div{
   content:'Hi';
   position:absolute;
