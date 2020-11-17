@@ -14,21 +14,21 @@
 			</div>
 			<div class="menuglobal">
 				<div class="barre_info">
-		      <div class="telephone">
-		        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
-		        <div class="texte_icone">06 74 11 63 45</div>
-		      </div>
-		      <div class="mail">
-		        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-		        <div class="texte_icone">pa.flamens.@orange.fr</div>
-						<div class="devis">
-			        <span>Demande de devis</span>
+			      <div class="telephone">
+			        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
+			        <div class="texte_icone">06 74 11 63 45</div>
 			      </div>
-		    </div>
+			      <div class="mail">
+			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
+			        <div class="texte_icone">pa.flamens.@orange.fr</div>
+			    </div>
+					<div class="devis">
+						<span>Demande de devis</span>
+					</div>
+				</div>
 		    <div id="nav">
 		      <?php wp_page_menu('show_home=1'); ?>
 		    </div>
-			</div>
 		</div>
   </header>
 </body>
