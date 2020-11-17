@@ -31,10 +31,10 @@ html{
   border: 2px solid black;
 }
 
-#paragraphe p {
+p {
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
   color: #FFFFFF;
@@ -91,9 +91,7 @@ h3 {
   color: #FFFFFF;
 }
 
-icon_name{
-  display: flex;
-  flex-direction: column;
+.icon_name{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -103,6 +101,8 @@ icon_name{
 }
 
 .icon{
+  display:flex;
+  flex-direction: column;
   width: 384px;
   height: 288px;
 }
