@@ -94,7 +94,7 @@ div#nav div.menu ul li a{
   color : white;
 }
 
-div#nav div.menu ul li a:active{
+div#nav div.menu ul li:active{
   color: #C00A23;
 }
 
