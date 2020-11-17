@@ -88,6 +88,7 @@ div#nav div.menu ul li:not(:last-child){
 }
 
 div#nav div.menu ul li a{
+  white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 18px;
   text-decoration:none;
   color : white;
