@@ -20,7 +20,7 @@
 
 		<div id="logo_savoir-faire">
 				<h3>Bâti ancien</h3>
-				<div class="wrap">
+				<div id="wrap1">
 					<div class="icon" name="Restauration"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_restauration.svg" alt="Icône restauration"></div>
 						<div class="icon_name">Restauration</div>
 					</div>
@@ -31,8 +31,8 @@
 						<div class="icon_name">Reprise en sous oeuvre</div>
 					</div>
 				</div>
-				<h3>Bâti ancien</h3>
-				<div class="wrap">
+				<h3>Maçonnerie traditionnelle</h3>
+				<div id="wrap2">
 					<div class="icon" name="Agrandissement"><div class="picture"><img src="<?php echo get_template_directory_uri();?>/images/logo_agrandissement.svg" alt="Icône agrandissement"></div>
 						<div class="icon_name">Agrandissement</div>
 					</div>
