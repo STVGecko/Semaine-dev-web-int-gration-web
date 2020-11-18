@@ -14,6 +14,7 @@
         <?php /*
           $image1_1 = get_field('image_r');
           if( !empty( $image1_1 ) ): */?>
+          <img src="<?php echo esc_url($image1_1['url']); ?>" alt="<?php echo esc_attr($image1_1['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -22,6 +23,7 @@
         <?php /*
           $image1_2 = get_field('image_r');
           if( !empty( $image1_2 ) ): */?>
+          <img src="<?php echo esc_url($image1_2['url']); ?>" alt="<?php echo esc_attr($image1_2['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -30,6 +32,7 @@
         <?php /*
           $image1_3 = get_field('image_r');
           if( !empty( $image1_3 ) ): */?>
+          <img src="<?php echo esc_url($image1_3['url']); ?>" alt="<?php echo esc_attr($image1_3['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -38,6 +41,7 @@
         <?php /*
           $image1_4 = get_field('image_r');
           if( !empty( $image1_4 ) ): */?>
+          <img src="<?php echo esc_url($image1_4['url']); ?>" alt="<?php echo esc_attr($image1_4['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -46,6 +50,7 @@
         <?php /*
           $image1_5 = get_field('image_r');
           if( !empty( $image1_5 ) ): */?>
+          <img src="<?php echo esc_url($image1_5['url']); ?>" alt="<?php echo esc_attr($image1_5['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -53,6 +58,7 @@
         <?php /*
           $image1_6 = get_field('image_r');
           if( !empty( $image1_6 ) ): */?>
+          <img src="<?php echo esc_url($image1_6['url']); ?>" alt="<?php echo esc_attr($image1_6['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -73,6 +79,7 @@
         <?php /*
           $image2_1 = get_field('image_r');
           if( !empty( $image2_1 ) ): */?>
+          <img src="<?php echo esc_url($image2_1['url']); ?>" alt="<?php echo esc_attr($image2_1['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -81,6 +88,7 @@
         <?php /*
           $image2_2 = get_field('image_r');
           if( !empty( $image2_2 ) ): */?>
+          <img src="<?php echo esc_url($image2_2['url']); ?>" alt="<?php echo esc_attr($image2_2['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
@@ -89,6 +97,7 @@
         <?php /*
           $image2_3 = get_field('image_r');
           if( !empty( $image2_3 ) ): */?>
+          <img src="<?php echo esc_url($image2_3['url']); ?>" alt="<?php echo esc_attr($image2_3['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
 
