@@ -16,7 +16,7 @@
     <div class="icon_contact" name="Telephone">
       <img src="<?php echo get_template_directory_uri();?>/images/Telephone.png" alt="Icône téléphone">
       <div class="text_contact" name="Telephone">
-        <p>06 74 11 63 45</p>
+        <p>06 74 11 63 45</p><!-- rajouter mailto-->
       </div>
     </div>
     <div class="icon_contact" name="Mail">
