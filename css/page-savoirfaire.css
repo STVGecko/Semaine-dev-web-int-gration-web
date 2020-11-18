@@ -1,0 +1,23 @@
+
+
+
+
+
+h2#savoirfaire_title{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #C00A23;
+  padding-bottom:0.5%;
+
+}
+
+
+#underline{
+  border-top: 6px solid #C00A23;
+  width: 341px;
+  margin-left: 40%;
+}

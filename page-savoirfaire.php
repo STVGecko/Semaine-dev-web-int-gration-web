@@ -2,7 +2,7 @@
 
 <body>
   <section id="savoirfaire_page">
-    <h2>Savoir-faire</h2>
+    <h2 id="savoirfaire_title">Savoir-faire</h2>
     <div id="underline"></div>
     <br>
     <div id="presentation">
