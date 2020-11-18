@@ -49,6 +49,13 @@
         <?/* php endif;*/ ?>
       </div>
 
+      <div class="proj">
+        <?php /*
+          $image1_6 = get_field('image_r');
+          if( !empty( $image1_6 ) ): */?>
+        <?/* php endif;*/ ?>
+      </div>
+
     </div>
 
     <br><br><br><br><br><br>
