@@ -117,26 +117,29 @@ h3.h3_flex {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-.gallery {
-  background: #EEE;
-  width:40%;
-  margin-left:5%;
+.carousel {
+  background: #FAFAFA;
 }
 
-.gallery-cell {
+.carousel-cell {
   width: 66%;
-  height: 200px;
+  height: 400px;
   margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
+  background: #333;
 }
 
-/* cell number */
-.gallery-cell:before {
+.carousel-cell-image {
   display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
 }

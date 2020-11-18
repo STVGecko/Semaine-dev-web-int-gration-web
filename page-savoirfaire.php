@@ -14,49 +14,25 @@
 <section class="wrap">
   <div class="bati_ancien">
 <div class="carrousel_gauche">
-  <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
-      <img src="<?php $image1 = get_field('image1'); echo $image1; ?>"  alt="carroussel"> <!--carroussel-->
       <!-- Flickity HTML init -->
       <div class="carousel"
-   data-flickity='{ "lazyLoad": true }'>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg" alt="tulip" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/grapes.jpg" alt="grapes" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/raspberries.jpg" alt="raspberries" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/wolf.jpg" alt="wolf" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/shore.jpg" alt="sea" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/leaf-droplets.jpg" alt="leaf droplets" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/gulls.jpg" alt="gulls" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/touch-screen.jpg" alt="touch screen" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/van.jpg" alt="van" />
-  </div>
+         data-flickity='{ "lazyLoad": true }'>
+        <div class="carousel-cell">
+          <img class="carousel-cell-image"
+            data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="tulip" />
+        </div>
+        <div class="carousel-cell">
+          <img class="carousel-cell-image"
+            data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="grapes" />
+        </div>
+        <div class="carousel-cell">
+          <img class="carousel-cell-image"
+            data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="raspberries" />
+        </div>
+      </div>
 </div>
-</div>
+<img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
+    <img src=""  alt="carroussel"> <!--carroussel-->
     <div id="image1">
     </div>
     <div class="texte">
