@@ -5,11 +5,17 @@
 html{
   max-width:1920px;
 }
+
+#contact_page{
+  display: flex;
+  justify-content: center;
+
+}
 @media screen and (max-width: 1024px) {
-  #wrap_contact{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+  #contact_page{
+    margin-left: auto;
+    margin-right: auto;
+
 
   }
 }
