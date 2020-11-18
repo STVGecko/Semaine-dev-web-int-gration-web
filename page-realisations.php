@@ -7,23 +7,23 @@
     <br>
     <div id="wrap_realisations">
 
-      <div class="piscine1">
+      <div class="piscine">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
       </div>
 
-      <div class="piscine2">
+      <div class="piscine">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
       </div>
 
-      <div class="piscine3">
+      <div class="piscine">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
       </div>
 
-      <div class="piscine4">
+      <div class="piscine">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
       </div>
 
-      <div class="piscine5">
+      <div class="piscine">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
       </div>
 

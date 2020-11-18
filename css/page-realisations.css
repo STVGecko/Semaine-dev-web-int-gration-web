@@ -2,37 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
+body section #realisation_page{
 
-body section #realisations_page{
-    display:flex;
-    justify-content: space-between;
-    max-width: 1218px;
-    margin-left: auto;
-    margin-right: auto;
 }
-  h2 #realisations_title{
-    text-align: center;
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 40px;
-    color: #C00A23;
-    padding-bottom:0.5%;
+h2#realisations_title{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #C00A23;
+  padding-bottom:0.5%;
 
+}
+
+#underline{
+  border-top: 6px solid #C00A23;
+  width: 341px;
+  margin-left: 40%;
+}
+
+section #wrap_realisations{
+  dsplay: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  section div.piscine{
+    height: 200px;
+    margin: 16px;
   }
 
-  #underline{
-    border-top: 6px solid #C00A23;
-    width: 341px;
-    margin-left: 40%;
-  }
 
-  section #wrap_realisationN div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+
 
 
 
@@ -40,11 +42,11 @@ body section #realisations_page{
 /*Action au survol des images
 
   img {
-	width: 480px;
-	position: relative;
+	  width: 480px;
+  	position: relative;
 
-  transition-proprety: width;
-	transition-duration: 0.25s;
+    transition-proprety: width;
+	  transition-duration: 0.25s;
 }
 
   img:hover {
