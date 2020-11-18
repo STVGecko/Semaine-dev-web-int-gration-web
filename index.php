@@ -3,7 +3,13 @@
 	<section id="header">
 
 		<div id="home_picture">
-				<div id="title"><h1>Maçonnerie d'antan et d'aujourd'hui</h1></div>
+				<div id="title">
+					<h1>
+					<?php
+				$test=get_field('photo_title');
+				 echo $test;
+				 ?></h1>
+			 </div>
 				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.png" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
 				<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/defile.svg" alt="Faire défiler"></div>
 		</div>
