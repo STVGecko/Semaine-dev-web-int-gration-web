@@ -3,7 +3,7 @@
 <body>
 
   <h1 class="flexible">À propos</h1>
-  <div id="underline"></div>
+  <div id="underline_flex"></div>
   <br/>
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
