@@ -8,7 +8,6 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
-  <p><code>wrapAround: true</code></p>
 
   <!-- Flickity HTML init -->
   <div class="gallery js-flickity"

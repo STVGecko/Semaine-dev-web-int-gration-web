@@ -18,17 +18,7 @@ h1.h1_flex{
 }
 
 
-h2 {
-  font-family: 'Noto Sans', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 112.7%;
-  text-align: center;
-  color: #C00A23;
-}
-
-h3 {
+h2.h2_flex {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -37,12 +27,12 @@ h3 {
   color: #FFFFFF;
 }
 
-h4 {
+h3.h3_flex {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 35px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 43px;
   color: #FFFFFF;
 }
 
@@ -121,7 +111,7 @@ body { font-family: sans-serif; }
 }
 
 .gallery-cell {
-  width: 66%;
+  width: 50%;
   height: 200px;
   margin-right: 10px;
   background: #8C8;
