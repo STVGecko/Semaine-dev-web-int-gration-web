@@ -6,9 +6,8 @@ html{
 }
 
 body {
-  margin-left : 2.25%;
+  width : 1440px;
 }
-
 #title{
   position:absolute;
   z-index: 2;
@@ -35,7 +34,7 @@ body {
 }
 
 #paragraphe1 {
-  margin-top : 5.2%;
+  margin-top : 5.7%;
   margin-right : auto;
   margin-left : auto;
 }
@@ -60,13 +59,18 @@ body {
   line-height : 30px;
 }
 
+#logo_savoir-faire {
+  margin-right : auto;
+  margin-left : auto;
+}
+
 #wrap1{
   display: flex;
   justify-content: space-around;
   /*border: 2px solid black;*/
   margin-top : 3%;
-  margin-left : 5.7%;
-  margin-right : 11.5%;
+  margin-left : 6.7%;
+  margin-right : 6.7%;
   height : auto;
 }
 
@@ -75,8 +79,8 @@ body {
   justify-content: space-around;
   /*border: 2px solid black;*/
   margin-top : 3%;
-  margin-left : 5.7%;
-  margin-right : 11.5%;
+  margin-left : 6.7%;
+  margin-right : 6.7%;
   height : auto;
 }
 
@@ -87,8 +91,8 @@ body {
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top : 5.6%;
-  margin-right : 6%;
+  margin-top : 6%;
+  margin-right : auto;
 }
 
 
@@ -164,7 +168,7 @@ margin : 4.5% -3.6%;
 }
 
 #a-propos {
-  margin-top : 24.15%;
+  margin-top : 25.7%;
   width : 100%;
   display : inline-block;
   position : relative;
@@ -183,11 +187,11 @@ margin : 4.5% -3.6%;
 }
 
 #a-propos_image .absolute img {
-    margin : -32.5% -3.5%;
+    margin : -34.5% -3.5%;
 }
 
 #home_picture .absolute img {
-  margin : -26% 47.1%;
+  margin : -26% 45.3%;
   width : 3.5%;
 }
 
@@ -230,7 +234,7 @@ margin : 4.5% -3.6%;
 
 #contact {
   display : inline-block;
-  margin : 17.25% 37.8%;
+  margin : 18.25% 40%;
 }
 
 #contact p {
