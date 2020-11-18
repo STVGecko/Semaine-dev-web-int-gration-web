@@ -7,8 +7,9 @@
 
 <section class="wrap">
     <div class="bati_ancien">
-      <div class="carroussel_gauche">
-        <ol class="ca"
+      <div class="carrousel_gauche">
+        <ol class="vue_carousel">
+          <li id="photo1_carousel"
 
 
       </div>
@@ -19,7 +20,7 @@ la reprise en sous œuvre et consolidation du bâti, l’enduits naturels de cha
       <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
     </div>
     <div class="maconnerie">
-      <div class="carroussel_droite">
+      <div class="carrousel_droite">
 
       </div>
       <h1>Maçonnerie traditionnelle</h1>
