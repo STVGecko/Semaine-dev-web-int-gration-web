@@ -12,7 +12,7 @@
   <div class="section">
     <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
     <div id="image1">
-      <?php $image1 = get_field('image1'); echo $image1; ?>
+      <img src="<?php $image1 = get_field('image1'); echo $image1; ?>">
     </div>
     <div id="text1">
       <h3><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
@@ -23,7 +23,7 @@
   <div class="section">
     <img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg" class="absolute">
     <div id="image2">
-      <?php $image2 = get_field('image2'); echo $image2; ?>
+      <img src="<?php $image2 = get_field('image2'); echo $image2; ?>">
     </div>
     <div id="text2">
       <h3><?php $titre2 = get_field('titre2'); echo $titre2; ?></h3>
