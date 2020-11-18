@@ -3,7 +3,7 @@
 <body>
 
   <h2><?php $titre = get_field('titre'); echo $titre; ?></h2>
-  <div id="underline"></div>
+  <div id="line"></div>
   <br/>
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
