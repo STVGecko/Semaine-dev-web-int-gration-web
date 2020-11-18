@@ -47,15 +47,15 @@
 </div>
 <div class="maçonnerie">
   <div class="carrousel_droit">
-    <img src="<?php $image1 = get_field('image1'); echo $image1; ?>"  alt="carroussel"> <!--carroussel-->
+    <img src="<?php $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> <!--carroussel-->
   </div>
   <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
   <div id="image1">
   </div>
   <div id="text1">
-    <h2><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
-    <h4><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h4> <!--sous-titre ex : gérant de la maçonnerie-->
-    <p class="para"><?php $texte1 = get_field('text1'); echo $texte1; ?></p>
+    <h2><?php $titre2 = get_field('titre2'); echo $titre2; ?></h3>
+    <h4><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h4> <!--sous-titre ex : gérant de la maçonnerie-->
+    <p class="para"><?php $texte1 = get_field('text2'); echo $texte2; ?></p>
 </div>
 </div>
 </section>
