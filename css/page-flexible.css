@@ -67,10 +67,12 @@ h4 {
 
 #image2 {
   display:inline-block;
+  float : right;
 }
 
 #text1 {
   display : inline-block;
+  float : right;
 }
 
 #text2 {
