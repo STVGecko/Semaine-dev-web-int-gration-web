@@ -116,22 +116,26 @@ html{
 
 
 .picture1 img {
-margin : 35% 60%;
+margin : 2.9% 1.5%;
 }
 .picture2 img {
-margin : 50% 60%;
+margin : 4% 1.2%;
 }
 .picture3 img {
-margin : 50% 110%;
+margin : 4% 4.9%;
 }
 .picture4 img {
-margin : 30% 55%;
+margin : 3% 0.9%;
 }
 .picture5 img {
-margin : 44% 105%;
+margin : 3.75% 4.5%;
 }
 .picture6 img {
-margin : 60% 35%;
+margin : 4.5% -1%;
+}
+
+#logo_savoir-faire img {
+  position : absolute;
 }
 
 .icon_name{
