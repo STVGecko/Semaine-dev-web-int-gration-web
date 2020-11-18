@@ -12,21 +12,28 @@
     <div class="carousel"
     data-flickity='{ "lazyLoad": true }'>
     <div class="carousel-cell">
-      
+
     <?php
     $image1 = get_field('image1_sf');
     if( !empty( $image1 ) ): ?>
-    <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+    <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
     <?php endif; ?>
 
     </div>
     <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="Photo2" />
+      <?php
+      $image1 = get_field('image1_sf');
+      if( !empty( $image1 ) ): ?>
+      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+      <?php endif; ?>
+
     </div>
     <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="Photo3" />
+      <?php
+      $image1 = get_field('image1_sf');
+      if( !empty( $image1 ) ): ?>
+      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+      <?php endif; ?>
     </div>
     </div><!-- FIN CAROUSEL -->
 
