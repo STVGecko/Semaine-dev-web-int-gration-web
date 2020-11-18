@@ -14,7 +14,6 @@ body {
   z-index: 2;
 }
 #home_picture img{
-  position:relative;
   z-index: 1;
   text-align: center;
   width : 1440px;
@@ -188,11 +187,12 @@ margin : 4.5% -3.6%;
 }
 
 #home_picture .absolute img {
-  margin : 1% 1%;
+  margin : -26% 47.1%;
+  width : 3.5%;
 }
 
 #a-propos_texte .absolute img {
-  margin : 1% 1%;
+  margin : -1.7% 8.8%;
 }
 
 #a-propos_texte {
