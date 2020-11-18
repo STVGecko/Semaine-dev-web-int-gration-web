@@ -9,6 +9,10 @@
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
 
+  <section class="wrap">
+    <div class="bati_ancien">
+  <div class="carrousel_gauche">
+        <!-- Flickity HTML init -->
   <div class="carousel"
      data-flickity='{ "lazyLoad": true }'>
     <div class="carousel-cell">
@@ -25,14 +29,11 @@
     </div>
   </div>
 
-<section class="wrap">
-  <div class="bati_ancien">
-<div class="carrousel_gauche">
-      <!-- Flickity HTML init -->
+
 
 </div>
 <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
-    <img src=""  alt="carroussel"> <!--carroussel-->
+    <img src="<?php $image2 = get_field('image2'); echo image2; ?>"  alt=""> <!--carroussel-->
     <div id="image1">
     </div>
     <div class="texte">
