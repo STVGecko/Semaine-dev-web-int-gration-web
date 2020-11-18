@@ -119,21 +119,28 @@ h3.h3_flex {
 }
 
 .carousel {
-  background: #EEE;
+  background: #FAFAFA;
 }
 
 .carousel-cell {
-  margin-right: 20px;
-  overflow: hidden;
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  background: #333;
 }
 
-.carousel-cell img {
+.carousel-cell-image {
   display: block;
-  height: 200px;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel-cell img {
-    height: 400px;
-  }
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
 }
