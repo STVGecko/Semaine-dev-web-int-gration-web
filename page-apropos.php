@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<head> <script
 <body>
 
   <h2><?php $titre = get_field('titre'); echo $titre; ?></h2>
