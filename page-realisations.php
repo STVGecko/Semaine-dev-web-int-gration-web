@@ -8,7 +8,7 @@
     <div id="wrap_realisations">
 
       <div class="piscine">
-        <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
+        <img class="main-page-img-large" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
       </div>
 
       <div class="piscine">
