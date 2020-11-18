@@ -2,7 +2,7 @@
 
 <body>
 
-  <h1>À propos</h1>
+  <h1 class="flexible">À propos</h1>
   <div id="underline"></div>
   <br/>
   <div id="presentation">
