@@ -29,7 +29,13 @@ if( !empty( $image1 ) ): ?>
   <div class="section">
     <img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg" class="absolute">
     <div id="image2">
-      <img src="<?php $image2 = get_field('image2'); echo $image2; ?>">
+
+      <?php
+$image2 = get_field('image2');
+if( !empty( $image2 ) ): ?>
+    <img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" />
+<?php endif; ?>
+
     </div>
     <div id="text2">
       <h3><?php $titre2 = get_field('titre2'); echo $titre2; ?></h3>
