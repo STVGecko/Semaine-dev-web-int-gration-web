@@ -48,6 +48,7 @@ h3.h3_flex {
   width: 414px;
   margin-top: auto;
   margin-bottom: auto;
+  position: relative;
 }
 
 .para {
@@ -158,9 +159,9 @@ h3.h3_flex {
 }
 
 .cadre_gauche{
-  float: right;
+  position: absolute;
 }
 
 .cadre_droit{
-  float: left;
+
 }
