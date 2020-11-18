@@ -31,10 +31,18 @@ footer div.wrap_footer div.touttext_footer{
   margin-right: 32px;
 }
 
+.text_logo_footer p{
+  margin-bottom: 7px;
+}
+
 .block{
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+}
+
+.block p{
+  margin-bottom: 7px;
 }
 
 .block a{
