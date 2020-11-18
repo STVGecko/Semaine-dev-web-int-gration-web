@@ -5,6 +5,10 @@ html{
   background-color: #2C2C2C;
 }
 
+body {
+  margin-left : 2.25%;
+}
+
 #title{
   position:absolute;
   z-index: 2;
@@ -131,7 +135,7 @@ margin : 3% -5.1%;
 margin : 3.75% -4%;
 }
 .picture6 img {
-margin : 4.5% -1%;
+margin : 4.5% -3.6%;
 }
 
 #logo_savoir-faire img {
