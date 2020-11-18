@@ -24,13 +24,15 @@
       data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="Photo3" />
     </div>
     </div><!-- FIN CAROUSEL -->
+
+
   <section class="wrap">
     <div class="bati_ancien">
   <div class="carrousel_gauche">
 
-
+        <!-- CAROUSEL A METTRE -->
 </div>
-<img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
+<img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
     <img src="<?php $image1 = get_field('image1_sf'); echo image1; ?>"  alt=""> <!--carroussel-->
     <div id="image1">
     </div>
@@ -44,7 +46,7 @@
   <div class="carrousel_droit">
     <!--<img src="<?php// $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> <!--carroussel-->
   </div>
-  <img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
+  <img class="cadre_droit" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
   <div id="image1">
   </div>
   <div class="texte">

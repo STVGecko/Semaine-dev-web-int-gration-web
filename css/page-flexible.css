@@ -158,3 +158,13 @@ h3.h3_flex {
 
   .flickity-page-dots .dot.is-selected {
       opacity: 1;
+}
+
+
+.cadre_gauche{
+  float: right;
+}
+
+.cadre_droit{
+  float: left;
+}
