@@ -54,7 +54,7 @@ footer div.wrap_footer div.touttext_footer{
   display: flex;
 }
 
-.facebook:nth-child(2){
+.facebook p :nth-child(2){
   margin-left: 8px;
-  align-self: end;
+  align-self: center;
 }
