@@ -9,27 +9,27 @@
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
 
-
+  <div class="carousel"
+     data-flickity='{ "lazyLoad": true }'>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image"
+        data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="tulip" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image"
+        data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="grapes" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image"
+        data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="raspberries" />
+    </div>
+  </div>
 
 <section class="wrap">
   <div class="bati_ancien">
 <div class="carrousel_gauche">
       <!-- Flickity HTML init -->
-      <div class="carousel"
-         data-flickity='{ "lazyLoad": true }'>
-        <div class="carousel-cell">
-          <img class="carousel-cell-image"
-            data-flickity-lazyload="images/carousel_1.png" alt="tulip" />
-        </div>
-        <div class="carousel-cell">
-          <img class="carousel-cell-image"
-            data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="grapes" />
-        </div>
-        <div class="carousel-cell">
-          <img class="carousel-cell-image"
-            data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="raspberries" />
-        </div>
-      </div>
+
 </div>
 <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
     <img src=""  alt="carroussel"> <!--carroussel-->
