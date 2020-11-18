@@ -43,13 +43,13 @@
       </ol>
 
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
     <div id="image1">
     </div>
     <div class="texte">
       <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
       <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
       <p class="para"><?php $texte1 = get_field('text1'); echo $texte1; ?></p>
+          <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
   </div>
 </div>
 <div class="maçonnerie">
