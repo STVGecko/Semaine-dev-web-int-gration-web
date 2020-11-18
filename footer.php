@@ -21,8 +21,10 @@
 	      <div class="block">
 					<p>Réseaux sociaux</p>
 					<div class="block">
-						<p><a href=""><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
-						<p><a href="">Facebook</a></p>
+						<div class="facebook">
+							<p><a href=""><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
+							<p><a href="">Facebook</a></p>
+						</div>
 					</div>
 				</div>
 	      <div class="block">

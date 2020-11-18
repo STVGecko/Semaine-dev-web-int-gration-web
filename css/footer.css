@@ -48,3 +48,11 @@ footer div.wrap_footer div.touttext_footer{
 .block a{
   text-decoration: none;
 }
+
+.facebook{
+  display: flex;
+}
+
+.facebook:nth-child(2){
+  align-self: center;
+}
