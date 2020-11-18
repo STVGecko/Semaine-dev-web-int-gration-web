@@ -51,14 +51,14 @@
     <form class="form"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
-          <p class="contact_names" > <label>Prénom<input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></label></p>
-          <p class="contact_names"> <label>Nom<input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></label></p>
-          <div class="contact_message"><label>Message<input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></label></p></div>
+          <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></p>
+          <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></p>
+          <div class="contact_message"><p class="contact_names" type="Message"><input type="text" class="contact_input" placeholder="Ecrivez votre message ici"></p></div>
         </div><!-- FIN CONTACT GAUCHE-->
 
         <div id="contact_droite">
-          <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
-          <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
+          <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></p>
+          <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></p>
         </div><!-- FIN CONTACT DROITE-->
         <div id="contact_button">
           <button class="contact_button">Envoyer</button>
