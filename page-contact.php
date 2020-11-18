@@ -9,7 +9,7 @@
   <div id="presentation">
     <p id="bold_text">Pierre-André FLAMENS, gérant de la société M2A</p>
     <p id="small_text">Si vous avez la moindre question, ou si vous souhaitez nous demander un devis, n’hésitez pas.</p>
-    <div class="test"></div>
+    <div class="test"></div><!-- rajouter num avec wordpress-->
   </div>
   <!-- Partie image -->
   <div id="wrap_contact">
