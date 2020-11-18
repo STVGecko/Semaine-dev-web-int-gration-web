@@ -119,6 +119,8 @@ h3.h3_flex {
 }
 .carousel {
   background: #FAFAFA;
+  width:35%;
+  margin-left: 2%;
 }
 
 .carousel-cell {
