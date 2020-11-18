@@ -54,20 +54,22 @@
       <p class="para"><?php $texte1 = get_field('text1_sf'); echo $texte1; ?></p>
   </div>
 </div>
+
+<!--
 <div class="maçonnerie">
   <div class="carrousel_droit">
-    <!--<img src="<?php// $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> <!--carroussel-->
+<img src="<?php// $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> carroussel
   </div>
 
   <div class="texte">
-    <h2 class="h2_flex"><?php $titre2 = get_field('titre2_sf'); echo $titre2; ?></h2>
-    <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2_sf'); echo $stitre2; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
-    <p class="para"><?php $texte2 = get_field('text2_sf'); echo $texte2; ?></p>
+    <h2 class="h2_flex"><?php //$titre2 = get_field('titre2_sf'); echo $titre2; ?></h2>
+    <h3 class="h3_flex"><?php// $stitre2 = get_field('stitre2_sf'); echo $stitre2; ?></h3> sous-titre ex : gérant de la maçonnerie
+    <p class="para"><?php //$texte2 = get_field('text2_sf'); echo $texte2; ?></p>
 </div>
 </div>
 </section>
 
-
+-->
 
   </body>
 
