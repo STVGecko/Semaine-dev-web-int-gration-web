@@ -6,11 +6,11 @@ html{
   max-width:1920px;
 }
 
-#contact_page{
+/*#contact_page{
   display: flex;
   justify-content: center;
 
-}
+}*/
 @media screen and (max-width: 1024px) {
   #contact_page{
     margin-left: auto;
