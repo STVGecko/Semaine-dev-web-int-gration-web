@@ -3,7 +3,8 @@
 
 
 
-h2#savoirfaire_title{
+h2 #savoirfaire_title{
+  color: black;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
