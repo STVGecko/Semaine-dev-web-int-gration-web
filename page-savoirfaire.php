@@ -8,6 +8,10 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro_sf'); echo $intro; ?></p>
   </div>
+
+  <section class="wrap">
+    <div class="bati_ancien">
+  <div class="carrousel_gauche">
       <!-- Flickity HTML init -->
     <div class="carousel"
     data-flickity='{ "lazyLoad": true }'>
@@ -38,9 +42,7 @@
     </div><!-- FIN CAROUSEL -->
 
 
-  <section class="wrap">
-    <div class="bati_ancien">
-  <div class="carrousel_gauche">
+
 
         <!-- CAROUSEL A METTRE -->
 </div>
