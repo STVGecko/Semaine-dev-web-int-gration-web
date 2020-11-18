@@ -40,8 +40,8 @@
       <div id="image1">
       </div>
       <div id="text1">
-        <h2><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
-        <h4><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h4> <!--sous-titre ex : gérant de la maçonnerie-->
+        <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
+        <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
         <p class="para"><?php $texte1 = get_field('text1'); echo $texte1; ?></p>
     </div>
 </div>
@@ -53,8 +53,8 @@
   <div id="image1">
   </div>
   <div id="text1">
-    <h2><?php $titre2 = get_field('titre2'); echo $titre2; ?></h3>
-    <h4><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h4> <!--sous-titre ex : gérant de la maçonnerie-->
+    <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
+    <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
     <p class="para"><?php $texte2 = get_field('text2'); echo $texte2; ?></p>
 </div>
 </div>
