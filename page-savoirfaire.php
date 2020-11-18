@@ -13,15 +13,15 @@
     data-flickity='{ "lazyLoad": true }'>
     <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="tulip" />
+      data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="Photo1" />
     </div>
     <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="grapes" />
+      data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="Photo2" />
     </div>
     <div class="carousel-cell">
     <img class="carousel-cell-image"
-      data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="raspberries" />
+      data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="Photo3" />
     </div>
     </div><!-- FIN CAROUSEL -->
   <section class="wrap">
