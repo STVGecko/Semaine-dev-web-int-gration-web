@@ -31,7 +31,9 @@ footer div.wrap_footer div.touttext_footer{
 }
 
 .block{
-  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .block a{
