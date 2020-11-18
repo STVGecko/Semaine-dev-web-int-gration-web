@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-#underline_flex{
-  border-top: 6px solid #C00A23;
-  width: 341px;
-  margin-left: 40%;
-}
-
-
 h1.h1_flex{
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -25,7 +18,17 @@ h1.h1_flex{
 }
 
 
-h2.h2_flex {
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 112.7%;
+  text-align: center;
+  color: #C00A23;
+}
+
+h3 {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -34,12 +37,12 @@ h2.h2_flex {
   color: #FFFFFF;
 }
 
-h3.h3_flex {
+h4 {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 43px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
   color: #FFFFFF;
 }
 
@@ -104,43 +107,3 @@ h3.h3_flex {
 }
 
 /* CAROUSEL */
-ol,li{
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-.carrousel_gauche{
-  position:relative;
-  padding-top:75%;
-  filter: drop-shadow(0 0 10px #)
-}
-/* external css: flickity.css */
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body { font-family: sans-serif; }
-
-.gallery {
-  background: #EEE;
-}
-
-.gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
