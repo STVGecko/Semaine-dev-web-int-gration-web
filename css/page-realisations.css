@@ -24,9 +24,10 @@ h2#realisations_title{
 }
 
 section #wrap_realisations{
-  dsplay: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 
