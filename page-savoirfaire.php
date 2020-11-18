@@ -2,28 +2,28 @@
 
 <body>
 
-  <h1 class="h1_flex">À propos</h1>
+  <h1 class="h1_flex">Savoir-faire</h1>
   <div id="underline_flex"></div>
   <br/>
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
 
-  <!-- Flickity HTML init -->
-  <div class="gallery js-flickity"
-    data-flickity-options='{ "wrapAround": true }'>
-    <div class="gallery-cell"><img src="images/carousel_1.png"></div>
-    <div class="gallery-cell"></div>
-    <div class="gallery-cell"></div>
-  </div>
+
 
 <section class="wrap">
   <div class="bati_ancien">
 <div class="carrousel_gauche">
   <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
       <img src="<?php $image1 = get_field('image1'); echo $image1; ?>"  alt="carroussel"> <!--carroussel-->
-
-    </div>
+      <!-- Flickity HTML init -->
+      <div class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell"><img src="images/carousel_1.png"></div>
+        <div class="gallery-cell"></div>
+        <div class="gallery-cell"></div>
+      </div>
+</div>
     <div id="image1">
     </div>
     <div class="texte">
