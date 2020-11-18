@@ -51,7 +51,7 @@
 
 			<div id="a-propos_image">
 				<img alt="Camionnette M2A" src="<?php echo get_template_directory_uri();?>/images/camion.png">
-				<div class="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre.svg"> </div>
+				<div class="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg"> </div>
 			</div>
 
 			<div id="a-propos_texte">
