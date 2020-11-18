@@ -2,7 +2,7 @@
 
 <body>
 
-  <h2>A propos</h2>
+  <h2><?php $titre = get_field('titre'); echo $titre; ?></h2>
   <div id="underline"></div>
   <br/>
   <div id="presentation">
