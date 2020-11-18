@@ -16,10 +16,10 @@
     <div id="image1">
 
       <?php
-$image1 = get_field('image1_sf');
-if( !empty( $image1 ) ): ?>
-    <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-<?php endif; ?>
+      $image2 = get_field('image1_sf');
+      if( !empty( $image1 ) ): ?>
+      <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+      <?php endif; ?>
 
     </div>
 

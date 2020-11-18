@@ -14,10 +14,10 @@
     <div class="carousel-cell">
     <img class="carousel-cell-image"
       data-flickity-lazyload="<?php
-$image2 = get_field('image2');
-if( !empty( $image2 ) ): ?>
-    <img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" />
-<?php endif; ?>"/>
+$image2 = get_field('image1_sf');
+if( !empty( $image1 ) ): ?>
+    <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+<?php endif; ?>/>
     </div>
     <div class="carousel-cell">
     <img class="carousel-cell-image"
