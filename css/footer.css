@@ -31,12 +31,30 @@ footer div.wrap_footer div.touttext_footer{
   margin-right: 32px;
 }
 
+.text_logo_footer p{
+  margin-bottom: 7px;
+}
+
 .block{
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
 
+.block p{
+  margin-bottom: 7px;
+}
+
 .block a{
   text-decoration: none;
+  color: white;
+}
+
+.facebook{
+  display: flex;
+}
+
+.facebook:nth-child(2){
+  margin-left: 8px;
+  align-self: end;
 }
