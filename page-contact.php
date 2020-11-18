@@ -51,9 +51,9 @@
     <form class="form"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
-          <p class="contact_names" type="Prénom"> <input class="contact_input" placeholder="Ecrivez votre prénom ici..."></input></p>
-          <p class="contact_names" type="Mail"> <input class="contact_input" placeholder="Ecrivez votre mail ici..."></input></p>
-          <div class="contact_message"<p class="contact_names" type="Message"><input type=textarea class="contact_input" placeholder="Ecrivez votre message ici"></input></p></div>
+          <p class="contact_names" > <label>Prénom<input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></label></p>
+          <p class="contact_names"> <label>Nom<input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></label></p>
+          <div class="contact_message"><label>Message<input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></label></p></div>
         </div><!-- FIN CONTACT GAUCHE-->
 
         <div id="contact_droite">
