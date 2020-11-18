@@ -11,6 +11,8 @@
 
   <div class="section">
     <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
+
+
     <div id="image1">
 
       <?php
@@ -20,6 +22,8 @@ if( !empty( $image1 ) ): ?>
 <?php endif; ?>
 
     </div>
+
+
     <div id="text1">
       <h3><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
       <h4><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h4>
