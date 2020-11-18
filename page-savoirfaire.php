@@ -19,7 +19,7 @@
          data-flickity='{ "lazyLoad": true }'>
         <div class="carousel-cell">
           <img class="carousel-cell-image"
-            data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="tulip" />
+            data-flickity-lazyload="images/carousel_1.png" alt="tulip" />
         </div>
         <div class="carousel-cell">
           <img class="carousel-cell-image"
