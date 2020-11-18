@@ -1,48 +1,48 @@
 <?php get_header(); ?>
 
 <body>
-  <section id="photos_page">
-    <h2>Projet construction piscine</h2>
+  <section id="realisations_page">
+    <h2 id="realisations_title">Projet construction piscine</h2>
     <div id="underline"></div>
     <br>
-    <div id="galerie_photos">
+    <div id="wrap_realisations">
 
-      <div id="piscine_1">
+      <div class="piscine1">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
       </div>
 
-      <div id="piscine2">
+      <div class="piscine2">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
       </div>
 
-      <div id="piscine3">
+      <div class="piscine3">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
       </div>
 
-      <div id="piscine4">
+      <div class="piscine4">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
       </div>
 
-      <div id="piscine5">
+      <div class="piscine5">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
       </div>
 
     </div>
 
-    <h2>Mur de soutennement</h2>
+    <h2 id="realisations_title">Mur de soutennement</h2>
     <div id="underline"></div>
     <br>
-    <div id="galerie_photos">
+    <div id="wrap_realisations">
 
-      <div id="mur1">
+      <div class="mur1">
         <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_1.png" alt="Construction d'un mur de soutennement">
       </div>
 
-      <div id="mur2">
+      <div class="mur2">
         <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_2.png" alt="Construction d'un mur de soutennement">
       </div>
 
-      <div id="mur3">
+      <div class="mur3">
         <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_3.png" alt="Construction d'un mur de soutennement">
       </div>
 
