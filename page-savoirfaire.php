@@ -2,13 +2,23 @@
 
 <body>
 
-  <h1 class="flexible">À propos</h1>
+  <h1 class="h1_flex">À propos</h1>
   <div id="underline_flex"></div>
   <br/>
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
+  <p><code>wrapAround: true</code></p>
 
+  <!-- Flickity HTML init -->
+  <div class="gallery js-flickity"
+    data-flickity-options='{ "wrapAround": true }'>
+    <div class="gallery-cell"></div>
+    <div class="gallery-cell"></div>
+    <div class="gallery-cell"></div>
+    <div class="gallery-cell"></div>
+    <div class="gallery-cell"></div>
+  </div>
 
 <section class="wrap">
     <div class="bati_ancien">
@@ -40,8 +50,8 @@
       <div id="image1">
       </div>
       <div id="text1">
-        <h2><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
-        <h4><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h4> <!--sous-titre ex : gérant de la maçonnerie-->
+        <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
+        <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
         <p class="para"><?php $texte1 = get_field('text1'); echo $texte1; ?></p>
     </div>
 </div>
