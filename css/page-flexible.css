@@ -65,26 +65,31 @@ h4 {
 
 .section {
   display : inline-block;
+  position : relative;
 }
 
 #image1 {
   display : inline-block;
   float:left;
+  position : relative;
 }
 
 #image2 {
   display:inline-block;
   float : right;
+  position : relative;
 }
 
 #text1 {
   display : inline-block;
   float : right;
+  position : relative;
 }
 
 #text2 {
   display : inline-block;
   float : left;
+  position : relative;
 }
 
 #absolute {
