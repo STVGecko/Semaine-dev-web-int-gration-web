@@ -19,6 +19,7 @@ h1.h1_flex{
 
 
 h2.h2_flex {
+  width: 100%;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -38,6 +39,7 @@ h3.h3_flex {
 
 .bati_ancien{
   display: flex;
+  padding-bottom: 600px;
 }
 
 .maçonnerie{
@@ -45,6 +47,8 @@ h3.h3_flex {
 }
 
 .texte{
+  display: flex;
+  flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
   margin-top: auto;
   margin-bottom: auto;
