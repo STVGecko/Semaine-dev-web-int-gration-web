@@ -19,7 +19,30 @@
 
 <section class="wrap">
     <div class="bati_ancien">
+<div class="carrousel_gauche">
+        <img src="<?php $image1 = get_field('image1'); echo $image1; ?>"  alt="carroussel"> <!--carroussel-->
+        <ol class="vue_carousel">
+          <li id="photo1_carousel" tabindex="0" class="carousel_photo">
+            <div class="carousel_englobe">
+              <a href="#photo3_carousel" class="precedent_carousel">Aller à la photo précédente</a>
+              <a href="#photo2_carousel" class="suivant_carousel">Aller à la photo suivante</a>
+            </div>
+          </li>
+          <li id="photo2_carousel" tabindex="0" class="carousel_photo">
+            <div class="carousel_englobe">
+              <a href="#photo1_carousel" class="precedent_carousel">Aller à la photo précédente</a>
+              <a href="#photo3_carousel" class="suivant_carousel">Aller à la photo suivante</a>
+            </div>
+          </li>
+          <li id="photo3_carousel" tabindex="0" class="carousel_photo">
+            <div class="carousel_englobe">
+              <a href="#photo2_carousel" class="precedent_carousel">Aller à la photo précédente</a>
+              <a href="#photo1_carousel" class="suivant_carousel">Aller à la photo suivante</a>
+            </div>
+          </li>
+        </ol>
 
+      </div>
       <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
       <div id="image1">
       </div>
