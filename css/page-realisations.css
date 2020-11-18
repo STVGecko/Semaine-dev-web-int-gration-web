@@ -26,8 +26,13 @@ h2#realisations_title{
 section #wrap_realisations{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  
+  justify-content: flex-start;
+  margin: auto;
+
+}
+
+section #wrap_realisations div{
+  margin: 16px;
 }
 
 
@@ -36,9 +41,10 @@ section #wrap_realisations{
 
 
 
-/*Action au survol des images
 
-  img {
+/*Animation survol image
+
+  section #wrap_realisations img {
 	  width: 480px;
   	position: relative;
 
@@ -46,6 +52,6 @@ section #wrap_realisations{
 	  transition-duration: 0.25s;
 }
 
-  img:hover {
+  section #wrap_realisations img:hover {
 	  width: 380px;
   }
