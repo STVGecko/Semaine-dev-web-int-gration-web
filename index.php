@@ -3,8 +3,9 @@
 	<section id="header">
 
 		<div id="home_picture">
-			<div id="title"><h1>Maçonnerie d'antan et d'aujourd'hui</h1></div>
+				<div id="title"><h1>Maçonnerie d'antan et d'aujourd'hui</h1></div>
 				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.png" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
+				<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/defile.svg" alt="Faire défiler"></div>
 		</div>
 	</section>
 
@@ -50,7 +51,7 @@
 
 			<div id="a-propos_image">
 				<img alt="Camionnette M2A" src="<?php echo get_template_directory_uri();?>/images/camion.png">
-				<div id="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre.svg"> </div>
+				<div class="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre.svg"> </div>
 			</div>
 
 			<div id="a-propos_texte">
@@ -64,7 +65,8 @@
 										prestations et réalisations. </p>
 						</div>
 
-				<p id="plus">En savoir plus</p>
+						<p id="plus">En savoir plus</p>
+						<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/arrow.svg" alt="Aller voir"></div>
 
 			</div>
 		</div>
