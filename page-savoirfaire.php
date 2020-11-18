@@ -47,9 +47,7 @@
         <!-- CAROUSEL A METTRE -->
 </div>
 <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
-    <img src="<?php $image1 = get_field('image1_sf'); echo image1; ?>"  alt=""> <!--carroussel-->
-    <div id="image1">
-    </div>
+
     <div class="texte">
       <h2 class="h2_flex"><?php $titre1 = get_field('titre1_sf'); echo $titre1; ?></h2>
       <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1_sf'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
@@ -60,9 +58,7 @@
   <div class="carrousel_droit">
     <!--<img src="<?php// $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> <!--carroussel-->
   </div>
-  <img class="cadre_droit" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
-  <div id="image1">
-  </div>
+
   <div class="texte">
     <h2 class="h2_flex"><?php $titre2 = get_field('titre2_sf'); echo $titre2; ?></h2>
     <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2_sf'); echo $stitre2; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
