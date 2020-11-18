@@ -12,7 +12,13 @@
   <div class="section">
     <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
     <div id="image1">
-      <img src="<?php $image1 = get_field('image1', false, false); echo $image1; ?>">
+
+      <?php
+$image1 = get_field('image1');
+if( !empty( $image1 ) ): ?>
+    <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+<?php endif; ?>
+
     </div>
     <div id="text1">
       <h3><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
