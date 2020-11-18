@@ -55,8 +55,6 @@ footer div.wrap_footer div.touttext_footer{
 }
 
 .facebook:nth-child(2){
-  margin-top: auto;
-  margin-bottom: auto;
   margin-left: 8px;
-  align-self: center;
+  align-self: end;
 }
