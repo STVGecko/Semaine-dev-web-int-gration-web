@@ -108,11 +108,9 @@ h3.h3_flex {
   box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
-
 .gallery {
   background: #EEE;
-  width:35%;
+  width:30%;
   margin-left:5%;
 }
 
