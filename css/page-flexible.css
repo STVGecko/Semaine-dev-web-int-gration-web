@@ -108,11 +108,12 @@ body { font-family: sans-serif; }
 
 .gallery {
   background: #EEE;
+  width:50%;
 }
 
 .gallery-cell {
   width: 50%;
-  height: 200px;
+  height: 160px;
   margin-right: 10px;
   background: #8C8;
   counter-increment: gallery-cell;
