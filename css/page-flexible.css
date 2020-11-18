@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 112.7%;
+  text-align: center;
+  color: #C00A23;
+}
+
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.para {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 157.7%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+#underline {
+  display : block;
+  border: 6px solid #C00A23;
+  width: 162px;
+  height: 0px;
+}
+
+#intro_text {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.section {
+  display : block;
+}
+
+#image1 {
+  display : inline-block;
+  float:left;
+}
+
+#image2 {
+  display:inline-block;
+}
+
+#text1 {
+  display : inline-block;
+}
+
+#text2 {
+  display : inline-block;
+  float : left;
+}
+
+#absolute {
+  position : absolute;
+}

@@ -8,7 +8,7 @@
     <div id="presentation">
       <p id="intro_text">L’entreprise qui vous aide à bâtir vos rêves. </p>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/images/vehicule_m2a.png" alt="Véhicule M2A">
+    <img src="<?php echo get_template_directory_uri();?>/images/camion.png" alt="Véhicule M2A">
     <div id="presentation_entreprise">
       <p id="bold_text">M2A</p>
       <p id="small_text">
