@@ -9,7 +9,6 @@ html{
   width : 1440px;
 }*/
 #title{
-  position:absolute;
   z-index: 2;
 }
 #home_picture img{
@@ -19,14 +18,14 @@ html{
   height : 656px;
 }
 #home_picture h1{
-  margin-top : 14%;
-  margin-right : 3%;
+  margin : 13.6% 17.3%;
   text-align: center;
   line-height: 88px;
   font-family: 'Noto Sans',sans-serif;
   font-size:80px;
   font-weight: 700;
   color:#FFFFFF;
+  position : absolute;
 }
 
 #texte_savoir-faire {
