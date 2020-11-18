@@ -56,7 +56,7 @@
   <div class="carrousel_droit">
     <img src="<?php $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> <!--carroussel-->
   </div>
-  <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg" class="absolute">
+  <img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg" class="absolute">
   <div id="image1">
   </div>
   <div class="texte">
