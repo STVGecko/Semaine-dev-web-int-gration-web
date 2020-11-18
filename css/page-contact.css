@@ -44,10 +44,11 @@ h2#contact_title{
 
 }
 
-#underline{
+#underline_contact{
   border-top: 6px solid #C00A23;
   width: 341px;
   margin-left: 40%;
+  padding-bottom: 2%;
 }
 
 #small_text{

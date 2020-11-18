@@ -4,7 +4,7 @@
   <!-- Présentation de la page -->
 <section id="contact_page">
   <h2 id="contact_title">Pour nous contacter</h2>
-  <div id="underline"></div>
+  <div id="underline_contact"></div>
   <br>
   <div id="presentation">
     <p id="bold_text">Pierre-André FLAMENS, gérant de la société M2A</p>
@@ -51,9 +51,9 @@
     <form class="form"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
-          <p class="contact_names" > <label>Prénom<input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></label></p>
-          <p class="contact_names"> <label>Nom<input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></label></p>
-          <div class="contact_message"><label>Message<input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></label></p></div>
+          <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></p>
+          <p class="contact_names" type="Mail"><input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></p>
+          <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p></div>
         </div><!-- FIN CONTACT GAUCHE-->
 
         <div id="contact_droite">
