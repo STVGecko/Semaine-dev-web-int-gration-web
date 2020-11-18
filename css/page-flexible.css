@@ -153,6 +153,9 @@ h3.h3_flex {
       opacity: 1;
 }
 
+.carrousel_gauche{
+  width: 50%;
+}
 
 .cadre_gauche{
   float: right;
