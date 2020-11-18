@@ -36,6 +36,10 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
+.texte{
+  width: 414px;
+}
+
 .para {
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
@@ -127,5 +131,4 @@ body { font-family: sans-serif; }
   content: counter(gallery-cell);
   line-height: 200px;
   font-size: 80px;
-  color: white;
 }
