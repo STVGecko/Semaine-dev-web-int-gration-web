@@ -12,7 +12,7 @@
       <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
     </div>
     <div class="maconnerie">
-      <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
+      <img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
     </div>
   </section>
 
