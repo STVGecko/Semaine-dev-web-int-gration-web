@@ -36,6 +36,14 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
+.bati_ancien{
+  display: flex;
+}
+
+.maçonnerie{
+  display: flex;
+}
+
 .texte{
   width: 414px;
 }
