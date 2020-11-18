@@ -20,6 +20,7 @@
 <section class="wrap">
   <div class="bati_ancien">
 <div class="carrousel_gauche">
+  <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
       <img src="<?php $image1 = get_field('image1'); echo $image1; ?>"  alt="carroussel"> <!--carroussel-->
       <ol class="vue_carousel">
         <li id="photo1_carousel" tabindex="0" class="carousel_photo">
@@ -49,7 +50,6 @@
       <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
       <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
       <p class="para"><?php $texte1 = get_field('text1'); echo $texte1; ?></p>
-          <img src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
   </div>
 </div>
 <div class="maçonnerie">
