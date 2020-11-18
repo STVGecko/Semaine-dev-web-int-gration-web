@@ -21,7 +21,7 @@
     </div>
     <div class="carousel-cell">
       <img class="carousel-cell-image"
-        data-flickity-lazyload="<?php $image1 = get_field('image1'); echo $image1; ?>" alt="raspberries" />
+        data-flickity-lazyload="<?php echo get_template_directory_uri();?>/images/carousel_1.png" alt="raspberries" />
     </div>
   </div>
 
