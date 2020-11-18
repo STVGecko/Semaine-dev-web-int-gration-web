@@ -2,7 +2,7 @@
 
 <body>
 
-  <h2><?php $titre = get_field('titre'); echo $titre; ?></h2>
+  <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
   <div id="line"></div>
   <br/>
   <div id="presentation">
@@ -25,8 +25,8 @@ if( !empty( $image1 ) ): ?>
 
 
     <div id="text1">
-      <h3><?php $titre1 = get_field('titre1'); echo $titre1; ?></h3>
-      <h4><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h4>
+      <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
+      <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3>
       <p class="para"><?php $texte1 = get_field('text1'); echo $texte1; ?></p>
     </div>
   </div>
@@ -42,8 +42,8 @@ if( !empty( $image2 ) ): ?>
 
     </div>
     <div id="text2">
-      <h3><?php $titre2 = get_field('titre2'); echo $titre2; ?></h3>
-      <h4><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h4>
+      <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
+      <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>
       <p class="para"><?php $texte2 = get_field('text2'); echo $texte2; ?></p>
     </div>
   </div>
