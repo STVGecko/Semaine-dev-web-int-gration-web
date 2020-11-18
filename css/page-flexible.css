@@ -46,6 +46,8 @@ h3.h3_flex {
 
 .texte{
   width: 414px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .para {
