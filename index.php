@@ -79,7 +79,7 @@
 			<h3> Besoin de nos services ?
 				<br/> Contactez-nous ! </h3>
 
-		<div id="devis">	<p> Demande de devis <p> </div>
+		<div id="estimation">	<p> Demande de devis <p> </div>
 
 		</div>
 

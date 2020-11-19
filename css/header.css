@@ -52,7 +52,7 @@ display: flex;
   margin-right: 11px;
 }
 
-.quote{
+.estimation{
   display: flex;
   justify-content: center;
   width : 226px;
@@ -61,7 +61,7 @@ display: flex;
   padding: 6px 15px; /*haut/bas droite/gauche*/
   margin-left: 49px;
 }
-.quote p{
+.estimation p{
   white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 24px;
   text-align: center;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&display=swap');
+estimation@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 html{
@@ -246,7 +246,7 @@ margin : 4.5% -3.6%;
   margin-top : 3%;
 }
 
-#devis {
+#estimation {
   display : flex;
   justify-content : center;
   border-radius : 6px;
