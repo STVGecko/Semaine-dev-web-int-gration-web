@@ -54,7 +54,8 @@
           <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></p>
           <p class="contact_names" type="Mail"><input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></p>
           <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p></div>
-
+          <p class="contact_names">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
+M2A Maçonnerie.<a href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=fr"> En savoir plus ></a></p>
 
           <!--<p>En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
 M2A Maçonnerie.<a href="#"> En savoir plus </a>>-->
@@ -64,8 +65,7 @@ M2A Maçonnerie.<a href="#"> En savoir plus </a>>-->
           <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
           <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
         </div><!-- FIN CONTACT DROITE-->
-        <p class="contact_names">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
-M2A Maçonnerie.<a href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=fr"> En savoir plus ></a></p>
+
         <div id="contact_button">
           <button class="contact_button">Envoyer</button>
         </div>
