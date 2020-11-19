@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<html>
 	<section id="header">
 
 		<div id="home_picture">
@@ -115,5 +116,6 @@
 		</a>
 
 		</div>
+</html>
 
 <?php get_footer(); ?>
