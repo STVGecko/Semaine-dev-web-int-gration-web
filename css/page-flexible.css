@@ -91,8 +91,6 @@ h3.h3_flex {
 
 .cadre_gauche,.cadre_droit{
   position: absolute;
-  margin: auto;
-
 }
 /* ordre inversé*/
 .frame_assembly_bas{
