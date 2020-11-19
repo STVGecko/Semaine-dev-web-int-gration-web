@@ -30,7 +30,9 @@
   }
 }
 
-
+body section #contact_page{
+  padding-top: 5%;
+}
 
 
 h2#contact_title{
