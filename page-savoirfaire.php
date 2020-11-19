@@ -2,9 +2,6 @@
 
 <body>
   <section class="wrap_flex">
-    <div class="bati_ancien">
-  <div class="carrousel_sf_haut">
-
   <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
   <div id="underline_flex_know-how"></div>
   <br/>
@@ -13,6 +10,8 @@
   </div>
 
 
+    <div class="bati_ancien">
+  <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
       <div class="carousel"
       data-flickity='{ "lazyLoad": true }'>

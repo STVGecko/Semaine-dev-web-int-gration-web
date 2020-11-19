@@ -2,8 +2,7 @@
 
 <body>
   <section class="wrap_flex">
-    <div class="bati_ancien">
-      <div class="image_ap_haut">
+
 
   <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
   <div id="underline_flex_about"></div>
@@ -11,8 +10,8 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
-
-
+  <div class="bati_ancien">
+    <div class="image_ap_haut">
         <?php
         $image1_ap = get_field('image1');
         if( !empty( $image1_ap ) ): ?>
