@@ -101,6 +101,14 @@ h3.h3_flex {
   margin-bottom: auto;
 }
 
+.carrousel_sf_haut{
+  padding-right: 104px;
+}
+
+.carrousel_sf_bas{
+  padding-left: 104px;
+}
+
 
 .cadre_gauche,.cadre_droit{
   position: absolute;
