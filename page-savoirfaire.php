@@ -11,7 +11,7 @@
 
 
     <div class="bati_ancien">
-  <div class="carrousel_sf">
+  <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
       <div class="carousel"
       data-flickity='{ "lazyLoad": true }'>
@@ -55,7 +55,7 @@
 </div>
 
   <div class="bati_ancien">
-      <div class="carrousel_sf"><!--order : 2-->
+      <div class="carrousel_sf_bas"><!--order : 2-->
         <!-- Flickity HTML init -->
         <div class="carousel"
         data-flickity='{ "lazyLoad": true }'>
@@ -85,6 +85,8 @@
         </div>
         </div>
     </div><!-- FIN CAROUSEL -->
+
+
     <div class="frame_assembly_bas"><!--order : 1-->
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
       <div class="texte2" >
