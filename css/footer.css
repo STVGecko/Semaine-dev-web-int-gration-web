@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 footer{
- position: fixed; background-image: url('../images/background_footer.svg');
+ background-image: url('../images/background_footer.svg');
  background-position: 55px -140px;
  background-repeat: no-repeat;
  background-color: #2c2c2c;
