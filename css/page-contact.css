@@ -162,7 +162,7 @@ h2#devis_title{
 }
 
 input.contact_input{
-  width:270px;
+  width:250px;
   padding:0 0 5% 0;
   box-sizing:border-box;
   background:none;
@@ -193,7 +193,8 @@ p.contact_names:before{
   display:block;
   margin: 4% 0;
   padding-top: 10%;
-  font-size:14px;
+  font-size:22px;
+  font-family: 'Mukta Mahee', sans-serif;
   color:white;
 }
 button.contact_button{
