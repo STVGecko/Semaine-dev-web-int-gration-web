@@ -45,6 +45,7 @@ footer div.wrap_footer div.all_text_footer{
   display: flex;
   flex-direction: column;
   margin-right: 42px;
+  white-space: nowrap;
 }
 
 .block p{
