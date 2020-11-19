@@ -23,8 +23,8 @@ h1.h1_flex{
 #underline_flex_about{
   border-top: 6px solid #C00A23;
   width: 162px;;
-  margin-left: 42%;
-  padding-bottom: 2%;
+  margin-left: 47%;
+  margin-top : 5px;
 }
 
 
@@ -91,11 +91,16 @@ h3.h3_flex {
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
+  margin-top : 10px;
 }
 
 .section {
   display : inline-block;
   position : relative;
+}
+
+.image_gauche {
+  margin : 205px 190px;
 }
 
 #image1 {
@@ -145,6 +150,12 @@ h3.h3_flex {
   height: 400px;
   margin-right: 10px;
   background: #2C2C2C;
+}
+
+img {
+  display : block;
+  max-height : 476px;
+  max-width : 574px;
 }
 
 .carousel-cell-image {
