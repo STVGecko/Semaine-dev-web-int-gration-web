@@ -15,7 +15,7 @@
   <header>
 		<div class="wrap_header">
 			<div class="logo">
-				<a  href="<?php $home = get_field('lhome'); echo $home; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui"></a>
+				<a  href="<?php $home = get_field('lhome', get_option('page_on_front')); echo $home; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui"></a>
 			</div>
 			<div class="global_menu">
 				<div class="info_bar">
@@ -28,7 +28,7 @@
 			        <div class="text_icon"><?php $mail=get_field('mail', get_option('page_on_front')); echo $mail; ?></div>
 			    </div>
 					<div class="estimation">
-						<a href="<?php $contact = get_field('lcontact'); echo $contact; ?>">Demande de devis</a>
+						<a href="<?php $contact = get_field('lcontact', get_option('page_on_front')); echo $contact; ?>">Demande de devis</a>
 					</div>
 				</div>
 		    <div id="nav">

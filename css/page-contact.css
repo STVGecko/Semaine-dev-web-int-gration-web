@@ -30,12 +30,9 @@
   }
 }
 
-body section #contact_page{
-  margin-top: 10%;
-}
-
 
 h2#contact_title{
+  margin-top: 150px;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -43,7 +40,7 @@ h2#contact_title{
   font-size: 36px;
   line-height: 40px;
   color: #C00A23;
-  padding-bottom:0.4%;
+  padding-bottom:5px;
   padding-top: 1%;
 
 }
@@ -230,7 +227,7 @@ margin-right: 1%;
 
 #contact_button input{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: 40%;
   font-size: 24px;
   font-family: "Mukta Mahee", sans-serif;
