@@ -32,8 +32,9 @@
 
 
 
-body section #contact_page{
-  margin-top: 10%;
+#contact_page{
+  margin-top: 1000px;
+  position: absolute;
 
 }
 h2#contact_title{
