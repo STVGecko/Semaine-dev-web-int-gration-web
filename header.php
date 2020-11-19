@@ -21,11 +21,11 @@
 				<div class="info_bar">
 			      <div class="phone">
 			        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
-			        <div class="text_icon">06 74 11 63 45</div>
+			        <div class="text_icon"><?php $tel=get_field('telephone'); echo $tel; ?></div>
 			      </div>
 			      <div class="mail">
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-			        <div class="text_icon">pa.flamens.@orange.fr</div>
+			        <div class="text_icon"><?php $mail=get_field('mail'); echo $mail; ?></div>
 			    </div>
 					<div class="estimation">
 						<p>Demande de devis</p>
