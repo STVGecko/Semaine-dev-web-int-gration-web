@@ -11,7 +11,7 @@
 
   <section class="wrap">
     <div class="bati_ancien">
-      <div class="image_gauche">
+      <div class="image_ap1">
         <?php
         $image1_ap = get_field('image1');
         if( !empty( $image1_ap ) ): ?>
@@ -31,7 +31,7 @@
 </div>
 
 <div class="bati_ancien">
-  <div class="image_droit"> <!--order : 2-->
+  <div class="image_ap2"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
     if( !empty( $image2_ap ) ): ?>

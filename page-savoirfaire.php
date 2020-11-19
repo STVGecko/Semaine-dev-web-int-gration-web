@@ -11,7 +11,7 @@
 
   <section class="wrap">
     <div class="bati_ancien">
-      <div class="carrousel_gauche">
+      <div class="carrousel1">
           <!-- Flickity HTML init -->
         <div class="carousel">
         data-flickity='{ "lazyLoad": true }'>
@@ -53,9 +53,9 @@
 </div>
 
   <div class="bati_ancien">
-      <div class="carrousel_gauche"><!--order : 2-->
+      <div class="carrousel"><!--order : 2-->
           <!-- Flickity HTML init -->
-        <div class="carousel">
+        <div class="carousel1">
         data-flickity='{ "lazyLoad": true }'>
         <div class="carousel-cell">
 

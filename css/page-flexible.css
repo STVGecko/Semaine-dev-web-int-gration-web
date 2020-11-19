@@ -104,24 +104,6 @@ h3.h3_flex {
 }
 
 
-/*#line {
-  display : block;
-  border: 6px solid #C00A23;
-  width: 162px;
-  height: 0px;
-}
-
-
-
-.section {
-  display : inline-block;
-  position : relative;
-}
-
-.image_gauche {
-  margin : 205px 190px;
-}
-
 /* CAROUSEL */
 /* external css: flickity.css */
 
