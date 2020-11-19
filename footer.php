@@ -15,7 +15,7 @@
 						<p><?php $mail=get_field('mail'); echo $mail; ?></p>
 				</div>
 				<div class="block">
-						<p><?php $adresse=get_field('adresse'); echo $adresse; ?>/p>
+						<p><?php $adresse=get_field('adresse'); echo $adresse; ?></p>
 						<p><?php $ville=get_field('ville'); echo $ville; ?></p>
 				</div>
 	      <div class="block">
