@@ -3,6 +3,8 @@
 
 
 body section #realization_page{
+  margin-top: 20%;
+  margin-bottom: 20%;
 
 }
 h2#realization_title{
@@ -21,7 +23,19 @@ h2#realization_title{
   border-top: 6px solid #C00A23;
   width: 341px;
   margin-left: 40%;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
+}
+
+.para{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 157.7%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-bottom:0.5%;
 }
 
 section div.wrap_realization{

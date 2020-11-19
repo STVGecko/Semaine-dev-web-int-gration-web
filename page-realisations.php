@@ -2,12 +2,13 @@
 
 <body>
   <section id="realization_page">
-    <h2 id="realization_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
-    <div id="underline"></div>
-    <br>
-    <p class="para"><?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>
-    <br>
+
     <div class="zoom wrap_realization">
+      <h2 id="realization_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
+      <div id="underline"></div>
+      <br>
+      <p class="para">Description possible du projet tu connais<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>
+      <br>
 
       <div class="proj">
         <img class="main-page-img-large" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
