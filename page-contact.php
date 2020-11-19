@@ -1,21 +1,21 @@
 <?php get_header(); ?>
 <?php
-$msg = "";
+/*$msg = "";*/
 if(isset($_POST['Envoyer'])) {
-   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['mail'])) {
+   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
       $header="MIME-Version: 1.0\r\n";
       $header.='From:"nom_d\'expediteur"<lucas.reymonet@mail.com>'."\n";
       $header.='Content-Type:text/html; charset="uft-8"'."\n";
       $header.='Content-Transfer-Encoding: 8bit';
       $headers=array('Content-Type: text/html; charset=UTF-8',
-                    'From:"Formulaire Devis"<mail>',
+                    'From:"Formulaire Devis"<votremail@mail.com>',
                     'Content-Type:text/html; charset="uft-8"');
       $message='
       <html>
          <body>
             <div align="center">
                <br />
-               <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom'] AND $POST['prenom'].'<br />
+               <u>Nom de l\'expéditeur :</u>'.$_POST['nom'].'<br />
                <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
                <br />
                '.nl2br($_POST['message']).'
