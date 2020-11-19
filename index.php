@@ -19,7 +19,7 @@
 	</section>
 
 		<div id="text_savoir-faire">
-			<a href=https://mmi.univ-smb.fr/~lombarst/siteclient/?page_id=27>
+			<a href="https://mmi.univ-smb.fr/~lombarst/siteclient/?page_id=27">
 				<div id="border1"> <h2> Notre savoir-faire </h2> </div>
 			</a>
 			<div id="paragraph1">
