@@ -47,6 +47,7 @@ h2#contact_title{
   line-height: 40px;
   color: #C00A23;
   padding-bottom:0.4%;
+  padding-top: 5%;
 
 }
 
@@ -65,6 +66,7 @@ h2#contact_title{
   line-height: 18px;
   text-align:center;
   color: white;
+  padding-top: 1%;
 }
 
 #bold_text{
