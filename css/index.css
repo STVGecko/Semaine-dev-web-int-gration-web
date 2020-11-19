@@ -127,6 +127,7 @@ a {
   font-size: 24px;
   color: #C00A23;
   margin-top : 14px;
+  white-space: nowrap;
 }
 
 

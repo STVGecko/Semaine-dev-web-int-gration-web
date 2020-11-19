@@ -92,7 +92,7 @@
 
 			<div id="a-propos_text">
 					<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>">
-						<div id="border2">	<h2> À-propos </h2> </div>
+						<div id="border2">	<h2> À propos </h2> </div>
 					</a>
 
 						<div id="paragraph2">
