@@ -14,8 +14,8 @@
 <body>
   <header>
 		<div class="wrap_header">
-			<div class="logo">
-				<img href="https://mmi.univ-smb.fr/~lombarst/siteclient/" src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui">
+			<div class="logo" href="https://mmi.univ-smb.fr/~lombarst/siteclient/">
+				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui">
 			</div>
 			<div class="global_menu">
 				<div class="info_bar">
