@@ -7,8 +7,9 @@ html{
 }
 
 a {
-  decoration : none;
+  text-decoration : none;
   position : absolute;
+  
 }
 
 #title{
