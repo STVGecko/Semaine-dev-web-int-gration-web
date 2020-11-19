@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
-body section #realisation_page{
+body section #realization_page{
 
 }
-h2#realisations_title{
+h2#realization_title{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -24,7 +24,7 @@ h2#realisations_title{
   padding-bottom: 20%;
 }
 
-section #wrap_realisations{
+section #wrap_realization{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -32,7 +32,7 @@ section #wrap_realisations{
 
 }
 
-section #wrap_realisations div{
+section #wrap_realization div{
   margin: 16px;
 
 }
@@ -46,7 +46,7 @@ section #wrap_realisations div{
 
 /*Animation survol image
 
-  section #wrap_realisations img {
+  section #wrap_realization img {
 	  width: 480px;
   	position: relative;
 
@@ -54,6 +54,6 @@ section #wrap_realisations div{
 	  transition-duration: 0.25s;
 }
 
-  section #wrap_realisations img:hover {
+  section #wrap_realization img:hover {
 	  width: 380px;
   }

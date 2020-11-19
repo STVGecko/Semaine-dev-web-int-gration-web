@@ -14,19 +14,19 @@
   <!-- Partie image -->
   <div id="wrap_contact">
     <div class="icon_contact" name="Telephone" onclick="location.href='tel:+33674116345'">
-      <img src="<?php echo get_template_directory_uri();?>/images/phone.png" alt="Icône téléphone">
+      <img src="<?php echo get_template_directory_uri();?>/images/phone.svg" alt="Icône téléphone">
       <div class="text_contact" name="Telephone">
         <p>06 74 11 63 45</p><!-- rajouter mailto-->
       </div>
     </div>
     <div class="icon_contact" name="Mail" onclick="location.href='mailto:pa.flamens@orange.fr';">
-      <img src="<?php echo get_template_directory_uri();?>/images/mail.png" alt="Icône mail">
+      <img src="<?php echo get_template_directory_uri();?>/images/mail.svg" alt="Icône mail">
       <div class="text_contact" name="Mail">
         <p>pa.flamens@orange.fr</p>
       </div>
     </div>
     <div class="icon_contact" name="Position" onclick="location.href='https://goo.gl/maps/FnvdsEjyCX638MbH7';">
-      <img src="<?php echo get_template_directory_uri();?>/images/position.png" alt="Icône position">
+      <img src="<?php echo get_template_directory_uri();?>/images/position.svg" alt="Icône position">
       <div class="text_contact" name="Position">
         <p>68 Rue Bobby Sands<br>73000 Chambéry</p>
         <p><span><a href="https://goo.gl/maps/FnvdsEjyCX638MbH7">Ouvrir dans Maps ></a></span></p>
@@ -59,8 +59,8 @@
           <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
           <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
         </div><!-- FIN CONTACT DROITE-->
-        <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p><p>En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
-M2A Maçonnerie.<a href="#"> En savoir plus </a>></p></div>
+        <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
+M2A Maçonnerie.<a href="https://fr.eni.com/particuliers/cookies"> En savoir plus </a>></p></div>
         <div id="contact_button">
           <button class="contact_button">Envoyer</button>
         </div>

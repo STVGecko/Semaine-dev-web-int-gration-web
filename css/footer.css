@@ -9,7 +9,6 @@ footer{
  width: 100%;
  color: white;
  font-family: 'Noto Sans', sans-serif;
- font-weight: 700;
  padding-top: 60px;
  padding-bottom: 60px;
 
@@ -51,6 +50,14 @@ footer div.wrap_footer div.all_text_footer{
 
 .block p{
   margin-bottom: 7px;
+}
+
+.block p.big_font{
+   font-weight: 700;
+}
+
+.block p.fine_font{
+   font-weight: 400;
 }
 
 .block a{

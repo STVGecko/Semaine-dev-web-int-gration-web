@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
 <body>
-  <section id="realisations_page">
-    <h2 id="realisations_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
+  <section id="realization_page">
+    <h2 id="realization_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
     <div id="underline"></div>
     <br>
     <p class="para"><?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>
     <br>
-    <div id="wrap_realisations">
+    <div id="wrap_realization">
 
       <div class="proj">
         <img class="main-page-img-large" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
@@ -67,12 +67,12 @@
     <br><br><br><br><br><br>
 
 
-    <h2 id="realisations_title">Mur de soutennement<? /*php $titre2 = get_field('titre1'); echo $titre2; */?></h2>
+    <h2 id="realization_title">Mur de soutennement<? /*php $titre2 = get_field('titre1'); echo $titre2; */?></h2>
     <div id="underline"></div>
     <br>
     <p class="para"><? /*php $texte2 = get_field('text1'); echo $texte2;*/ ?></p>
     <br>
-    <div id="wrap_realisations">
+    <div id="wrap_realization">
 
       <div class="proj">
         <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_1.png" alt="Construction d'un mur de soutennement">
