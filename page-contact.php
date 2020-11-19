@@ -17,7 +17,7 @@ if(isset($_POST['Envoyer'])) {
                <br />
                <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom'].' '.$_POST['prenom'].'<br />
                <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
-               <u>Mail de l\'expéditeur :</u>'.$_POST['telephone'].'<br />
+               <u>Téléphone de l\'expéditeur :</u>'.$_POST['telephone'].'<br />
                <br />
                '.nl2br($_POST['message']).'
                <br />
