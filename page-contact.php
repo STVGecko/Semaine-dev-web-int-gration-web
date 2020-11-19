@@ -57,12 +57,12 @@ if(isset($_POST['Envoyer'])) {
         <p><?php $mail = get_field('mail', get_option('page_on_front')); echo $mail; ?></p>
       </div>
     </div>
-    <div class="icon_contact" name="Position" onclick="location.href='.<?php $map = get_field('googlem', get_option('page_on_front')); echo $map; ?>.';">
+    <div class="icon_contact" name="Position" onclick="location.href='<?php $map = get_field('googlem'); echo $map; ?>';">
       <img src="<?php echo get_template_directory_uri();?>/images/position.svg" alt="Icône position">
       <div class="text_contact" name="Position">
         <p><?php $add = get_field('adresse', get_option('page_on_front')); echo $add; ?><br>
           <?php $ville = get_field('ville', get_option('page_on_front')); echo $ville; ?></p>
-        <p><span><a href="<?php $map = get_field('googlem', get_option('page_on_front')); echo $map; ?>">Ouvrir dans Maps ></a></span></p>
+        <p><span><a href="<?php $map = get_field('googlem'); echo $map; ?>">Ouvrir dans Maps ></a></span></p>
       </div>
     </div>
   </div>
