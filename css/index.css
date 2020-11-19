@@ -6,6 +6,10 @@ html{
   width : 1440px;
 }
 
+.wrap_page {
+    height : 100%;
+}
+
 a {
   text-decoration : none;
 }
