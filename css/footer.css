@@ -30,6 +30,7 @@ footer div.wrap_footer{
 
 footer div.wrap_footer div.all_text_footer{
   display: flex;
+  align-self: center;
 }
 
 .text_logo_footer{

@@ -157,7 +157,7 @@ h2#devis_title{
 
 .form{
 
-  padding:20px 30px;
+  padding:3% 5%;
   font-family:'Mukta Mahee',sans-serif;
 }
 
@@ -236,11 +236,14 @@ margin-right: 1%;
 }
 .contact_message{
   clear:both;
-  margin-top: 1%;
+  margin-top: 50%;
 }
 .message .contact_input{
   width: 800px;
 }
 .contact_message.contact_names input{
   width:150px;
+}
+.contact_message p.contact_names:before{
+  margin-top: 20%;
 }
