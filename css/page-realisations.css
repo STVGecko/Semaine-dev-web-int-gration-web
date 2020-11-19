@@ -80,12 +80,48 @@ body section #realization_page{
       }
 
 
-    .zoom:hover > .pict > img {
+    .zoom:hover > .pict > img.1 {
     	transform: scale(1.05);
     	-ms-transform: scale(1.05);
     	-webkit-transform: scale(1.05);
     	-o-transform: scale(1.05);
     	-moz-transform: scale(1.05);
+
+    }
+
+    .zoom:hover > .pict > img.2 {
+      transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+
+    }
+
+    .zoom:hover > .pict > img.3 {
+      transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+
+    }
+
+    .zoom:hover > .pict > img.4 {
+      transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+
+    }
+
+    .zoom:hover > .pict > img.5 {
+      transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -moz-transform: scale(1.05);
 
     }
 

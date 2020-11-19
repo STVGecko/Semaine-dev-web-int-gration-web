@@ -11,7 +11,7 @@
       <br>
 
       <div class="zoom pict">
-        <img class="main-page-img-large" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
+        <img class="1" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
         <?php /*
           $image1_1 = get_field('image_r');
           if( !empty( $image1_1 ) ): */?>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="zoom pict">
-        <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
+        <img class="2" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
         <?php /*
           $image1_2 = get_field('image_r');
           if( !empty( $image1_2 ) ): */?>
@@ -29,7 +29,7 @@
       </div>
 
       <div class="zoom pict">
-        <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
+        <img class="3" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
         <?php /*
           $image1_3 = get_field('image_r');
           if( !empty( $image1_3 ) ): */?>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="zoom pict">
-        <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
+        <img class="4" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
         <?php /*
           $image1_4 = get_field('image_r');
           if( !empty( $image1_4 ) ): */?>
@@ -47,21 +47,21 @@
       </div>
 
       <div class="zoom pict">
-        <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
+        <img class="5" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
         <?php /*
           $image1_5 = get_field('image_r');
           if( !empty( $image1_5 ) ): */?>
           <img src="<?php echo esc_url($image1_5['url']); ?>" alt="<?php echo esc_attr($image1_5['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>
-
+<!--
       <div class="zoom pict">
         <?php /*
           $image1_6 = get_field('image_r');
           if( !empty( $image1_6 ) ): */?>
-          <img src="<?php echo esc_url($image1_6['url']); ?>" alt="<?php echo esc_attr($image1_6['alt']); ?>" />
+          <img src="<?php //echo esc_url($image1_6['url']); ?>" alt="<?php //echo esc_attr($image1_6['alt']); ?>" />
         <?/* php endif;*/ ?>
-      </div>
+      </div>-->
 
     </div>
 
