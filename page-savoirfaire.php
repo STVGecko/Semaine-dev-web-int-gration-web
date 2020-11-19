@@ -8,6 +8,9 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
+
+  <section class="wrap">
+    <div class="bati_ancien">
   <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
       <div class="carousel"
@@ -38,8 +41,7 @@
       </div>
       </div><!-- FIN CAROUSEL -->
   </div><!-- FIN CAROUSEL -->
-  <section class="wrap">
-    <div class="bati_ancien">
+
 
 
     <div class="frame_assembly_haut">
