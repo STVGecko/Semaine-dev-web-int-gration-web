@@ -4,9 +4,16 @@
 
 		<div id="home_picture">
 				<div id="title">
-					<h1>Maçonnerie d'antan et<br/>d'aujourd'hui</h1>
+					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
 			</div>
-				<img src="<?php echo get_template_directory_uri();?>/images/home_picture.png" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
+
+			<!-- Image de l'accueil -->
+			<?php
+				$image1 = get_field('photo1');
+				if( !empty( $image1 ) ): ?>
+			<img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+			<?php endif; ?>
+
 				<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/defile.svg" alt="Faire défiler"></div>
 		</div>
 	</section>
@@ -15,8 +22,7 @@
 
 			<div id="border1"> <h2> Notre savoir-faire </h2> </div>
 			<div id="paragraph1">
-					<p> M2A a pour objectif de mettre à votre disposition son expérience, ses qualifications et <br/>
-						son savoir-faire afin de vous garantir des travaux de qualité qui répondent à vos besoins. </p>
+					<p> <?php $sf = get_field('sf_texte'); echo $sf; ?> </p>
 			</div>
 
 		</div>
@@ -52,7 +58,13 @@
 		<div id="a-propos">
 
 			<div id="a-propos_image">
-				<img alt="Camionnette M2A" src="<?php echo get_template_directory_uri();?>/images/camion.png">
+
+				<?php
+					$image2 = get_field('photo2');
+					if( !empty( $image2 ) ): ?>
+				<img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" />
+				<?php endif; ?>
+
 				<div class="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg"> </div>
 			</div>
 
@@ -60,11 +72,7 @@
 						<div id="border2">	<h2> À-propos </h2> </div>
 
 						<div id="paragraph2">
-								<p> Basée au Bourget du Lac, nous intervenons principalement en <br/>
-										Savoie, mais aussi sur l'ensemble de la région <br/>
-										Auvergne-Rhône-Alpes. Avec plus de 10 ans d'existence M2A est <br/>
-										une entreprise sérieuse, fiable, soucieuse de la qualité de ses <br/>
-										prestations et réalisations. </p>
+								<p> <?php $ap = get_field('ap_texte'); echo $ap; ?> </p>
 						</div>
 
 						<p id="more">En savoir plus</p>
