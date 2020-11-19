@@ -29,13 +29,14 @@ html{
 }
 
 #text_savoir-faire {
-  margin-top : 5.3%;
+  margin-top : 6.1%;
 }
 
 #paragraph1 {
   margin-top : 5.7%;
   margin-right : auto;
   margin-left : auto;
+  width : 590px;
 }
 
 #paragraph1 p{
@@ -90,7 +91,7 @@ html{
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF;
-  margin-top : 6%;
+  margin-top : 6.5%;
   margin-right : auto;
 }
 
@@ -119,7 +120,7 @@ html{
   font-weight: 100;
   font-size: 24px;
   color: #C00A23;
-  margin-top : 16px;
+  margin-top : 14px;
 }
 
 
@@ -190,7 +191,7 @@ margin : 4.5% -3.6%;
 }
 
 #home_picture .absolute img {
-  margin : -31% 48.3%;
+  margin : -390px 689px;
   width : 3.5%;
 }
 
@@ -201,13 +202,13 @@ margin : 4.5% -3.6%;
 #a-propos_text {
   display : inline-block;
   /*margin-left : 10.15%;*/
-  margin : -1.1% 10.15%;
+  margin : 0% 11.15%;
   margin-right : auto;
 }
 
 #a-propos_text h2 {
   display : inline-block;
-  margin : 14% 14%;
+  margin : 10% 14%;
   letter-spacing: -0.4px;
 }
 
@@ -219,6 +220,7 @@ margin : 4.5% -3.6%;
 
 #paragraph2 {
   margin : 4.6% 0%;
+  width : 450px;
 }
 
 #more {
