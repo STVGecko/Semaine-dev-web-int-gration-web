@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<body>
+
   <section class="wrap_flex">
   <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
   <div id="underline_flex_know-how"></div>
@@ -71,6 +71,7 @@
         <div class="carousel-cell">
           <?php
           $image1 = get_field('image1_sf');
+          var_dump('$image1');
           if( !empty( $image1 ) ): ?>
           <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
           <?php endif; ?>

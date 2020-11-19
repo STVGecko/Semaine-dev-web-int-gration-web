@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<body>
+
   <section class="wrap_flex">
 
 
