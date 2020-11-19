@@ -247,3 +247,11 @@ margin-right: 1%;
 .contact_message p.contact_names:before{
   margin-top: 20%;
 }
+
+
+.en_savoir_plus{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #C4C4C4
+}
