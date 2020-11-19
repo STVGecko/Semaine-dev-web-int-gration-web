@@ -102,6 +102,10 @@ h3.h3_flex {
   order: 1;
 }
 
+div.frame_assembly_2 .image_droit{
+  order: 2;
+}
+
 
 /*#line {
   display : block;
