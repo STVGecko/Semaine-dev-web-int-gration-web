@@ -67,6 +67,8 @@ display: flex;
   text-align: center;
   font-family: 'Mukta Mahee', sans-serif;
   font-weight: 400;
+  text-decoration : none;
+  color : white;
 }
 
 .text_icon{
