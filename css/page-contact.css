@@ -239,7 +239,7 @@ margin-right: 1%;
   margin-top: 50%;
 }
 .contact_message input.contact_input{
-  width: 300px;
+  width: 100%;
 }
 /*.contact_message.contact_names input{
   width:150px;
