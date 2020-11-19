@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 <?php
+$expediteur = get_option( 'admin_email' );
+$msg = $expediteur;
 if(isset($_POST['Envoyer'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
       $header="MIME-Version: 1.0\r\n";
