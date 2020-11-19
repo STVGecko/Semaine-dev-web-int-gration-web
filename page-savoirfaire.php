@@ -71,7 +71,7 @@
         <div class="carousel-cell">
           <?php
           $image1 = get_field('image1_sf');
-          var_dump('$image1');
+          var_dump($image1);
           if( !empty( $image1 ) ): ?>
           <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
           <?php endif; ?>
