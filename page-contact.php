@@ -48,21 +48,21 @@
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
-    <form class="form"><!-- DEBUT FORMULAIRE-->
+    <form class="form" method="POST" action="mail.php"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
-          <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></p>
-          <p class="contact_names" type="Mail"><input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></p>
+          <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="prenom" type="text"></p>
+          <p class="contact_names" type="Mail"><input class="contact_input" placeholder="Ecrivez votre mail ici..." name="mail" type="email"></p>
         </div><!-- FIN CONTACT GAUCHE-->
 
         <div id="contact_droite">
-          <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
-          <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
+          <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..." name="nom"></input></p>
+          <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..." name="telephone"></input></p>
         </div><!-- FIN CONTACT DROITE-->
-        <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
+        <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici" name="message"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
 M2A Maçonnerie.<a href="https://fr.eni.com/particuliers/cookies"> En savoir plus </a>></p></div>
         <div id="contact_button">
-          <button class="contact_button">Envoyer</button>
+          <input class="contact_button" type="submit">Envoyer</input>
         </div>
       </div>
     </form>

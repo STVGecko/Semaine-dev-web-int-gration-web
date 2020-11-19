@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 /* On screens that are 992px or less, set the background color to blue */
-/*html{
-  max-width:1440px;
-}*/
 
 /*#contact_page{
   display: flex;
@@ -197,7 +194,7 @@ p.contact_names:before{
   font-family: 'Mukta Mahee', sans-serif;
   color:white;
 }
-button.contact_button{
+input.contact_button{
   display: inline-block;
   padding:1px 25px;
   margin:8px 0 0;
@@ -212,7 +209,7 @@ button.contact_button{
   border:none;
 
 }
-button.contact_button:hover{
+input.contact_button:hover{
   background:#78788c;
   color:white;
 }
@@ -227,7 +224,7 @@ float: right;
 margin-right: 1%;
 }
 
-#contact_button button{
+#contact_button input{
   text-align: center;
   margin-top: 10%;
   margin-left: 40%;
