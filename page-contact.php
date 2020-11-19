@@ -1,22 +1,21 @@
 <?php get_header(); ?>
 <?php
-$expediteur = get_option( 'admin_email' );
 $msg = "";
 if(isset($_POST['Envoyer'])) {
-   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
+   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['prenom'])) {
       $header="MIME-Version: 1.0\r\n";
       $header.='From:"nom_d\'expediteur"<lucas.reymonet@mail.com>'."\n";
       $header.='Content-Type:text/html; charset="uft-8"'."\n";
       $header.='Content-Transfer-Encoding: 8bit';
       $headers=array('Content-Type: text/html; charset=UTF-8',
-                    'From:"votre_nom"<votremail@mail.com>',
+                    'From:"Formulaire Devis"<'$mail'>',
                     'Content-Type:text/html; charset="uft-8"');
       $message='
       <html>
          <body>
             <div align="center">
                <br />
-               <u>Nom de l\'expéditeur :</u>'.$_POST['nom'].'<br />
+               <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom', 'prenom'].'<br />
                <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
                <br />
                '.nl2br($_POST['message']).'
@@ -25,8 +24,8 @@ if(isset($_POST['Envoyer'])) {
          </body>
       </html>
       ';
-      $expediteur = get_option( 'admin_email' );
-      wp_mail($expediteur, "Sujet du message", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      /*$expediteur = get_option( 'admin_email' );*/
+      wp_mail("lucas.reymonet@gmail.com", "Sujet du message", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
