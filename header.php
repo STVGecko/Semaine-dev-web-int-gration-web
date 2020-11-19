@@ -15,19 +15,19 @@
   <header>
 		<div class="wrap_header">
 			<div class="logo">
-				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="logo m2a maçonnerie d'antan et d'aujoud'hui">
+				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui">
 			</div>
-			<div class="menuglobal">
-				<div class="barre_info">
-			      <div class="telephone">
+			<div class="global_menu">
+				<div class="info_bar">
+			      <div class="phone">
 			        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
-			        <div class="texte_icone">06 74 11 63 45</div>
+			        <div class="text_icon">06 74 11 63 45</div>
 			      </div>
 			      <div class="mail">
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-			        <div class="texte_icone">pa.flamens.@orange.fr</div>
+			        <div class="text_icon">pa.flamens.@orange.fr</div>
 			    </div>
-					<div class="devis">
+					<div class="quote">
 						<p>Demande de devis</p>
 					</div>
 				</div>
