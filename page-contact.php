@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <?php
+$expediteur = get_option( 'admin_email' );
 $msg = "";
 if(isset($_POST['Envoyer'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
@@ -25,7 +26,7 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       $expediteur = get_option( 'admin_email' );
-      wp_mail($expediteur, "Sujet du message", $message, $headers);
+      wp_mail($expediteur, "Sujet du message", $message, $headers);/*remplacer expediteur par notre mail si jamais
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
