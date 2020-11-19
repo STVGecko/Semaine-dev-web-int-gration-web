@@ -3,13 +3,8 @@
 /*$msg = "";*/
 if(isset($_POST['Envoyer'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['telephone'])) {
-      $header="MIME-Version: 1.0\r\n";
-      $header.='From:"nom_d\'expediteur"<lucas.reymonet@mail.com>'."\n";
-      $header.='Content-Type:text/html; charset="uft-8"'."\n";
-      $header.='Content-Transfer-Encoding: 8bit';
       $headers=array('Content-Type: text/html; charset=UTF-8',
-                    'From:"Formulaire Devis"<votremail@mail.com>',
-                    'Content-Type:text/html; charset="uft-8"');
+                    'From:<'.$_POST['mail'].'>');
       $message='
       <html>
          <body>
@@ -26,7 +21,7 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail("lucas.reymonet@gmail.com", "Sujet du message", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      wp_mail("lucas.reymonet@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
