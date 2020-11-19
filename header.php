@@ -14,21 +14,21 @@
 <body>
   <header>
 		<div class="wrap_header">
-			<div class="logo">
+			<div class="logo" href="/">
 				<img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui">
 			</div>
 			<div class="global_menu">
 				<div class="info_bar">
 			      <div class="phone">
 			        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
-			        <div class="text_icon"><?php $tel=get_field('telephone'); echo $tel; ?></div>
+			        <div class="text_icon"><?php $tel=get_field('telephone', get_option(page_on_front)); echo $tel; ?></div>
 			      </div>
 			      <div class="mail">
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-			        <div class="text_icon"><?php $mail=get_field('mail'); echo $mail; ?></div>
+			        <div class="text_icon"><?php $mail=get_field('mail', get_option(page_on_front)); echo $mail; ?></div>
 			    </div>
 					<div class="estimation">
-						<p>Demande de devis</p>
+						<a href="/?page_id=34">Demande de devis</a>
 					</div>
 				</div>
 		    <div id="nav">
