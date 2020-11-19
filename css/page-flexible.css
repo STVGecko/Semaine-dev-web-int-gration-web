@@ -97,6 +97,8 @@ h3.h3_flex {
 
 .carrousel_sf_haut,.carrousel_sf_bas{
   width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .cadre_gauche,.cadre_droit{
