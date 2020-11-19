@@ -98,12 +98,10 @@ h3.h3_flex {
 
 }
 /* ordre inversé*/
-.frame_assembly_ap{
+.frame_assembly_2{
   order: 1;
 }
-.carrousel_droit{
-  order: 2
-}
+
 
 /*#line {
   display : block;
