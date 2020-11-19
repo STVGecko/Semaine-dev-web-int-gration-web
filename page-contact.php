@@ -81,7 +81,7 @@ if(isset($_POST['Envoyer'])) {
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
-    <p style="display: flex; justify-content: center; color: white; font-size: 18px; font-family: 'Mukta Mahee', sans-serif; background-color: #2c2c2c; width: 50%; text-align: center; margin: 0 auto; background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);">
+    <p style="display: flex; justify-content: center; color: white; font-size: 18px; font-family: 'Mukta Mahee', sans-serif; background-color: #2c2c2c; width: 50%; text-align: center; margin: 0 auto; background: linear-gradient(to right, red, purple);">
       <?php if(isset($msg)) {
            echo $msg;
         }
