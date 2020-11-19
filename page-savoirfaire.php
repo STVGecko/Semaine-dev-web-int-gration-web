@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
 <body>
+  <section class="wrap_flex">
+    <div class="bati_ancien">
+  <div class="carrousel_sf_haut">
 
   <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
   <div id="underline_flex_know-how"></div>
@@ -9,9 +12,7 @@
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
 
-  <section class="wrap">
-    <div class="bati_ancien">
-  <div class="carrousel_sf_haut">
+
       <!-- Flickity HTML init -->
       <div class="carousel"
       data-flickity='{ "lazyLoad": true }'>
