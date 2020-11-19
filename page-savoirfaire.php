@@ -3,7 +3,7 @@
 <body>
 
   <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
-  <div id="underline_flex_know-how"></div>
+  <div id="underline_flex_know-how"/>
   <br/>
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
