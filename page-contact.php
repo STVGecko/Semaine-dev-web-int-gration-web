@@ -19,7 +19,7 @@
         <p>06 74 11 63 45</p><!-- rajouter mailto-->
       </div>
     </div>
-    <div class="icon_contact" name="Mail">
+    <div class="icon_contact" name="Mail" onclick="location.href='mailto:pa.flamens@orange.fr'">
       <img src="<?php echo get_template_directory_uri();?>/images/mail.png" alt="Icône mail">
       <div class="text_contact" name="Mail">
         <p>pa.flamens@orange.fr</p>
