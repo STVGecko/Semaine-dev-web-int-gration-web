@@ -40,6 +40,7 @@ h1.h1_flex{
 }
 
 h2.h2_flex {
+  text-align: left;
   width: 100%;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
