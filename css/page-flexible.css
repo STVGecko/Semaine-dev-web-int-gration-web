@@ -80,9 +80,6 @@ h3.h3_flex {
   margin: auto;
 }
 
-.frame_assembly div.text2{
-  order: 2;
-}
 
 .para {
   font-family: 'Mukta Mahee', sans-serif;
@@ -100,11 +97,10 @@ h3.h3_flex {
   margin: auto;
 
 }
-
-.cadre_droit{
-
+/* ordre inversé*/
+.text2{
+  order: 1;
 }
-
 .carrousel_droit{
   order: 2
 }
@@ -126,34 +122,6 @@ h3.h3_flex {
 .image_gauche {
   margin : 205px 190px;
 }
-
-#image1 {
-  display : inline-block;
-  float:left;
-  position : relative;
-}
-
-#image2 {
-  display:inline-block;
-  float : right;
-  position : relative;
-}
-
-#text1 {
-  display : inline-block;
-  float : right;
-  position : relative;
-}
-
-#text2 {
-  display : inline-block;
-  float : left;
-  position : relative;
-}
-
-#absolute {
-  position : absolute;
-}*/
 
 /* CAROUSEL */
 /* external css: flickity.css */
