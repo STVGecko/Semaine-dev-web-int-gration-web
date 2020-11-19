@@ -12,18 +12,18 @@
 				<div class="block">
 					<p class="big_font">Coordonnées</p>
 						<p class="fine_font"><?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?></p>
-						<p class="fine font"><?php $mail=get_field('mail'); echo $mail; ?></p>
+						<p class="fine font"><?php $mail=get_field('mail', get_option( 'page_on_front' )); echo $mail; ?></p>
 				</div>
 				<div class="block">
-						<p class="fine_font"><?php $adresse=get_field('adresse'); echo $adresse; ?></p>
-						<p class="fine_font"><?php $ville=get_field('ville'); echo $ville; ?></p>
+						<p class="fine_font"><?php $adresse=get_field('adresse', get_option( 'page_on_front' )); echo $adresse; ?></p>
+						<p class="fine_font"><?php $ville=get_field('ville', get_option( 'page_on_front' )); echo $ville; ?></p>
 				</div>
 	      <div class="block">
 					<p class="big_font">Réseaux sociaux</p>
 					<div class="block">
 						<div class="facebook">
-							<p><a href="<?php $facebook=get_field('facebook'); echo $facebook; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
-							<p class="fine_font"><a href="<?php $facebook=get_field('facebook'); echo $facebook; ?>">Facebook</a></p>
+							<p><a href="<?php $facebook=get_field('facebook', get_option( 'page_on_front' )); echo $facebook; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
+							<p class="fine_font"><a href="<?php $facebook=get_field('facebook', get_option( 'page_on_front' )); echo $facebook; ?>">Facebook</a></p>
 						</div>
 					</div>
 				</div>
