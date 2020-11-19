@@ -53,7 +53,7 @@
 </div>
 
   <div class="maçonnerie">
-      <div class="carrousel_gauche">
+      <div class="carrousel_gauche"><!--order : 2-->
           <!-- Flickity HTML init -->
         <div class="carousel">
         data-flickity='{ "lazyLoad": true }'>
@@ -83,9 +83,9 @@
         </div>
         </div>
     </div><!-- FIN CAROUSEL -->
-    <div class="frame_assembly">
+    <div class="frame_assembly_2"><!--order : 1-->
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
-      <div class="texte2" > <!--order : 1-->
+      <div class="texte2" >
       <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
       <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>
       <p class="para"><?php $texte2 = get_field('text2'); echo $texte2; ?></p>

@@ -38,7 +38,7 @@
     <img src="<?php echo esc_url($image2_ap['url']); ?>" alt="<?php echo esc_attr($image2_ap['alt']); ?>" />
     <?php endif; ?>
   </div>
-<div class="frame_assembly_ap"><!--order : 1-->
+<div class="frame_assembly_2"><!--order : 1-->
   <img class="cadre_droit" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
   <div class="texte2" >
     <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
