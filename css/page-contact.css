@@ -194,7 +194,7 @@ p.contact_names:before{
   font-family: 'Mukta Mahee', sans-serif;
   color:white;
 }
-button.contact_button{
+input.contact_button{
   display: inline-block;
   padding:1px 25px;
   margin:8px 0 0;
@@ -209,7 +209,7 @@ button.contact_button{
   border:none;
 
 }
-button.contact_button:hover{
+input.contact_button:hover{
   background:#78788c;
   color:white;
 }
@@ -224,7 +224,7 @@ float: right;
 margin-right: 1%;
 }
 
-#contact_button button{
+#contact_button input{
   text-align: center;
   margin-top: 10%;
   margin-left: 40%;
