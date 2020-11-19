@@ -3,7 +3,7 @@
       <div class="logo_footer">
           <a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo_sanstxt.svg" alt="M2A Maçonnerie" /></a>
       </div>
-			<div class="touttext_footer">
+			<div class="all_text_footer">
 	      <div class="text_logo_footer">
 	          <p>Maçonnerie</p>
 	          <p>d’antan et</p>
