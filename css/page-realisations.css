@@ -24,7 +24,7 @@ h2#realization_title{
   padding-bottom: 20%;
 }
 
-section div.wrap_realization{
+section .wrap_realization{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -32,7 +32,7 @@ section div.wrap_realization{
 
 }
 
-section div.wrap_realization div{
+section .wrap_realization div{
   margin: 16px;
 
 }
@@ -40,6 +40,36 @@ section div.wrap_realization div{
 
 
 
+.proj {
+	width: 365px;
+	height: 195px;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.proj > img {
+	width: 365px;
+	height: 195px;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+
+.zoom:hover > .proj > img {
+	transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+}
+
+
+
+
+
+/*Autre animation survol image
 .zoom div img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -50,10 +80,3 @@ section div.wrap_realization div{
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
-
-
-
-
-
-
-/*Animation survol image
