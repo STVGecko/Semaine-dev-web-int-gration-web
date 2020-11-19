@@ -31,7 +31,7 @@
 </div>
 
 <div class="maçonnerie">
-  <div class="image_droit" order: 2> <!--order : 2-->
+  <div class="image_droit"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
     if( !empty( $image2_ap ) ): ?>
