@@ -65,7 +65,7 @@ h3.h3_flex {
 }
 
 
-.frame_assembly{
+.frame_assembly_haut{
   display: flex;
   flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
