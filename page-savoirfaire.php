@@ -11,7 +11,6 @@
   <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
     <div class="carousel">
-    data-flickity='{ "lazyLoad": true }'>
     <div class="carousel-cell">
 
     <?php
