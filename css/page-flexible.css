@@ -13,9 +13,16 @@ h1.h1_flex{
   padding-top: 4%;
 }
 
-#underline_flex{
+#underline_flex_know-how{
   border-top: 6px solid #C00A23;
-  width: 341px;
+  width: 189px;
+  margin-left: 42%;
+  padding-bottom: 2%;
+}
+
+#underline_flex_about{
+  border-top: 6px solid #C00A23;
+  width: 162px;;
   margin-left: 42%;
   padding-bottom: 2%;
 }
