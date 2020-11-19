@@ -13,9 +13,9 @@
     <div class="bati_ancien">
       <div class="image_gauche">
         <?php
-        $image1 = get_field('image1');
+        $image1_ap = get_field('image1');
         if( !empty( $image1 ) ): ?>
-        <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+        <img src="<?php echo esc_url($image1_ap['url']); ?>" alt="<?php echo esc_attr($image1_ap['alt']); ?>" />
         <?php endif; ?>
       </div>
 
@@ -31,8 +31,12 @@
 </div>
 
 <div class="maçonnerie">
-  <div class="carrousel_droit" order: 2> <!--order : 2-->
-<img src="<?php $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> carroussel
+  <div class="image_droit" order: 2> <!--order : 2-->
+    <?php
+    $image2_ap = get_field('image2');
+    if( !empty( $image2_ap ) ): ?>
+    <img src="<?php echo esc_url($image2_ap['url']); ?>" alt="<?php echo esc_attr($image2_ap['alt']); ?>" />
+    <?php endif; ?>
   </div>
 
   <div class="texte2" > <!--order : 1-->
