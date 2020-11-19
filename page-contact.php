@@ -48,7 +48,7 @@
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
-    <form class="form" method="POST"><!-- DEBUT FORMULAIRE-->
+    <form class="form" method="POST" action="mail.php"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
           <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="prenom" type="text"></p>
