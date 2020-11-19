@@ -27,6 +27,11 @@ h1.h1_flex{
   margin-top : 5px;
 }
 
+img {
+  display : block;
+  max-height : 476px;
+  max-width : 574px;
+}
 
 h2.h2_flex {
   width: 100%;
@@ -150,12 +155,6 @@ h3.h3_flex {
   height: 400px;
   margin-right: 10px;
   background: #2C2C2C;
-}
-
-img {
-  display : block;
-  max-height : 476px;
-  max-width : 574px;
 }
 
 .carousel-cell-image {
