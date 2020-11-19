@@ -8,6 +8,7 @@ html{
 
 a {
   decoration : none;
+  position : absolute;
 }
 
 #title{
