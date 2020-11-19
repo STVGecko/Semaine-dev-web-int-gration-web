@@ -24,7 +24,7 @@ h2#realization_title{
   padding-bottom: 20%;
 }
 
-section .wrap_realization{
+section div.wrap_realization{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -32,11 +32,10 @@ section .wrap_realization{
 
 }
 
-section .wrap_realization div{
+section div.wrap_realization div{
   margin: 16px;
 
 }
-
 
 
 
@@ -70,6 +69,7 @@ section .wrap_realization div{
 
 
 /*Autre animation survol image
+
 .zoom div img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
