@@ -45,24 +45,24 @@ if(isset($_POST['Envoyer'])) {
   </div>
   <!-- Partie image -->
   <div id="wrap_contact">
-    <div class="icon_contact" name="Telephone" onclick="location.href='tel:+<?php $tel = get_field('telephone', get_option('page_on_front')); echo $tel; ?>'">
+    <div class="icon_contact" name="Telephone" onclick="location.href='tel:+`<?php $tel = get_field('telephone', get_option('page_on_front')); echo $tel; ?>`'">
       <img src="<?php echo get_template_directory_uri();?>/images/phone.svg" alt="Icône téléphone">
       <div class="text_contact" name="Telephone">
         <p><?php $tel = get_field('telephone', get_option('page_on_front')); echo $tel; ?></p><!-- rajouter mailto-->
       </div>
     </div>
-    <div class="icon_contact" name="Mail" onclick="location.href='mailto:<?php $mail = get_field('mail', get_option('page_on_front'));echo $mail; ?>';">
+    <div class="icon_contact" name="Mail" onclick="location.href='mailto:`<?php $mail = get_field('mail', get_option('page_on_front'));echo $mail; ?>`';">
       <img src="<?php echo get_template_directory_uri();?>/images/mail.svg" alt="Icône mail">
       <div class="text_contact" name="Mail">
         <p><?php $mail = get_field('mail', get_option('page_on_front')); echo $mail; ?></p>
       </div>
     </div>
-    <div class="icon_contact" name="Position" onclick="location.href='<?php $map = get_field('googlem'); echo $map; ?>';">
+    <div class="icon_contact" name="Position" onclick="location.href='https://goo.gl/maps/FnvdsEjyCX638MbH7';">
       <img src="<?php echo get_template_directory_uri();?>/images/position.svg" alt="Icône position">
       <div class="text_contact" name="Position">
         <p><?php $add = get_field('adresse', get_option('page_on_front')); echo $add; ?><br>
           <?php $ville = get_field('ville', get_option('page_on_front')); echo $ville; ?></p>
-        <p><span><a href="<?php $map = get_field('googlem'); echo $map; ?>">Ouvrir dans Maps ></a></span></p>
+        <p><span><a href="https://goo.gl/maps/FnvdsEjyCX638MbH7">Ouvrir dans Maps ></a></span></p>
       </div>
     </div>
   </div>
@@ -81,7 +81,7 @@ if(isset($_POST['Envoyer'])) {
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
-    <p style="display: flex; justify-content: center; color: white; font-size: 18px; font-family: 'Mukta Mahee', sans-serif;">
+    <p style="display: flex; justify-content: center; color: white; font-size: 18px; font-family: 'Mukta Mahee', sans-serif; background-color: #2c2c2c">
       <?php if(isset($msg)) {
            echo $msg;
         }
