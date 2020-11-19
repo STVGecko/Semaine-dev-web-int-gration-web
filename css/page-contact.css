@@ -47,7 +47,7 @@ h2#contact_title{
   line-height: 40px;
   color: #C00A23;
   padding-bottom:0.4%;
-  padding-top: 2%;
+  padding-top: 1%;
 
 }
 
@@ -110,7 +110,7 @@ h2#contact_title{
 }*/
 .icon_contact:nth-child(1){
   width: 125px;
-  height: 140px;
+  height: 130px;
   text-align: center;
   display: block;
   margin: 0 auto;}
