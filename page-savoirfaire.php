@@ -53,9 +53,9 @@
 </div>
 
   <div class="bati_ancien">
-      <div class="carrousel"><!--order : 2-->
+      <div class="carrousel_sf_bas"><!--order : 2-->
           <!-- Flickity HTML init -->
-        <div class="carousel_sf_bas">
+        <div class="carousel">
         data-flickity='{ "lazyLoad": true }'>
         <div class="carousel-cell">
 
