@@ -48,6 +48,7 @@
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
+    <?php include('mail.php'); ?>
     <form class="form" method="POST" action="mail.php"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
@@ -62,7 +63,7 @@
         <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici" name="message"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
 M2A Maçonnerie.<a href="https://fr.eni.com/particuliers/cookies"> En savoir plus </a>></p></div>
         <div id="contact_button">
-          <input class="contact_button" type="submit">Envoyer</input>
+          <input class="contact_button" type="submit" value="Envoyer"></input>
         </div>
       </div>
     </form>
