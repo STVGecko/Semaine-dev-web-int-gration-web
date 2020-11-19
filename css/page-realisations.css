@@ -24,7 +24,7 @@ h2#realization_title{
   padding-bottom: 20%;
 }
 
-section #wrap_realization{
+section div.wrap_realization{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -32,7 +32,7 @@ section #wrap_realization{
 
 }
 
-section #wrap_realization div{
+section div.wrap_realization div{
   margin: 16px;
 
 }
@@ -40,20 +40,20 @@ section #wrap_realization div{
 
 
 
+.zoom div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
 
 
 
 
 /*Animation survol image
-
-  section #wrap_realization img {
-	  width: 480px;
-  	position: relative;
-
-    transition-proprety: width;
-	  transition-duration: 0.25s;
-}
-
-  section #wrap_realization img:hover {
-	  width: 380px;
-  }

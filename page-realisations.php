@@ -7,7 +7,7 @@
     <br>
     <p class="para"><?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>
     <br>
-    <div id="wrap_realization">
+    <div class="zoom wrap_realization">
 
       <div class="proj">
         <img class="main-page-img-large" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
@@ -72,7 +72,7 @@
     <br>
     <p class="para"><? /*php $texte2 = get_field('text1'); echo $texte2;*/ ?></p>
     <br>
-    <div id="wrap_realization">
+    <div id="zoom wrap_realization">
 
       <div class="proj">
         <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_1.png" alt="Construction d'un mur de soutennement">
