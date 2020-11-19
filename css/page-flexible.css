@@ -95,6 +95,10 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
+.carrousel_sf{
+  width: 50%;
+}
+
 .cadre_gauche,.cadre_droit{
   position: absolute;
 }
