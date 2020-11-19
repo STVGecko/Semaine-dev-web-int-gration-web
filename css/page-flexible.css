@@ -98,6 +98,12 @@ h3.h3_flex {
 .cadre_gauche,.cadre_droit{
   position: absolute;
 }
+
+.image_ap_haut{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 /* ordre inversé*/
 .frame_assembly_bas{
   order: 1;
@@ -107,6 +113,9 @@ h3.h3_flex {
 
 .image_ap_bas{
   order: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+
 }
 
 .carrousel_sf_bas{
