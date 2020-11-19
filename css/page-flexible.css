@@ -2,19 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 h1.h1_flex{
+  text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 112.7%;
-  text-align: center;
+  line-height: 40px;
   color: #C00A23;
+  padding-bottom:0.4%;
+  padding-top: 4%;
 }
 
 #underline_flex{
   border-top: 6px solid #C00A23;
-  width: 20%;
-  margin-left: 40%;
+  width: 341px;
+  margin-left: 42%;
+  padding-bottom: 2%;
 }
 
 
