@@ -25,7 +25,8 @@
 
 
 body section #realization_page{
-  margin-top: 78px;
+  margin-top: 150px;
+  margin-bottom: 145px;
 }
 
   div.wrap_realization h2#realization_title{
@@ -85,7 +86,7 @@ body section #realization_page{
     	-webkit-transform: scale(1.05);
     	-o-transform: scale(1.05);
     	-moz-transform: scale(1.05);
-      
+
     }
 
 
