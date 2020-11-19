@@ -21,7 +21,7 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail("diegoprieto36@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      wp_mail("lucas.reymonet@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
@@ -80,6 +80,12 @@ if(isset($_POST['Envoyer'])) {
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
+    <p style="display: flex; justify-content: center; color: white; font-size: 20px; font-family: 'Mukta Mahee', sans-serif;">
+      <?php if(isset($msg)) {
+           echo $msg;
+        }
+        ?>
+    </p>
     <form class="form" action="<?php the_permalink() ?>" method="POST"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
@@ -98,10 +104,7 @@ M2A Maçonnerie.</p><a href="https://fr.eni.com/particuliers/cookies" class="lie
         </div>
       </div>
     </form>
-    <?php if(isset($msg)) {
-         echo $msg;
-      }
-      ?>
+
     <!-- FIN FORMULAIRE -->
   </div>
 </section>
@@ -118,22 +121,6 @@ M2A Maçonnerie.</p><a href="https://fr.eni.com/particuliers/cookies" class="lie
 
 
 
-<!--<form class="form">
-  <div id="englobe_all">
-  <div id="contact_gauche">
-    <p class="contact_names" type="Prénom"> <input class="contact_input" placeholder="Ecrivez votre prénom ici..."></input></p>
-    <p class="contact_names" type="Mail"> <input class="contact_input" placeholder="Ecrivez votre mail ici..."></input></p>
-    <div class="contact_message"><p class="contact_names" type="Message"><input class="contact_input" placeholder="Ecrivez votre message ici"></input></p></div>
-  </div>
-  <div id="contact_droite">
-    <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..."></input></p>
-    <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..."></input></p>
-  </div>
-  <div id="contact_button">
-    <button class="contact_button">Envoyer</button>
-  </div>
-</div>
-</form>-->
 
 
 <?php get_footer(); ?>
