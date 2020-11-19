@@ -6,7 +6,7 @@
 
       // Récupération des variables et sécurisation des données
       $nom = htmlentities($_POST['nom']); // htmlentities() convertit des caractères "spéciaux" en équivalent HTML
-      $objet = htmlentities($_POST['objet']);
+      $objet = "Formulaire";
       $mail = htmlentities($_POST['mail']);
       $message = htmlentities($_POST['message']);
 
@@ -26,7 +26,7 @@
 
       // Envoyer l'email
       mail($destinataire, $objet, $contenu, $headers); // Fonction principale qui envoi l'email
-      header("location:index.html"); // Afficher un message pour indiquer que le message a été envoyé
+      header("location:page-contact.php"); // Afficher un message pour indiquer que le message a été envoyé
       // (2) Fin du code pour traiter l'envoi de l'email
     }
     ?>
