@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-<html>
+<div class="wrap_page">
+
 	<section id="header">
 
 		<div id="home_picture">
@@ -116,6 +117,6 @@
 		</a>
 
 		</div>
-</html>
 
+</div>
 <?php get_footer(); ?>
