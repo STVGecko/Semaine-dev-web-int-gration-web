@@ -8,7 +8,7 @@ if(isset($_POST['Envoyer'])) {
       $header.='Content-Type:text/html; charset="uft-8"'."\n";
       $header.='Content-Transfer-Encoding: 8bit';
       $headers=array('Content-Type: text/html; charset=UTF-8',
-                    'From:"Formulaire Devis"<'$mail'>',
+                    'From:"Formulaire Devis"<mail>',
                     'Content-Type:text/html; charset="uft-8"');
       $message='
       <html>
