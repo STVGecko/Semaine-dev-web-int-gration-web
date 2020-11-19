@@ -11,41 +11,36 @@
 
   <section class="wrap">
     <div class="bati_ancien">
-  <div class="carrousel_gauche">
-      <!-- Flickity HTML init -->
-    <div class="carousel">
-    data-flickity='{ "lazyLoad": true }'>
-    <div class="carousel-cell">
+      <div class="carrousel_gauche">
+          <!-- Flickity HTML init -->
+        <div class="carousel">
+        data-flickity='{ "lazyLoad": true }'>
+        <div class="carousel-cell">
 
-    <?php
-    $image1 = get_field('image1');
-    if( !empty( $image1 ) ): ?>
-    <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-    <?php endif; ?>
+        <?php
+        $image1 = get_field('image1');
+        if( !empty( $image1 ) ): ?>
+        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+        <?php endif; ?>
 
-    </div>
-    <div class="carousel-cell">
-      <?php
-      $image1 = get_field('image1');
-      if( !empty( $image1 ) ): ?>
-      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-      <?php endif; ?>
+        </div>
+        <div class="carousel-cell">
+          <?php
+          $image1 = get_field('image1');
+          if( !empty( $image1 ) ): ?>
+          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+          <?php endif; ?>
 
-    </div>
-    <div class="carousel-cell">
-      <?php
-      $image1 = get_field('image1');
-      if( !empty( $image1 ) ): ?>
-      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-      <?php endif; ?>
-    </div>
-    </div><!-- FIN CAROUSEL -->
-
-
-
-
-        <!-- CAROUSEL A METTRE -->
-</div>
+        </div>
+        <div class="carousel-cell">
+          <?php
+          $image1 = get_field('image1');
+          if( !empty( $image1 ) ): ?>
+          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+          <?php endif; ?>
+        </div>
+        </div>
+      </div><!-- FIN CAROUSEL -->
 
     <div class="frame_assembly">
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
@@ -57,23 +52,47 @@
   </div>
 </div>
 
+  <div class="maçonnerie">
+      <div class="carrousel_gauche">
+          <!-- Flickity HTML init -->
+        <div class="carousel">
+        data-flickity='{ "lazyLoad": true }'>
+        <div class="carousel-cell">
 
-<div class="maçonnerie">
-  <div class="carrousel_droit" > <!--order : 2-->
-<img src="<?php $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> carroussel
+        <?php
+        $image1 = get_field('image1');
+        if( !empty( $image1 ) ): ?>
+        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+        <?php endif; ?>
+
+        </div>
+        <div class="carousel-cell">
+          <?php
+          $image1 = get_field('image1');
+          if( !empty( $image1 ) ): ?>
+          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+          <?php endif; ?>
+
+        </div>
+        <div class="carousel-cell">
+          <?php
+          $image1 = get_field('image1');
+          if( !empty( $image1 ) ): ?>
+          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+          <?php endif; ?>
+        </div>
+        </div>
+    </div><!-- FIN CAROUSEL -->
+    <div class="frame_assembly">
+      <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
+      <div class="texte2" > <!--order : 1-->
+      <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
+      <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>
+      <p class="para"><?php $texte2 = get_field('text2'); echo $texte2; ?></p>
+      </div>
+    </div>
   </div>
-
-  <div class="texte2" > <!--order : 1-->
-    <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
-    <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>
-    <p class="para"><?php $texte2 = get_field('text2'); echo $texte2; ?></p>
-</div>
-</div>
 </section>
-
-
   </body>
-
-
 
 <?php get_footer(); ?>

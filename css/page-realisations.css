@@ -3,10 +3,26 @@
 
 
 body section #realization_page{
-  margin-top: 20%;
-  margin-bottom: 20%;
 
 }
+
+
+section div.wrap_realization{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: auto;
+  padding-left: 3%;
+  padding-left: 3%;
+
+}
+
+section div.wrap_realization div{
+  margin: 16px;
+
+}
+
+
 h2#realization_title{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -25,32 +41,6 @@ h2#realization_title{
   margin-left: 40%;
   padding-bottom: 5%;
 }
-
-.para{
-  font-family: 'Mukta Mahee', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 157.7%;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  padding-bottom:0.5%;
-}
-
-section div.wrap_realization{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: auto;
-
-}
-
-section div.wrap_realization div{
-  margin: 16px;
-
-}
-
 
 
 .proj {
