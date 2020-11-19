@@ -11,19 +11,19 @@
 	      </div>
 				<div class="block">
 					<p>Coordonnées</p>
-						<p>06 74 11 63 45</p>
-						<p>pa.flamens@orange.fr</p>
+						<p><?php $num=get_field('telephone'); echo $num; ?></p>
+						<p><?php $mail=get_field('mail'); echo $mail; ?></p>
 				</div>
 				<div class="block">
-						<p>68 Rue Bobby Sands</p>
-						<p>73000 Chambéry</p>
+						<p><?php $adresse=get_field('adresse'); echo $adresse; ?>/p>
+						<p><?php $ville=get_field('ville'); echo $ville; ?></p>
 				</div>
 	      <div class="block">
 					<p>Réseaux sociaux</p>
 					<div class="block">
 						<div class="facebook">
-							<p><a href=""><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
-							<p><a href="">Facebook</a></p>
+							<p><a href="<?php $facebook=get_field('facebook'); echo $facebook; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
+							<p><a href="<?php $facebook=get_field('facebook'); echo $facebook; ?>">Facebook</a></p>
 						</div>
 					</div>
 				</div>
