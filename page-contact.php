@@ -48,6 +48,7 @@
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
+    <?php include('mail.php'); ?>
     <form class="form" method="POST" action="mail.php"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">

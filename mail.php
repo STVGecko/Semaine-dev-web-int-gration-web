@@ -1,25 +1,32 @@
 <?php
+    // S'il y des données de postées
+    if ($_SERVER['REQUEST_METHOD']=='POST') {
 
+      // (1) Code PHP pour traiter l'envoi de l'email
 
-$msg = "Nom:\t$prenom\n";
-$msg = "Nom:\t$nom\n";
-$msg .= "E-Mail:\t$mail\n";
-$msg = "Nom:\t$telephone\n";
-$msg .= "Message:\t$message\n\n";
+      // Récupération des variables et sécurisation des données
+      $nom = htmlentities($_POST['nom']); // htmlentities() convertit des caractères "spéciaux" en équivalent HTML
+      $objet = htmlentities($_POST['objet']);
+      $mail = htmlentities($_POST['mail']);
+      $message = htmlentities($_POST['message']);
 
-$recipient = "lucas.reymonet@gmail.com";
-$subject = "Formulaire";
+      // Variables concernant l'email
 
-$mailheaders = "From: Formulaire<> \n";
-$mailheaders .= "Reply-To: $mail\n\n";
+      $destinataire = 'lucas.reymonet@gmail.com'; // Adresse email du webmaster (à personnaliser)
+      $contenu = '<html><head><title> '.$objet.' </title></head><body>';
+      $contenu .= '<p>Tu as un nouveau message !</p>';
+      $contenu .= '<p><strong>Nom</strong>: '.$nom.'</p>';
+      $contenu .= '<p><strong>Email</strong>: '.$mail.'</p>';
+      $contenu .= '<p><strong>Message</strong>: '.$message.'</p>';
+      $contenu .= '</body></html>'; // Contenu du message de l'email (en XHTML)
 
-mail($recipient, $subject, $msg, $nom, $mailheaders);
+      // Pour envoyer un email HTML, l'en-tête Content-type doit être défini
+      $headers = 'MIME-Version: 1.0'."\r\n";
+      $headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
 
-echo "<HTML><HEAD>";
-echo "<TITLE>Formulaire validé</TITLE></HEAD><BODY>";
-echo "<H1 align=center>Merci, $nom </H1>";
-echo "<P align=center>";
-echo "Votre formulaire à bien été envoyé !</P>";
-echo "</BODY></HTML>";
-
-?>
+      // Envoyer l'email
+      mail($destinataire, $objet, $contenu, $headers); // Fonction principale qui envoi l'email
+      header("location:index.html"); // Afficher un message pour indiquer que le message a été envoyé
+      // (2) Fin du code pour traiter l'envoi de l'email
+    }
+    ?>
