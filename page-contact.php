@@ -3,7 +3,7 @@
 if(isset($_POST['mailform'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
       $header="MIME-Version: 1.0\r\n";
-      $header.='From:"nom_d\'expediteur"<votre@mail.com>'."\n";
+      $header.='From:"nom_d\'expediteur"<lucas.reymonet@mail.com>'."\n";
       $header.='Content-Type:text/html; charset="uft-8"'."\n";
       $header.='Content-Transfer-Encoding: 8bit';
       $message='
