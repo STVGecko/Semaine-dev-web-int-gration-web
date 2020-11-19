@@ -127,6 +127,10 @@ h2#contact_title{
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+.icon_contact img{
+  margin: 0 auto;
+}
+
 #devis_contact{
   z-index: -1;
   width:710px;
