@@ -10,32 +10,33 @@
   </div>
   <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
-    <div class="carousel">
-    <div class="carousel-cell">
+      <div class="carousel"
+      data-flickity='{ "lazyLoad": true }'>
+      <div class="carousel-cell">
 
-    <?php
-    $image1 = get_field('image1');
-    if( !empty( $image1 ) ): ?>
-    <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-    <?php endif; ?>
-
-    </div>
-    <div class="carousel-cell">
       <?php
-      $image1 = get_field('image1');
+      $image1 = get_field('image1_sf');
       if( !empty( $image1 ) ): ?>
       <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
       <?php endif; ?>
 
-    </div>
-    <div class="carousel-cell">
-      <?php
-      $image1 = get_field('image1');
-      if( !empty( $image1 ) ): ?>
-      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-      <?php endif; ?>
-    </div>
-    </div>
+      </div>
+      <div class="carousel-cell">
+        <?php
+        $image1 = get_field('image1_sf');
+        if( !empty( $image1 ) ): ?>
+        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+        <?php endif; ?>
+
+      </div>
+      <div class="carousel-cell">
+        <?php
+        $image1 = get_field('image1_sf');
+        if( !empty( $image1 ) ): ?>
+        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+        <?php endif; ?>
+      </div>
+      </div><!-- FIN CAROUSEL -->
   </div><!-- FIN CAROUSEL -->
   <section class="wrap">
     <div class="bati_ancien">
