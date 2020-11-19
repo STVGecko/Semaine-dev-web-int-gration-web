@@ -101,6 +101,7 @@ h2#contact_title{
 }
 .text_contact span a{
   text-decoration: none;
+  color: grey;
 }
 /*.icon_contact img{
   display: block;
