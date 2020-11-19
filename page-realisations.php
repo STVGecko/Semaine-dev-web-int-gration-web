@@ -10,7 +10,7 @@
       <!--<p class="para">Description possible du projet tu connais<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
       <br>
 
-      <div class="proj">
+      <div class="zoom pict">
         <img class="main-page-img-large" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
         <?php /*
           $image1_1 = get_field('image_r');
@@ -19,7 +19,7 @@
         <?/* php endif;*/ ?>
       </div>
 
-      <div class="proj">
+      <div class="zoom pict">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
         <?php /*
           $image1_2 = get_field('image_r');
@@ -28,7 +28,7 @@
         <?/* php endif;*/ ?>
       </div>
 
-      <div class="proj">
+      <div class="zoom pict">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
         <?php /*
           $image1_3 = get_field('image_r');
@@ -37,7 +37,7 @@
         <?/* php endif;*/ ?>
       </div>
 
-      <div class="proj">
+      <div class="zoom pict">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
         <?php /*
           $image1_4 = get_field('image_r');
@@ -46,7 +46,7 @@
         <?/* php endif;*/ ?>
       </div>
 
-      <div class="proj">
+      <div class="zoom pict">
         <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
         <?php /*
           $image1_5 = get_field('image_r');
@@ -55,7 +55,7 @@
         <?/* php endif;*/ ?>
       </div>
 
-      <div class="proj">
+      <div class="zoom pict">
         <?php /*
           $image1_6 = get_field('image_r');
           if( !empty( $image1_6 ) ): */?>

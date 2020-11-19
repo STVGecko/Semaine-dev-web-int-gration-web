@@ -62,14 +62,14 @@ body section #realization_page{
   }
 
 
-    .proj {
+    .pict {
       width: 365px;
       height: 195px;
       overflow: hidden;
       padding: 2px;
     }
 
-    .proj > img {
+    .pict > img {
     	width: 365px;
     	height: 195px;
     	transition: all 1s;
@@ -79,12 +79,13 @@ body section #realization_page{
       }
 
 
-    .zoom:hover > .proj > img {
+    .zoom:hover > .pict > img {
     	transform: scale(1.05);
     	-ms-transform: scale(1.05);
     	-webkit-transform: scale(1.05);
     	-o-transform: scale(1.05);
     	-moz-transform: scale(1.05);
+      
     }
 
 
