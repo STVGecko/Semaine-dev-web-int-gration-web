@@ -21,10 +21,10 @@
 		<div id="text_savoir-faire">
 			<a href=https://mmi.univ-smb.fr/~lombarst/siteclient/?page_id=27>
 				<div id="border1"> <h2> Notre savoir-faire </h2> </div>
-				<div id="paragraph1">
-					<p> <?php $sf = get_field('sf_texte'); echo $sf; ?> </p>
-				</div>
 			</a>
+			<div id="paragraph1">
+				<p> <?php $sf = get_field('sf_texte'); echo $sf; ?> </p>
+			</div>
 		</div>
 
 		<div id="logo_savoir-faire">
