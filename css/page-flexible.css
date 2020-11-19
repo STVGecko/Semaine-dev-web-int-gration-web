@@ -54,20 +54,26 @@ h3.h3_flex {
 
 .bati_ancien{
   display: flex;
-  padding-bottom: 600px;
+  padding-bottom: 700px;
+  justify-content: center;
 }
 
 .maçonnerie{
   display: flex;
 }
 
-.texte{
+.frame_assembly{
   display: flex;
   flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 99px;
   position: relative;
+}
+
+.frame_assembly div.text{
+
 }
 
 .para {
@@ -185,6 +191,7 @@ h3.h3_flex {
 
 .cadre_gauche{
   position: absolute;
+  margin-left: 100px;
 }
 
 .cadre_droit{
