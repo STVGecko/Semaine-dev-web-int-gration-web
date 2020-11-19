@@ -30,25 +30,18 @@
   </div>
 </div>
 
-<!--
 <div class="maçonnerie">
-  <div class="image_droit">
-  <?php
-//  $image2 = get_field('image2');
-  //if( !empty( $image2 ) ): ?>
-  <img class="carousel-cell-image" src="<?php //echo esc_url($image2['url']); ?>" alt="<?php //echo esc_attr($image2['alt']); ?>" />
-  <?php //endif; ?>
+  <div class="carrousel_droit" order: 2> <!--order : 2-->
+<img src="<?php $image2 = get_field('image2'); echo $image2; ?>"  alt="carroussel"> carroussel
   </div>
 
-  <div class="texte">
-    <h2 class="h2_flex"><?php //$titre2 = get_field('titre2_sf'); echo $titre2; ?></h2>
-    <h3 class="h3_flex"><?php// $stitre2 = get_field('stitre2_sf'); echo $stitre2; ?></h3> sous-titre ex : gérant de la maçonnerie
-    <p class="para"><?php //$texte2 = get_field('text2_sf'); echo $texte2; ?></p>
+  <div class="texte2" > <!--order : 1-->
+    <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
+    <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>
+    <p class="para"><?php $texte2 = get_field('text2'); echo $texte2; ?></p>
 </div>
 </div>
 </section>
-
--->
 
   </body>
 

@@ -80,6 +80,10 @@ h3.h3_flex {
   margin: auto;
 }
 
+.frame_assembly div.text2{
+  order: 2;
+}
+
 .para {
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
@@ -99,6 +103,10 @@ h3.h3_flex {
 
 .cadre_droit{
 
+}
+
+.carrousel_droit{
+  order: 2
 }
 
 /*#line {
@@ -188,8 +196,4 @@ h3.h3_flex {
 
   .flickity-page-dots .dot.is-selected {
       opacity: 1;
-}
-
-.carrousel_gauche{
-  width: 40%;
 }
