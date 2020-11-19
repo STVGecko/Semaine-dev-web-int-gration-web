@@ -53,10 +53,8 @@
         <div id="contact_gauche">
           <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></p>
           <p class="contact_names" type="Mail"><input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></p>
-          <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p></div>
-
-          <!--<p>En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
-M2A Maçonnerie.<a href="#"> En savoir plus </a>>-->
+          <div class="contact_message"><p type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p><p>En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
+M2A Maçonnerie.<a href="#"> En savoir plus </a>></p></div>
         </div><!-- FIN CONTACT GAUCHE-->
 
         <div id="contact_droite">
