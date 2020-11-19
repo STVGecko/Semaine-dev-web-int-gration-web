@@ -27,11 +27,6 @@ h1.h1_flex{
   margin-top : 5px;
 }
 
-img {
-  display : block;
-  max-height : 476px;
-  max-width : 574px;
-}
 
 h2.h2_flex {
   width: 100%;
@@ -87,7 +82,16 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-#line {
+.cadre_gauche{
+  position: absolute;
+
+}
+
+.cadre_droit{
+
+}
+
+/*#line {
   display : block;
   border: 6px solid #C00A23;
   width: 162px;
@@ -140,7 +144,7 @@ h3.h3_flex {
 
 #absolute {
   position : absolute;
-}
+}*/
 
 /* CAROUSEL */
 /* external css: flickity.css */
@@ -187,13 +191,4 @@ h3.h3_flex {
 
 .carrousel_gauche{
   width: 40%;
-}
-
-.cadre_gauche{
-  position: absolute;
-  margin-left: 100px;
-}
-
-.cadre_droit{
-
 }
