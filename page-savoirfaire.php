@@ -42,7 +42,7 @@
         </div>
       </div><!-- FIN CAROUSEL -->
 
-    <div class="frame_assembly">
+    <div class="frame_assembly_haut">
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
       <div class="text">
         <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
@@ -83,7 +83,7 @@
         </div>
         </div>
     </div><!-- FIN CAROUSEL -->
-    <div class="frame_assembly_2"><!--order : 1-->
+    <div class="frame_assembly_bas"><!--order : 1-->
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
       <div class="texte2" >
       <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
