@@ -30,8 +30,8 @@
   }
 }
 
-body section #contact_page{
-  margin-top: 10%;
+section#contact_page{
+  margin-top: 150px;
 }
 
 
