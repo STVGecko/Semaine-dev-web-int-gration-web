@@ -30,12 +30,12 @@
 		<div id="logo_savoir-faire">
 				<h3>Bâti ancien</h3>
 				<div id="wrap1">
-					<div class="icon" name="Restauration"><div class="picture1">
-						<a href=https://mmi.univ-smb.fr/~lombarst/siteclient/?page_id=27>
+					<a href=https://mmi.univ-smb.fr/~lombarst/siteclient/?page_id=27>
+						<div class="icon" name="Restauration"><div class="picture1">
 							<img src="<?php echo get_template_directory_uri();?>/images/logo_restauration.svg" alt="Icône restauration"></div>
 							<div class="icon_name">Restauration</div>
-						</a>
-					</div>
+						</div>
+					</a>
 					<div class="icon" name="Maçonnerie"><div class="picture2">
 						<a href=https://mmi.univ-smb.fr/~lombarst/siteclient/?page_id=27>
 							<img src="<?php echo get_template_directory_uri();?>/images/logo_maconnerie.svg" alt="Icône terrassement"></div>
