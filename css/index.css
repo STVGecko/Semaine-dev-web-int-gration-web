@@ -4,12 +4,12 @@
 html{
   background-color: #2C2C2C;
   width : 1440px;
+  text-decoration : none;
 }
 
 a {
   text-decoration : none;
   position : absolute;
-  
 }
 
 #title{
