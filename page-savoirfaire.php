@@ -36,7 +36,7 @@
         <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
         <?php endif; ?>
       </div>
-      </div><!-- FIN CAROUSEL -->
+      </div>
   </div><!-- FIN CAROUSEL -->
   <section class="wrap">
     <div class="bati_ancien">
@@ -54,13 +54,13 @@
 
   <div class="bati_ancien">
       <div class="carrousel_sf_bas"><!--order : 2-->
-          <!-- Flickity HTML init -->
-        <div class="carousel">
+        <!-- Flickity HTML init -->
+        <div class="carousel"
         data-flickity='{ "lazyLoad": true }'>
         <div class="carousel-cell">
 
         <?php
-        $image1 = get_field('image1');
+        $image1 = get_field('image1_sf');
         if( !empty( $image1 ) ): ?>
         <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
         <?php endif; ?>
@@ -68,7 +68,7 @@
         </div>
         <div class="carousel-cell">
           <?php
-          $image1 = get_field('image1');
+          $image1 = get_field('image1_sf');
           if( !empty( $image1 ) ): ?>
           <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
           <?php endif; ?>
@@ -76,7 +76,7 @@
         </div>
         <div class="carousel-cell">
           <?php
-          $image1 = get_field('image1');
+          $image1 = get_field('image1_sf');
           if( !empty( $image1 ) ): ?>
           <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
           <?php endif; ?>
