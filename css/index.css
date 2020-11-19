@@ -5,9 +5,9 @@ html{
   background-color: #2C2C2C;
 }
 
-/*body {
-  width : 1440px;
-}*/
+body {
+  width : 1920px;
+}
 #title{
   z-index: 2;
 }
