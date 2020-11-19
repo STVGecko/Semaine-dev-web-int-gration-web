@@ -6,7 +6,9 @@ html{
   width : 1440px;
 }
 
-
+a {
+  decoration : none;
+}
 
 #title{
   z-index: 2;
