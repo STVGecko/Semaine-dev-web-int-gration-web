@@ -73,7 +73,7 @@ h3.h3_flex {
   position: relative;
 }
 
-.frame_assembly div.text{
+.frame_assembly_haut div.text{
   margin: auto;
 }
 
@@ -95,11 +95,11 @@ h3.h3_flex {
 
 }
 /* ordre inversé*/
-.frame_assembly_2{
+.frame_assembly_bas{
   order: 1;
 }
 
-.image_droit{
+.image_ap_bas{
   order: 2;
 }
 
