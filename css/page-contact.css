@@ -51,9 +51,9 @@ h2#contact_title{
 }
 
 #underline_contact{
-  border-top: 6px solid #C00A23;
+  border-top: 6px solid blue;
   width: 341px;
-  margin-left: 40%;
+  margin-left: 45%;
   padding-bottom: 2%;
 }
 
@@ -65,7 +65,6 @@ h2#contact_title{
   line-height: 18px;
   text-align:center;
   color: white;
-  padding-top: 2%;
 }
 
 #bold_text{
