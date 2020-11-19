@@ -30,9 +30,12 @@
   }
 }
 
+section #contact_page{
+  margin-top: 150px;
+
+}
 
 h2#contact_title{
-  margin-top: 150px;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
