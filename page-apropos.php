@@ -13,7 +13,7 @@
     <div class="bati_ancien">
       <div class="image_gauche">
         <?php
-        $image1 = get_field('image1_ap');
+        $image1_ap = get_field('image1_ap');
         if( !empty( $image1_ap ) ): ?>
         <img class="carousel-cell-image" src="<?php echo esc_url($image1_ap['url']); ?>" alt="<?php echo esc_attr($image1_ap['alt']); ?>" />
         <?php endif; ?>
