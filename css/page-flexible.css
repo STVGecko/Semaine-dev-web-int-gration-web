@@ -89,7 +89,7 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.cadre_gauche{
+.cadre_gauche,.cadre_droit{
   position: absolute;
   margin: auto;
 
