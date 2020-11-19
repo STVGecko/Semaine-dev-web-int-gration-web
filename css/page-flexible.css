@@ -101,9 +101,6 @@ h3.h3_flex {
 
 }
 
-.cadre_droit{
-
-}
 
 .carrousel_droit{
   order: 2
@@ -126,34 +123,6 @@ h3.h3_flex {
 .image_gauche {
   margin : 205px 190px;
 }
-
-#image1 {
-  display : inline-block;
-  float:left;
-  position : relative;
-}
-
-#image2 {
-  display:inline-block;
-  float : right;
-  position : relative;
-}
-
-#text1 {
-  display : inline-block;
-  float : right;
-  position : relative;
-}
-
-#text2 {
-  display : inline-block;
-  float : left;
-  position : relative;
-}
-
-#absolute {
-  position : absolute;
-}*/
 
 /* CAROUSEL */
 /* external css: flickity.css */
