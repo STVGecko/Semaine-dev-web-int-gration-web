@@ -13,23 +13,23 @@
   </div>
   <!-- Partie image -->
   <div id="wrap_contact">
-    <div class="icon_contact" name="Telephone">
-      <img src="<?php echo get_template_directory_uri();?>/images/Telephone.png" alt="Icône téléphone">
+    <div class="icon_contact" name="Telephone" onclick="location.href='tel:+33674116345'">
+      <img src="<?php echo get_template_directory_uri();?>/images/phone.png" alt="Icône téléphone">
       <div class="text_contact" name="Telephone">
         <p>06 74 11 63 45</p><!-- rajouter mailto-->
       </div>
     </div>
-    <div class="icon_contact" name="Mail">
+    <div class="icon_contact" name="Mail" onclick="location.href='mailto:pa.flamens@orange.fr';">
       <img src="<?php echo get_template_directory_uri();?>/images/mail.png" alt="Icône mail">
       <div class="text_contact" name="Mail">
         <p>pa.flamens@orange.fr</p>
       </div>
     </div>
-    <div class="icon_contact" name="Position">
+    <div class="icon_contact" name="Position" onclick="location.href='https://goo.gl/maps/FnvdsEjyCX638MbH7';">
       <img src="<?php echo get_template_directory_uri();?>/images/position.png" alt="Icône position">
       <div class="text_contact" name="Position">
         <p>68 Rue Bobby Sands<br>73000 Chambéry</p>
-        <p><span><a href="https://www.google.com/maps/place/Ma%C3%A7onnerie+d'Antan+et+d'Aujourd'hui+-+M2A/@45.5980219,5.9000069,17z/data=!3m1!4b1!4m5!3m4!1s0x478ba7e10fa5e5d1:0xabc3c1786694a0bd!8m2!3d45.598022!4d5.9021957">Ouvrir dans Maps ></a></span></p>
+        <p><span><a href="https://goo.gl/maps/FnvdsEjyCX638MbH7">Ouvrir dans Maps ></a></span></p>
       </div>
     </div>
   </div>
@@ -54,6 +54,10 @@
           <p class="contact_names" type="Prénom"><input class="contact_input" placeholder="Ecrivez votre prénom ici..." name="Prénom" type="text"></p>
           <p class="contact_names" type="Mail"><input class="contact_input" placeholder="Ecrivez votre mail ici..." name="Mail" type="email"></p>
           <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici"></p></div>
+          <p class="contact_names">kjdsqnddddddddddddddddddddddddddddddddd</p>
+
+          <!--<p>En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
+M2A Maçonnerie.<a href="#"> En savoir plus </a>>-->
         </div><!-- FIN CONTACT GAUCHE-->
 
         <div id="contact_droite">

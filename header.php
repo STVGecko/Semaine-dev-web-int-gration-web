@@ -27,7 +27,7 @@
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
 			        <div class="text_icon">pa.flamens.@orange.fr</div>
 			    </div>
-					<div class="quote">
+					<div class="estimation">
 						<p>Demande de devis</p>
 					</div>
 				</div>
