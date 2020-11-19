@@ -2,7 +2,7 @@
 <?php
 /*$msg = "";*/
 if(isset($_POST['Envoyer'])) {
-   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
+   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['prenom'])) {
       $header="MIME-Version: 1.0\r\n";
       $header.='From:"nom_d\'expediteur"<lucas.reymonet@mail.com>'."\n";
       $header.='Content-Type:text/html; charset="uft-8"'."\n";

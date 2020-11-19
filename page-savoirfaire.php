@@ -8,39 +8,39 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
+  <div class="carrousel_sf_haut">
+      <!-- Flickity HTML init -->
+    <div class="carousel">
+    data-flickity='{ "lazyLoad": true }'>
+    <div class="carousel-cell">
 
+    <?php
+    $image1 = get_field('image1');
+    if( !empty( $image1 ) ): ?>
+    <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+    <?php endif; ?>
+
+    </div>
+    <div class="carousel-cell">
+      <?php
+      $image1 = get_field('image1');
+      if( !empty( $image1 ) ): ?>
+      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+      <?php endif; ?>
+
+    </div>
+    <div class="carousel-cell">
+      <?php
+      $image1 = get_field('image1');
+      if( !empty( $image1 ) ): ?>
+      <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+      <?php endif; ?>
+    </div>
+    </div>
+  </div><!-- FIN CAROUSEL -->
   <section class="wrap">
     <div class="bati_ancien">
-      <div class="carrousel_sf_haut">
-          <!-- Flickity HTML init -->
-        <div class="carousel">
-        data-flickity='{ "lazyLoad": true }'>
-        <div class="carousel-cell">
 
-        <?php
-        $image1 = get_field('image1');
-        if( !empty( $image1 ) ): ?>
-        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-        <?php endif; ?>
-
-        </div>
-        <div class="carousel-cell">
-          <?php
-          $image1 = get_field('image1');
-          if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-          <?php endif; ?>
-
-        </div>
-        <div class="carousel-cell">
-          <?php
-          $image1 = get_field('image1');
-          if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-          <?php endif; ?>
-        </div>
-        </div>
-      </div><!-- FIN CAROUSEL -->
 
     <div class="frame_assembly_haut">
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
