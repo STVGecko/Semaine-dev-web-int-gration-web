@@ -80,7 +80,7 @@ if(isset($_POST['Envoyer'])) {
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
-    <p style="display: flex; justify-content: center; color: white">
+    <p style="display: flex; justify-content: center; color: white; font-size: 20px; font-family: 'Mukta Mahee', sans-serif;">
       <?php if(isset($msg)) {
            echo $msg;
         }
@@ -104,10 +104,7 @@ M2A Maçonnerie.</p><a href="https://fr.eni.com/particuliers/cookies" class="lie
         </div>
       </div>
     </form>
-    <?php if(isset($msg)) {
-         echo $msg;
-      }
-      ?>
+
     <!-- FIN FORMULAIRE -->
   </div>
 </section>
