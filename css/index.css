@@ -115,7 +115,7 @@ a {
   display : block;
   /*margin-left : 630px;*/
   border : 5px #C00A23 solid;
-  width : 144px;
+  width : 150px;
   height : 58px;
 }
 
@@ -127,6 +127,7 @@ a {
   font-size: 24px;
   color: #C00A23;
   margin-top : 14px;
+  white-space: nowrap;
 }
 
 
