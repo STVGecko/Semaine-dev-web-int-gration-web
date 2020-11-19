@@ -21,11 +21,11 @@
 				<div class="info_bar">
 			      <div class="phone">
 			        <img src="<?php echo get_template_directory_uri();?>/images/tel_header.svg">
-			        <div class="text_icon"><?php $tel=get_field('telephone', get_option(page_on_front)); echo $tel; ?></div>
+			        <div class="text_icon"><?php $tel=get_field('telephone', get_option('page_on_front')); echo $tel; ?></div>
 			      </div>
 			      <div class="mail">
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-			        <div class="text_icon"><?php $mail=get_field('mail', get_option(page_on_front)); echo $mail; ?></div>
+			        <div class="text_icon"><?php $mail=get_field('mail', get_option('page_on_front')); echo $mail; ?></div>
 			    </div>
 					<div class="estimation">
 						<a href="/?page_id=34">Demande de devis</a>
