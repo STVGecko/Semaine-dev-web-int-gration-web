@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 /* On screens that are 992px or less, set the background color to blue */
-html{
+/*html{
   max-width:1440px;
-}
+}*/
 
 /*#contact_page{
   display: flex;
