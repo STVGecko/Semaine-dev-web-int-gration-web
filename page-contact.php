@@ -15,7 +15,7 @@ if(isset($_POST['Envoyer'])) {
          <body>
             <div align="center">
                <br />
-               <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom', 'prenom'].'<br />
+               <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom']. AND $POST['prenom']'<br />
                <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
                <br />
                '.nl2br($_POST['message']).'
