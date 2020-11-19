@@ -60,8 +60,8 @@ h3.h3_flex {
 
 .bati_ancien{
   display: flex;
-  padding-bottom: 700px;
   justify-content: center;
+  min-height: 617px;
 }
 
 .maçonnerie{
@@ -72,14 +72,12 @@ h3.h3_flex {
   display: flex;
   flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
-  margin-top: auto;
-  margin-bottom: auto;
   margin-left: 99px;
   position: relative;
 }
 
 .frame_assembly div.text{
-
+  margin: auto;
 }
 
 .para {
@@ -95,6 +93,7 @@ h3.h3_flex {
 
 .cadre_gauche{
   position: absolute;
+  margin: auto;
 
 }
 
