@@ -11,7 +11,7 @@
 	      </div>
 				<div class="block">
 					<p class="big_font">Coordonnées</p>
-						<p class="fine_font"><?php $num=get_field('telephone'); echo $num; ?></p>
+						<p class="fine_font"><?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?></p>
 						<p class="fine font"><?php $mail=get_field('mail'); echo $mail; ?></p>
 				</div>
 				<div class="block">
