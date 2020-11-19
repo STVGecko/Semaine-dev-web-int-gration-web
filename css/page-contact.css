@@ -81,7 +81,7 @@ h2#contact_title{
 #wrap_contact{
   display: flex;
   justify-content: space-around;
-  margin-top : 3%;
+  margin-top : 5%;
   margin-left: 18%;
   margin-right: 18%;
 }
