@@ -110,6 +110,7 @@ h3.h3_flex {
 
 div.texte2{
   padding-left: 100px;
+  margin: auto;.
 }
 
 /* ordre inversé*/
@@ -117,6 +118,7 @@ div.texte2{
   order: 1;
   width: 414px;
   margin-right: 99px;
+  display: flex;
 }
 
 .image_ap_bas{
