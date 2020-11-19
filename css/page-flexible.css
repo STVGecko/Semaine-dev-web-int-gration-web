@@ -27,6 +27,16 @@ h1.h1_flex{
   margin-top : 5px;
 }
 
+#intro_text {
+  text-align: center;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top : 10px;
+}
 
 h2.h2_flex {
   width: 100%;
@@ -98,16 +108,7 @@ h3.h3_flex {
   height: 0px;
 }
 
-#intro_text {
-  text-align: center;
-  font-family: 'Mukta Mahee', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  color: #FFFFFF;
-  margin-top : 10px;
-}
+
 
 .section {
   display : inline-block;
