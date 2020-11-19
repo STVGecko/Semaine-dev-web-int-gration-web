@@ -52,7 +52,7 @@
   </div>
 </div>
 
-  <div class="maçonnerie">
+  <div class="bati_ancien">
       <div class="carrousel_gauche"><!--order : 2-->
           <!-- Flickity HTML init -->
         <div class="carousel">

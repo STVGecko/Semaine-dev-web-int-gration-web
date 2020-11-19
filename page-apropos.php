@@ -30,7 +30,7 @@
   </div>
 </div>
 
-<div class="maconnerie">
+<div class="bati_ancien">
   <div class="image_droit"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
