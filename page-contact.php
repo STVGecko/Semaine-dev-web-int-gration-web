@@ -13,23 +13,23 @@
   </div>
   <!-- Partie image -->
   <div id="wrap_contact">
-    <div class="icon_contact" name="Telephone">
+    <div class="icon_contact" name="Telephone" onclick="location.href='tel:+33674116345'">
       <img src="<?php echo get_template_directory_uri();?>/images/phone.png" alt="Icône téléphone">
       <div class="text_contact" name="Telephone">
         <p>06 74 11 63 45</p><!-- rajouter mailto-->
       </div>
     </div>
-    <div class="icon_contact" name="Mail" onclick="location.href='mailto:pa.flamens@orange.fr'">
+    <div class="icon_contact" name="Mail" onclick="location.href='mailto:pa.flamens@orange.fr';">
       <img src="<?php echo get_template_directory_uri();?>/images/mail.png" alt="Icône mail">
       <div class="text_contact" name="Mail">
         <p>pa.flamens@orange.fr</p>
       </div>
     </div>
-    <div class="icon_contact" name="Position">
+    <div class="icon_contact" name="Position" onclick="location.href='https://goo.gl/maps/FnvdsEjyCX638MbH7';">
       <img src="<?php echo get_template_directory_uri();?>/images/position.png" alt="Icône position">
       <div class="text_contact" name="Position">
         <p>68 Rue Bobby Sands<br>73000 Chambéry</p>
-        <p><span><a href="https://www.google.com/maps/place/Ma%C3%A7onnerie+d'Antan+et+d'Aujourd'hui+-+M2A/@45.5980219,5.9000069,17z/data=!3m1!4b1!4m5!3m4!1s0x478ba7e10fa5e5d1:0xabc3c1786694a0bd!8m2!3d45.598022!4d5.9021957">Ouvrir dans Maps ></a></span></p>
+        <p><span><a href="https://goo.gl/maps/FnvdsEjyCX638MbH7">Ouvrir dans Maps ></a></span></p>
       </div>
     </div>
   </div>
