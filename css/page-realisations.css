@@ -39,8 +39,15 @@ body section#realization_page{
     color: #C00A23;
     padding-bottom:0.4%;
     padding-top: 1%;
-    display: block;
+    width : 100%;
 
+  }
+
+  .underline_real {
+    border-top: 6px solid #C00A23;
+    width: 162px;;
+    margin-left: 47%;
+    margin-top : 5px;
   }
 
     div#underline{
