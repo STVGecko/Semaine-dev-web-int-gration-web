@@ -11,29 +11,29 @@
 
       <div class="array">
         <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
+          <!--<img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine"> -->
           <?php
-            $image1_1 = get_field('image_r');
-            if( !empty( $image1_1 ) ): ?>
-            <img src="<?php echo esc_url($image1_1['url']); ?>" alt="<?php echo esc_attr($image1_1['alt']); ?>" />
+            $image1_rea = get_field('image1_rea');
+            if( !empty( $image1_rea ) ): ?>
+            <img src="<?php echo esc_url($image1_rea['url']); ?>" alt="<?php echo esc_attr($image1_rea['alt']); ?>" />
           <? php endif; ?>
         </div>
 
         <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
+          <!-- <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine"> -->
           <?php
-            $image1_2 = get_field('image_r');
-            if( !empty( $image1_2 ) ): ?>
-            <img src="<?php echo esc_url($image1_2['url']); ?>" alt="<?php echo esc_attr($image1_2['alt']); ?>" />
+            $image2_rea = get_field('image_r');
+            if( !empty( $image2_rea ) ): ?>
+            <img src="<?php echo esc_url($image2_rea['url']); ?>" alt="<?php echo esc_attr($image2_rea['alt']); ?>" />
           <? php endif; ?>
         </div>
 
         <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
+          <!-- <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine"> -->
           <?php
-            $image1_3 = get_field('image_r');
-            if( !empty( $image1_3 ) ): ?>
-            <img src="<?php echo esc_url($image1_3['url']); ?>" alt="<?php echo esc_attr($image1_3['alt']); ?>" />
+            $image3_rea = get_field('image_r');
+            if( !empty( $image3_rea ) ): ?>
+            <img src="<?php echo esc_url($image3_rea['url']); ?>" alt="<?php echo esc_attr($image3_rea['alt']); ?>" />
           <? php endif; ?>
         </div>
 
