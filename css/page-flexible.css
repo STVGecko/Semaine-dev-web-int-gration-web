@@ -40,7 +40,7 @@ h1.h1_flex{
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
-  margin-top : 30px;
+  margin-top : 5px;
   margin-bottom: 40px;
 }
 
@@ -130,7 +130,7 @@ div.texte2{
 .frame_assembly_l{
   order: 1;
   width: 414px;
-  margin-right: 99px;
+  margin-right: 210px;
   display: flex;
 }
 
