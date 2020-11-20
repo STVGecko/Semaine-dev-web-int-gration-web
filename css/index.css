@@ -186,9 +186,6 @@ margin : 4.5% -3.6%;
   width : inherit;
 }
 
-.icon_name:hover{
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);  
-}
 
 .icon{
   display : flex;
@@ -196,6 +193,10 @@ margin : 4.5% -3.6%;
   width: 384px;
   height: 288px;
   background-color: #C00A23;
+  transition: 0.2s;
+}
+.icon:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 #a-propos {
