@@ -16,18 +16,32 @@
     <div class="carousel">
       data-flickity='{ "lazyLoad": true }'>
 
-      <?php //foreach ($image1): ?>
+    <!--  <?php //foreach ($image1): ?>
       <div class="carousel-cell">
         <?php
-          $image1 = get_field('premier_carroussel');
-          if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-          <p class="legend"><?php $titre = get_field('premiere_legende'); echo $titre; ?>
-          </p><?php endif; ?>
+          //$image1 = get_field('premier_carroussel');
+        //  if( !empty( $image1 ) ): ?>
+          <img class="carousel-cell-image" src="<?php //echo esc_url($image1['url']); ?>" alt="<?php// echo esc_attr($image1['alt']); ?>" />
+          <p class="legend"><?php// $titre = get_field('premiere_legende'); echo $titre; ?>
+          </p><//?php endif; ?>
       </div>
       <?php// endforeach; ?>
     </div>
-  </div><!-- FIN CAROUSEL -->
+  </div> FIN CAROUSEL -->
+
+  <?php
+$carroussel1 = get_field('premier_carroussel');
+if( $carroussel1) {
+    echo '<ul class="slides1">';
+    foreach( $carroussel1 as $carroussel1 ) {
+        $image = $carroussel1['images_1'];
+        echo '<li>';
+            echo wp_get_attachment_image( $image, 'full' );
+            echo wpautop( $row['caption'] );
+        echo '</li>';
+    }
+    echo '</ul>';
+}
 
 
 
