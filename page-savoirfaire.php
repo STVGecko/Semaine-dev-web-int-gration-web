@@ -18,27 +18,13 @@
       <div class="carousel-cell">
 
       <?php
-      $image1 = get_field('image1');
+      $image1 = get_field('premier_carroussel');
       if( !empty( $image1 ) ): ?>
       <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-      <p>Test légende</p><?php endif; ?>
+      <p><?php $titre = get_field('premiere_legende'); echo $titre; ?></p><?php endif; ?>
 
       </div>
-      <div class="carousel-cell">
-        <?php
-        $image1 = get_field('image1');
-        if( !empty( $image1 ) ): ?>
-        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-        <?php endif; ?>
 
-      </div>
-      <div class="carousel-cell">
-        <?php
-        $image1 = get_field('image1');
-        if( !empty( $image1 ) ): ?>
-        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-        <?php endif; ?>
-      </div>
       </div>
   </div><!-- FIN CAROUSEL -->
 
