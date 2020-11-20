@@ -108,10 +108,13 @@ div#nav ul li a{
 
 div#nav ul li.current_page_item a {
   color: #C00A23;
-  white-space: nowrap; /* interdiction de passer à la ligne */
-  font-size: 18px;
-  text-decoration:none;
-  color : #C00A23;
+}
+
+div#nav il li.current_page_item a:hover{
+  color: #C00A23;
+}
+div#nav il li.current_page_item a:after{
+  color: #C00A23;
 }
 
 .text_icon{
@@ -128,9 +131,9 @@ div#nav ul li a {
   position:relative;
   z-index: 1;
 }
-div#nav ul li a:hover {
+/*div#nav ul li a:hover {
   color: #da0b27;
-}
+}*/
 div#nav ul li a:after {
   display: block;
   position: absolute;
