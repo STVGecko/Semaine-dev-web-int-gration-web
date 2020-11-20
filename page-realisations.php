@@ -5,9 +5,7 @@
 
     <div class="zoom wrap_realization">
       <h2 id="realization_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
-      <div id="underline"></div>
-      <br>
-      <!--<p class="para">Description possible du projet tu connais<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
+      <!--<p class="para">Description possible du projet<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
       <br>
 
       <div class="zoom">
@@ -62,6 +60,40 @@
           <img src="<?php //echo esc_url($image1_6['url']); ?>" alt="<?php //echo esc_attr($image1_6['alt']); ?>" />
         <?/* php endif;*/ ?>
       </div>-->
+
+      <h2 id="realization_title">Mur de soutennement<? /*php $titre2 = get_field('titre1'); echo $titre2; */?></h2>
+      <!--<p class="para">Description possible du projet<?php /*$texte2 = get_field('text2'); echo $texte2;*/ ?></p>-->
+      <br>
+      <div id="wrap_realization">
+
+        <div class="zoom">
+          <img class="1" src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_1.png" alt="Construction d'un mur de soutennement">
+          <?php /*
+            $image2_1 = get_field('image_r');
+            if( !empty( $image2_1 ) ): */?>
+            <img src="<?php echo esc_url($image2_1['url']); ?>" alt="<?php echo esc_attr($image2_1['alt']); ?>" />
+          <?/* php endif;*/ ?>
+        </div>
+
+        <div class="zoom">
+          <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_2.png" alt="Construction d'un mur de soutennement">
+          <?php /*
+            $image2_2 = get_field('image_r');
+            if( !empty( $image2_2 ) ): */?>
+            <img src="<?php echo esc_url($image2_2['url']); ?>" alt="<?php echo esc_attr($image2_2['alt']); ?>" />
+          <?/* php endif;*/ ?>
+        </div>
+
+        <div class="zoom">
+          <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_3.png" alt="Construction d'un mur de soutennement">
+          <?php /*
+            $image2_3 = get_field('image_r');
+            if( !empty( $image2_3 ) ): */?>
+            <img src="<?php echo esc_url($image2_3['url']); ?>" alt="<?php echo esc_attr($image2_3['alt']); ?>" />
+          <?/* php endif;*/ ?>
+        </div>
+
+    </div>
 
     </div>
 

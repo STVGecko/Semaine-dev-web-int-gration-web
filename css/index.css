@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+@media screen and (max-width: 1024px) {
+  #contact_page{
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+}
+@media screen and (max-width: 768px) {
+  body section #contact_page{
+    float: none;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body section #contact_page{
+    float: none;
+
+  }
+}
 html{
   background-color: #2C2C2C;
   width : 1440px;
