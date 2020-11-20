@@ -114,7 +114,7 @@ a {
   transition: 0.2s;
 }
 
-#border1 h2:hover{
+#border1:hover{
   background-color: #C00A23;
   border: 5px white solid;
   color: white;
@@ -128,7 +128,7 @@ a {
   height : 58px;
   transition: 0.2s;
 }
-#border2 h2:hover{
+#border2:hover{
   background-color: #C00A23;
   border: 5px white solid;
   color: white;
