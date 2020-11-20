@@ -43,14 +43,6 @@
           <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
         </div>
 
-        <div class="pict">
-          <?php /*
-            $image1_6 = get_field('image_r');
-            if( !empty( $image1_6 ) ): */?>
-            <img src="<?php //echo esc_url($image1_6['url']); ?>" alt="<?php //echo esc_attr($image1_6['alt']); ?>" />
-          <?/* php endif;*/ ?>
-        </div>
-
       </div>
 
     </div>
