@@ -5,6 +5,7 @@
 html{
   background-color: #2C2C2C;
   width : 1440px;
+  scroll-behavior: auto;
 }
 
 .wrap_page {
