@@ -3,7 +3,9 @@
 <body>
   <section id="realization_page">
 
-    <?php foreach($realisations as $line): ?>
+    <?php
+    $realisations = get_field('realisations');
+    foreach($realisations as $line): ?>
 
     <div class="zoom wrap_realization">
       <h2 id="realization_title"><?php $titre_rea = get_field('titre_rea'); echo $titre_rea; ?></h2>
