@@ -112,7 +112,7 @@ h3.h3_flex {
 }
 
 
-.cadre_gauche,.cadre_droit{
+.cadre_l,.cadre_r{
   position: absolute;
 }
 
