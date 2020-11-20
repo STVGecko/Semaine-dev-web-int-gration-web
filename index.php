@@ -10,7 +10,7 @@
 				</div>
 			<div class="main_image">
 			<?php
-				$image1 = get_field('photo1');
+				$image1 = get_field('background');
 				if( !empty( $image1 ) ): ?>
 			<img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
 			<?php endif; ?>
