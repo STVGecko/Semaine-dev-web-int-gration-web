@@ -2,10 +2,10 @@
 
 <body>
 
-  <?php $gallery = get_field('gallery'); ?>
+  <?php $realisations = get_field('realisations'); ?>
   <section id="realization_page">
 
-    <?php foreach($gallery as $line): ?>
+    <?php foreach($realisations as $line): ?>
 
     <div class="zoom wrap_realization">
       <h2 id="realization_title"><?php $titre_rea = get_field('titre_rea'); echo $titre_rea; ?></h2>
