@@ -243,7 +243,8 @@ margin : 4.5% -3.6%;
 
 #contact {
   display : inline-block;
-  margin : 18.25% 40%;
+  margin-top: 18.5%;
+  margin-left: 50%;
 }
 
 #contact p {
