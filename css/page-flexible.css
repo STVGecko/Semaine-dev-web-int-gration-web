@@ -96,7 +96,7 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_haut,.carrousel_sf_low{
+.carrousel_sf_haut,.carrousel_sf_bas{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
@@ -106,7 +106,7 @@ h3.h3_flex {
   padding-right: 104px;
 }
 
-.carrousel_sf_low{
+.carrousel_sf_bas{
   padding-left: 104px;
 }
 
@@ -126,21 +126,21 @@ div.texte2{
 }
 
 /* ordre inversé*/
-.frame_assembly_low{
+.frame_assembly_bas{
   order: 1;
   width: 414px;
   margin-right: 99px;
   display: flex;
 }
 
-.image_ap_low{
+.image_ap_bas{
   order: 2;
   margin-top: auto;
   margin-bottom: auto;
 
 }
 
-.carrousel_sf_low{
+.carrousel_sf_bas{
   order: 2;
 }
 
