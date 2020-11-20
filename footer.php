@@ -20,12 +20,12 @@
 				</div>
 	      <div class="block">
 					<p class="big_font">Réseaux sociaux</p>
-					<div class="block">
+
 						<div class="facebook">
 							<p><a href="<?php $facebook=get_field('facebook', get_option( 'page_on_front' )); echo $facebook; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>
 							<p class="fine_font"><a href="<?php $facebook=get_field('facebook', get_option( 'page_on_front' )); echo $facebook; ?>">Facebook</a></p>
 						</div>
-					</div>
+
 				</div>
 	      <div class="block">
 						<p class="fine_font"><a href="">Données personnelles</a></p>
