@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php
-/*$msg = "";*/
+$msg = "";
 if(isset($_POST['Envoyer'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['telephone'])) {
       $headers=array('Content-Type: text/html; charset=UTF-8',
@@ -20,8 +20,8 @@ if(isset($_POST['Envoyer'])) {
          </body>
       </html>
       ';
-      /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail("lucas.reymonet@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      $expediteur = get_option( 'admin_email' );*/
+      wp_mail($expediteur, "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
