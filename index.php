@@ -2,7 +2,7 @@
 
 <div class="wrap_page">
 
-	<section id="header">
+	<section id="begin">
 
 		<div id="home_picture">
 				<div id="title">
