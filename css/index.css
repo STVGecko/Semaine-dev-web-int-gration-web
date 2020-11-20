@@ -44,7 +44,7 @@ a {
 #paragraph1 {
   margin-top : 5.7%;
   margin-right : auto;
-  margin-left : auto;
+  margin-left : 450px;
   width : 590px;
 }
 
@@ -101,7 +101,7 @@ a {
   font-size: 26px;
   color: #FFFFFF;
   margin-top : 7%;
-  margin-right : 78px;
+  margin-left : 80px;
 }
 
 
