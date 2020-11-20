@@ -120,13 +120,12 @@
 
 </div>
 
-
-<script>
-  // Add smooth scrolling to all links
-	$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;}});
+<script type="text/javascript">
+$(".scroll").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".text_savoir-faire").offset().top},
+        'slow');
+});
 </script>
+
 <?php get_footer(); ?>
