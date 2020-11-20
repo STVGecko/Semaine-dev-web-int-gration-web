@@ -118,7 +118,7 @@ a {
   border: 5px white solid;
 }
 #border1 h2:hover{
-  color: #2c2c2c;
+  color: white;
 }
 
 #border2 {
@@ -134,7 +134,7 @@ a {
   border: 5px white solid;
 }
 #border2 h2:hover{
-  color: #2c2c2c;
+  color: white;
 }
 
 
