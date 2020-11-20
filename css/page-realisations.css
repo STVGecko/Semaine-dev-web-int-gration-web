@@ -82,14 +82,14 @@ body section#realization_page{
   }
 
 
-    .pict {
+    .array .pict {
       width: 365px;
       height: 195px;
       overflow: hidden;
       padding: 2px;
     }
 
-    .pict > img {
+    .array .pict > img {
     	width: 365px;
     	height: 195px;
     	transition: all 1s;
@@ -99,16 +99,7 @@ body section#realization_page{
       }
 
 
-    img.1:hover {
-    	transform: scale(1.05);
-    	-ms-transform: scale(1.05);
-    	-webkit-transform: scale(1.05);
-    	-o-transform: scale(1.05);
-    	-moz-transform: scale(1.05);
-
-    }
-
-    img.2:hover {
+    .array .zoom:hover > .pict > img {
       transform: scale(1.05);
       -ms-transform: scale(1.05);
       -webkit-transform: scale(1.05);
@@ -116,43 +107,6 @@ body section#realization_page{
       -moz-transform: scale(1.05);
 
     }
-
-    img.3:hover {
-      transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-
-    }
-
-    img.4:hover {
-      transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-
-    }
-
-
-    img.5:hover {
-      transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-
-    }
-
-  /* ex  .zoom:hover > .pict > img.5 {
-      transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-
-    }*/
 
 
 
