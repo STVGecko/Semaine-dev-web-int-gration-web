@@ -78,8 +78,8 @@ a {
   justify-content: space-around;
   /*border: 2px solid black;*/
   margin-top : 3%;
-  margin-left : 6.7%;
-  margin-right : 6.7%;
+  margin-left : 6.5%;
+  margin-right : 1%;
   height : auto;
 }
 
@@ -98,20 +98,20 @@ a {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 26px;
   color: #FFFFFF;
-  margin-top : 6.5%;
-  margin-right : auto;
+  margin-top : 7%;
+  margin-right : 78px;
 }
 
 
 #border1 {
   display : block;
-  margin-left : auto;
+  margin-left : 630px;
   margin-right : auto;
   border : 5px #C00A23 solid;
-  width : 240px;
-  height : 58px;
+  width : 265px;
+  height : 66px;
   transition: 0.2s;
 }
 
@@ -187,8 +187,8 @@ margin : 4.5% -3.6%;
 .icon{
   display : flex;
   justify-content: center;
-  width: 384px;
-  height: 288px;
+  width: 410px;
+  height: 310px;
   background-color: #C00A23;
   transition: 0.2s;
 }
@@ -224,8 +224,8 @@ margin : 4.5% -3.6%;
 }
 
 #home_picture .absolute img {
-  margin : -390px 689px;
-  width : 3.5%;
+  margin : -340px 726px;
+  width : 6%;
 }
 
 #a-propos_text .absolute img {
