@@ -4,7 +4,7 @@
   <section id="realization_page">
 
     <div class="zoom wrap_realization">
-      <h2 id="realization_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
+      <h2 id="realization_title"><?php $titre_rea = get_field('titre_rea'); echo $titre_rea; ?></h2>
       <!--<p class="para">Description possible du projet<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
       <br>
       <div class="underline_real"></div>
