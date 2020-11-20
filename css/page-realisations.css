@@ -46,9 +46,6 @@ body section#realization_page{
     display : inline-block;
   }
 
-  .array {
-  }
-
   .underline_real {
     border-top: 6px solid #C00A23;
     width: 400px;;
@@ -74,6 +71,10 @@ body section#realization_page{
 
 .array {
     margin: 16px;
+    display : flex;
+    flex-wrap : wrap;
+    row-gap : 10px;
+    column-gap : 10px;
   }
 
   #realization_title {
