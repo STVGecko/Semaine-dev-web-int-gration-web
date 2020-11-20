@@ -115,6 +115,8 @@ div#nav il li.current_page_item a:hover{
 }
 div#nav il li.current_page_item a:after{
   color: #C00A23;
+  background-color:none;
+  background: none;
 }
 
 .text_icon{
