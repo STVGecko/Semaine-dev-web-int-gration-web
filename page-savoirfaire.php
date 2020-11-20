@@ -20,7 +20,7 @@ $images = get_field('premier_carroussel');
  ?>
      <?php foreach ($images as $image): ?>
       <div class="carousel-cell">
-        <?php var_dump($image);
+        <?php var_dump($image['images_1']['url']);
           //$image1 = get_field('premier_carroussel');
         //  if( !empty( $image1 ) ): ?>
           <img class="carousel-cell-image" src="<?php //echo esc_url($image1['url']); ?>" alt="<?php// echo esc_attr($image1['alt']); ?>" />
