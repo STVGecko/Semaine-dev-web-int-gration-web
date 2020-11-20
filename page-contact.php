@@ -20,7 +20,7 @@ if(isset($_POST['Envoyer'])) {
          </body>
       </html>
       ';
-      $expediteur = get_option( 'admin_email' );*/
+      $expediteur = get_option( 'admin_email' );
       wp_mail($expediteur, "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
