@@ -43,11 +43,10 @@ body section#realization_page{
   }
 
   .zoom {
-
+    display : inline-block;
   }
 
   .array {
-    display : flex;
   }
 
   .underline_real {
@@ -73,8 +72,12 @@ body section#realization_page{
 
   }
 
-  div.wrap_realization div{
+.array {
     margin: 16px;
+  }
+
+  #realization_title {
+    margin : 16px;
   }
 
 
