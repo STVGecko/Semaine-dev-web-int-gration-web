@@ -71,7 +71,7 @@ h3.h3_flex {
 }
 
 
-.frame_assembly_haut{
+.frame_assembly_high{
   display: flex;
   flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
@@ -79,7 +79,7 @@ h3.h3_flex {
   position: relative;
 }
 
-.frame_assembly_haut div.text{
+.frame_assembly_high div.text{
   margin: auto;
 }
 
@@ -96,17 +96,17 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_haut,.carrousel_sf_bas{
+.carrousel_sf_high,.carrousel_sf_low{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.carrousel_sf_haut{
+.carrousel_sf_high{
   padding-right: 104px;
 }
 
-.carrousel_sf_bas{
+.carrousel_sf_low{
   padding-left: 104px;
 }
 
@@ -115,7 +115,7 @@ h3.h3_flex {
   position: absolute;
 }
 
-.image_ap_haut{
+.image_ap_high{
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -126,21 +126,21 @@ div.texte2{
 }
 
 /* ordre inversé*/
-.frame_assembly_bas{
+.frame_assembly_low{
   order: 1;
   width: 414px;
   margin-right: 99px;
   display: flex;
 }
 
-.image_ap_bas{
+.image_ap_low{
   order: 2;
   margin-top: auto;
   margin-bottom: auto;
 
 }
 
-.carrousel_sf_bas{
+.carrousel_sf_low{
   order: 2;
 }
 
