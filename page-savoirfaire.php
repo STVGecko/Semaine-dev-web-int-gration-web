@@ -13,8 +13,7 @@
     <div class="oldb">
   <div class="carrousel_sf_h">
       <!-- Flickity HTML init -->
-    <div class="carousel">
-      data-flickity='{ "lazyLoad": true }'>
+    <div class="carousel" data-flickity='{ "lazyLoad": true }'>
 
      <?php //foreach ($image1): ?>
       <div class="carousel-cell">
