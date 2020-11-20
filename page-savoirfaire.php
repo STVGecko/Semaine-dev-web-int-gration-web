@@ -16,14 +16,12 @@
     <div class="carousel" data-flickity='{ "lazyLoad": true }'>
 <?php
 $images = get_field('premier_carroussel');
-
+$legends = get_field('premiere_legende')
  ?>
      <?php foreach ($images as $image): ?>
       <div class="carousel-cell">
-        <?php
-        //  if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php echo($image['images_1']['url']); ?>" alt="" />
-          <p class="legend"><?php// $titre = get_field('premiere_legende'); echo $titre; ?>
+          <img class="carousel-cell-image" src="<?php echo($image['images_1']['url']); ?>"/>
+          <p class="legend"><?php foreach ($legends as $legend): echo($image['legende_1']['url']); ?>
           </p><?php //endif; ?>
       </div>
       <?php endforeach; ?>
