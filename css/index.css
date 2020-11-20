@@ -145,6 +145,7 @@ a {
   color: #C00A23;
   margin-top : 14px;
   white-space: nowrap;
+  z-index: 10;
 }
 
 
