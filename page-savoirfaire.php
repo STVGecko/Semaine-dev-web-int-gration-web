@@ -45,32 +45,19 @@ $legends = get_field('premiere_legende')
   <div class="oldb">
       <div class="carrousel_sf_l"><!--order : 2-->
         <!-- Flickity HTML init -->
-        <div class="carousel"
-        data-flickity='{ "lazyLoad": true }'>
-        <div class="carousel-cell">
-
-        <?php
-        $image1 = get_field('image1');
-        if( !empty( $image1 ) ): ?>
-        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-        <p class="legend">Legend</p><?php endif; ?>
-
-        </div>
-        <div class="carousel-cell">
+        <div class="carousel"  data-flickity='{ "lazyLoad": true }'>
           <?php
-          $image1 = get_field('image1');
-          if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-          <?php endif; ?>
-
-        </div>
-        <div class="carousel-cell">
-          <?php
-          $image1 = get_field('image1');
-          if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-          <?php endif; ?>
-        </div>
+          $images2 = get_field('deuxieme_carroussel');
+          $legends2 = get_field('deuxieme_legende')
+           ?>
+               <?php foreach ($images2 as $image2): ?>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="<?php echo($image2['images_2']['url']); ?>"/>
+                    <p class="legend"><?php foreach ($legends2 as $legend2): echo($legend2['legende_2']); ?>
+                    </p><?php //endif; ?>
+                </div>
+                <?php endforeach; ?>
+              </div>
         </div>
     </div><!-- FIN CAROUSEL -->
 
