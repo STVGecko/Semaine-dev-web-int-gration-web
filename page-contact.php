@@ -46,19 +46,19 @@ if(isset($_POST['Envoyer'])) {
   </div>
   <!-- Partie image -->
   <div id="wrap_contact">
-    <div class="icon_contact" name="Telephone" onclick="location.href='tel:+`<?php $tel = get_field('telephone', get_option('page_on_front')); echo $tel; ?>`'">
+    <div class="icon_contact" name="Telephone" target="_blank" onclick="location.href='tel:+`<?php $tel = get_field('telephone', get_option('page_on_front')); echo $tel; ?>`'">
       <img src="<?php echo get_template_directory_uri();?>/images/phone.svg" alt="Icône téléphone">
       <div class="text_contact" name="Telephone">
         <p><?php $tel = get_field('telephone', get_option('page_on_front')); echo $tel; ?></p><!-- rajouter mailto-->
       </div>
     </div>
-    <div class="icon_contact" name="Mail" onclick="location.href='mailto:`<?php $mail = get_field('mail', get_option('page_on_front'));echo $mail; ?>`';">
+    <div class="icon_contact" name="Mail" target="_blank" onclick="location.href='mailto:`<?php $mail = get_field('mail', get_option('page_on_front'));echo $mail; ?>`';">
       <img src="<?php echo get_template_directory_uri();?>/images/mail.svg" alt="Icône mail">
       <div class="text_contact" name="Mail">
         <p><?php $mail = get_field('mail', get_option('page_on_front')); echo $mail; ?></p>
       </div>
     </div>
-    <div class="icon_contact" name="Position" onclick="location.href='<?php $map = get_field('googlem'); echo $map; ?>';">
+    <div class="icon_contact" name="Position" target="_blank" onclick="location.href='<?php $map = get_field('googlem'); echo $map; ?>';">
       <img src="<?php echo get_template_directory_uri();?>/images/position.svg" alt="Icône position">
       <div class="text_contact" name="Position">
         <p><?php $add = get_field('adresse', get_option('page_on_front')); echo $add; ?><br>
@@ -100,7 +100,8 @@ if(isset($_POST['Envoyer'])) {
           <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..." name="telephone"></input></p>
         </div><!-- FIN CONTACT DROITE-->
         <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici" name="message" value="<?php if(isset($_POST['message'])) { echo $_POST['message']; } ?>"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
-M2A Maçonnerie.</p><a href="https://fr.eni.com/particuliers/cookies" class="lien_en_savoir_plus"> En savoir plus ></a></div>
+M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-dinformation
+" target="_blank" class="lien_en_savoir_plus"> En savoir plus ></a></div>
         <div id="contact_button">
           <input class="contact_button" type="submit" value="Envoyer" name="Envoyer"></input>
         </div>
