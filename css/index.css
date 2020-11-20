@@ -114,8 +114,10 @@ a {
   transition: 0.3s;
 }
 #border1:hover{
-  background-color: C00A23;
+  background-color: #C00A23;
   border: 5px white solid;
+}
+#border1 h2:hover{
   color: white;
 }
 
@@ -128,10 +130,13 @@ a {
   transition: 0.3s;
 }
 #border1:hover{
-  background-color: C00A23;
+  background-color: #C00A23;
   border: 5px white solid;
+}
+#border1 h2:hover{
   color: white;
 }
+
 
 
  h2 {
