@@ -13,21 +13,20 @@
     <div class="oldb">
   <div class="carrousel_sf_h">
       <!-- Flickity HTML init -->
-      <div class="carousel">
+    <div class="carousel">
       data-flickity='{ "lazyLoad": true }'>
+
+      <?php foreach ($image1): ?>
       <div class="carousel-cell">
-
-      <?php
-
-        $image1 = get_field('premier_carroussel');
-        if( !empty( $image1 ) ): ?>
-        <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-        <p class="legend"><?php $titre = get_field('premiere_legende'); echo $titre; ?></p><?php endif; ?>
-
-
+        <?php
+          $image1 = get_field('premier_carroussel');
+          if( !empty( $image1 ) ): ?>
+          <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+          <p class="legend"><?php $titre = get_field('premiere_legende'); echo $titre; ?>
+          </p><?php endif; ?>
       </div>
-
-      </div>
+      <?php endforeach; ?>
+    </div>
   </div><!-- FIN CAROUSEL -->
 
 
