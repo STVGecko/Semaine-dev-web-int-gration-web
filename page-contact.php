@@ -82,12 +82,12 @@ if(isset($_POST['Envoyer'])) {
   </div>-->
   <div id="devis_contact">
     <h2 id="devis_title">Demande de devis</h2>
-    <p style="display: flex; justify-content: center; color: black; font-size: 14px; font-family: 'Mukta Mahee', sans-serif; width: 50%; text-align: center; margin: 0 auto; padding-top: 10px;">
+    <div class="test_devant" style="position:absolute; z-index:100; margin-top:10%; margin-left:auto;margin-right:auto;"><p style="display: flex; justify-content: center; color: black; font-size: 14px; font-family: 'Mukta Mahee', sans-serif; width: 50%; text-align: center; margin: 0 auto; padding-top: 10px;">
       <?php if(isset($msg)) {
            echo $msg;
         }
         ?>
-    </p>
+    </p></div>
     <form class="form" action="<?php the_permalink() ?>" method="POST"><!-- DEBUT FORMULAIRE-->
       <div id="englobe_all">
         <div id="contact_gauche">
