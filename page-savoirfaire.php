@@ -21,7 +21,7 @@ $legends = get_field('premiere_legende')
      <?php foreach ($images as $image): ?>
       <div class="carousel-cell">
           <img class="carousel-cell-image" src="<?php echo($image['images_1']['url']); ?>"/>
-          <p class="legend"><?php foreach ($legends as $legend): echo($image['legende_1']['url']); ?>
+          <p class="legend"><?php foreach ($legends as $legend): echo($legend['legende_1']['url']); ?>
           </p><?php //endif; ?>
       </div>
       <?php endforeach; ?>
