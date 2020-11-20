@@ -110,14 +110,7 @@ div#nav ul li.current_page_item a {
   color: #C00A23;
 }
 
-div#nav il li.current_page_item a:hover{
-  color: #C00A23;
-}
-div#nav il li.current_page_item a:after{
-  color: #C00A23;
-  background-color:none;
-  background: none;
-}
+
 
 .text_icon{
   align-self: center;/*fonctionne si son parent est flex*/
@@ -169,4 +162,18 @@ div#nav ul li a:before {
 }
 div#nav ul li a:hover {
   color: white;
+}
+div#nav il li.current_page_item a:hover{
+  color: #C00A23;
+}
+div#nav il li.current_page_item a:after{
+  color: #C00A23;
+  background-color:none;
+  background: none;
+
+}
+div#nav ul li.current_page_item a,
+div#nav ul li.current_page_item a:after,
+div#nav ul li.current_page_item a:before {
+  transition: none;
 }
