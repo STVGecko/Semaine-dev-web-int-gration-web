@@ -52,7 +52,7 @@
         $image1 = get_field('image1');
         if( !empty( $image1 ) ): ?>
         <img class="carousel-cell-image" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-        <?php endif; ?>
+        <p class="legend">Legend</p><?php endif; ?>
 
         </div>
         <div class="carousel-cell">
