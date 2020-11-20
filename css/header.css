@@ -155,7 +155,7 @@ div#nav ul li a {
   z-index: 1;
 }
 div#nav ul li a:hover {
-  color: #91640F;
+  color: #da0b27;
 }
 div#nav ul li a:after {
   display: block;
@@ -169,7 +169,7 @@ div#nav ul li a:after {
   height: 1px;
   content: '.';
   color: transparent;
-  background: #F1C40F;
+  background: #C00A23;
   visibility: none;
   opacity: 0;
   z-index: -1;
@@ -187,5 +187,5 @@ div#nav ul li a:before {
   transition: all .5s;
 }
 div#nav ul li a:hover {
-  color: #555;
+  color: white;
 }
