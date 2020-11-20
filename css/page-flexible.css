@@ -177,6 +177,7 @@ p.legend{
   height: 400px;
   margin-right: 10px;
   background: #2C2C2C;
+  padding-bottom: 65px;
 }
 
 .carousel-cell-image {
@@ -184,7 +185,7 @@ p.legend{
   max-height: 100%;
   margin: 0 auto;
   max-width: 100%;
-  padding-bottom: 65px;
+
 }
 
 
