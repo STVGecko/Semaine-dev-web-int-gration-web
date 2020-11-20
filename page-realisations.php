@@ -5,6 +5,7 @@
 
     <?php
     $realisations = get_field('realisations');
+    $line = get_field('realistions');
     foreach($realisations as $line): ?>
 
     <div class="zoom wrap_realization">
