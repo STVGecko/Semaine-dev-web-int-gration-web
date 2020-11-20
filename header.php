@@ -32,7 +32,7 @@
 				</div>
 		    <div id="nav">
 					<?php wp_nav_menu(array(
-                            'theme_location' => 'menuprincipal',
+                            'theme_location' => 'main_menu',
                             'container' => false,
                             'depth' => 1,
                             'items_wrap' => '<ul>%3$s</ul>'
