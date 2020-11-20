@@ -22,7 +22,7 @@
         <div class="pict">
           <!-- <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine"> -->
           <?php
-            $image2_rea = get_field('image_r');
+            $image2_rea = get_field('image2_rea');
             if( !empty( $image2_rea ) ): ?>
             <img src="<?php echo esc_url($image2_rea['url']); ?>" alt="<?php echo esc_attr($image2_rea['alt']); ?>" />
           <? php endif; ?>
@@ -31,7 +31,7 @@
         <div class="pict">
           <!-- <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine"> -->
           <?php
-            $image3_rea = get_field('image_r');
+            $image3_rea = get_field('image3_rea');
             if( !empty( $image3_rea ) ): ?>
             <img src="<?php echo esc_url($image3_rea['url']); ?>" alt="<?php echo esc_attr($image3_rea['alt']); ?>" />
           <? php endif; ?>
