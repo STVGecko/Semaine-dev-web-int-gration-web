@@ -13,7 +13,7 @@
         <div class="pict">
 
           <?php foreach($line['images_rea'] as $image): ?>
-          <img src="<?php echo($image["sizes"]["large"]);?>" class=""/>
+          <img src="<?php echo($image["sizes"]["large"]);?>" />
           <?php endforeach;?>
 
         </div>
