@@ -42,6 +42,14 @@ body section#realization_page{
     width : 100%;
   }
 
+  .zoom {
+
+  }
+
+  .array {
+    display : flex;
+  }
+
   .underline_real {
     border-top: 6px solid #C00A23;
     width: 162px;;
