@@ -146,6 +146,6 @@ div#nav ul li a:after{
   background: #c00a23;
   height: 1px;
 }
-nav.stroke ul li a:hover:after {
+div#nav ul li a:hover:after {
   width: 100%;
 }
