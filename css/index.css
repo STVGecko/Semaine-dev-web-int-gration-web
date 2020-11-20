@@ -10,7 +10,7 @@ html{
 
 .wrap_page {
     margin-top: 150px;
-    margin-bottom: 145px;
+    margin-bottom: 240px;
 }
 
 a {
@@ -124,7 +124,7 @@ a {
   display : block;
   /*margin-left : 630px;*/
   border : 5px #C00A23 solid;
-  width : 150px;
+  width : 163px;
   height : 58px;
   transition: 0.2s;
 }
@@ -210,8 +210,8 @@ margin : 70px -65px;
   display : inline-block;
   /*position : absolute;*/
   float : left;
-  margin : -3.3%;
-  margin-left : 10.3%;
+  margin : -40px;
+  margin-left : 168px;
 }
 
 .absolute img {
@@ -219,7 +219,7 @@ margin : 70px -65px;
 }
 
 #a-propos_image .absolute img {
-    margin : -34.5% -3.5%;
+    margin : -524px -40px;
     scroll-behavior: smooth;
 
 }
@@ -236,7 +236,7 @@ margin : 70px -65px;
 #a-propos_text {
   display : inline-block;
   /*margin-left : 10.15%;*/
-  margin : 0% 11.15%;
+  margin : 0% 150px;
   margin-right : auto;
 }
 
@@ -249,11 +249,11 @@ margin : 70px -65px;
 #a-propos_text p {
   display : inline-block;
   text-align: left;
-  line-height: 32px;
+  line-height: 34px;
 }
 
 #paragraph2 {
-  margin : 4.6% 0%;
+  margin : 25px 0%;
   width : 450px;
 }
 
@@ -269,8 +269,8 @@ margin : 70px -65px;
 
 #contact {
   display : inline-block;
-  margin-top: 18.5%;
-  margin-left: 50%;
+  margin-top: 265px;
+  margin-left: 615px;
 }
 
 #contact p {
