@@ -195,10 +195,6 @@ margin : 4.5% -3.6%;
   background-color: #C00A23;
   transition: 0.2s;
 }
-.icon:hover{
-  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
-
-}
 
 #a-propos {
   margin-top : 25.7%;
