@@ -87,6 +87,7 @@ h3.h3_flex {
 
 .para {
   font-family: 'Mukta Mahee', sans-serif;
+  width: 400px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -96,13 +97,13 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_haut,.carrousel_sf_bas{
+.carrousel_sf_h,.carrousel_sf_l{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.carrousel_sf_haut{
+.carrousel_sf_h{
   padding-right: 104px;
 }
 
@@ -111,11 +112,11 @@ h3.h3_flex {
 }
 
 
-.cadre_gauche,.cadre_droit{
+.cadre_l,.cadre_r{
   position: absolute;
 }
 
-.image_ap_haut{
+.image_ap_h{
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -126,21 +127,21 @@ div.texte2{
 }
 
 /* ordre inversé*/
-.frame_assembly_bas{
+.frame_assembly_l{
   order: 1;
   width: 414px;
   margin-right: 99px;
   display: flex;
 }
 
-.image_ap_bas{
+.image_ap_l{
   order: 2;
   margin-top: auto;
   margin-bottom: auto;
 
 }
 
-.carrousel_sf_bas{
+.carrousel_sf_l{
   order: 2;
 }
 
