@@ -31,7 +31,12 @@
 					</div>
 				</div>
 		    <div id="nav">
-		      <?php wp_page_menu('show_home=1',"show_page-savoirfaire.php=2"); ?>
+					<?php wp_nav_menu(array(
+                            'theme_location' => 'menuprincipal',
+                            'container' => false,
+                            'depth' => 1,
+                            'items_wrap' => '<ul>%3$s</ul>'
+                        ));?>
 		    </div>
 			</div>
 		</div>
