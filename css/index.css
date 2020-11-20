@@ -196,7 +196,7 @@ margin : 4.5% -3.6%;
   transition: 0.2s;
 }
 .icon:hover{
-  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
   border: 2px solid white;
 
 }
