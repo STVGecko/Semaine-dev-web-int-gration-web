@@ -97,13 +97,13 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_haut,.carrousel_sf_l{
+.carrousel_sf_h,.carrousel_sf_l{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.carrousel_sf_haut{
+.carrousel_sf_h{
   padding-right: 104px;
 }
 
