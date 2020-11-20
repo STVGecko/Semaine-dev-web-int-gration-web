@@ -113,11 +113,10 @@ a {
   height : 58px;
   transition: 0.2s;
 }
-#border1:hover{
+
+#border1 h2:hover{
   background-color: #C00A23;
   border: 5px white solid;
-}
-#border1 h2:hover{
   color: white;
 }
 
@@ -129,11 +128,9 @@ a {
   height : 58px;
   transition: 0.2s;
 }
-#border2:hover{
+#border2 h2:hover{
   background-color: #C00A23;
   border: 5px white solid;
-}
-#border2 h2:hover{
   color: white;
 }
 
