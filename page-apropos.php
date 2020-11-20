@@ -31,7 +31,7 @@
 </div>
 
 <div class="oldb">
-  <div class="image_ap_bas"> <!--order : 2-->
+  <div class="image_ap_l"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
     if( !empty( $image2_ap ) ): ?>
