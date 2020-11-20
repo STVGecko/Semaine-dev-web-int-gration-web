@@ -30,11 +30,10 @@
   }
 }
 
-/*section#contact_page{
-  margin-top: 150px;
-  margin-bottom: 145px;
+section#contact_page{
+  margin-left:10%;
 
-}*/
+}
 
 h2#contact_title{
   text-align: center;
