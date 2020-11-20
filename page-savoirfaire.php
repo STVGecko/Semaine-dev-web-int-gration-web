@@ -30,17 +30,17 @@
   </div> FIN CAROUSEL -->
 
   <?php
-$carroussel1 = get_field('premier_carroussel');
-if( $carroussel1) {
-    echo '<ul class="slides1">';
-    foreach( $carroussel1 as $carroussel1 ) {
-        $image = $carroussel1['images_1'];
-        echo '<li>';
-            echo wp_get_attachment_image( $image, 'full' );
-            echo wpautop( $row['caption'] );
-        echo '</li>';
+//$carroussel1 = get_field('premier_carroussel');
+//if( $carroussel1) {
+    //echo '<ul class="slides1">';
+    //foreach( $carroussel1 as $carroussel1 ) {
+      //  $image = $carroussel1['images_1'];
+      //  echo '<li>';
+        //    echo wp_get_attachment_image( $image, 'full' );
+        //    echo wpautop( $row['caption'] );
+        //echo '</li>';
     }
-    echo '</ul>';
+    //echo '</ul>';
 }
 
 
