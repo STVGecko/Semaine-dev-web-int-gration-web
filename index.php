@@ -121,11 +121,12 @@
 </div>
 
 <script type="text/javascript">
+jQuery(document).ready(function(){
 $(".scroll").click(function() {
     $('html,body').animate({
         scrollTop: $(".text_savoir-faire").offset().top},
         'slow');
-});
+})});
 </script>
 
 <?php get_footer(); ?>
