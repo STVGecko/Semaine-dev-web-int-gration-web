@@ -11,7 +11,7 @@
 
 
     <div class="bati_ancien">
-  <div class="carrousel_sf_haut">
+  <div class="carrousel_sf_high">
       <!-- Flickity HTML init -->
       <div class="carousel"
       data-flickity='{ "lazyLoad": true }'>
@@ -44,7 +44,7 @@
 
 
 
-    <div class="frame_assembly_haut">
+    <div class="frame_assembly_high">
       <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
       <div class="text">
         <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
