@@ -115,6 +115,7 @@ h3.h3_flex {
 
 .cadre_l,.cadre_r{
   position: absolute;
+  height:available;
 }
 
 .image_ap_h{
