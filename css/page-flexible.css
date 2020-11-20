@@ -64,14 +64,14 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.bati_ancien{
+.oldb{
   display: flex;
   justify-content: center;
   min-height: 617px;
 }
 
 
-.frame_assembly_high{
+.frame_assembly_h{
   display: flex;
   flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
@@ -79,7 +79,7 @@ h3.h3_flex {
   position: relative;
 }
 
-.frame_assembly_high div.text{
+.frame_assembly_h div.text{
   margin: auto;
 }
 
@@ -96,13 +96,13 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_high,.carrousel_sf_bas{
+.carrousel_sf_haut,.carrousel_sf_bas{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.carrousel_sf_high{
+.carrousel_sf_haut{
   padding-right: 104px;
 }
 
@@ -115,7 +115,7 @@ h3.h3_flex {
   position: absolute;
 }
 
-.image_ap_high{
+.image_ap_haut{
   margin-top: auto;
   margin-bottom: auto;
 }

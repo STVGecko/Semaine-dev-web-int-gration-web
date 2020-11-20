@@ -10,8 +10,8 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
-  <div class="bati_ancien">
-    <div class="image_ap_high">
+  <div class="oldb">
+    <div class="image_ap_haut">
         <?php
         $image1_ap = get_field('image1');
         if( !empty( $image1_ap ) ): ?>
@@ -19,7 +19,7 @@
         <?php endif; ?>
       </div>
 
-      <div class="frame_assembly_high">
+      <div class="frame_assembly_h">
         <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
         <div class="text">
           <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
@@ -30,7 +30,7 @@
   </div>
 </div>
 
-<div class="bati_ancien">
+<div class="oldb">
   <div class="image_ap_bas"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
