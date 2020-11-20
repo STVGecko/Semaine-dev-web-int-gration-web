@@ -44,9 +44,9 @@ a {
 }
 
 #paragraph1 {
-  margin-top : 5.7%;
+  margin-top : 78px;
   margin-right : auto;
-  margin-left : 450px;
+  margin-left : auto;
   width : 590px;
 }
 
@@ -109,7 +109,7 @@ a {
 
 #border1 {
   display : block;
-  margin-left : 630px;
+  margin-left : auto;
   margin-right : auto;
   border : 5px #C00A23 solid;
   width : 265px;
