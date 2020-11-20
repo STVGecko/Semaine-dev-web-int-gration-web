@@ -4,9 +4,31 @@
 @media screen and (max-width: 1024px) {
   #contact_page{
     margin-left: auto;
-    margin-right: auto;
-
-
+    margin-right: auto;}
+  #home_picture h1{
+    margin: 25% 55%;
+  }
+  #home_picture .absolute img{
+    margin: -45% 82%;
+  }
+  #text_savoir-faire{
+    margin-left:2%;
+    margin-top: 6.1%;
+  }
+  .picture1 img{
+    8% -6%;
+  }
+  .picture2 img{
+    9% -6%;
+  }
+  .picture3 img{
+    9% -6%;
+  }
+  .picture4 img{
+    8% -6%;
+  }
+  .icon_name{
+    margin-top: 28%;
   }
 }
 @media screen and (max-width: 768px) {
