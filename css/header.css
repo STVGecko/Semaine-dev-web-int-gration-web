@@ -120,6 +120,13 @@ div#nav ul li.current_page_item a {
 /* HOVER DU MENU */
 
 
-.menu ul li a:hover:nth-child(1){
+div#nav ul li a:hover:nth-child(1){
+  background-color:red;
+}
+div#nav ul li a:hover:nth-child(2){
+  background-color:red;
+}
+
+div#nav ul li a:hover:nth-child(3){
   background-color:red;
 }
