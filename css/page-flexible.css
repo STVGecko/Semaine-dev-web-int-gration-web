@@ -10,7 +10,7 @@ h1.h1_flex{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   color: #C00A23;
@@ -36,7 +36,7 @@ h1.h1_flex{
   text-align: center;
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
@@ -49,7 +49,7 @@ h2.h2_flex {
   width: 100%;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 43px;
   color: #FFFFFF;
@@ -58,7 +58,7 @@ h2.h2_flex {
 h3.h3_flex {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 30px;
   line-height: 43px;
   color: #FFFFFF;
@@ -90,7 +90,7 @@ h3.h3_flex {
   font-family: 'Mukta Mahee', sans-serif;
   width: 400px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 157.7%;
   display: flex;
