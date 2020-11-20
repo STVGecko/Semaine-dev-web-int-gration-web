@@ -15,20 +15,19 @@
       <!-- Flickity HTML init -->
     <div class="carousel" data-flickity='{ "lazyLoad": true }'>
 <?php
-$test= get_field('premier_carroussel');
-var_dump($test);
+$images = get_field('premier_carroussel');
 
  ?>
-     <?php //foreach ($image1): ?>
+     <?php foreach ($images as $image): ?>
       <div class="carousel-cell">
-        <?php
+        <?php var_dump($image);
           //$image1 = get_field('premier_carroussel');
         //  if( !empty( $image1 ) ): ?>
           <img class="carousel-cell-image" src="<?php //echo esc_url($image1['url']); ?>" alt="<?php// echo esc_attr($image1['alt']); ?>" />
           <p class="legend"><?php// $titre = get_field('premiere_legende'); echo $titre; ?>
           </p><?php //endif; ?>
       </div>
-      <?php// endforeach; ?>
+      <?php endforeach; ?>
     </div>
   </div> <!--FIN CAROUSEL -->
 
