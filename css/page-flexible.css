@@ -155,11 +155,9 @@ p.legend{
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-
   text-align: center;
   color: white;
   background-image: linear-gradient(180deg, #C00A23 59.78%, rgba(255, 255, 255, 0) 100%);
-  margin-left: 50%;
 }
 
 /* CAROUSEL */
