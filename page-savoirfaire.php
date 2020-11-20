@@ -41,7 +41,15 @@ $images = get_field('premier_carroussel');
       <div class="carrousel_sf_l"><!--order : 2-->
         <!-- Flickity HTML init -->
         <div class="carousel"  data-flickity='{ "lazyLoad": true }'>
-
+          <?php
+          $images = get_field('deuxieme_carroussel');
+           ?>
+               <?php foreach ($images as $image): ?>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="<?php echo($image['images_2']['url']); ?>"/>
+                    <p class="legend"><?php echo($image['legende_2']); ?></p>
+                </div>
+                <?php endforeach; ?>
         </div>
     </div><!-- FIN CAROUSEL -->
 
