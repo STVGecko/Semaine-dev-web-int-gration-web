@@ -115,7 +115,6 @@ a {
 }
 
 #border1:hover{
-  background-color: #C00A23;
   border: 5px white solid;
   color: white;
 }
@@ -129,7 +128,6 @@ a {
   transition: 0.2s;
 }
 #border2:hover{
-  background-color: #C00A23;
   border: 5px white solid;
   color: white;
 }
