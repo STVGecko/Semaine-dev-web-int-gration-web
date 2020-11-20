@@ -5,9 +5,7 @@
 
     <div class="zoom wrap_realization">
       <h2 id="realization_title">Projet construction piscine<? /*php $titre1 = get_field('titre1'); echo $titre1; */?></h2>
-      <div id="underline"></div>
-      <br>
-      <!--<p class="para">Description possible du projet tu connais<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
+      <!--<p class="para">Description possible du projet<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
       <br>
 
       <div class="zoom">
@@ -64,13 +62,12 @@
       </div>-->
 
       <h2 id="realization_title">Mur de soutennement<? /*php $titre2 = get_field('titre1'); echo $titre2; */?></h2>
-      <div id="underline"></div>
+      <!--<p class="para">Description possible du projet<?php /*$texte2 = get_field('text2'); echo $texte2;*/ ?></p>-->
       <br>
-      <p class="para"><? /*php $texte2 = get_field('text1'); echo $texte2;*/ ?></p>
-      <br>
+      <div id="wrap_realization">
 
-        <div class="proj">
-          <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_1.png" alt="Construction d'un mur de soutennement">
+        <div class="zoom">
+          <img class="1" src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_1.png" alt="Construction d'un mur de soutennement">
           <?php /*
             $image2_1 = get_field('image_r');
             if( !empty( $image2_1 ) ): */?>
@@ -78,7 +75,7 @@
           <?/* php endif;*/ ?>
         </div>
 
-        <div class="proj">
+        <div class="zoom">
           <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_2.png" alt="Construction d'un mur de soutennement">
           <?php /*
             $image2_2 = get_field('image_r');
@@ -87,7 +84,7 @@
           <?/* php endif;*/ ?>
         </div>
 
-        <div class="proj">
+        <div class="zoom">
           <img src="<?php echo get_template_directory_uri();?>/images/mur_soutennement/mur_soutennement_3.png" alt="Construction d'un mur de soutennement">
           <?php /*
             $image2_3 = get_field('image_r');
@@ -96,7 +93,6 @@
           <?/* php endif;*/ ?>
         </div>
 
-        
     </div>
 
     </div>
