@@ -62,9 +62,7 @@ display: flex;
   padding: 6px 15px; /*haut/bas droite/gauche*/
   margin-left: 49px;
 }
-.estimation:hover{
-  border: 1px white solid;
-}
+
 .estimation a{
   white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 24px;
