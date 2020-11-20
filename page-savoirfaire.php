@@ -10,7 +10,7 @@
   </div>
 
 
-    <div class="old_buildings">
+    <div class="bati_ancien">
   <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
       <div class="carousel"
@@ -54,7 +54,7 @@
   </div>
 </div>
 
-  <div class="old_buildings">
+  <div class="bati_ancien">
       <div class="carrousel_sf_bas"><!--order : 2-->
         <!-- Flickity HTML init -->
         <div class="carousel"

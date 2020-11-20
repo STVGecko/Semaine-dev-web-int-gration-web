@@ -10,7 +10,7 @@
   <div id="presentation">
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
-  <div class="old_buildings">
+  <div class="bati_ancien">
     <div class="image_ap_haut">
         <?php
         $image1_ap = get_field('image1');
@@ -30,7 +30,7 @@
   </div>
 </div>
 
-<div class="old_buildings">
+<div class="bati_ancien">
   <div class="image_ap_bas"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
