@@ -120,36 +120,6 @@ div#nav ul li.current_page_item a {
 /* HOVER DU MENU */
 
 
-/*div#nav ul li a:hover:nth-child(1){
-  background-color:red;
-}
-div#nav ul li a:hover:nth-child(2){
-  background-color:red;
-}
-
-div#nav ul li a:hover:nth-child(3){
-  background-color:red;
-}
-*/
-/*div#nav ul li a{
-  position: relative;
-}
-div#nav ul li a:after{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #c00a23;
-  height: 1px;
-}
-div#nav ul li a:hover:after {
-  width: 100%;
-}
-*/
 div#nav ul li a {
   position:relative;
   z-index: 1;
@@ -178,6 +148,14 @@ div#nav ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
+}
+
+div#nav ul li a:active{
+  white-space: nowrap; /* interdiction de passer à la ligne */
+  font-size: 18px;
+  text-decoration:none;
+  color : #C00A23;
+
 }
 
 
