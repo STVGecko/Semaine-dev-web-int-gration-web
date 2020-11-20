@@ -11,7 +11,7 @@
 
 
     <div class="bati_ancien">
-  <div class="carrousel_sf_">
+  <div class="carrousel_sf_haut">
       <!-- Flickity HTML init -->
       <div class="carousel"
       data-flickity='{ "lazyLoad": true }'>
@@ -44,8 +44,8 @@
 
 
 
-    <div class="frame_assembly_high">
-      <img class="left_frame" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
+    <div class="frame_assembly_haut">
+      <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
       <div class="text">
         <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
         <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
@@ -87,8 +87,8 @@
     </div><!-- FIN CAROUSEL -->
 
 
-    <div class="frame_assembly_low"><!--order : 1-->
-      <img class="left_frame" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
+    <div class="frame_assembly_bas"><!--order : 1-->
+      <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
       <div class="texte2" >
       <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
       <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>

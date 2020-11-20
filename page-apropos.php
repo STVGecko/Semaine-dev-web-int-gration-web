@@ -11,7 +11,7 @@
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
   <div class="bati_ancien">
-    <div class="image_ap_high">
+    <div class="image_ap_haut">
         <?php
         $image1_ap = get_field('image1');
         if( !empty( $image1_ap ) ): ?>
@@ -19,8 +19,8 @@
         <?php endif; ?>
       </div>
 
-      <div class="frame_assembly_high">
-        <img class="left_frame" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
+      <div class="frame_assembly_haut">
+        <img class="cadre_gauche" src="<?php echo get_template_directory_uri();?>/images/cadre_gauche.svg">
         <div class="text">
           <h2 class="h2_flex"><?php $titre1 = get_field('titre1'); echo $titre1; ?></h2>
           <h3 class="h3_flex"><?php $stitre1 = get_field('stitre1'); echo $stitre1; ?></h3> <!--sous-titre ex : gérant de la maçonnerie-->
@@ -31,15 +31,15 @@
 </div>
 
 <div class="bati_ancien">
-  <div class="image_ap_low"> <!--order : 2-->
+  <div class="image_ap_bas"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
     if( !empty( $image2_ap ) ): ?>
     <img src="<?php echo esc_url($image2_ap['url']); ?>" alt="<?php echo esc_attr($image2_ap['alt']); ?>" />
     <?php endif; ?>
   </div>
-<div class="frame_assembly_low"><!--order : 1-->
-  <img class="right_frame" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
+<div class="frame_assembly_bas"><!--order : 1-->
+  <img class="cadre_droit" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
   <div class="texte2" >
     <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
     <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>

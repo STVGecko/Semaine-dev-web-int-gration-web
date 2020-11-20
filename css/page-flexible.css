@@ -71,7 +71,7 @@ h3.h3_flex {
 }
 
 
-.frame_assembly_high{
+.frame_assembly_haut{
   display: flex;
   flex-wrap: wrap; /*retour à la ligne si plus de place*/
   width: 414px;
@@ -79,7 +79,7 @@ h3.h3_flex {
   position: relative;
 }
 
-.frame_assembly_high div.text{
+.frame_assembly_haut div.text{
   margin: auto;
 }
 
@@ -87,7 +87,6 @@ h3.h3_flex {
 
 .para {
   font-family: 'Mukta Mahee', sans-serif;
-  width: 400px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -97,26 +96,26 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_high,.carrousel_sf_low{
+.carrousel_sf_haut,.carrousel_sf_bas{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.carrousel_sf_high{
+.carrousel_sf_haut{
   padding-right: 104px;
 }
 
-.carrousel_sf_low{
+.carrousel_sf_bas{
   padding-left: 104px;
 }
 
 
-.left_frame,.right_frame{
+.cadre_gauche,.cadre_droit{
   position: absolute;
 }
 
-.image_ap_high{
+.image_ap_haut{
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -127,21 +126,21 @@ div.texte2{
 }
 
 /* ordre inversé*/
-.frame_assembly_low{
+.frame_assembly_bas{
   order: 1;
   width: 414px;
   margin-right: 99px;
   display: flex;
 }
 
-.image_ap_low{
+.image_ap_bas{
   order: 2;
   margin-top: auto;
   margin-bottom: auto;
 
 }
 
-.carrousel_sf_low{
+.carrousel_sf_bas{
   order: 2;
 }
 
