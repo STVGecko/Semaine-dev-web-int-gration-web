@@ -16,7 +16,7 @@
     <div class="carousel">
       data-flickity='{ "lazyLoad": true }'>
 
-      <?php for ($i=1; $i<=$image1; $i++) ?>
+      <?php //foreach ($image1): ?>
       <div class="carousel-cell">
         <?php
           $image1 = get_field('premier_carroussel');
@@ -25,7 +25,7 @@
           <p class="legend"><?php $titre = get_field('premiere_legende'); echo $titre; ?>
           </p><?php endif; ?>
       </div>
-      <?php endfor; ?>
+      <?php// endforeach; ?>
     </div>
   </div><!-- FIN CAROUSEL -->
 
