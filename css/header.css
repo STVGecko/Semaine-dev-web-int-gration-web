@@ -143,7 +143,7 @@ div#nav ul li a:after{
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: #c00a23;
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
