@@ -111,6 +111,12 @@ a {
   border : 5px #C00A23 solid;
   width : 240px;
   height : 58px;
+  transition: 0.2s;
+}
+
+#border1:hover{
+  border: 5px white solid;
+  color: white;
 }
 
 #border2 {
@@ -119,7 +125,14 @@ a {
   border : 5px #C00A23 solid;
   width : 150px;
   height : 58px;
+  transition: 0.2s;
 }
+#border2:hover{
+  border: 5px white solid;
+  color: white;
+}
+
+
 
  h2 {
   text-align: center;
@@ -130,6 +143,7 @@ a {
   color: #C00A23;
   margin-top : 14px;
   white-space: nowrap;
+  z-index: 10;
 }
 
 
@@ -168,12 +182,19 @@ margin : 4.5% -3.6%;
   width : inherit;
 }
 
+
 .icon{
   display : flex;
   justify-content: center;
   width: 384px;
   height: 288px;
   background-color: #C00A23;
+  transition: 0.2s;
+}
+.icon:hover{
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+  border: 2px solid white;
+
 }
 
 #a-propos {

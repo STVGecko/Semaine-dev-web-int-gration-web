@@ -146,6 +146,9 @@ div.texte2{
   order: 2;
 }
 
+p.legend{
+  color: white
+}
 
 /* CAROUSEL */
 /* external css: flickity.css */
