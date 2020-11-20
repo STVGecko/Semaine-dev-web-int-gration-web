@@ -99,7 +99,7 @@ body section#realization_page{
     }
 
 
-  .zoom:hover > .pict > img {
+  .array:hover > .pict > img {
     transform: scale(1.05);
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);

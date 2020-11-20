@@ -10,8 +10,8 @@
       <div class="underline_real"></div>
 
       <div class="array">
-        <div class="zoom pict">
-          <img class="1" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
+        <div class="pict">
+          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
           <?php /*
             $image1_1 = get_field('image_r');
             if( !empty( $image1_1 ) ): */?>
@@ -19,8 +19,8 @@
           <?/* php endif;*/ ?>
         </div>
 
-        <div class="zoom pict">
-          <img class="2" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
+        <div class="pict">
+          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
           <?php /*
             $image1_2 = get_field('image_r');
             if( !empty( $image1_2 ) ): */?>
@@ -28,8 +28,8 @@
           <?/* php endif;*/ ?>
         </div>
 
-        <div class="zoom pict">
-          <img class="3" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
+        <div class="pict">
+          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
           <?php /*
             $image1_3 = get_field('image_r');
             if( !empty( $image1_3 ) ): */?>
@@ -37,8 +37,8 @@
           <?/* php endif;*/ ?>
         </div>
 
-        <div class="zoom pict">
-          <img class="4" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
+        <div class="pict">
+          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
           <?php /*
             $image1_4 = get_field('image_r');
             if( !empty( $image1_4 ) ): */?>
@@ -46,8 +46,8 @@
           <?/* php endif;*/ ?>
         </div>
 
-        <div class="zoom pict">
-          <img class="5" src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
+        <div class="pict">
+          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
           <?php /*
             $image1_5 = get_field('image_r');
             if( !empty( $image1_5 ) ): */?>
@@ -55,7 +55,7 @@
           <?/* php endif;*/ ?>
         </div>
   <!--
-        <div class="zoom pict">
+        <div class="pict">
           <?php /*
             $image1_6 = get_field('image_r');
             if( !empty( $image1_6 ) ): */?>
