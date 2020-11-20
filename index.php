@@ -17,7 +17,7 @@
 			<?php endif; ?>
 
 				<a href="#text_savoir-faire">
-					<div class="absolute"><img class="fleche" src="<?php echo get_template_directory_uri();?>/images/defile.svg" alt="Faire défiler" class="scroll"></div>
+					<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/defile.svg" alt="Faire défiler" class="scroll"></div>
 				</a>
 		</div>
 	</section>
