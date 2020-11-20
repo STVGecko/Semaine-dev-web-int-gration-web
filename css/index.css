@@ -241,8 +241,8 @@ margin : 70px -65px;
 }
 
 #a-propos_text h2 {
-  display : inline-block;
-  margin : 10% 14%;
+  /*display : inline-block;
+  margin : 10% 14%;*/
   letter-spacing: -0.4px;
 }
 
