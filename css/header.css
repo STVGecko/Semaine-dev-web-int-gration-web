@@ -118,3 +118,8 @@ div#nav ul li.current_page_item a {
 
 
 /* HOVER DU MENU */
+
+
+.menu ul li a:hover:nth-child(1){
+  background-color:red;
+}
