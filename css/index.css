@@ -4,7 +4,6 @@
 
 html{
   background-color: #2C2C2C;
-  width : 1440px;
   scroll-behavior: auto;
 }
 
@@ -22,7 +21,7 @@ a {
 }
 #home_picture img{
   z-index: 1;
-  width : 1517px;
+  width : 100%;
 }
 #home_picture h1{
   margin : 13.6% 17.3%;
