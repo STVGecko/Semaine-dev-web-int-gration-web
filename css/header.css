@@ -108,6 +108,10 @@ div#nav ul li a{
 
 div#nav ul li.current_page_item a {
   color: #C00A23;
+  white-space: nowrap; /* interdiction de passer à la ligne */
+  font-size: 18px;
+  text-decoration:none;
+  color : #C00A23;
 }
 
 .text_icon{
@@ -150,13 +154,7 @@ div#nav ul li a:hover:after {
   height: 100%;
 }
 
-div#nav ul li a:active{
-  white-space: nowrap; /* interdiction de passer à la ligne */
-  font-size: 18px;
-  text-decoration:none;
-  color : #C00A23;
 
-}
 
 
 div#nav ul li a,
