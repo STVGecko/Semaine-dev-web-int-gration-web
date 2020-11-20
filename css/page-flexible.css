@@ -87,6 +87,7 @@ h3.h3_flex {
 
 .para {
   font-family: 'Mukta Mahee', sans-serif;
+  width: 400px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -96,7 +97,7 @@ h3.h3_flex {
   color: #FFFFFF;
 }
 
-.carrousel_sf_haut,.carrousel_sf_bas{
+.carrousel_sf_haut,.carrousel_sf_l{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
