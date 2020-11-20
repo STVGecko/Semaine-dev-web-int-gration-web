@@ -149,22 +149,22 @@ a {
 
 
 .picture1 img {
-margin : 2.5% -3.5%;
+margin : 64px -60px;
 }
 .picture2 img {
-margin : 4% -3%;
+margin : 80px -50px;
 }
 .picture3 img {
-margin : 4% -3.75%;
+margin : 78px -60px;
 }
 .picture4 img {
-margin : 3% -5.1%;
+margin : 62px -80px;
 }
 .picture5 img {
-margin : 3.75% -4%;
+margin : 65px -65px;
 }
 .picture6 img {
-margin : 4.5% -3.6%;
+margin : 70px -65px;
 }
 
 #logo_savoir-faire img {
@@ -176,10 +176,10 @@ margin : 4.5% -3.6%;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight:500;
-  font-size: 24px;
+  font-size: 26px;
   color: white;
   position : absolute;
-  margin : 14.6%;
+  margin : 239px;
   width : inherit;
 }
 
