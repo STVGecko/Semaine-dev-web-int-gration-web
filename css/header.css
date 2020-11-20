@@ -177,6 +177,5 @@ div#nav ul li.current_page_item a:after,
 div#nav ul li.current_page_item a:before {
   transition: none;
   color: #C00A23;
-  background-color:none;
   background: none;
 }
