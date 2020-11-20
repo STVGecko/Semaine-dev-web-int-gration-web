@@ -32,7 +32,7 @@
 					</div>
 				</div>
 		    <div id="nav">
-		      <?php wp_page_menu('show_home=1'); ?>
+		      <?php wp_page_menu('show_home=1',"show_page-savoirfaire=2"); ?>
 		    </div>
 			</div>
 		</div>
