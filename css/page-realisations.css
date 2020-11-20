@@ -82,31 +82,30 @@ body section#realization_page{
   }
 
 
-    .array .pict {
-      width: 365px;
-      height: 195px;
-      overflow: hidden;
-      padding: 2px;
+  .pict {
+    width: 365px;
+    height: 195px;
+    overflow: hidden;
+    padding: 2px;
+  }
+
+  .pict > img {
+    width: 365px;
+    height: 195px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     }
 
-    .array .pict > img {
-    	width: 365px;
-    	height: 195px;
-    	transition: all 1s;
-    	-moz-transition: all 1s;
-    	-webkit-transition: all 1s;
-    	-o-transition: all 1s;
-      }
 
-
-    .array .zoom:hover > .pict > img {
-      transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-
-    }
+  .zoom:hover > .pict > img {
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+  }
 
 
 
