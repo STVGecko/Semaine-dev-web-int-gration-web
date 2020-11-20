@@ -78,6 +78,7 @@ h3.h3_flex {
   width: 414px;
   margin-left: 99px;
   position: relative;
+  display:block;
 }
 
 .frame_assembly_h div.text{
