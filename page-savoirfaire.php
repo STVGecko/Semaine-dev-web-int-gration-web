@@ -20,10 +20,9 @@ $images = get_field('premier_carroussel');
  ?>
      <?php foreach ($images as $image): ?>
       <div class="carousel-cell">
-        <?php var_dump($image['images_1']['url']);
-          //$image1 = get_field('premier_carroussel');
+        <?php
         //  if( !empty( $image1 ) ): ?>
-          <img class="carousel-cell-image" src="<?php //echo esc_url($image1['url']); ?>" alt="<?php// echo esc_attr($image1['alt']); ?>" />
+          <img class="carousel-cell-image" src="<?php echo($image['images_1']['url']); ?>" alt="" />
           <p class="legend"><?php// $titre = get_field('premiere_legende'); echo $titre; ?>
           </p><?php //endif; ?>
       </div>
