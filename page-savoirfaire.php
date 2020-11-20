@@ -55,7 +55,7 @@
 </div>
 
   <div class="oldb">
-      <div class="carrousel_sf_bas"><!--order : 2-->
+      <div class="carrousel_sf_l"><!--order : 2-->
         <!-- Flickity HTML init -->
         <div class="carousel"
         data-flickity='{ "lazyLoad": true }'>
