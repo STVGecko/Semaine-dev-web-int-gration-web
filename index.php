@@ -7,14 +7,15 @@
 		<div id="home_picture">
 				<div id="title">
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
-			</div>
-
+				</div>
+			<div class="main_image">
 			<!-- Image de l'accueil -->
 			<?php
 				$image1 = get_field('photo1');
 				if( !empty( $image1 ) ): ?>
 			<img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
 			<?php endif; ?>
+			</div>
 
 				<a href="#text_savoir-faire">
 					<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/defile.svg" alt="Faire défiler" class="scroll"></div>

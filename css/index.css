@@ -20,7 +20,7 @@ a {
 #title{
   z-index: 2;
 }
-#home_picture img{
+#home_picture div.main_image img{
   z-index: 1;
   width : 1517px;
   height : 656px;
