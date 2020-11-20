@@ -197,6 +197,8 @@ margin : 4.5% -3.6%;
 
 #a-propos_image .absolute img {
     margin : -34.5% -3.5%;
+    scroll-behavior: smooth;
+
 }
 
 #home_picture .absolute img {
