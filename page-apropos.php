@@ -11,7 +11,7 @@
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
   <div class="oldb">
-    <div class="image_ap_haut">
+    <div class="image_ap_h">
         <?php
         $image1_ap = get_field('image1');
         if( !empty( $image1_ap ) ): ?>
