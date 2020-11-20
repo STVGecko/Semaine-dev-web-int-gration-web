@@ -111,7 +111,7 @@ a {
   border : 5px #C00A23 solid;
   width : 240px;
   height : 58px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 #border1:hover{
   background-color: #C00A23;
@@ -127,7 +127,7 @@ a {
   border : 5px #C00A23 solid;
   width : 150px;
   height : 58px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 #border2:hover{
   background-color: #C00A23;
@@ -184,6 +184,10 @@ margin : 4.5% -3.6%;
   position : absolute;
   margin : 14.6%;
   width : inherit;
+}
+
+.icon_name:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);  
 }
 
 .icon{
