@@ -8,14 +8,14 @@
       <div class="underline_realization"></div>
       <div class="image_set_realization">
         <div class="image_set">
-          <img src="<?php echo($project['picture_project_realization1']['url']); ?>" alt="image1">
-          <img src="<?php echo($project['picture_project_realization2']['url']); ?>" alt="image2">
-          <img src="<?php echo($project['picture_project_realization3']['url']); ?>" alt="image3">
+          <img src="<?php echo($project['picture_project_realization1']['url']); ?>" alt="">
+          <img src="<?php echo($project['picture_project_realization2']['url']); ?>" alt="">
+          <img src="<?php echo($project['picture_project_realization3']['url']); ?>" alt="">
         </div>
         <div class="image_set">
-          <img src="<?php echo($project['picture_project_realization4']['url']); ?>" alt="image4">
-          <img src="<?php echo($project['picture_project_realization5']['url']); ?>" alt="image5">
-          <img src="<?php echo($project['picture_project_realization6']['url']); ?>" alt="image6">
+          <img src="<?php echo($project['picture_project_realization4']['url']); ?>" alt="">
+          <img src="<?php echo($project['picture_project_realization5']['url']); ?>" alt="">
+          <img src="<?php echo($project['picture_project_realization6']['url']); ?>" alt="">
         </div>
       </div>
     <?php endforeach; ?>
