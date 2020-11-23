@@ -17,12 +17,6 @@
           <img src="<?php echo($projet['picture_project_realization6']['url']); ?>" alt="">
         </div>
       </div>
-
-
-     <div class="carousel-cell">
-         <img class="carousel-cell-image" src="<?php echo($projet['images_1']['url']); ?>"/>
-         <p class="legend"><?php echo($projet['legende_1']); ?></p>
-     </div>
      <?php endforeach; ?>
   </section>
 </body>
