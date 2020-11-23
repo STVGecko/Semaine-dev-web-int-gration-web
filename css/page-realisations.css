@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+h1.title_realization{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #C00A23;
+  padding-bottom:5px;
+  padding-top: 4%;
+}
+
 
 .underline_realization{
   border-top: 6px solid #C00A23;

@@ -3,7 +3,7 @@
 
   <section class="wrap_realization">
     <?php foreach ($projet as $projet): ?>
-      <div class="title"><?php echo($projet['title_project']); ?></div>
+      <h1 class="title_realization"><?php echo($projet['title_project']); ?></h1>
       <div class="underline_realization"></div>
       <div class="image_set_realization">
         <div class="image_set1">
