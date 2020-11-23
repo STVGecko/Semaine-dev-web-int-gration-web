@@ -28,8 +28,8 @@ a {
 }
 #home_picture h1{
   position : absolute;
-  top: 210px;
-  left: 581px;
+  margin-top: 210px;
+  margin-left: 581px;
   text-align: center;
   line-height: 88px;
   font-family: 'Noto Sans',sans-serif;
@@ -40,7 +40,7 @@ a {
 }
 
 #home_picture .absolute img {
-  margin : -254px 50%;
+  margin-top : -254px;
   width : 4%;
 }
 
