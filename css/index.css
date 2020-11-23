@@ -250,9 +250,7 @@ margin : 70px -65px;
 }
 
 #contact {
-  display : inline-block;
   margin-top: 265px;
-  margin-left: 615px;
 }
 
 #contact p {
@@ -274,7 +272,7 @@ margin : 70px -65px;
   margin-right:auto;
   width : 226px;
   height : 39px;
-  margin-top : 12%;
+  margin-top : 32px;
 }
 
 #contact h3 {
