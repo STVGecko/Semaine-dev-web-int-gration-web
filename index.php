@@ -33,7 +33,7 @@
 
 	<div id="logo_savoir-faire">
 			<h3>Bâti ancien</h3>
-			<div id="wrap1">
+			<div class="section_index">
 				<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
 					<div class="icon" name="Restauration"><div class="picture1">
 						<img src="<?php echo get_template_directory_uri();?>/images/logo_restauration.svg" alt="Icône restauration"></div>
@@ -54,7 +54,7 @@
 				</a>
 			</div>
 			<h3>Maçonnerie traditionnelle</h3>
-			<div id="wrap2">
+			<div class="section_index">
 				<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
 					<div class="icon" name="Agrandissement"><div class="picture4">
 						<img src="<?php echo get_template_directory_uri();?>/images/logo_agrandissement.svg" alt="Icône agrandissement"></div>

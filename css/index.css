@@ -75,25 +75,16 @@ a {
   margin-left : auto;
 }
 
-#wrap1{
+.section_index{
   display: flex;
-  justify-content: space-around;
-  /*border: 2px solid black;*/
-  margin-top : 3%;
-  margin-left : 6.5%;
-  margin-right : 1%;
-  height : auto;
+  justify-content: center;
+  margin-top : 42px;
 }
 
-#wrap2{
-  display: flex;
-  justify-content: space-around;
-  /*border: 2px solid black;*/
-  margin-top : 3%;
-  margin-left : 6.5%;
-  margin-right : 1%;
-  height : auto;
+.section_index{
+  margin-left: 32px;
 }
+
 
 #logo_savoir-faire h3 {
   text-align: center;
