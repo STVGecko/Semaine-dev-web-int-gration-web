@@ -23,8 +23,11 @@ h1.title_realization{
 
 div.image_set{
   display: flex;
+  justify-content: center;
 }
 
 div.image_set img{
-  padding-left: 33px;
+  width :383 px;
+  height: 254 px;
+  margin-right: 33px;
 }
