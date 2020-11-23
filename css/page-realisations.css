@@ -33,7 +33,7 @@ div.image_set{
 }
 
 div.image_set img{
-  width :383px;
-  height: 254px;
+  max-width :383px;
+  max-height: 254px;
   margin-right: 33px;
 }
