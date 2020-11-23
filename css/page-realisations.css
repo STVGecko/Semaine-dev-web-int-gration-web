@@ -25,6 +25,6 @@ div.image_set{
   display: flex;
 }
 
-div.image_set{
+div.image_set img{
   padding-left: 33px;
 }
