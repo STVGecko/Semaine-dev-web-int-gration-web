@@ -63,7 +63,7 @@ $images = get_field('premier_carroussel');
       </div>
     </div>
   </div>
-</section>
-  </body>
+  </section>
+</body>
 
 <?php get_footer(); ?>

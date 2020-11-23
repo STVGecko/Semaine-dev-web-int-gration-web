@@ -1,64 +1,30 @@
 <?php get_header(); ?>
 
-<body>
 
-  <?php //$realisations = get_field('realisations'); ?>
-  <section id="realization_page">
-
-    <?php //oreach($realisations as $line): ?>
-
-    <div class="zoom wrap_realization">
-      <h2 id="realization_title"><?php $titre_rea = get_field('titre_rea'); echo $titre_rea; ?></h2>
-      <!--<p class="para">Description possible du projet<?php /*$texte1 = get_field('text1'); echo $texte1;*/ ?></p>-->
-      <br>
-      <div class="underline_real"></div>
-
-      <div class="array">
-
-<!--
-        <div class="pict">
-          <?php //foreach($line['images_rea'] as $image): ?>
-          <img src="<?php //echo($image["sizes"]["large"]);?>" />
-          <?php //endforeach;?>
+  <section class="wrap_realization">
+    <?php foreach ($projet as $projet): ?>
+      <div class="title"><?php echo($projet['title_project']); ?></div>
+      <div class="underline_realization"></div>
+      <div class="image_set_realization">
+        <div class="image_set1">
+          <img src="<?php echo($projet['picture_project_realization1']['url']); ?>" alt="">
+          <img src="<?php echo($projet['picture_project_realization2']['url']); ?>" alt="">
+          <img src="<?php echo($projet['picture_project_realization3']['url']); ?>" alt="">
         </div>
--->
-
-        <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_1.png" alt="Construction d'une piscine">
+        <div class="image_set2">
+          <img src="<?php echo($projet['picture_project_realization4']['url']); ?>" alt="">
+          <img src="<?php echo($projet['picture_project_realization5']['url']); ?>" alt="">
+          <img src="<?php echo($projet['picture_project_realization6']['url']); ?>" alt="">
         </div>
-
-        <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_2.png" alt="Construction d'une piscine">
-        </div>
-
-        <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_3.png" alt="Construction d'une piscine">
-        </div>
-
-        <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_4.png" alt="Construction d'une piscine">
-        </div>
-
-        <div class="pict">
-          <img src="<?php echo get_template_directory_uri();?>/images/piscine/piscine_5.png" alt="Construction d'une piscine">
-        </div>
-
       </div>
 
-    </div>
 
+     <div class="carousel-cell">
+         <img class="carousel-cell-image" src="<?php echo($projet['images_1']['url']); ?>"/>
+         <p class="legend"><?php echo($projet['legende_1']); ?></p>
+     </div>
+     <?php endforeach; ?>
   </section>
-
 </body>
 
-  <?php get_footer(); ?>
-
-    </div>
-
-  <?php //endforeach; ?>
-
-  </section>
-
-</body>
-
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
