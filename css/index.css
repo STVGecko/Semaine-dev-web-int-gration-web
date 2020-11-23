@@ -76,7 +76,7 @@ a {
   margin-top : 42px;
 }
 
-.section_index (:last-child){
+.section_index:not(:last-child){
 margin-bottom: 110px;
 }
 
@@ -92,7 +92,6 @@ margin-bottom: 110px;
   font-weight: 500;
   font-size: 26px;
   color: #FFFFFF;
-  margin-top : 7%;
 }
 
 
