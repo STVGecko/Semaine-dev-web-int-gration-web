@@ -25,6 +25,7 @@ h1.title_realization{
 div.image_set{
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 div.image_set img{
