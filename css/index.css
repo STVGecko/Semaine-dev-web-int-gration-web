@@ -22,10 +22,8 @@ a {
 
 .title{
   position: absolute;
-  z-index: 2;
 }
 #home_picture img{
-  z-index: 1;
   width : 100%;
 }
 #home_picture h1{
