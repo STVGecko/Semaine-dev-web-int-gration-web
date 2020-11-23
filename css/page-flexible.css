@@ -122,8 +122,8 @@ h3.h3_flex {
 }
 
 .image_ap_h img, .image_ap_l img{
-  width: 521px;
-  height: 394px;
+  max-width: 521px;
+  max-height: 394px;
 }
 
 div.texte2{
