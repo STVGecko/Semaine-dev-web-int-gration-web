@@ -85,8 +85,6 @@ h3.h3_flex {
   margin: auto;
 }
 
-
-
 .para {
   font-family: 'Mukta Mahee', sans-serif;
   width: 400px;
@@ -113,7 +111,6 @@ h3.h3_flex {
   padding-left: 104px;
 }
 
-
 .cadre_l,.cadre_r{
   position: absolute;
   margin : -25px -30px;
@@ -122,6 +119,11 @@ h3.h3_flex {
 .image_ap_h{
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.image_ap_h img, .image_ap_l img{
+  width: 521px;
+  height: 394px;
 }
 
 div.texte2{
