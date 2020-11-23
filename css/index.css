@@ -27,14 +27,14 @@ a {
   width : 100%;
 }
 #home_picture h1{
-  margin : 13.6% 17.3%;
+  position : absolute;
   text-align: center;
   line-height: 88px;
   font-family: 'Noto Sans',sans-serif;
   font-size:80px;
   font-weight: 700;
   color:#FFFFFF;
-  position : absolute;
+
 }
 
 #home_picture .absolute img {
