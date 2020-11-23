@@ -20,3 +20,11 @@ h1.title_realization{
   margin-left: 42%;
   padding-bottom: 2%;
 }
+
+div.image_set{
+  display: flex;
+}
+
+div.image_set{
+  padding-left: 33px;
+}
