@@ -10,11 +10,11 @@
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
 				</div>
 
-			<?php
-				$image1 = get_field('background');
-				if( !empty( $image1 ) ): ?>
-			<img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-			<?php endif; ?>
+				<?php
+					$image1 = get_field('background');
+					if( !empty( $image1 ) ): ?>
+				<img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+				<?php endif; ?>
 			</div>
 
 				<a href="#text_savoir-faire">
