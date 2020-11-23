@@ -16,7 +16,12 @@ a {
   text-decoration : none;
 }
 
-#title{
+.main_image{
+  position: relative;
+}
+
+.title{
+  position: absolute;
   z-index: 2;
 }
 #home_picture img{

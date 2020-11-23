@@ -5,10 +5,11 @@
 	<section id="begin">
 
 		<div id="home_picture">
-				<div id="title">
+			<div class="main_image">
+				<div class="title">
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
 				</div>
-			<div class="main_image">
+
 			<?php
 				$image1 = get_field('background');
 				if( !empty( $image1 ) ): ?>
