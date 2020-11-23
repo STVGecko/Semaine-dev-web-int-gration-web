@@ -193,15 +193,12 @@ margin : 70px -65px;
 }
 
 #a-propos {
-  margin-top : 25.7%;
-  width : 100%;
+  margin-top : 360px;
   display : inline-block;
-  position : relative;
 }
 
 #a-propos_image {
   display : inline-block;
-  /*position : absolute;*/
   float : left;
   margin : -40px;
   margin-left : 168px;
