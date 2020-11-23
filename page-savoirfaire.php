@@ -24,7 +24,7 @@ $images = get_field('premier_carroussel');
       </div>
       <?php endforeach; ?>
     </div>
-  </div> <!--FIN CAROUSEL -->
+  </div>
 
 
     <div class="frame_assembly_h">
@@ -51,7 +51,7 @@ $images = get_field('premier_carroussel');
                 </div>
                 <?php endforeach; ?>
         </div>
-    </div><!-- FIN CAROUSEL -->
+    </div>
 
 
     <div class="frame_assembly_l"><!--order : 1-->
