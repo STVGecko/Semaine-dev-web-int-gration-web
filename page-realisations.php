@@ -17,8 +17,8 @@
           <img src="<?php echo($project['picture_project_realization6']['url']); ?>" alt="image6">
         </div>
       </div>
-     <?php endforeach; ?>
   </section>
+    <?php endforeach; ?>
 </body>
 
 <?php get_footer(); ?>
