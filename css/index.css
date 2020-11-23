@@ -76,6 +76,10 @@ a {
   margin-top : 42px;
 }
 
+.section_index (:last-child){
+margin-bottom: 110px;
+}
+
 .section_index a{
   margin-left: 32px;
 }
