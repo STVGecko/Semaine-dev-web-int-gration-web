@@ -223,14 +223,11 @@ margin : 70px -65px;
 
 #a-propos_text {
   display : inline-block;
-  /*margin-left : 10.15%;*/
-  margin : 0% 150px;
+  margin : 0 150px;
   margin-right : auto;
 }
 
 #a-propos_text h2 {
-  /*display : inline-block;
-  margin : 10% 14%;*/
   letter-spacing: -0.4px;
 }
 
@@ -241,7 +238,7 @@ margin : 70px -65px;
 }
 
 #paragraph2 {
-  margin : 25px 0%;
+  margin : 25px 0;
   width : 450px;
 }
 
