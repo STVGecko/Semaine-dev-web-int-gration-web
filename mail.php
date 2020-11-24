@@ -49,9 +49,9 @@ if($_POST) {
     .'From: ' . $mail . "\r\n";
 
     if(mail($recipient, $email_title, $email_body, $headers)) {
-        echo "<p>Thank you for contacting us, $nom. You will get a reply within 24 hours.</p>";
+        echo "<p>Merci de nous avoir contacté, $nom. Nous vous répondrons prochainement.</p>";
     } else {
-        echo '<p>Désolé le mail na pas été envoyé .</p>';
+        echo "<p>Désolé le mail na pas été envoyé .</p>";
     }
 
 } else {
