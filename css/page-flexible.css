@@ -167,10 +167,6 @@ p.legend{
 /* CAROUSEL */
 /* external css: flickity.css */
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 .carousel {
   background: #2C2C2C;
@@ -190,7 +186,8 @@ p.legend{
   display: block;
   max-height: 100%;
   margin: 0 auto;
-  max-width: 100%;
+  width: 445px;
+  height: 335px;
 
 }
 
