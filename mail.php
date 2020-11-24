@@ -51,7 +51,7 @@ if($_POST) {
     if(mail($recipient, $email_title, $email_body, $headers)) {
         echo "<p>Merci de nous avoir contacté, $nom. Nous vous répondrons prochainement.</p>";
     } else {
-        echo "<p>Désolé le mail na pas été envoyé .</p>";
+        echo "<p>Désolé le mail n'a pas été envoyé .</p>";
     }
 
 } else {
