@@ -13,7 +13,7 @@
 				<img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
 				<?php endif; ?>
 			</div>
-				<a href="#text_savoir-faire">
+				<a href="#text_know-how">
 					<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/low_arrow.svg" alt="Faire défiler" class="scroll"></div>
 				</a>
 		</div>
