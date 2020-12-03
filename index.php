@@ -18,7 +18,7 @@
 				</a>
 		</div>
 	</section>
-	<div class="text_savoir-faire">
+	<div class="text_know-how">
 		<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
 			<div class="border1"> <h2> Notre savoir-faire </h2> </div>
 		</a>
