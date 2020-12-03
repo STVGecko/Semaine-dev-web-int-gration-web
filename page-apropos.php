@@ -39,7 +39,7 @@
     <?php endif; ?>
   </div>
 <div class="frame_assembly_l"><!--order : 1-->
-  <div class="texte2" >
+  <div class="texte" >
     <img class="cadre_r" src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg">
     <h2 class="h2_flex"><?php $titre2 = get_field('titre2'); echo $titre2; ?></h2>
     <h3 class="h3_flex"><?php $stitre2 = get_field('stitre2'); echo $stitre2; ?></h3>

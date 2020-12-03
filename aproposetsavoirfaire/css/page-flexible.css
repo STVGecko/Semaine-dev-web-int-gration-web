@@ -126,12 +126,11 @@ h3.h3_flex {
   max-height: 394px;
 }
 
-div.texte2{
+div.text2{
   padding-left: 100px;
   margin: auto;
 }
 
-/* ordre inversé*/
 .frame_assembly_l{
   order: 1;
   width: 414px;
