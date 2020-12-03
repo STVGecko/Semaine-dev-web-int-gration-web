@@ -36,15 +36,16 @@ h2.contact_title{
   line-height: 40px;
   color: #C00A23;
   padding-bottom:5px;
-  padding-top: 1%;
+  padding-top: 104px;
 
 }
 
 .underline_contact{
   border-top: 6px solid #C00A23;
   width: 341px;
-  margin-left: 42%;
-  padding-bottom: 2%;
+  margin-left: 775px;
+  margin-top : 10px;
+  padding-bottom: 30px;
 }
 
 .small_text{
