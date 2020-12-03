@@ -23,10 +23,10 @@ a {
 .title{
   position: absolute;
 }
-.home_picture img{
+#home_picture img{
   width : 100%;
 }
-.home_picture h1{
+#home_picture h1{
   position : absolute;
   margin-top: 210px;
   margin-left: 581px;
@@ -39,24 +39,24 @@ a {
 
 }
 
-.home_picture .absolute img {
+#home_picture .absolute img {
   margin-top : -254px;
   margin-left: 810px;
   width : 4%;
 }
 
-.text_savoir-faire {
+#text_savoir-faire {
   margin-top : 42px;
 }
 
-.paragraph1 {
+#paragraph1 {
   margin-top : 78px;
   margin-right : auto;
   margin-left : auto;
   width : 590px;
 }
 
-.paragraph1 p{
+#paragraph1 p{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@ a {
   line-height : 30px;
 }
 
-.paragraph2 p{
+#paragraph2 p{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -90,12 +90,12 @@ margin-bottom: 110px;
   margin-left: 32px;
 }
 
-.logo_savoir-faire{
+#logo_savoir-faire{
   margin-top: 48px;
 }
 
 
-.logo_savoir-faire h3 {
+#logo_savoir-faire h3 {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -105,7 +105,7 @@ margin-bottom: 110px;
 }
 
 
-.border1 {
+#border1 {
   display : block;
   margin-left : auto;
   margin-right : auto;
@@ -115,12 +115,12 @@ margin-bottom: 110px;
   transition: 0.2s;
 }
 
-.border1:hover{
+#border1:hover{
   border: 5px white solid;
   color: white;
 }
 
-.border2 {
+#border2 {
   display : block;
   /*margin-left : 630px;*/
   border : 5px #C00A23 solid;
@@ -128,7 +128,7 @@ margin-bottom: 110px;
   height : 58px;
   transition: 0.2s;
 }
-.border2:hover{
+#border2:hover{
   border: 5px white solid;
   color: white;
 }
@@ -167,7 +167,7 @@ margin : 70px -65px;
 }
 
 
-.logo_savoir-faire img {
+#logo_savoir-faire img {
   position : absolute;
 }
 
@@ -198,12 +198,12 @@ margin : 70px -65px;
 
 }
 
-.a-propos {
+#a-propos {
   margin-top : 360px;
   display : inline-block;
 }
 
-.a-propos_image {
+#a-propos_image {
   display : inline-block;
   float : left;
   margin : -40px;
@@ -214,38 +214,38 @@ margin : 70px -65px;
   position : absolute;
 }
 
-.a-propos_image .absolute img {
+#a-propos_image .absolute img {
     margin : -524px -40px;
     scroll-behavior: smooth;
 
 }
 
-.a-propos_text .absolute img {
+#a-propos_text .absolute img {
   margin : -1.7% 8.8%;
 }
 
-.a-propos_text {
+#a-propos_text {
   display : inline-block;
   margin : 0 150px;
   margin-right : auto;
 }
 
-.a-propos_text h2 {
+#a-propos_text h2 {
   letter-spacing: -0.4px;
 }
 
-.a-propos_text p {
+#a-propos_text p {
   display : inline-block;
   text-align: left;
   line-height: 34px;
 }
 
-.paragraph2 {
+#paragraph2 {
   margin : 25px 0;
   width : 450px;
 }
 
-.more {
+#more {
   text-align : center;
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
@@ -255,11 +255,11 @@ margin : 70px -65px;
   margin : 0.5% 0%;
 }
 
-.contact {
+#contact {
   margin-top: 265px;
 }
 
-.contact p {
+#contact p {
   text-align : center;
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
@@ -269,7 +269,7 @@ margin : 70px -65px;
   margin-top : 3%;
 }
 
-.estimation {
+#estimation {
   display : flex;
   justify-content : center;
   border-radius : 6px;
@@ -281,7 +281,7 @@ margin : 70px -65px;
   margin-top : 32px;
 }
 
-.contact h3 {
+#contact h3 {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
