@@ -3,13 +3,9 @@
 
 /* On screens that are 992px or less, set the background color to blue */
 
-/*#contact_page{
-  display: flex;
-  justify-content: center;
 
-}*/
 @media screen and (max-width: 1024px) {
-  #contact_page{
+  .contact_page{
     margin-left: auto;
     margin-right: auto;
 
@@ -17,21 +13,21 @@
   }
 }
 @media screen and (max-width: 768px) {
-  body section #contact_page{
+  body section .contact_page{
     float: none;
 
   }
 }
 
 @media screen and (max-width: 480px) {
-  body section #contact_page{
+  body section .contact_page{
     float: none;
 
   }
 }
 
 
-h2#contact_title{
+h2.contact_title{
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -44,14 +40,14 @@ h2#contact_title{
 
 }
 
-#underline_contact{
+.underline_contact{
   border-top: 6px solid #C00A23;
   width: 341px;
   margin-left: 42%;
   padding-bottom: 2%;
 }
 
-#small_text{
+.small_text{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -62,7 +58,7 @@ h2#contact_title{
   padding-top: 1%;
 }
 
-#bold_text{
+.bold_text{
   font-family: 'Mukta Mahee', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -71,7 +67,7 @@ h2#contact_title{
   text-align:center;
   color: white;
 }
-#wrap_contact{
+.wrap_contact{
   display: flex;
   justify-content: space-around;
   margin-top : 5%;
@@ -128,7 +124,7 @@ h2#contact_title{
   margin: 0 auto;
 }
 
-#devis_contact{
+.devis_contact{
   z-index: -1;
   width:710px;
   height:603px;
@@ -136,7 +132,7 @@ h2#contact_title{
   margin: 3% auto;
   box-shadow:  0 0 10px black;
 }
-h2#devis_title{
+h2.devis_title{
   color: white;
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
@@ -215,17 +211,17 @@ input.contact_button:hover{
   color:white;
 }
 
-#contact_gauche{
+.contact_gauche{
   float: left;
   margin-left: 1%;
 }
 
-#contact_droite{
+.contact_droite{
 float: right;
 margin-right: 1%;
 }
 
-#contact_button input{
+.contact_button input{
   text-align: center;
   margin-top: 6%;
   margin-left: 40%;
