@@ -5,10 +5,10 @@
 
 
   <h1 class="h1_flex"><?php $titre = get_field('titre'); echo $titre; ?></h1>
-  <div id="underline_flex_about"></div>
+  <div class="underline_flex_about"></div>
   <br/>
-  <div id="presentation">
-    <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
+  <div class="presentation">
+    <p class="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
   <div class="oldb">
     <div class="picture_ap_h">
