@@ -66,22 +66,9 @@ if(isset($_POST['Envoyer'])) {
       </div>
     </div>
   </div>
-    <!-- Partie texte -->
-  <!--<div class="text_wrap_contact">
-    <div class="text_contact" name="Telephone">
-      <p>06 74 11 63 45</p>
-    </div>
-    <div class="text_contact" name="Mail">
-      <p>pa.flamens@orange.fr</p>
-    </div>
-    <div class="text_contact" name="Position">
-      <p>68 Rue Bobby Sands<br>73000 Chambéry</p>
-      <p>Ouvrir dans Maps ></p>
-    </div>
-  </div>-->
   <div class="devis_contact">
     <h2 class="devis_title">Demande de devis</h2>
-    <p style="display: flex; justify-content: center; color: black; font-size: 14px; font-family: 'Mukta Mahee', sans-serif; width: 50%; text-align: center; margin: 0 auto; padding-top: 10px;">
+    <p class="debug">
       <?php if(isset($msg)) {
            echo $msg;
         }

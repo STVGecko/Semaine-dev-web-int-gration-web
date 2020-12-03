@@ -30,7 +30,18 @@ h1.title_realization{
 .contact_page{
   margin-top: 150px;
   margin-bottom: 145px;
-  margin-left:5%;
+}
+
+div.devis_contact p.debug{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 14px;
+  font-family: 'Mukta Mahee', sans-serif;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 div.image_set{
