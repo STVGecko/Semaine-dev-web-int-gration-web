@@ -21,15 +21,17 @@ h1.h1_flex{
 .underline_flex_know-how{
   border-top: 6px solid #C00A23;
   width: 189px;
-  margin-left: 644px;
-  padding-bottom: 2%;
+  margin-left: 775px;
+  margin-top : 10px;
+  padding-bottom: 30px;
 }
 
 .underline_flex_about{
   border-top: 6px solid #C00A23;
-  width: 162px;;
-  margin-left: 644px;
-  margin-top : 5px;
+  width: 162px;
+  margin-left: 800px;
+  margin-top : 10px;
+  padding-bottom: 30px;
 }
 
 .intro_text {
@@ -41,7 +43,7 @@ h1.h1_flex{
   line-height: 32px;
   color: #FFFFFF;
   margin-top : 5px;
-  margin-bottom: 40px;
+  margin-bottom: 90px;
 }
 
 h2.h2_flex {
