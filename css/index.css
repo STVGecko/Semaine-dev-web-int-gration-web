@@ -4,7 +4,6 @@
 
 html{
   background-color: #2C2C2C;
-  scroll-behavior: auto;
 }
 
 .wrap_page {
@@ -216,7 +215,6 @@ margin : 70px -65px;
 
 .about_index_image .absolute img {
     margin : -524px -40px;
-    scroll-behavior: smooth;
 
 }
 
