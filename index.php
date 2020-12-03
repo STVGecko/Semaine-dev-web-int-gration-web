@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <div class="wrap_page">
-	<section id="begin">
-		<div id="home_picture">
+	<section class="begin">
+		<div class="home_picture">
 			<div class="main_image">
 				<div class="title">
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
@@ -18,15 +18,15 @@
 				</a>
 		</div>
 	</section>
-	<div id="text_savoir-faire">
+	<div class="text_savoir-faire">
 		<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
-			<div id="border1"> <h2> Notre savoir-faire </h2> </div>
+			<div class="border1"> <h2> Notre savoir-faire </h2> </div>
 		</a>
-		<div id="paragraph1">
+		<div class="paragraph1">
 			<p> <?php $sf = get_field('sf_texte'); echo $sf; ?> </p>
 		</div>
 	</div>
-	<div id="logo_savoir-faire">
+	<div class="logo_savoir-faire">
 			<h3>Bâti ancien</h3>
 			<div class="section_index">
 				<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
@@ -70,8 +70,8 @@
 				</a>
 			</div>
 		</div>
-		<div id="a-propos">
-			<div id="a-propos_image">
+		<div class="a-propos">
+			<div class="a-propos_image">
 				<?php
 					$image2 = get_field('photo2');
 					if( !empty( $image2 ) ): ?>
@@ -79,23 +79,23 @@
 				<?php endif; ?>
 				<div class="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg"> </div>
 			</div>
-			<div id="a-propos_text">
+			<div class="a-propos_text">
 					<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>">
-						<div id="border2">	<h2> À propos </h2> </div>
+						<div class="border2">	<h2> À propos </h2> </div>
 					</a>
-						<div id="paragraph2">
+						<div class="paragraph2">
 								<p> <?php $ap = get_field('ap_texte'); echo $ap; ?> </p>
 						</div>
-						<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>"><p id="more">En savoir plus</p></a>
+						<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>"><p class="more">En savoir plus</p></a>
 						<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/arrow.svg" alt="Aller voir"></div>
 			</div>
 		</div>
-		<div id="contact">
+		<div class="contact">
 			<h3> Besoin de nos services ?
 				<br/> Contactez-nous ! </h3>
 
 		<a href="<?php $contact = get_field('lcontact'); echo $contact; ?>">
-			<div id="estimation">	<p> Demande de devis <p> </div>
+			<div class="estimation">	<p> Demande de devis <p> </div>
 		</a>
 
 		</div>
