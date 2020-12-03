@@ -76,11 +76,10 @@ h3.h3_flex {
 
 .frame_assembly_h{
   display: flex;
-  flex-wrap: wrap; /*retour à la ligne si plus de place*/
+  flex-wrap: wrap; /*back to the line if more space*/
   width: 414px;
   margin-left: 99px;
   position: relative;
-  display:block;
 }
 
 .frame_assembly_h div.text{
