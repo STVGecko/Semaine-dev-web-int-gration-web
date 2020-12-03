@@ -26,7 +26,7 @@
 			<p> <?php $sf = get_field('sf_texte'); echo $sf; ?> </p>
 		</div>
 	</div>
-	<div class="logo_savoir-faire">
+	<div class="logo_know-how">
 			<h3>Bâti ancien</h3>
 			<div class="section_index">
 				<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
