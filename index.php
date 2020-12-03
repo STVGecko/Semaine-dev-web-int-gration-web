@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <div class="wrap_page">
-	<section class="begin">
-		<div class="home_picture">
+	<section id="begin">
+		<div id="home_picture">
 			<div class="main_image">
 				<div class="title">
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
@@ -18,7 +18,7 @@
 				</a>
 		</div>
 	</section>
-	<div class="text_savoir-faire">
+	<div id="text_savoir-faire">
 		<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
 			<div id="border1"> <h2> Notre savoir-faire </h2> </div>
 		</a>
