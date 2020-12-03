@@ -198,12 +198,12 @@ margin : 70px -65px;
 
 }
 
-.a-propos {
+.about_index {
   margin-top : 360px;
   display : inline-block;
 }
 
-.a-propos_image {
+.about_index_image {
   display : inline-block;
   float : left;
   margin : -40px;
@@ -214,27 +214,27 @@ margin : 70px -65px;
   position : absolute;
 }
 
-.a-propos_image .absolute img {
+.about_index_image .absolute img {
     margin : -524px -40px;
     scroll-behavior: smooth;
 
 }
 
-.a-propos_text .absolute img {
+.about_index_text .absolute img {
   margin : -1.7% 8.8%;
 }
 
-.a-propos_text {
+.about_index_text {
   display : inline-block;
   margin : 0 150px;
   margin-right : auto;
 }
 
-.a-propos_text h2 {
+.about_index_text h2 {
   letter-spacing: -0.4px;
 }
 
-.a-propos_text p {
+.about_index_text p {
   display : inline-block;
   text-align: left;
   line-height: 34px;

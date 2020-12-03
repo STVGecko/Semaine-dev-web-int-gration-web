@@ -70,8 +70,8 @@
 				</a>
 			</div>
 		</div>
-		<div class="a-propos">
-			<div class="a-propos_image">
+		<div class="about_index">
+			<div class="about_index_image">
 				<?php
 					$image2 = get_field('photo2');
 					if( !empty( $image2 ) ): ?>
@@ -79,7 +79,7 @@
 				<?php endif; ?>
 				<div class="absolute">	<img src="<?php echo get_template_directory_uri();?>/images/cadre_droit.svg"> </div>
 			</div>
-			<div class="a-propos_text">
+			<div class="about_index_text">
 					<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>">
 						<div class="border2">	<h2> À propos </h2> </div>
 					</a>
