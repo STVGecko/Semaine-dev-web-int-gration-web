@@ -22,8 +22,9 @@ h1.title_realization{
 .underline_realization{
   border-top: 6px solid #C00A23;
   width: 189px;
-  margin-left: 42%;
-  padding-bottom: 2%;
+    margin-left: 775px;
+  margin-top : 10px;
+  padding-bottom: 30px;
 }
 
 div.image_set{
