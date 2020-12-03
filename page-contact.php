@@ -34,8 +34,7 @@ if(isset($_POST['Envoyer'])) {
 
 <body>
   <!-- Présentation de la page -->
-<section class="contact_page" style="margin-top: 150px;
-    margin-bottom: 145px;margin-left:5%;">
+<section class="contact_page">
   <h2 class="contact_title">Pour nous contacter</h2>
   <div class="underline_contact"></div>
   <br>

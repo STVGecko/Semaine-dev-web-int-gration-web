@@ -27,6 +27,12 @@ h1.title_realization{
   padding-bottom: 65px;
 }
 
+.contact_page{
+  margin-top: 150px;
+  margin-bottom: 145px;
+  margin-left:5%;
+}
+
 div.image_set{
   display: flex;
   justify-content: center;
