@@ -95,7 +95,7 @@
 				<br/> Contactez-nous ! </h3>
 
 		<a href="<?php $contact = get_field('lcontact'); echo $contact; ?>">
-			<div class="estimation">	<p> Demande de devis <p> </div>
+			<div class="estimation_index">	<p> Demande de devis <p> </div>
 		</a>
 
 		</div>
