@@ -2,7 +2,7 @@
 
 <div class="wrap_page">
 	<section id="begin">
-		<div id="home_picture">
+		<div class="home_picture">
 			<div class="main_image">
 				<div class="title">
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
