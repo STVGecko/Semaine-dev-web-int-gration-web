@@ -4,6 +4,9 @@
 section.wrap_flex{
   margin-top: 150px;
   margin-bottom: 145px;
+  /*test-responsive*/
+  display: flex;
+  flex-direction: column;
 }
 
 h1.h1_flex{
