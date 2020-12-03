@@ -11,7 +11,7 @@
     <p id="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
   <div class="oldb">
-    <div class="image_ap_h">
+    <div class="picture_ap_h">
         <?php
         $image1_ap = get_field('image1');
         if( !empty( $image1_ap ) ): ?>
@@ -31,7 +31,7 @@
 </div>
 
 <div class="oldb">
-  <div class="image_ap_l"> <!--order : 2-->
+  <div class="picture_ap_l"> <!--order : 2-->
     <?php
     $image2_ap = get_field('image2');
     if( !empty( $image2_ap ) ): ?>

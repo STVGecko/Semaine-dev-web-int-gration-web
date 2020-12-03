@@ -116,12 +116,12 @@ h3.h3_flex {
   margin : -25px -30px;
 }
 
-.image_ap_h{
+.picture_ap_h{
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.image_ap_h img, .image_ap_l img{
+.picture_ap_h img, .picture_ap_l img{
   max-width: 521px;
   max-height: 394px;
 }
@@ -139,7 +139,7 @@ div.texte2{
   display: flex;
 }
 
-.image_ap_l{
+.picture_ap_l{
   order: 2;
   margin-top: auto;
   margin-bottom: auto;
