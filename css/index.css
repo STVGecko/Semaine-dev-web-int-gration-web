@@ -22,10 +22,10 @@ a {
 .title{
   position: absolute;
 }
-.main_image img{
+.home_picture img{
   width : 100%;
 }
-.h1{
+.home_picture h1{
   position : absolute;
   margin-top: 210px;
   margin-left: 581px;

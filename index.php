@@ -2,7 +2,7 @@
 
 <div class="wrap_page">
 	<section class="begin">
-		<!--<div class="home_picture">-->
+		<div class="home_picture">
 			<div class="main_image">
 				<div class="title">
 					<h1><?php $titre = get_field('titre'); echo $titre; ?></h1>
@@ -16,7 +16,7 @@
 				<a href="#text_know-how">
 					<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/low_arrow.svg" alt="Faire défiler" class="scroll"></div>
 				</a>
-		<!--</div>-->
+		</div>
 	</section>
 	<div class="text_know-how">
 		<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
