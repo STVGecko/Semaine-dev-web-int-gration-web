@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>M2A-maçonnerie</title>
+<title>M2A - Maçonnerie d'antan et d'aujourd'hui</title>
 <head>
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="cache-control" content="no-cache"/>
