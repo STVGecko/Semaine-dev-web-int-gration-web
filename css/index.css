@@ -19,16 +19,14 @@ a {
   position: relative;
 }
 
-.title{
-  position: absolute;
-}
 .home_picture img{
   width : 100%;
 }
 .home_picture h1{
   position : absolute;
-  margin-top: 210px;
-  margin-left: 581px;
+  margin-top: 10%;
+  margin-left: 34%;
+  margin-right: 50%;
   text-align: center;
   line-height: 88px;
   font-family: 'Noto Sans',sans-serif;
