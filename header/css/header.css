@@ -27,7 +27,7 @@ header div.wrap_header div.hamburger{
   width: 65px;
   height: 50px;
   left: 962px;
-  margin-top: 65px;
+  margin-top: 47px;
   cursor: pointer;
 }
 
@@ -222,7 +222,7 @@ div#nav ul li.current_page_item a:before {
   }
 
 .global_menu{
-  margin-top: 48px;
+  margin-top: 34px;
   margin-right: 463px;
 }
 
