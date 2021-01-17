@@ -231,7 +231,7 @@ div.nav ul li.current_page_item a:before {
 }
 
   div.nav{
-    display: none;
+    display: flex;
   }
 
   div.nav.show ul{
