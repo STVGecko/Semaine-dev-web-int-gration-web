@@ -283,7 +283,7 @@ div.nav ul li.current_page_item a:before {
   }
 
   header div.wrap_header div.hamburger{
-    left: 860px;
+    left: 842px;
   }
 
   div.nav.show ul{
@@ -292,7 +292,7 @@ div.nav ul li.current_page_item a:before {
   }
 }
 
-@media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+@media screen and (max-width: 912px) {  /*(petite tablette portrait)*/
 
   header div.wrap_header div.hamburger{
     left: 553px;
