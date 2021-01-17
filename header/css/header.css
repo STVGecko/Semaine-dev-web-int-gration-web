@@ -278,7 +278,18 @@ div.nav ul li.current_page_item a:before {
 }
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+  header div.wrap_header{
+    padding-left: 35px;
+  }
 
+  header div.wrap_header div.hamburger{
+    left: 860px;
+  }
+
+  div.nav.show ul{
+    margin-left: 58px;
+
+  }
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
