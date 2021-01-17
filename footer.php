@@ -35,12 +35,12 @@
 		</div>
 	</div>
 	<script type= "text/javascript">
-		const hamburger = document.getElementByClassName('hamburger');
-		const navUL = document.getElementByClassName('nav');
+		const hamburger = document.getElementsByClassName('hamburger');
+		const navUL = document.getElementsByClassName('nav');
 
 		console.log(hamburger);
 
-		hamburger.addEventListener('click', () => {
+		hamburger[0].addEventListener('click', () => {
 			navUL.classList.toggle('show');
 		});
 
