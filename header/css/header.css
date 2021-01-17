@@ -234,7 +234,7 @@ div.nav ul li.current_page_item a:before {
     display: none;
   }
 
-  div.nav.show{
+  div.nav.show ul{
     display: flex;
     flex-direction: column;
 
