@@ -282,6 +282,23 @@ div.nav ul li.current_page_item a:before {
     padding-left: 35px;
   }
 
+  .estimation{
+    padding: 16px 30px;
+    margin-top: 16px;
+  }
+
+  .estimation a{
+    font-size: 28px;
+  }
+
+  div.logo{
+    margin-top: 24px;
+  }
+
+  div.logo img{
+    width: 230px;
+  }
+
   header div.wrap_header div.hamburger{
     left: 842px;
   }
