@@ -300,7 +300,8 @@ div.nav ul li.current_page_item a:before {
   }
 
   header div.wrap_header div.hamburger{
-    left: 842px;
+    left: 691px;
+    margin-top : 58px;
   }
 
   div.nav.show ul{
