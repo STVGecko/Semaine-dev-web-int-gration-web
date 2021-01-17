@@ -244,6 +244,9 @@ div#nav ul li.current_page_item a:before {
 
   .estimation{
     padding: 20px 64px;
+  }
+
+  .estimation a{
     font-size: 33px;
   }
 
