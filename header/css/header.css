@@ -113,15 +113,15 @@ display: flex;
   font-weight: 500;
 }
 
-div#nav{
+div.nav{
   padding-top: 5%;
 }
 
-div#nav ul{
+div.nav ul{
   display:flex;
 }
 
-div#nav ul li{
+div.nav ul li{
   padding-right: 7%;
   padding-left: 7%;
   font-family: 'Noto Sans', sans-serif;
@@ -129,18 +129,18 @@ div#nav ul li{
 
 }
 
-div#nav ul li:not(:last-child){
+div.nav ul li:not(:last-child){
   border-right: 1px solid #C00A23;
 }
 
-div#nav ul li a{
+div.nav ul li a{
   white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 18px;
   text-decoration:none;
   color : white;
 }
 
-div#nav ul li.current_page_item a {
+div.nav ul li.current_page_item a {
   color: #C00A23;
 }
 

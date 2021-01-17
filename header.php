@@ -37,7 +37,7 @@
 						<a href="<?php $contact = get_field('lcontact', get_option('page_on_front')); echo $contact; ?>">Demande de devis</a>
 					</div>
 				</div>
-		    <div id="nav">
+		    <div class="nav">
 					<?php wp_nav_menu(array(
                             'theme_location' => 'main_menu',
                             'container' => false,
