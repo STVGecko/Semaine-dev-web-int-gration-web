@@ -213,6 +213,10 @@ div#nav ul li.current_page_item a:before {
 
 @media screen and (max-width: 1370px) { /*hamburger*/
 
+  header div.wrap_header{
+    padding-left: 70px;
+  }
+
   header div.wrap_header div.hamburger{
     display: block;
   }
