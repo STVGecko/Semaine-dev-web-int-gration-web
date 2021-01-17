@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html>
 <title>M2A - Maçonnerie d'antan et d'aujourd'hui</title>
-<script type="text/javascript">
-const hamburger = document.getElementById('hamburger');
-const navUL = document.getElementById('nav');
-
-hamburger.addEventListener('click', () =>){
-	navUL.classList.toggle('show');
-});
-</script>
 <head>
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="script.js"></script>
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
