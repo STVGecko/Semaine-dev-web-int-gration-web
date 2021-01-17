@@ -35,8 +35,8 @@
 		</div>
 	</div>
 	<script type= "text/javascript">
-		const hamburger = document.getElementsByClassName('hamburger');
-		const navUL = document.getElementsByClassName('nav');
+		const hamburger = document.getElementByClassName('hamburger');
+		const navUL = document.getElementByClassName('nav');
 
 		console.log(hamburger);
 
