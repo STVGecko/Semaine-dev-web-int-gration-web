@@ -163,7 +163,7 @@ div.nav ul li a {
 /*div#nav ul li a:hover {
   color: #da0b27;
 }*/
-div#nav ul li a:after {
+div.nav ul li a:after {
   display: block;
   position: absolute;
   top: 0;
@@ -230,11 +230,11 @@ div.nav ul li.current_page_item a:before {
   margin-right: 463px;
 }
 
-  div#nav{
+  div.nav{
     display: none;
   }
 
-  div#nav.show{
+  div.nav.show{
     display: flex;
   }
 
