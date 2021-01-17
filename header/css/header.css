@@ -240,12 +240,21 @@ div.nav ul li.current_page_item a:before {
 
   div.nav.show ul{
     display: flex;
+    justify-content: center;
     flex-direction: column;
 
   }
 
+  div.nav.show ul li{
+    margin-bottom: 10px;
+  }
+
   div.nav.show ul li:not(:last-child){
     border-right: none;
+  }
+
+  div.nav.show ul li a{
+    font-size: 33px;
   }
 
   .phone{
