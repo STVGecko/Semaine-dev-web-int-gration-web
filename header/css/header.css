@@ -293,6 +293,13 @@ div.nav ul li.current_page_item a:before {
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+
+  header div.wrap_header div.hamburger{
+    left: 553px;
+    width: 47px;
+    height: 40px;
+  }
+
   div.logo{
     margin-top: 29px;
   }
@@ -302,7 +309,12 @@ div.nav ul li.current_page_item a:before {
   }
 
   .estimation{
-    
+    padding: 8px 0px;
+    margin-top: 16px;
+  }
+
+  .estimation a{
+  font-size: 20px
   }
 }
 
