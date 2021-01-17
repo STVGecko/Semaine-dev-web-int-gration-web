@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 	<script type= "text/javascript">
-		const hamburger = document.getElementById('hamburger');
-		const navUL = document.getElementById('nav');
+		const hamburger = document.getElementsByClassName('hamburger');
+		const navUL = document.getElementsByClassName('nav');
 
 		hamburger.addEventListener('click', () =>{
 			e.navUL.classList.toggle('show');
