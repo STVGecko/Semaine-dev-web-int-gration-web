@@ -236,6 +236,8 @@ div.nav ul li.current_page_item a:before {
 
   div.nav.show{
     display: flex;
+    flex-direction: column;
+
   }
 
   .phone{
