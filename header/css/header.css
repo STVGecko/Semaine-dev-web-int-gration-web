@@ -95,9 +95,6 @@ display: flex;
   border-radius: 6px;
   padding: 6px 15px; /*haut/bas droite/gauche*/
   margin-left: 49px;
-}
-
-.estimation a{
   white-space: nowrap; /* interdiction de passer à la ligne */
   font-size: 24px;
   text-align: center;
@@ -269,9 +266,6 @@ div.nav ul li.current_page_item a:before {
 
   .estimation{
     padding: 20px 64px;
-  }
-
-  .estimation a{
     font-size: 33px;
   }
 
@@ -285,11 +279,9 @@ div.nav ul li.current_page_item a:before {
   .estimation{
     padding: 16px 30px;
     margin-top: 16px;
-  }
-
-  .estimation a{
     font-size: 28px;
   }
+
 
   div.logo{
     margin-top: 24px;
@@ -334,10 +326,7 @@ div.nav ul li.current_page_item a:before {
   .estimation{
     padding: 8px 0px;
     margin-top: 16px;
-  }
-
-  .estimation a{
-  font-size: 20px
+    font-size: 20px
   }
 
   div.nav.show ul li a{
