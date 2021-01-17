@@ -17,6 +17,11 @@
 			<div class="logo">
 				<a  href="<?php $home = get_field('lhome', get_option('page_on_front')); echo $home; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo.svg" alt="Logo m2a maçonnerie d'antan et d'aujoud'hui"></a>
 			</div>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 			<div class="global_menu">
 				<div class="info_bar">
 			      <div class="phone">
@@ -39,11 +44,6 @@
                             'items_wrap' => '<ul>%3$s</ul>'
                         ));?>
 		    </div>
-					<div class="hamburger">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
 			</div>
 		</div>
   </header>
