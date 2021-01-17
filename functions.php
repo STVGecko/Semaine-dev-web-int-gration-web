@@ -13,4 +13,4 @@ function scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'scripts' );
 add_theme_support('menus');
-register_nav_menu('main_menu', 'Menu principal');;
+register_nav_menu('main_menu', 'Menu principal');
