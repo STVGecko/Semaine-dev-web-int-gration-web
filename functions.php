@@ -10,7 +10,6 @@ function scripts() {
   wp_enqueue_style( 'page-fexible', get_template_directory_uri().'/aproposetsavoirfaire/css/page-flexible.css');
   wp_enqueue_style( 'page-realisations', get_template_directory_uri().'/realisation/css/page-realisations.css');
   wp_enqueue_style( 'page-contact', get_template_directory_uri().'/contact/css/page-contact.css');
-  //wp_enqueue_script(); si besoin de js
 }
 add_action( 'wp_enqueue_scripts', 'scripts' );
 add_theme_support('menus');
