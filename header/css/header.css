@@ -180,18 +180,18 @@ div#nav ul li a:after {
   opacity: 0;
   z-index: -1;
 }
-div#nav ul li a:hover:after {
+div.nav ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
 }
 
-div#nav ul li a,
-div#nav ul li a:after,
-div#nav ul li a:before {
+div.nav ul li a,
+div.nav ul li a:after,
+div.nav ul li a:before {
   transition: all .5s;
 }
-div#nav ul li a:hover {
+div.nav ul li a:hover {
   color: white;
 }
 /*div#nav il li.current_page_item a:hover{
@@ -203,9 +203,9 @@ div#nav il li.current_page_item a:after{
   background: none;
 
 }*/
-div#nav ul li.current_page_item a,
-div#nav ul li.current_page_item a:after,
-div#nav ul li.current_page_item a:before {
+div.nav ul li.current_page_item a,
+div.nav ul li.current_page_item a:after,
+div.nav ul li.current_page_item a:before {
   transition: none;
   color: #C00A23;
   background: none;
