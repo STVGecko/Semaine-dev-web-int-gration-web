@@ -34,6 +34,18 @@
 				</div>
 		</div>
 	</div>
+	<script type= "text/javascript">
+		const hamburger = document.getElementsByClassName('hamburger');
+		const navUL = document.getElementsByClassName('nav');
+
+		console.log(hamburger);
+
+		hamburger.addEventListener('click', () => {
+			navUL.classList.toggle('show');
+		});
+
+		console.log("je suis là !!!!!!!!!!!!!!!");
+	</script>
 </footer>
 <?php wp_footer(); ?>
 </body>
