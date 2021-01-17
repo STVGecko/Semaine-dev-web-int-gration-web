@@ -22,6 +22,37 @@ header div.wrap_header{
   margin-right: 300px;
 }
 
+header div.wrap_header div.hamburger{
+  position: absolute;
+  width: 20px;
+  height: 15px;
+}
+
+header div.wrap_header div.hamburger span:nth-child(1){
+	position: absolute;
+	top:0%;
+	width:100%;
+	height:2px;
+	background-color: white;
+
+}
+
+header div.wrap_header div.hamburger span:nth-child(2){
+	position: absolute;
+	top:40%;
+	width:100%;
+	height:2px;
+	background-color: white;
+
+}
+
+header div.wrap_header div.hamburger span:nth-child(3){
+	position: absolute;
+	bottom:0%;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+
 .logo{
   padding-top: 2%;
   padding-bottom: 2%;
