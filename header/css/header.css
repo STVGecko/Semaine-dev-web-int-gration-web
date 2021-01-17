@@ -228,6 +228,7 @@ div#nav ul li.current_page_item a:before {
 .global_menu{
   margin-left: 402px;
   margin-top: 57px;
+  margin-right: 0px;
 }
 
   div#nav{
