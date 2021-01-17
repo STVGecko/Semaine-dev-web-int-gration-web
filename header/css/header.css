@@ -312,6 +312,7 @@ div.nav ul li.current_page_item a:before {
   div.nav.show ul li a{
     font-size: 28px;
   }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
@@ -341,6 +342,10 @@ div.nav ul li.current_page_item a:before {
 
   div.nav.show ul li a{
     font-size: 20px;
+  }
+  div.nav.show ul{
+    margin-left: 107px;
+
   }
 }
 
