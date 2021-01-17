@@ -41,7 +41,7 @@
 		console.log(hamburger);
 
 		hamburger[0].addEventListener('click', () => {
-			navUL.classList.toggle('show');
+			navUL[0].classList.toggle('show');
 		});
 
 		console.log("je suis là !!!!!!!!!!!!!!!");
