@@ -11,8 +11,10 @@
 		const hamburger = document.getElementsByClassName('hamburger');
 		const navUL = document.getElementsByClassName('nav');
 
-		hamburger.addEventListener('click', () =>{
-			e.navUL.classList.toggle('show');
+		console.log(hamburger);
+
+		hamburger.addEventListener('click', () => {
+			navUL.classList.toggle('show');
 		});
 
 		console.log("je suis là !!!!!!!!!!!!!!!");
