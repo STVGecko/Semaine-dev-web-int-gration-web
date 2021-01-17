@@ -232,11 +232,11 @@ div.nav ul li.current_page_item a:before {
 
   div.nav{
     display: none;
-    margin-top: 8px;
   }
 
   div.nav.show{
     display: flex;
+    margin-top: 8px;
   }
 
   div.nav.show ul{
