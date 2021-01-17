@@ -38,7 +38,7 @@
 		const hamburger = document.getElementsByClassName('hamburger');
 		const navUL = document.getElementsByClassName('nav');
 
-		console.log(hamburger);
+		console.log(hamburger);console.log(navUL);
 
 		hamburger[0].addEventListener('click', () => {
 			navUL[0].classList.toggle('show');
