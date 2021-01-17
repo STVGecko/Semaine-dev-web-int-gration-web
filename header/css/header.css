@@ -240,6 +240,10 @@ div.nav ul li.current_page_item a:before {
 
   }
 
+  div.nav.show ul li:not(:last-child){
+    border-right: none;
+  }
+
   .phone{
     display: none;
   }
