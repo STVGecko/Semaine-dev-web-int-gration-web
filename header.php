@@ -6,16 +6,18 @@
 	<meta http-equiv="cache-control" content="no-cache"/>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 	<script type= "text/javascript">
 		const hamburger = document.getElementById('hamburger');
 		const navUL = document.getElementById('nav');
 
-		hamburger.addEventListener('click', () =>){
+		hamburger.addEventListener('click', () =>{
 			e.navUL.classList.toggle('show');
 		});
 
 		console.log("je suis là !!!!!!!!!!!!!!!");
 	</script>
+
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
