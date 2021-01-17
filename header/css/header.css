@@ -293,6 +293,18 @@ div.nav ul li.current_page_item a:before {
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+  div.logo{
+    margin-top: 29px;
+  }
+
+  div.logo img{
+    width: 184px;
+  }
+
+  .estimation{
+    
+  }
+}
 
 
 @media screen and (max-width: 320px) {  /*(petite téléphone paysage)*/
