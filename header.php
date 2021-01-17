@@ -33,9 +33,11 @@
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
 			        <div class="text_icon"><?php $mail=get_field('mail', get_option('page_on_front')); echo $mail; ?></div>
 			    </div>
-					<div class="estimation">
-						<a href="<?php $contact = get_field('lcontact', get_option('page_on_front')); echo $contact; ?>">Demande de devis</a>
-					</div>
+					<a href="<?php $contact = get_field('lcontact', get_option('page_on_front')); echo $contact; ?>">
+						<div class="estimation">
+							Demande de devis
+						</div>
+					</a>
 				</div>
 		    <div class="nav">
 					<?php wp_nav_menu(array(
