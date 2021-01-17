@@ -1,4 +1,4 @@
-.nav@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee&display=swap');
 
 header{
@@ -160,10 +160,10 @@ div.nav ul li a {
   position:relative;
   z-index: 1;
 }
-/*div.nav ul li a:hover {
+/*div#nav ul li a:hover {
   color: #da0b27;
 }*/
-div.nav ul li a:after {
+div#nav ul li a:after {
   display: block;
   position: absolute;
   top: 0;
@@ -180,38 +180,38 @@ div.nav ul li a:after {
   opacity: 0;
   z-index: -1;
 }
-div.nav ul li a:hover:after {
+div#nav ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
 }
 
-div.nav ul li a,
-div.nav ul li a:after,
-div.nav ul li a:before {
+div#nav ul li a,
+div#nav ul li a:after,
+div#nav ul li a:before {
   transition: all .5s;
 }
-div.nav ul li a:hover {
+div#nav ul li a:hover {
   color: white;
 }
-/*div.nav il li.current_page_item a:hover{
+/*div#nav il li.current_page_item a:hover{
   color: #C00A23;
 }
-div.nav il li.current_page_item a:after{
+div#nav il li.current_page_item a:after{
   color: #C00A23;
   background-color:none;
   background: none;
 
 }*/
-div.nav ul li.current_page_item a,
-div.nav ul li.current_page_item a:after,
-div.nav ul li.current_page_item a:before {
+div#nav ul li.current_page_item a,
+div#nav ul li.current_page_item a:after,
+div#nav ul li.current_page_item a:before {
   transition: none;
   color: #C00A23;
   background: none;
 }
 
-@media screen and (max-wth: 1370px) { /*hamburger*/
+@media screen and (max-width: 1370px) { /*hamburger*/
 
   header div.wrap_header{
     padding-left: 70px;
@@ -230,11 +230,13 @@ div.nav ul li.current_page_item a:before {
   margin-right: 463px;
 }
 
-  div.nav{
+  div#nav{
     display: none;
   }
 
-
+  div#nav.show{
+    display: flex;
+  }
 
   .phone{
     display: none;
