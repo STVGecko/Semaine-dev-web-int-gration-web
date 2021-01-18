@@ -76,6 +76,7 @@ div.image_set img{
 
   h1.title_realization {
   	font-size: 33px;
+    padding-top: 0px;
   }
 
   div.image_set img {
@@ -90,9 +91,15 @@ div.image_set img{
   	margin-top: 40px;
   }
 
+
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+    section.wrap_realization {
+    	margin-top: 80px;
+    	margin-bottom: 240px;
+    }
+
     div.image_set img {
     	width: 235px;
     	height: 224px;
