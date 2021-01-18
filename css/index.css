@@ -353,6 +353,11 @@ margin : 70px -65px;
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+
+    .wrap_page {
+      margin-bottom: 100px;
+    }
+
     .icon{
       width: 213px;
       height: 213px;
@@ -420,6 +425,11 @@ margin : 70px -65px;
     .about_index_image img {
     	width: 213px;
     	margin-left: -90px;
+    }
+
+
+    .contact {
+    	margin-top: -125px;
     }
 
 
