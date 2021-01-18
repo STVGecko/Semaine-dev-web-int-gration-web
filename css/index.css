@@ -308,12 +308,12 @@ margin : 70px -65px;
   }
 
   .section_index{
-    display: 0;
+    display: block;
     justify-content: none;
   }
 
   .logo_know-how{
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
