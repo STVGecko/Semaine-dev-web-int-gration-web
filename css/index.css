@@ -217,10 +217,6 @@ margin : 70px -65px;
   margin-left : 168px;
 }
 
-.absolute img {
-  position : absolute;
-}
-
 .about_index_image .absolute img {
     margin : -524px -40px;
 
@@ -243,6 +239,15 @@ margin : 70px -65px;
   display : inline-block;
   text-align: left;
   line-height: 34px;
+}
+
+.arrow_about{
+  margin-left: 10px;
+  margin-bottom: -2px;
+}
+
+.absolute img {
+  position : absolute;
 }
 
 .paragraph2 {
@@ -296,7 +301,19 @@ margin : 70px -65px;
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1398px) {
+  .about_index {
+    margin-left: 28%;
+  }
+
+  .about_index_text {
+    margin : 208px 150px;
+  }
+
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+  .about_index {
+    margin-left: 0%;
+  }
 
   .about_index_text {
     margin : 208px 150px;
