@@ -298,7 +298,15 @@ margin : 70px -65px;
 }
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+  .home_picture h1{
+    position : absolute;
+    margin-left: 39%;
+    margin-top: 18%;
+    text-align: center;
+    line-height: 53px;
+    font-size:34px;
 
+  }
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
