@@ -97,7 +97,6 @@ div.image_set img{
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
     section.wrap_realization {
-    	margin-top: 40px;
     	margin-bottom: 240px;
     }
 
@@ -113,7 +112,7 @@ div.image_set img{
 
     .underline_realization {
     	border-top: 4px solid #C00A23;
-    	width: 235px;
+    	width: 215px;
     	margin-left: 28%;
     	margin-top: 0px;
     }
