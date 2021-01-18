@@ -311,7 +311,7 @@ div.nav ul li.current_page_item a:before {
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
 
   header div.wrap_header div.hamburger{
-    left: 590px;
+    left: 456px;
     width: 47px;
     height: 33px;
     margin-top: 54px;
