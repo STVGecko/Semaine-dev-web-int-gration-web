@@ -297,6 +297,11 @@ margin : 70px -65px;
 }
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+
+  .about_index_text {
+    margin : 208px 150px;
+  }
+
   .home_picture h1{
     position : absolute;
     margin-left: 39%;
@@ -320,10 +325,6 @@ margin : 70px -65px;
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
-
-  .about_index_text {
-    margin : 208px 150px;
-  }
 
   .icon{
     width: 290px;
