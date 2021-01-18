@@ -339,6 +339,10 @@ margin : 70px -65px;
     align-items: center;
   }
 
+  .contact {
+    margin-top: 0px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
@@ -358,10 +362,6 @@ margin : 70px -65px;
 
   .paragraph1 {
     width : 300px;
-  }
-
-  .contact {
-  	margin-top: 0;
   }
 
 }
