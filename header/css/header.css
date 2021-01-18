@@ -212,6 +212,7 @@ div.nav ul li.current_page_item a:before {
 
   header div.wrap_header{
     padding-left: 70px;
+    margin-top: 0px;
   }
 
   header div.wrap_header div.hamburger{
