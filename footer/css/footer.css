@@ -73,3 +73,48 @@ p.big_font{
   margin-left: 8px;
   align-self: center;
 }
+
+
+@media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+  footer div.wrap_footer {
+  	flex-direction: column;
+  	align-items: center;
+  }
+
+  footer div.wrap_footer div.all_text_footer {
+	  flex-direction: column;
+	  align-items: center;
+  }
+
+  .logo {
+  	width: 130px;
+  }
+
+  footer div.wrap_footer div.all_text_footer {
+  	margin-top: 23px;
+  }
+
+  .text_logo_footer {
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  display: flex;
+}
+
+  p.big_font:nth-child(1) {
+    margin-left: 5px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+
+
+
+}
+
+  @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+
+
+
+
+}
