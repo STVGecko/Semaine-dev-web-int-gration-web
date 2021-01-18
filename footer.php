@@ -1,4 +1,4 @@
-<footer>
+<!--<footer>
 	<div class="wrap_footer">
       <div class="logo_footer">
           <a href="<?php $home = get_field('lhome', get_option('page_on_front')); echo $home; ?>"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo_sanstxt.svg" alt="M2A Maçonnerie" /></a>
@@ -33,7 +33,7 @@
 	          <p class="fine_font"><?php $copi=get_field('copyright', get_option( 'page_on_front' )); echo $copi; ?></p>
 				</div>
 		</div>
-	</div>
+	</div>-->
 	<script type= "text/javascript">
 		const hamburger = document.getElementsByClassName('hamburger');
 		const navUL = document.getElementsByClassName('nav');
