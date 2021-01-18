@@ -67,10 +67,18 @@ div.image_set img{
   div.image_set {
 	flex-direction: column;
 	align-items: center;
-}
+  }
+
+  h1.title_realization {
+  	font-size: 33px;
+  }
 
   div.image_set img {
   	margin-bottom: 33px;
+  }
+
+  .underline_realization {
+  	margin-left: 37%;
   }
 
 
@@ -80,6 +88,18 @@ div.image_set img{
     div.image_set img {
     	width: 235px;
     	height: 224px;
+    }
+
+    h1.title_realization {
+	    font-size: 21px;
+	    white-space: nowrap;
+    }
+
+    .underline_realization {
+    	border-top: 4px solid #C00A23;
+    	width: 240px;
+    	margin-left: 28%;
+    	margin-top: 0px;
     }
 
 }
