@@ -7,7 +7,6 @@ html{
 }
 
 .wrap_page {
-    margin-top: 173px;
     margin-bottom: 240px;
 }
 
@@ -299,20 +298,13 @@ margin : 70px -65px;
 }
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
-  .wrap_page {
-      margin-top: 112px;
-  }
 
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
-  .wrap_page {
-      margin-top: 100px;
-  }
+
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
-    .wrap_page {
-        margin-top: 60px;
-    }
+
 }
