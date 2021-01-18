@@ -233,7 +233,6 @@ margin : 70px -65px;
 .about_index_text {
   display : inline-block;
   margin : 0 150px;
-  margin-right : auto;
 }
 
 .about_index_text h2 {
@@ -321,6 +320,11 @@ margin : 70px -65px;
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+
+  .about_index_text {
+    margin : 208px 150px;
+  }
+
   .icon{
     width: 290px;
   }
