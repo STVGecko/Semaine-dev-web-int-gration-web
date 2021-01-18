@@ -1,4 +1,4 @@
-<footer>
+<!--<footer>
 	<div class="wrap_footer">
       <div class="logo_footer">
           <a href="<?php $home = get_field('lhome', get_option('page_on_front')); echo $home; ?>"><img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo_sanstxt.svg" alt="M2A Maçonnerie" /></a>
