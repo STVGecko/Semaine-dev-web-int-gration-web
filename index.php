@@ -87,7 +87,7 @@
 								<p> <?php $ap = get_field('ap_texte'); echo $ap; ?> </p>
 						</div>
 						<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>"><p class="more">En savoir plus</p></a>
-						<div class="absolute"><img src="<?php echo get_template_directory_uri();?>/images/arrow.svg" alt="Aller voir"></div>
+						<div><img src="<?php echo get_template_directory_uri();?>/images/arrow.svg" alt="Aller voir"></div>
 			</div>
 		</div>
 		<div class="contact">
