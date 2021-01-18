@@ -298,9 +298,8 @@ div.nav ul li.current_page_item a:before {
     margin-top : 58px;
   }
 
-  div.nav.show ul{
-    margin-left: 90px;
-
+  div.nav.show ul {
+  	margin-left: 242px;
   }
 
   div.nav.show ul li a{
@@ -334,8 +333,9 @@ div.nav ul li.current_page_item a:before {
   div.nav.show ul li a{
     font-size: 20px;
   }
-  div.nav.show ul {
-  	margin-left: 242px;
+  div.nav.show ul{
+    margin-left: 107px;
+
   }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
