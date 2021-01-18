@@ -396,11 +396,11 @@ margin : 70px -65px;
     }
 
     .about_index {
-      margin-top: 250px;
+    	margin-top: 138px;
     }
 
     .about_index_text {
-  	  margin: 208px 67px;
+    	margin: 38px 67px;
     }
 
     .about_index_text p {
@@ -408,6 +408,20 @@ margin : 70px -65px;
 	    width: 177px;
       }
 
+    .arrow_about {
+    	margin-left: -40px;
+    	margin-bottom: -2px;
+    }
+
+    .about_index_image .absolute img {
+    	margin: -524px -144px;
+    	width: 100%;
+    }
+
+    .about_index_image {
+	    margin: 0px;
+	    margin-left: 168px;
+    }
 
 
 }
