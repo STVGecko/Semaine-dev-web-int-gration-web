@@ -101,6 +101,10 @@ p.big_font{
 	  display: flex;
 }
 
+  .text_logo_footer {
+  	white-space: nowrap;
+  }
+
   p.big_font {
     margin-left: 5px;
   }
