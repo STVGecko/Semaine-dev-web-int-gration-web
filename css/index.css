@@ -396,11 +396,11 @@ margin : 70px -65px;
     }
 
     .about_index {
-    	margin-top: 138px;
+    	margin-top: 227px;
     }
 
     .about_index_text {
-    	margin: 38px 67px;
+    	margin: 82px 67px;
     }
 
     .about_index_text p {
@@ -417,7 +417,10 @@ margin : 70px -65px;
     	margin: -524px -144px;
     	width: 100%;
     }
-
+    .about_index_image img {
+    	width: 213px;
+    	margin-left: -90px;
+    }
 
 
 }
