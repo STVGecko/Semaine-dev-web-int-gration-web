@@ -76,6 +76,11 @@ p.big_font{
 
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+
+  footer{
+    background-image: none;
+  }
+
   footer div.wrap_footer {
   	flex-direction: column;
   	align-items: center;
