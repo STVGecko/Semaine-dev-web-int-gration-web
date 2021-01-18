@@ -222,10 +222,6 @@ margin : 70px -65px;
 
 }
 
-.about_index_text .absolute img {
-  margin : -1.7% 8.8%;
-}
-
 .about_index_text {
   display : inline-block;
   margin : 0 150px;
@@ -397,5 +393,9 @@ margin : 70px -65px;
     .picture6 img {
     margin : 42px -39px;
     width: 70px;
+    }
+
+    .about_index {
+      margin-top: 250px;
     }
 }
