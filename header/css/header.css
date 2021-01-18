@@ -294,7 +294,6 @@ div.nav ul li.current_page_item a:before {
   }
 
   header div.wrap_header div.hamburger{
-    display: none;
     left: 691px;
     margin-top : 58px;
   }
