@@ -100,7 +100,7 @@ p.big_font{
 	  display: flex;
 }
 
-  p.big_font:nth-child(1) {
+  p.big_font {
     margin-left: 5px;
   }
 
