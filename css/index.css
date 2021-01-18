@@ -327,6 +327,11 @@ margin : 70px -65px;
   .icon_name{
     font-size: 23px;
   }
+
+  .paragraph1 {
+    width : 300px;
+  }
+
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
@@ -337,6 +342,10 @@ margin : 70px -65px;
     .icon_name{
       font-size: 15px;
       margin: 154px;
+    }
+
+    .paragraph1 p{
+      font-size: 15px;
     }
 
   .logo_know-how h3 {
