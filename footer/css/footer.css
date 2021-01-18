@@ -83,6 +83,7 @@ p.big_font0{
 
   footer{
     background-image: none;
+    background-position: none;
   }
 
   footer div.wrap_footer {
