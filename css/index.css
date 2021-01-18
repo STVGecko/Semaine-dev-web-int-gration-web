@@ -311,6 +311,11 @@ margin : 70px -65px;
   }
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+
+  .wrap_page {
+	  margin-bottom: 90px;
+  }
+
   .about_index {
     margin-left: 0%;
   }
