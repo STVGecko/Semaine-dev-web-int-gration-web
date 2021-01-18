@@ -327,7 +327,8 @@ div.nav ul li.current_page_item a:before {
   .estimation{
     padding: 8px 0px;
     margin-top: 16px;
-    font-size: 20px
+    font-size: 20px;
+    margin-left: 101px;
   }
 
   div.nav.show ul li a{
