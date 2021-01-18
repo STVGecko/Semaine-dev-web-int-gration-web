@@ -374,9 +374,3 @@ div.nav ul li.current_page_item a:before {
       font-size: 11px;
     }
 }
-
-
-@media screen and (max-width: 320px) {  /*(petite téléphone paysage)*/
-
-
-}
