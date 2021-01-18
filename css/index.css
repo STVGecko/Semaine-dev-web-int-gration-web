@@ -308,7 +308,7 @@ margin : 70px -65px;
   }
 
   .section_index{
-    display: none;
+    /*display: flex;*/
     justify-content: none;
   }
 
