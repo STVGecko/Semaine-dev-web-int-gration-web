@@ -30,13 +30,13 @@
 			<h3>Bâti ancien</h3>
 			<div class="section_index">
 				<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
-					<div class="icon" name="Restauration"><div class="picture1">
+					<div class="icon" name="Restauration"><div class="picture">
 						<img src="<?php echo get_template_directory_uri();?>/images/logo_restauration.svg" alt="Icône restauration"></div>
 						<div class="icon_name">Restauration</div>
 					</div>
 				</a>
 				<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
-					<div class="icon" name="Maçonnerie"><div class="picture2">
+					<div class="icon" name="Maçonnerie"><div class="picture">
 						<img src="<?php echo get_template_directory_uri();?>/images/logo_maconnerie.svg" alt="Icône terrassement"></div>
 						<div class="icon_name">Maçonnerie</div>
 					</div>
