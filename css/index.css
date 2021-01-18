@@ -343,6 +343,12 @@ margin : 70px -65px;
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
 
+  .home_picture h1 {
+  	margin-left: 36%;
+  	line-height: 43px;
+  	font-size: 30px;
+  }
+
   .icon{
     width: 290px;
   }
