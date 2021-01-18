@@ -81,7 +81,7 @@
 			</div>
 			<div class="about_index_text">
 					<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>">
-						<div class="border2">	<h2> À propos </h2> </div>
+						<div class="border2">	<h2 class="about"> À propos </h2> </div>
 					</a>
 						<div class="paragraph2">
 								<p> <?php $ap = get_field('ap_texte'); echo $ap; ?> </p>

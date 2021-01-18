@@ -143,6 +143,17 @@ margin-bottom: 110px;
   white-space: nowrap;
 }
 
+h2.about {
+ text-align: center;
+ font-family: 'Noto Sans', sans-serif;
+ font-style: normal;
+ font-weight: 100;
+ font-size: 24px;
+ color: #C00A23;
+ margin-top : 14px;
+ white-space: nowrap;
+}
+
 
 .picture1 img {
 margin : 64px -60px;
