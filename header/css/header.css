@@ -336,6 +336,30 @@ div.nav ul li.current_page_item a:before {
     margin-left: 107px;
 
   }
+
+  @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+    header div.wrap_header{
+      padding-left: 15px;
+    }
+
+    div.logo img{
+      width: 124px;
+    }
+
+    .estimation{
+      margin-top: 4px;
+      font-size: 20px;
+      width: 121px;
+      margin-left: 22px;
+
+    }
+
+    header div.wrap_header div.hamburger{
+      left: 300px;
+      margin-top : 36px;
+      width: 34px;
+      height: 31px;
+    }
 }
 
 
