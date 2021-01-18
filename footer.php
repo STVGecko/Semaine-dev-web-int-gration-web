@@ -10,7 +10,7 @@
 	          <p class="big_font">d’aujourd’hui</p>
 	      </div>
 				<div class="block">
-					<p class="big_font">Coordonnées</p>
+					<p class="big_font0">Coordonnées</p>
 						<p class="fine_font"><?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?></p>
 						<p class="fine font"><?php $mail=get_field('mail', get_option( 'page_on_front' )); echo $mail; ?></p>
 				</div>
@@ -19,7 +19,7 @@
 						<p class="fine_font"><?php $ville=get_field('ville', get_option( 'page_on_front' )); echo $ville; ?></p>
 				</div>
 	      <div class="block">
-					<p class="big_font">Réseaux sociaux</p>
+					<p class="big_font0">Réseaux sociaux</p>
 
 						<div class="facebook">
 							<p><a target="_blank" href="<?php $facebook=get_field('facebook', get_option( 'page_on_front' )); echo $facebook; ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo_facebook_footer.svg" alt="Logo Facebook" /></a></p>

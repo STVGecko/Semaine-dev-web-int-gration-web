@@ -56,6 +56,10 @@ p.big_font{
    font-weight: 700;
 }
 
+p.big_font0{
+   font-weight: 700;
+}
+
 .block p.fine_font{
    font-weight: 400;
 }
