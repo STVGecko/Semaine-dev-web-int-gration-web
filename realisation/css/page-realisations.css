@@ -55,3 +55,31 @@ div.image_set img{
   height: 254px;
   margin-right: 33px;
 }
+
+@media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+  div.image_set img {
+  	width: 282px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+  div.image_set {
+	flex-direction: column;
+	align-items: center;
+}
+
+  div.image_set img {
+  	margin-bottom: 33px;
+  }
+
+
+}
+
+  @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+    div.image_set img {
+    	width: 235px;
+    	height: 224px;
+    }
+
+}
