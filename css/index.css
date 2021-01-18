@@ -300,7 +300,7 @@ margin : 70px -65px;
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
   .wrap_page {
-      margin-top: 133px;
+      margin-top: 112px;
   }
 
 }
