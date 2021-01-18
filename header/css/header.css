@@ -360,6 +360,19 @@ div.nav ul li.current_page_item a:before {
       width: 34px;
       height: 31px;
     }
+
+    div.nav.show ul{
+      margin-left: 22px;
+
+    }
+
+    div.nav.show ul li{
+      margin-bottom: 12px;
+    }
+
+    div.nav.show ul li a{
+      font-size: 11px;
+    }
 }
 
 
