@@ -305,8 +305,19 @@ margin : 70px -65px;
     text-align: center;
     line-height: 53px;
     font-size:34px;
-
   }
+
+  .section_index{
+    display: none;
+    justify-content: none;
+  }
+
+  .logo_know-how{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
