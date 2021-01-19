@@ -110,8 +110,8 @@ p.big_font0{
 	  margin-right: 0px;
   }
 
-  p.big_font:not(:first-child) {
-    margin-left: 5px;
+  p.big_font {
+    margin-left: 0px;
   }
 
   .block {
