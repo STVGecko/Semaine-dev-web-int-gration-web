@@ -38,9 +38,6 @@ if(isset($_POST['Envoyer'])) {
 <body>
   <!-- Présentation de la page -->
 
-  <?php
-  echo get_field('reception_mail');
-  echo get_field('mail_object'); ?>
 <section class="contact_page">
   <h2 class="contact_title">Pour nous contacter</h2>
   <div class="underline_contact"></div>
@@ -104,6 +101,11 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
     <!-- FIN FORMULAIRE -->
   </div>
 </section>
+
+<?php
+echo get_field('reception_mail');
+echo get_field('mail_object'); ?>
+
 </body>
 
 <?php get_footer(); ?>
