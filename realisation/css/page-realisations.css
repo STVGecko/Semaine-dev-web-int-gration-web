@@ -89,7 +89,7 @@ div.image_set img{
 
   section.wrap_realization {
     margin-top: 105px;
-    margin-bottom: 0px;
+    margin-bottom: -50px;
 
   }
 
@@ -97,9 +97,6 @@ div.image_set img{
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
-    section.wrap_realization {
-    	margin-bottom: 0px;
-    }
 
     div.image_set img {
     	width: 235px;
