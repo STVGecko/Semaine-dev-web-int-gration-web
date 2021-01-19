@@ -27,9 +27,6 @@ if(isset($_POST['Envoyer'])) {
       $msg="Tous les champs doivent être complétés !";
    }
 }
-
-
-
 ?>
 
 <body>
