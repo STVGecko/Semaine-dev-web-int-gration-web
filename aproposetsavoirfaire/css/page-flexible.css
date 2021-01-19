@@ -209,15 +209,19 @@ p.legend{
 
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+
+  section.wrap_flex {
+  	margin-top: 50px;
+  }
+
+  /*savoir-faire*/
+
   .oldb {
   	display: flex;
   	flex-direction: column;
     align-items: center;
   }
 
-  section.wrap_flex {
-  	margin-top: 50px;
-  }
 
   .carrousel_sf_h {
 	  order: 2;
@@ -238,6 +242,10 @@ p.legend{
   	margin: 70px 156px;
   }
 
+  /*a propos*/
+  .picture_ap_h {
+  	order: 2;
+  }
 
 }
 
