@@ -223,6 +223,10 @@ p.legend{
 	  order: 2;
   }
 
+  .carrousel_sf_h,.carrousel_sf_l{
+    margin-top: 300px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
