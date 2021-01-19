@@ -10,9 +10,9 @@ if(isset($_POST['Envoyer'])) {
          <body>
             <div align="left">
                <br />
-               <u>Nom et prénom de l\'expéditeur :</u> '.$_POST['nom'].' '.$_POST['prenom'].'<br />
-               <u>Mail de l\'expéditeur :</u> '.$_POST['mail'].'<br />
-               <u>Téléphone de l\'expéditeur :</u> '.$_POST['telephone'].'<br />
+               <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom'].' '.$_POST['prenom'].'<br />
+               <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
+               <u>Téléphone de l\'expéditeur :</u>'.$_POST['telephone'].'<br />
                <br />
                '.nl2br($_POST['message']).'
                <br />
@@ -21,16 +21,26 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail("steeven.lombardi@gmail.com", "test de mail", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      wp_mail("steeven.lombardi@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+
+      /*wp_mail(get_field('reception_mail'), get_field('mail_object'), $message, $headers);*/
+
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
    }
 }
+
+
+
 ?>
 
 <body>
   <!-- Présentation de la page -->
+
+  <?php
+  echo get_field('reception_mail');
+  echo get_field('mail_object'); ?>
 <section class="contact_page">
   <h2 class="contact_title">Pour nous contacter</h2>
   <div class="underline_contact"></div>
@@ -94,9 +104,6 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
     <!-- FIN FORMULAIRE -->
   </div>
 </section>
-
 </body>
-<?php
-echo get_field('reception_mail');
-echo get_field('mail_object'); ?>
+
 <?php get_footer(); ?>
