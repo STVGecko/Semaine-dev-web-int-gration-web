@@ -348,10 +348,6 @@ margin : 70px -65px;
     margin-top: 0px;
   }
 
-  .about_index_image .absolute img {
-    display: none;
-  }
-
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
@@ -434,7 +430,7 @@ margin : 70px -65px;
     }
 
     .about_index_text {
-    	margin: 221px 67px;
+    	margin: 242px 67px;
     }
 
     .about_index_text p {
@@ -449,8 +445,7 @@ margin : 70px -65px;
 
     .about_index_image .absolute img {
     	margin: -300px -144px;
-    	width: 70%;
-      height: 26%;
+    	width: 100%;
     }
     .about_index_image img {
     	width: 213px;
