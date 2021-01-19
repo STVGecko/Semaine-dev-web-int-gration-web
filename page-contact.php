@@ -10,9 +10,9 @@ if(isset($_POST['Envoyer'])) {
          <body>
             <div align="left">
                <br />
-               <u>Nom et prénom de l\'expéditeur :</u> '.$_POST['nom'].' '.$_POST['prenom'].'<br />
-               <u>Mail de l\'expéditeur :</u> '.$_POST['mail'].'<br />
-               <u>Téléphone de l\'expéditeur :</u> '.$_POST['telephone'].'<br />
+               <u>Nom et prénom de l\'expéditeur :</u>'.$_POST['nom'].' '.$_POST['prenom'].'<br />
+               <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
+               <u>Téléphone de l\'expéditeur :</u>'.$_POST['telephone'].'<br />
                <br />
                '.nl2br($_POST['message']).'
                <br />
@@ -27,11 +27,11 @@ if(isset($_POST['Envoyer'])) {
       $msg="Tous les champs doivent être complétés !";
    }
 }
+
+
 ?>
 
-
 <body>
-
   <!-- Présentation de la page -->
 <section class="contact_page">
   <h2 class="contact_title">Pour nous contacter</h2>
@@ -97,10 +97,8 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
   </div>
 </section>
 
+</body>
 <?php
 echo get_field('reception_mail');
 echo get_field('mail_object'); ?>
-
-</body>
-
 <?php get_footer(); ?>
