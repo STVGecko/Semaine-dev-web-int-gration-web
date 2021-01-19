@@ -34,6 +34,7 @@
 				</div>
 		</div>
 	</div>
+	<?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?><?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?><?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?>
 	<script type= "text/javascript">
 		const hamburger = document.getElementsByClassName('hamburger');
 		const navUL = document.getElementsByClassName('nav');
