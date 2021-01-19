@@ -29,6 +29,7 @@ if(isset($_POST['Envoyer'])) {
 }
 
 
+
 ?>
 
 <body>
@@ -98,7 +99,17 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
 </section>
 
 </body>
-<?php
-echo get_field('reception_mail');
-echo get_field('mail_object'); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php get_footer(); ?>
