@@ -247,6 +247,10 @@ p.legend{
   	order: 2;
   }
 
+  div.text2 {
+    padding-left: 0px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
