@@ -21,7 +21,10 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail("steeven.lombardi@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      $destinataire=get_field('reception_mail');
+      $object_mail=get_field('mail_object');
+      
+      wp_mail($destinataire, $object_mail, $message, $headers);/*remplacer expediteur par notre mail si jamais*/
 
       /*wp_mail(get_field('reception_mail'), get_field('mail_object'), $message, $headers);*/
 
