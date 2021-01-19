@@ -58,6 +58,7 @@ p.big_font{
 
 p.big_font0{
    font-weight: 700;
+   margin-bottom: 13px;
 }
 
 .block p.fine_font{
@@ -116,7 +117,7 @@ p.big_font0{
 
   .block {
   	margin-left: 0px;
-    margin-top: 35px;
+    margin-top: 27px;
   }
 
 }
