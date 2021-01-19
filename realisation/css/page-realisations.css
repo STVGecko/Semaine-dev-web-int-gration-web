@@ -63,7 +63,6 @@ div.image_set img{
 
   section.wrap_realization {
 	  margin-top: 56px;
-    margin-bottom: 0px;
 
   }
 
@@ -90,6 +89,8 @@ div.image_set img{
 
   section.wrap_realization {
     margin-top: 105px;
+    margin-bottom: -50px;
+
   }
 
 
