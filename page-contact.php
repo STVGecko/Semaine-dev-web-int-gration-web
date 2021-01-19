@@ -26,8 +26,6 @@ if(isset($_POST['Envoyer'])) {
 
       wp_mail($destinataire, $object_mail, $message, $headers);/*remplacer expediteur par notre mail si jamais*/
 
-      /*wp_mail(get_field('reception_mail'), get_field('mail_object'), $message, $headers);*/
-
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
