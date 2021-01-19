@@ -89,7 +89,7 @@ p.big_font0{
   footer div.wrap_footer {
   	flex-direction: column;
   	align-items: center;
-    padding-bottom: 34px;
+    padding-bottom: 100px;
   }
 
   footer div.wrap_footer div.all_text_footer {
