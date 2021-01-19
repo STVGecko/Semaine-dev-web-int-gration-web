@@ -96,10 +96,6 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
     <!-- FIN FORMULAIRE -->
   </div>
 </section>
-
-<?php
- $yo=get_field('reception_mail'); echo $yo; ?>
-
 </body>
 
 <?php get_footer(); ?>
