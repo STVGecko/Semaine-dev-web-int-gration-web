@@ -111,16 +111,12 @@ p.big_font0{
 	  display: flex;
 }
 
-  .text_logo_footer {
-  	white-space: nowrap;
-  }
-
   p.big_font {
     margin-left: 5px;
   }
 
   .block {
-  	margin-left: 50px;
+  	margin-left: 0px;
     margin-top: 35px;
   }
 
