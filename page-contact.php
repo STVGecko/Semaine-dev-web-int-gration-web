@@ -23,7 +23,7 @@ if(isset($_POST['Envoyer'])) {
       /*$expediteur = get_option( 'admin_email' );*/
       $destinataire=get_field('reception_mail');
       $object_mail=get_field('mail_object');
-      
+
       wp_mail($destinataire, $object_mail, $message, $headers);/*remplacer expediteur par notre mail si jamais*/
 
       /*wp_mail(get_field('reception_mail'), get_field('mail_object'), $message, $headers);*/
@@ -106,8 +106,8 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
 </section>
 
 <?php
-echo get_field('reception_mail');
-echo get_field('mail_object'); ?>
+//echo get_field('reception_mail');
+//echo get_field('mail_object'); ?>
 
 </body>
 
