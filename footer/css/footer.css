@@ -108,14 +108,9 @@ p.big_font0{
   .text_logo_footer {
 	  margin-left: 0px;
 	  margin-right: 0px;
-	  display: flex;
-}
+  }
 
-.text_logo_footer p{
-  margin-bottom: 0px;
-}
-
-  p.big_font {
+  p.big_font:not(:first-child) {
     margin-left: 5px;
   }
 
