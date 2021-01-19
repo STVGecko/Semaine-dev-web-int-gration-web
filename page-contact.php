@@ -27,11 +27,13 @@ if(isset($_POST['Envoyer'])) {
       $msg="Tous les champs doivent être complétés !";
    }
 }
+echo get_field('reception_mail', get_option('page_on_front'));
 //
 ?>
 
 
 <body>
+
   <!-- Présentation de la page -->
 <section class="contact_page">
   <h2 class="contact_title">Pour nous contacter</h2>
