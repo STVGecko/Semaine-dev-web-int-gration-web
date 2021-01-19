@@ -111,6 +111,10 @@ p.big_font0{
 	  display: flex;
 }
 
+.text_logo_footer p{
+  margin-bottom: 0px;
+}
+
   p.big_font {
     margin-left: 5px;
   }
