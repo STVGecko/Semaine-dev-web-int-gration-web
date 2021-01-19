@@ -298,7 +298,9 @@ margin : 70px -65px;
 }
 
 @media screen and (max-width: 1399px) {
-
+  .about_index {
+    margin-left: 28%;
+  }
 
   .about_index_text {
     margin : 208px 150px;
