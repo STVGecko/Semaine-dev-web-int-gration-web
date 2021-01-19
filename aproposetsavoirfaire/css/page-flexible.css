@@ -210,10 +210,14 @@ p.legend{
 
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
   .oldb {
-	display: flex;
-	flex-direction: column;
-  align-items: center;
-}
+  	display: flex;
+  	flex-direction: column;
+    align-items: center;
+  }
+
+  section.wrap_flex {
+  	margin-top: 50px;
+  }
 
 }
 
