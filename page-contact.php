@@ -4,7 +4,7 @@
 if(isset($_POST['Envoyer'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['telephone'])) {
       $headers=array('Content-Type: text/html; charset=UTF-8',
-                    'From:"'.$_POST['prenom'].' '.$_POST['nom'].'" <'.'m2a@univ-smb.fr'.'>');
+                    'From:"'.$_POST['prenom'].' '.$_POST['nom'].'" <'.'contact-m2a@univ-smb.fr'.'>');
       $message='
       <html>
          <body>
@@ -31,9 +31,6 @@ if(isset($_POST['Envoyer'])) {
       $msg="Tous les champs doivent être complétés !";
    }
 }
-
-
-
 ?>
 
 <body>
