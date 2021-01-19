@@ -221,10 +221,11 @@ p.legend{
 
   .carrousel_sf_h {
 	  order: 2;
+    margin-top: 320px;
   }
 
-  .carrousel_sf_h,.carrousel_sf_l{
-    margin-top: 300px;
+  .carrousel_sf_l{
+    margin-top: 350px;
   }
 
 }
