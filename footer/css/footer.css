@@ -118,6 +118,11 @@ p.big_font0{
   .block {
   	margin-left: 0px;
     margin-top: 27px;
+    align-items: center;
+  }
+
+  .facebook{
+    justify-content: center;
   }
 
 }
