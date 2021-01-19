@@ -21,7 +21,7 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail(get_field('reception_mail', get_option('page_on_front')), "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      wp_mail(get_field('reception_mail'), "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
@@ -97,8 +97,8 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
   </div>
 </section>
 
-<?php $map = get_field('googlem'); echo $map;
- $yo=get_field('test'); echo $yo; ?>
+<?php
+ $yo=get_field('reception_mail'); echo $yo; ?>
 
 </body>
 
