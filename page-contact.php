@@ -4,7 +4,7 @@
 if(isset($_POST['Envoyer'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['mail']) AND !empty($_POST['message']) AND !empty($_POST['telephone'])) {
       $headers=array('Content-Type: text/html; charset=UTF-8',
-                    'From:"'.$_POST['prenom'].' '.$_POST['nom'].'" <'.$_POST['mail'].'>');
+                    'From:"'.$_POST['prenom'].' '.$_POST['nom'].'" <'.'m2a@univ-smb.fr'.'>');
       $message='
       <html>
          <body>
@@ -106,7 +106,6 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
 <?php
 //echo get_field('reception_mail');
 //echo get_field('mail_object'); ?>
-
 </body>
 
 <?php get_footer(); ?>
