@@ -21,7 +21,9 @@ if(isset($_POST['Envoyer'])) {
       </html>
       ';
       /*$expediteur = get_option( 'admin_email' );*/
-      wp_mail("lucas.reymonet@gmail.com", "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
+      wp_mail(
+      echo get_field('reception_mail', get_option('page_on_front'));
+      , "Formulaire du devis", $message, $headers);/*remplacer expediteur par notre mail si jamais*/
       $msg="Votre message a bien été envoyé !";
    } else {
       $msg="Tous les champs doivent être complétés !";
@@ -30,7 +32,6 @@ if(isset($_POST['Envoyer'])) {
 
 
 
-?>
 
 <body>
   <!-- Présentation de la page -->
