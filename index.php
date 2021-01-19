@@ -70,7 +70,7 @@
 				</a>
 			</div>
 		</div>
-		<!--<div class="about_index">
+		<div class="about_index"> <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 			<div class="about_index_image">
 				<?php
 					$image2 = get_field('photo2');
@@ -88,7 +88,7 @@
 						</div>
 						<a href="<?php $propos = get_field('lpropos'); echo $propos; ?>"><p class="more">En savoir plus</p><img class="arrow_about" src="<?php echo get_template_directory_uri();?>/images/arrow.svg" alt="Aller voir"></a>
 			</div>
-		</div>-->
+		</div>
 		<div class="contact">
 			<h3> Besoin de nos services ?
 				<br/> Contactez-nous ! </h3>
