@@ -348,6 +348,12 @@ margin : 70px -65px;
     margin-top: 0px;
   }
 
+  .about_index_image img {
+    display: none;
+    width: 213px;
+    margin-left: -90px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
@@ -448,7 +454,6 @@ margin : 70px -65px;
     	width: 100%;
     }
     .about_index_image img {
-      display: none;
     	width: 213px;
     	margin-left: -90px;
     }
