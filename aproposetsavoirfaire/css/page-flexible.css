@@ -206,3 +206,23 @@ p.legend{
   .flickity-page-dots .dot.is-selected {
       opacity: 1;
 }
+
+
+@media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+  .oldb {
+	display: flex;
+	justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
+
+
+}
+
+  @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+
+
+
+}

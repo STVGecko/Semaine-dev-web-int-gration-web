@@ -10,7 +10,6 @@
   <div class="presentation">
     <p class="intro_text"><?php $intro = get_field('intro'); echo $intro; ?></p>
   </div>
-  <div class="leftright">
     <div class="oldb">
       <div class="picture_ap_h">
           <?php
@@ -47,7 +46,6 @@
         </div>
       </div>
     </div>
-  </div>
 </section>
 
   </body>
