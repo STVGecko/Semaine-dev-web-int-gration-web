@@ -230,6 +230,15 @@ p.legend{
     padding-left: 0px;
   }
 
+  .cadre_l{
+	  margin: -53px -153px;
+  }
+
+  .cadre_r {
+  	margin: 70px 156px;
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
