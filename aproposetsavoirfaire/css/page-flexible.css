@@ -219,6 +219,10 @@ p.legend{
   	margin-top: 50px;
   }
 
+  .carrousel_sf_h {
+	  order: 2;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
