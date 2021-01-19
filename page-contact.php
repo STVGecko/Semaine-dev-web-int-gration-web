@@ -27,8 +27,6 @@ if(isset($_POST['Envoyer'])) {
       $msg="Tous les champs doivent être complétés !";
    }
 }
-echo get_field('reception_mail', get_option('page_on_front'));
-//
 ?>
 
 
@@ -98,6 +96,8 @@ M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-di
     <!-- FIN FORMULAIRE -->
   </div>
 </section>
+
+<?php echo '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'.get_field('reception_mail', get_option('page_on_front'));
 
 </body>
 
