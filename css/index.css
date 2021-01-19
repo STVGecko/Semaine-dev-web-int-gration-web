@@ -430,7 +430,7 @@ margin : 70px -65px;
     }
 
     .about_index_text {
-    	margin: 242px 67px;
+    	margin: 221px 67px;
     }
 
     .about_index_text p {
@@ -445,10 +445,11 @@ margin : 70px -65px;
 
     .about_index_image .absolute img {
     	margin: -300px -144px;
-    	width: 100%;
+    	width: 70%;
+      height: 26%;
     }
     .about_index_image img {
-    	width: 50px;
+    	width: 213px;
     	margin-left: -90px;
     }
 
