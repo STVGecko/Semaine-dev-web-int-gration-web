@@ -130,7 +130,6 @@ p.big_font0{
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
 
   .block {
-  	margin-left: 50px;
     margin-top: 35px;
   }
 
