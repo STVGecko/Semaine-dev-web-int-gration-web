@@ -458,6 +458,9 @@ margin : 70px -65px;
     	margin-left: -90px;
     }
 
+    .absolute img {
+    	width: 60%;
+    }
 
     .contact {
     	margin-top: -125px;
