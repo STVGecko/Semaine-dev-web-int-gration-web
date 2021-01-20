@@ -225,7 +225,7 @@ p.legend{
 
   .carrousel_sf_h {
 	  order: 2;
-    margin-top: 215px;
+    margin-top: 290px;
   }
 
   .carrousel_sf_l{
@@ -235,7 +235,7 @@ p.legend{
   }
 
   .carrousel_sf_l {
-	margin-top: 300px;
+	margin-top: 325px;
 }
 
   .cadre_l{
@@ -243,7 +243,10 @@ p.legend{
   }
 
   .cadre_r {
-  	margin: 70px 156px;
+  	margin-top: 50px;
+  	margin-left: 38px;
+  	margin-right: 0;
+  	margin-bottom: 0;
   }
 
   .para {
@@ -261,20 +264,16 @@ p.legend{
   }
 
   div.text2 {
-  	padding-left: 196px;
-  	padding-top: 76px;
+  	padding-left: 104px;
+  	padding-top: 56px;
   }
 
   h2.h2_flex {
-	text-align: left;
-	width: 100%;
-	font-family: 'Noto Sans', sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-}
+	  font-size: 24px;
+  }
 
   /*a propos*/
+
   .picture_ap_h {
   	order: 2;
   }
