@@ -252,6 +252,10 @@ p.legend{
     font-size: 14px;
   }
 
+  .frame_assembly_h div.text {
+	  margin: 23px 55px;
+  }
+
   /*a propos*/
   .picture_ap_h {
   	order: 2;
