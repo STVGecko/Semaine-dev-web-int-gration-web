@@ -324,10 +324,9 @@ p.legend{
   }
 
   h1.h1_flex {
-	font-size: 25px;
-	line-height: 40px;
-	padding-bottom: 5px;
-}
+	  font-size: 25px;
+    padding-top: 0px;
+  }
 
   .underline_flex_know-how {
   	width: 189px;
