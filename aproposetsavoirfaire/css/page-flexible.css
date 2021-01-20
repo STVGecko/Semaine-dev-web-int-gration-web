@@ -234,12 +234,22 @@ p.legend{
     padding-left: 0px;
   }
 
+  .carrousel_sf_l {
+	margin-top: 440px;
+}
+
   .cadre_l{
 	  margin: -53px -153px;
   }
 
   .cadre_r {
   	margin: 70px 156px;
+  }
+
+
+  .para {
+	  width: 234px;
+    font-size: 14px;
   }
 
   /*a propos*/
