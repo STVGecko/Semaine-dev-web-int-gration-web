@@ -280,6 +280,11 @@ p.legend{
     width: 500px;
   }
 
+  .carousel-cell-image {
+    width: 420px;
+	  height: 300px;
+  }
+
   .cadre_l{
 	  margin: -53px -153px;
   }
