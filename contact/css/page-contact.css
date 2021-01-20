@@ -5,6 +5,9 @@
 
 
 @media screen and (max-width: 1024px) {
+  .devis_contact {
+    width: 620px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -31,7 +34,6 @@
 
   .devis_contact {
 	  width: 620px;
-	  height: 603px;
   }
 
 }
@@ -39,7 +41,6 @@
 @media screen and (max-width: 480px) {
   body section .contact_page{
     float: none;
-
   }
 }
 
