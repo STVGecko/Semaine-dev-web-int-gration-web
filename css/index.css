@@ -118,7 +118,6 @@ margin-bottom: 110px;
 
 .border2 {
   display : block;
-  /*margin-left : 630px;*/
   border : 5px #C00A23 solid;
   width : 163px;
   height : 58px;
@@ -128,8 +127,6 @@ margin-bottom: 110px;
   border: 5px white solid;
   color: white;
 }
-
-
 
  h2.h2_index {
   text-align: center;
@@ -393,7 +390,7 @@ margin : 70px -65px;
     }
     .icon_name{
       font-size: 15px;
-      margin: 154px;
+      margin-top: 154px;
     }
 
     .paragraph1 p{
