@@ -144,8 +144,7 @@ h2.contact_title{
 }
 
 .devis_contact{
-  z-index: -1;
-  width:710px;
+  width:620px;
   height:603px;
   background-color: #C00A23;
   margin: 3% auto;
