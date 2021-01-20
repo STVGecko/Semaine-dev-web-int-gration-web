@@ -313,6 +313,28 @@ p.legend{
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
 
+  section.wrap_flex {
+  	margin-top: 125px;
+  }
+
+  .intro_text {
+	  font-size: 11px;
+    line-height: 20px;
+    margin-top: 0px;
+  }
+
+  h1.h1_flex {
+	font-size: 25px;
+	line-height: 40px;
+	padding-bottom: 5px;
+}
+
+.underline_flex_know-how {
+	width: 189px;
+	margin-left: 43%;
+	margin-top: 6px;
+	padding-bottom: 10px;
+}
 
 }
 
