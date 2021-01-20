@@ -255,6 +255,11 @@ p.legend{
     margin-left: -155px;
   }
 
+  .cadre_r {
+  	margin-top: -10px;
+  	margin-left: -182px;
+  }
+
   /*savoir-faire*/
 
   .carrousel_sf_h {
@@ -293,15 +298,14 @@ p.legend{
   .picture_ap_h {
   	order: 2;
   }
-  .picture_ap_h img, .picture_ap_l img {
-	max-width: 521px;
-	max-height: 394px;
-	margin-top: 70px;
+  .picture_ap_h img {
+  	max-width: 521px;
+	  max-height: 394px;
+	  margin-top: 70px;
 }
 
-.cadre_r {
-	margin-top: -10px;
-	margin-left: -182px;
+.picture_ap_l img{
+  margin-top: 70px;
 }
 
 
