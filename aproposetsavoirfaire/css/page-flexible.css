@@ -269,10 +269,15 @@ p.legend{
 
   h3.h3_flex{
     margin-left: -120px;
+    font-size: 21px;
   }
 
   .text p {
     margin-left: -120px;
+  }
+
+  .text p, .text2 p{
+    font-size: 16px;
   }
 
   .frame_assembly_h div.text {
