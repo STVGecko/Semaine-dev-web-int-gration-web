@@ -427,7 +427,6 @@ margin : 70px -65px;
 
     .about_index {
     	margin-top: 227px;
-      display: none;
     }
 
     .about_index_text {
@@ -442,6 +441,10 @@ margin : 70px -65px;
     .arrow_about {
     	margin-left: -40px;
     	margin-bottom: -2px;
+    }
+
+    .about_index_image img {
+      width: 300px;
     }
 
     .about_index_image .absolute img {
