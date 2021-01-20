@@ -177,6 +177,7 @@ p.legend{
   display: flex;
   align-items: center;
   color: #FFFFFF;
+  padding-bottom: 50px;
 }
 
 /* CAROUSEL */
