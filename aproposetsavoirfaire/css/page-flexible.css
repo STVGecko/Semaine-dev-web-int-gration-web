@@ -108,11 +108,11 @@ h3.h3_flex {
 }
 
 .carrousel_sf_h{
-  padding-right: 50px;
+  margin-left: -36px;
 }
 
 .carrousel_sf_l{
-  padding-left: 50px;
+  margin-left: -180px;
 }
 
 .cadre_l,.cadre_r{
