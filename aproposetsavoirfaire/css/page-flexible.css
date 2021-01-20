@@ -81,7 +81,7 @@ h3.h3_flex {
   display: flex;
   flex-wrap: wrap; /*back to the line if more space*/
   width: 414px;
-  margin-left: 99px;
+  margin-left: 100px;
   position: relative;
 }
 
