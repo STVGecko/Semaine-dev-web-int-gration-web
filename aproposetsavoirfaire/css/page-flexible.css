@@ -258,7 +258,16 @@ p.legend{
   div.text2 {
 	  padding-left: 207px;
   }
-  
+
+  h2.h2_flex {
+	text-align: left;
+	width: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+}
+
   /*a propos*/
   .picture_ap_h {
   	order: 2;
