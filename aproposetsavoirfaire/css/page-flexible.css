@@ -304,6 +304,7 @@ p.legend{
   	order: 2;
   }
   .picture_ap_h img {
+    display: none;
   	max-width: 415px;
 	  max-height: 394px;
 	  margin-top: 70px;
@@ -311,6 +312,7 @@ p.legend{
 }
 
 .picture_ap_l img{
+  display: none;
   max-width: 465px;
   margin-top: 190px;
   margin-left: 60px;
