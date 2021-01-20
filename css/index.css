@@ -463,8 +463,8 @@ margin : 70px -65px;
     	margin-top: -125px;
     }
 
-    .paragraph2{ /*ne pas enlever*/
-      /*width: 450px*/
+    .paragraph2{
+      width: 0px;
     }
 
 
