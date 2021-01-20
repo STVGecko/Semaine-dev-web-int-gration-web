@@ -316,6 +316,10 @@ p.legend{
   margin-left: 60px;
 }
 
+.flickity-page-dots {
+	bottom: 60px;
+}
+
 
 }
 
