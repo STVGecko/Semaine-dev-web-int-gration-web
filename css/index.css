@@ -430,6 +430,7 @@ margin : 70px -65px;
     	margin-top: 227px;
       display: flex;
       flex-direction: column;
+      display: none;
     }
 
     .about_index_text {
