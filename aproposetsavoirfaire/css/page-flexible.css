@@ -227,7 +227,6 @@ p.legend{
 	  margin-bottom: 130px;
   }
 
-  /*savoir-faire*/
 
   .oldb {
   	display: flex;
@@ -235,6 +234,7 @@ p.legend{
     align-items: center;
   }
 
+  /*savoir-faire*/
 
   .carrousel_sf_h {
 	  order: 2;
@@ -262,9 +262,19 @@ p.legend{
   	margin-bottom: 0;
   }
 
+  h2.h2_flex {
+    font-size: 24px;
+    margin-left: -120px;
+  }
+
+  h3.h3_flex{
+    margin-left: -120px;
+  }
+
   .para {
 	  width: 234px;
     font-size: 15px;
+    margin-left: -120px;
   }
 
   .frame_assembly_h div.text {
@@ -279,10 +289,6 @@ p.legend{
   div.text2 {
   	padding-left: 104px;
   	padding-top: 56px;
-  }
-
-  h2.h2_flex {
-	  font-size: 24px;
   }
 
   /*a propos*/
