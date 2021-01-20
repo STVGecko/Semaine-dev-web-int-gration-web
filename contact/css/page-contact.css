@@ -5,13 +5,8 @@
 
 
 @media screen and (max-width: 1024px) {
-  .contact_page{
-    margin-left: auto;
-    margin-right: auto;
-
-
-  }
 }
+
 @media screen and (max-width: 768px) {
   body section .contact_page{
     float: none;
@@ -27,6 +22,12 @@
   	margin-right: 18%;
     margin-bottom: 15%;
   }
+
+  .contact_page {
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
