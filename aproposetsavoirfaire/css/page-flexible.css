@@ -336,6 +336,12 @@ p.legend{
   	padding-bottom: 10px;
   }
 
+  .text p, .text2 p {
+  	font-size: 14px;
+  	margin-left: -109px;
+  	width: 370px;
+  }
+
 /*savoir-faire*/
   .cadre_l {
   	margin: -53px -110px;
