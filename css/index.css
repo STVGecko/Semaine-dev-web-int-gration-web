@@ -348,6 +348,10 @@ margin : 70px -65px;
     margin-top: 0px;
   }
 
+  .absolute img {
+    width: 0%;
+  }
+
 }
 
 @media screen and (max-width: 768px) {  /*(petite tablette portrait)*/
@@ -367,10 +371,6 @@ margin : 70px -65px;
 
   .paragraph1 {
     width : 300px;
-  }
-
-  .absolute img {
-    width: 0%;
   }
 
 }
