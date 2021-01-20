@@ -244,6 +244,7 @@ margin : 70px -65px;
 
 .absolute img {
   position : absolute;
+  width: 0%;
 }
 
 .paragraph2 {
@@ -348,9 +349,6 @@ margin : 70px -65px;
     margin-top: 0px;
   }
 
-  .absolute img {
-    width: 0%;
-  }
 
 }
 
