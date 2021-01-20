@@ -255,6 +255,10 @@ p.legend{
 	  margin: -43px 55px;
   }
 
+  div.text2 {
+	  padding-left: 207px;
+  }
+  
   /*a propos*/
   .picture_ap_h {
   	order: 2;
