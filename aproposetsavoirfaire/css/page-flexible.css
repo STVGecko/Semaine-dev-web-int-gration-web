@@ -166,16 +166,16 @@ p.legend{
 }
 
 .text p, .text2 p {
-  font-family: 'Mukta Mahee', sans-serif;
-  width: 400px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 25.5px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 30px;
+	font-family: 'Mukta Mahee', sans-serif;
+	width: 430px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25.5px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	padding-bottom: 23px;
 }
 
 /* CAROUSEL */
