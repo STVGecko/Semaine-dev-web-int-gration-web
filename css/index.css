@@ -429,11 +429,10 @@ margin : 70px -65px;
     	margin-top: 227px;
       display: flex;
       flex-direction: column;
-      align-items: center;
     }
 
     .about_index_text {
-    	margin: 180px 67px;
+    	margin: 242px 67px;
     }
 
     .about_index_text p {
