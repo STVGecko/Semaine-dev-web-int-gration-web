@@ -266,17 +266,16 @@ p.legend{
   	order: 2;
   	margin-top: 375px;
   	margin-bottom: 75px;
+    display: none;
   }
 
   .carrousel_sf_l{
     margin-top: 290px;
     padding-right: 95px;
     padding-left: 0px;
+    margin-top: 325px;
+    display: none;
   }
-
-  .carrousel_sf_l {
-	margin-top: 325px;
-}
 
   .cadre_l{
 	  margin: -53px -153px;
