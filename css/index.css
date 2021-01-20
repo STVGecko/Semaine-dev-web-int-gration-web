@@ -427,6 +427,7 @@ margin : 70px -65px;
 
     .about_index {
     	margin-top: 227px;
+      display: none;
     }
 
     .about_index_text {
