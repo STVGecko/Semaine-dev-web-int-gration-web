@@ -36,9 +36,9 @@
 }
 
 @media screen and (max-width: 375px) {
-
   .devis_contact {
     width: 285px;
+    display: none;
   }
 
   .underline_contact {
