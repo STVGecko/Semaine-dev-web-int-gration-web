@@ -452,9 +452,10 @@ margin : 70px -65px;
     	margin: -300px -144px;
     	width: 80%;
     }
-
     .about_index_image img {
-    	margin-bottom: 42px;
+    	width: 213px;
+    	margin-left: -90px;
+      margin-bottom: 42px;
     }
 
     .contact {
