@@ -20,7 +20,7 @@
 <div class="wrap_page">
 	<div class="text_know-how">
 		<a href="<?php $savoir = get_field('lsavoir'); echo $savoir; ?>">
-			<div class="border1"> <h2> Notre savoir-faire </h2> </div>
+			<div class="border1"> <h2 class="h2_index"> Notre savoir-faire </h2> </div>
 		</a>
 		<div class="paragraph1">
 			<p> <?php $sf = get_field('sf_texte'); echo $sf; ?> </p>
