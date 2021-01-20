@@ -369,6 +369,10 @@ margin : 70px -65px;
     width : 300px;
   }
 
+  .absolute img {
+    width: 0%;
+  }
+
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
@@ -456,10 +460,6 @@ margin : 70px -65px;
     .about_index_image img {
     	width: 213px;
     	margin-left: -90px;
-    }
-
-    .absolute img {
-    	width: 0%;
     }
 
     .contact {
