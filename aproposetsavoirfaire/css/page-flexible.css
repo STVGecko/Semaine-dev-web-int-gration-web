@@ -67,7 +67,6 @@ h3.h3_flex {
   font-size: 30px;
   line-height: 43px;
   color: #FFFFFF;
-  padding-bottom: 10px;
 }
 
 .oldb{
@@ -176,7 +175,7 @@ p.legend{
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 /* CAROUSEL */
