@@ -427,8 +427,9 @@ margin : 70px -65px;
 
     .about_index {
     	margin-top: 227px;
-      padding-right: 50px;
-      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .about_index_text {
