@@ -445,6 +445,7 @@ margin : 70px -65px;
 
     .about_index_image img {
       width: 300px;
+      display: none;
     }
 
     .about_index_image .absolute img {
