@@ -266,7 +266,6 @@ p.legend{
   	order: 2;
   	margin-top: 375px;
   	margin-bottom: 75px;
-    display: none;
   }
 
   .carrousel_sf_l{
@@ -274,7 +273,6 @@ p.legend{
     padding-right: 95px;
     padding-left: 0px;
     margin-top: 325px;
-    display: none;
   }
 
   .cadre_l{
