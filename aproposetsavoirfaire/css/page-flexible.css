@@ -329,12 +329,17 @@ p.legend{
 	padding-bottom: 5px;
 }
 
-.underline_flex_know-how {
-	width: 189px;
-	margin-left: 43%;
-	margin-top: 6px;
-	padding-bottom: 10px;
-}
+  .underline_flex_know-how {
+  	width: 189px;
+  	margin-left: 43%;
+  	margin-top: 6px;
+  	padding-bottom: 10px;
+  }
+
+/*savoir-faire*/
+  .cadre_l {
+  	margin: -53px -110px;
+  }
 
 }
 
