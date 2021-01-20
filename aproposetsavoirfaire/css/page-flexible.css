@@ -302,10 +302,12 @@ p.legend{
   	max-width: 521px;
 	  max-height: 394px;
 	  margin-top: 70px;
+    margin-left: 20px;
 }
 
 .picture_ap_l img{
   margin-top: 190px;
+  margin-left: 20px;
 }
 
 
@@ -355,16 +357,6 @@ p.legend{
   }
 
 /*a propos*/
-
-  .picture_ap_h img {
-  	max-width: 415px;
-    margin-left: 20px;
-  }
-
-  .picture_ap_l img {
-  	max-width: 465px;
-    margin-left: 20px;
-  }
 
 }
 
