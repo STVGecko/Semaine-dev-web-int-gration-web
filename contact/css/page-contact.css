@@ -28,6 +28,12 @@
   	margin-bottom: 0px;
   }
 
+
+  .devis_contact {
+	  width: 620px;
+	  height: 603px;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
