@@ -358,10 +358,12 @@ p.legend{
 
   .picture_ap_h img {
   	max-width: 415px;
+    margin-left: 20px;
   }
 
   .picture_ap_l img {
   	max-width: 465px;
+    margin-left: 20px;
   }
 
 }
