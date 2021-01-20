@@ -258,12 +258,13 @@ p.legend{
   /*savoir-faire*/
 
   .carrousel_sf_h {
-	  order: 2;
-    margin-top: 290px;
+  	order: 2;
+  	margin-top: 375px;
+  	margin-bottom: 75px;
   }
 
   .carrousel_sf_l{
-    margin-top: 350px;
+    margin-top: 290px;
     padding-right: 95px;
     padding-left: 0px;
   }
