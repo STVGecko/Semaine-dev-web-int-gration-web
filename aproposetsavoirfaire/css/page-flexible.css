@@ -272,6 +272,7 @@ p.legend{
     margin-top: 290px;
     padding-right: 0px;
     padding-left: 0px;
+    margin-left: 0px;
     margin-top: 325px;
   }
 
@@ -282,8 +283,6 @@ p.legend{
   .cadre_l{
 	  margin: -53px -153px;
   }
-
-
 
   .frame_assembly_h div.text {
 	  margin: -43px 55px;
