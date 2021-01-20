@@ -172,8 +172,6 @@ p.legend{
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25.5px;
-	display: flex;
-	align-items: center;
 	color: #FFFFFF;
 	padding-bottom: 23px;
 }
