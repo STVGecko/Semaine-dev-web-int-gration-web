@@ -244,12 +244,15 @@ p.legend{
     font-size: 21px;
   }
 
-  .text p {
-    margin-left: -155px;
+  div.text2 {
+    padding-left: 104px;
+    padding-top: 56px;
   }
+
 
   .text p, .text2 p{
     font-size: 16px;
+    margin-left: -155px;
   }
 
   /*savoir-faire*/
@@ -288,11 +291,6 @@ p.legend{
   .frame_assembly_l{
 
     margin-right: 0px;
-  }
-
-  div.text2 {
-  	padding-left: 104px;
-  	padding-top: 56px;
   }
 
   /*a propos*/
