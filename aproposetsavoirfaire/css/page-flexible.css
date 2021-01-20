@@ -275,6 +275,10 @@ p.legend{
     margin-top: 325px;
   }
 
+  .carrousel_sf_h, .carrousel_sf_l{
+    width: 500px;
+  }
+
   .cadre_l{
 	  margin: -53px -153px;
   }
