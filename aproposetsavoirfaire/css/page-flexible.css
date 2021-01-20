@@ -225,7 +225,7 @@ p.legend{
 
   .carrousel_sf_h {
 	  order: 2;
-    margin-top: 320px;
+    margin-top: 215px;
   }
 
   .carrousel_sf_l{
@@ -246,14 +246,13 @@ p.legend{
   	margin: 70px 156px;
   }
 
-
   .para {
 	  width: 234px;
     font-size: 14px;
   }
 
   .frame_assembly_h div.text {
-	  margin: 23px 55px;
+	  margin: -43px 55px;
   }
 
   /*a propos*/
