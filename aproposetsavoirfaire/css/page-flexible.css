@@ -335,9 +335,17 @@ p.legend{
   	padding-bottom: 10px;
   }
 
+  h2.h2_flex {
+    margin-left: -70px;
+  }
+
+  h3.h3_flex{
+    margin-left: -70px;
+  }
+
   .text p, .text2 p {
   	font-size: 14px;
-  	margin-left: -109px;
+  	margin-left: -170px;
   	width: 370px;
   }
 
