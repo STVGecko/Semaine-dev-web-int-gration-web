@@ -9,6 +9,8 @@
     width: 220px;
   }
 
+
+
   .underline_contact {
 	  margin-left: 34%;
   }
@@ -34,6 +36,12 @@
   	margin-bottom: 0px;
   }
 
+}
+
+@media screen and (max-width: 480px) {
+  body section .contact_page{
+    float: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
