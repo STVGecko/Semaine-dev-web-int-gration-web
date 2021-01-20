@@ -234,6 +234,24 @@ p.legend{
     align-items: center;
   }
 
+  h2.h2_flex {
+    font-size: 24px;
+    margin-left: -155px;
+  }
+
+  h3.h3_flex{
+    margin-left: -155px;
+    font-size: 21px;
+  }
+
+  .text p {
+    margin-left: -155px;
+  }
+
+  .text p, .text2 p{
+    font-size: 16px;
+  }
+
   /*savoir-faire*/
 
   .carrousel_sf_h {
@@ -262,23 +280,6 @@ p.legend{
   	margin-bottom: 0;
   }
 
-  h2.h2_flex {
-    font-size: 24px;
-    margin-left: -155px;
-  }
-
-  h3.h3_flex{
-    margin-left: -155px;
-    font-size: 21px;
-  }
-
-  .text p {
-    margin-left: -155px;
-  }
-
-  .text p, .text2 p{
-    font-size: 16px;
-  }
 
   .frame_assembly_h div.text {
 	  margin: -43px 55px;
@@ -299,6 +300,11 @@ p.legend{
   .picture_ap_h {
   	order: 2;
   }
+  .picture_ap_h img, .picture_ap_l img {
+	max-width: 521px;
+	max-height: 394px;
+	margin-top: 70px;
+}
 
 
 }
