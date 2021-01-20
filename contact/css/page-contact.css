@@ -8,6 +8,10 @@
   .devis_contact {
     width: 620px;
   }
+
+  .underline_contact {
+	  margin-left: 34%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -30,10 +34,8 @@
   	margin-bottom: 0px;
   }
 
-
   .devis_contact {
-    display: none;
-	  width: 620px;
+    width: 220px;
   }
 
 }
