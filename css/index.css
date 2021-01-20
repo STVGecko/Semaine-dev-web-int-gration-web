@@ -430,7 +430,6 @@ margin : 70px -65px;
     	margin-top: 227px;
       display: flex;
       flex-direction: column;
-      display: none;
     }
 
     .about_index_text {
@@ -449,11 +448,13 @@ margin : 70px -65px;
 
     .about_index_image img {
       width: 300px;
+      display: none;
     }
 
     .about_index_image .absolute img {
     	margin: -300px -144px;
     	width: 100%;
+      display: none;
     }
     .about_index_image img {
     	width: 213px;
