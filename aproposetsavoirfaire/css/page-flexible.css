@@ -354,6 +354,16 @@ p.legend{
   	margin: -53px -110px;
   }
 
+/*a propos*/
+
+  .picture_ap_h img {
+  	max-width: 415px;
+  }
+
+  .picture_ap_l img {
+  	max-width: 465px;
+  }
+
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
