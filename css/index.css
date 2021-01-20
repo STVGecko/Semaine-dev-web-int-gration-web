@@ -448,6 +448,7 @@ margin : 70px -65px;
     }
 
     .about_index_image .absolute img {
+      display: none;
     	margin: -300px -144px;
     	width: 100%;
     }
