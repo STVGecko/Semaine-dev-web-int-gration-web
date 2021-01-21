@@ -349,17 +349,16 @@ div.nav ul li.current_page_item a:before {
       width: 105px;
     }
 
-    .estimation{
-      margin-top: 0px;
-      font-size: 11px;
-      width: 121px;
-      margin-left: 22px;
-
+    .estimation {
+    	margin-top: 3px;
+    	font-size: 11px;
+    	width: 121px;
+    	margin-left: 10px;
     }
 
     header div.wrap_header div.hamburger {
-    	left: 315px;
-    	margin-top: 38px;
+    	left: 290px;
+    	margin-top: 40px;
     	width: 34px;
     	height: 24px;
     }
