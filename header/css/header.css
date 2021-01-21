@@ -104,6 +104,10 @@ display: flex;
   color : white;
 }
 
+.estimation a{
+  color: white;
+}
+
 .text_icon{
   font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
