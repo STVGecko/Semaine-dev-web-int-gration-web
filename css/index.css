@@ -452,12 +452,12 @@ margin : 70px -65px;
 
     .about_index_image .absolute img {
     	margin: -300px -144px;
-    	width: 80%;
+    	width: 60%;
     }
     .about_index_image img {
-    	width: 213px;
+    	width: 176px;
     	margin-left: -90px;
-      margin-bottom: 42px;
+    	margin-bottom: 95px;
     }
 
     .contact {
