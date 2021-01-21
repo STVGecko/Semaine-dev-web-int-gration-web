@@ -92,7 +92,7 @@
 		<div class="contact">
 			<h3> Besoin de nos services ?
 			<br/> Contactez-nous ! </h3>
-			<div class="estimation_index">
+			<div class="estimation_index" style="display:none;">
 				<a href="<?php $contact = get_field('lcontact'); echo $contact; ?>">
 					<p> Demande de devis <p>
 				</a>
