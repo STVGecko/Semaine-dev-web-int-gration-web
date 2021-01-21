@@ -363,20 +363,25 @@ p.legend{
   	width: 325px;
   }
 
-/*savoir-faire*/
   .cadre_l {
-  	margin: -53px -110px;
+    margin: -53px -110px;
   }
 
   .cadre_r {
-  	margin-top: -10px;
-  	margin-left: -64px;
+    margin-top: -10px;
+    margin-left: -64px;
   }
 
+  /*savoir faire*/
+
+  .carrousel_sf_h, .carrousel_sf_l {
+  	width: 495px;
+  }
 
 }
 
   @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+
     /*a propos*/
     .picture_ap_h img, .picture_ap_l img{
 	    max-width: 320px;
