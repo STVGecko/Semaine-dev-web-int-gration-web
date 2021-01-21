@@ -365,7 +365,7 @@ p.legend{
 
 /*savoir-faire*/
   .cadre_l {
-  	margin: -53px -110px;
+  	margin: -53px -220px;
   }
 
   .cadre_r {
@@ -374,9 +374,6 @@ p.legend{
   }
 
 /*a propos*/
-.picture_ap_h img, .picture_ap_l img{
-  display: none;
-}
 
 }
 
