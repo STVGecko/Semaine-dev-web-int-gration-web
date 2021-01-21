@@ -345,8 +345,9 @@ div.nav ul li.current_page_item a:before {
       padding-left: 15px;
     }
 
-    div.logo img{
-      width: 105px;
+    div.logo img {
+    	width: 105px;
+    	margin-bottom: 5px;
     }
 
     .estimation {
