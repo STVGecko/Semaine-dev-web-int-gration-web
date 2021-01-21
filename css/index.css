@@ -297,6 +297,10 @@ margin : 70px -65px;
     margin-left: 28%;
   }
 
+  .home_picture .absolute img {
+	  margin-top: -7%;
+  }
+
   .about_index_text {
     margin : 208px 150px;
   }
