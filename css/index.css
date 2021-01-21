@@ -385,8 +385,9 @@ margin : 70px -65px;
     }
 
     .home_picture .absolute img {
-    	margin-top: -11%;
-      width: 6%;
+    	margin-top: -13%;
+      margin-left: 45.5%;
+    	width: 7%;
     }
 
     .wrap_page {
