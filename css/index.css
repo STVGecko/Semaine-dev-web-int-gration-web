@@ -393,6 +393,21 @@ margin : 70px -65px;
       margin-top: 154px;
     }
 
+  .border1 {
+	  width: 195px;
+    border: 4px #C00A23 solid;
+  }
+
+  h2.h2_index {
+	  margin: 14px;
+  }
+
+  .border2 {
+  	border: 4px #C00A23 solid;
+  	width: 195px;
+  	/* height: 58px; */
+  }
+
     .paragraph1 p{
       font-size: 15px;
     }
@@ -427,13 +442,13 @@ margin : 70px -65px;
     }
 
     .about_index {
-    	margin-top: 227px;
-      display: flex;
-      flex-direction: column;
+    	margin-top: 160px;
+    	display: flex;
+    	flex-direction: column;
     }
 
     .about_index_text {
-    	margin: 135px 67px;
+    	margin: 70px 67px;
     }
 
     .about_index_text p {
@@ -454,6 +469,7 @@ margin : 70px -65px;
     	margin: -300px -144px;
     	width: 60%;
     }
+
     .about_index_image img {
     	width: 176px;
     	margin-left: -90px;
