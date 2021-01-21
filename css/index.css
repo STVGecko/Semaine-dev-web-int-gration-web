@@ -403,6 +403,16 @@ margin : 70px -65px;
   	width: 195px;
   }
 
+  h2.h2_index {
+	font-size: 21px;
+	margin-top: 21px;
+}
+
+  h2.about {
+	  font-size: 21px;
+	  margin-top: 18px;
+  }
+
     .paragraph1 p{
       font-size: 15px;
     }
