@@ -91,7 +91,7 @@ if(isset($_POST['Envoyer'])) {
           <p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici" name="message" value="<?php if(isset($_POST['message'])) { echo $_POST['message']; } ?>"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
 M2A Maçonnerie.
           </p>
-          <a onclick="form()">
+          <a onclick="form()" style="cursor: pointer;">
             En savoir plus >
           </a>
         </div>
