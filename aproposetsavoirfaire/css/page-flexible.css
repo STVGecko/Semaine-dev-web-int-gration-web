@@ -375,7 +375,11 @@ p.legend{
   /*savoir faire*/
 
   .carrousel_sf_h, .carrousel_sf_l {
-  	width: 495px;
+  	width: 450px;
+  }
+
+  .carousel-cell-image {
+  	width: 340px;
   }
 
 }
