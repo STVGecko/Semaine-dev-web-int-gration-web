@@ -309,10 +309,6 @@ margin : 70px -65px;
     margin-left: 29%;
   }
 
-  header div.wrap_header div.hamburger {
-	left: 925px;
-}
-
 @media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
 
   .wrap_page {
