@@ -107,8 +107,10 @@ p.big_font0{
   }
 
   .text_logo_footer {
-	  margin-left: 0px;
-	  margin-right: 0px;
+  	margin-left: 0px;
+  	margin-right: 0px;
+  	border-bottom: 2px solid #C00A23;
+  	padding-bottom: 15px;
   }
 
   p.big_font {
@@ -119,6 +121,9 @@ p.big_font0{
   	margin-left: 0px;
     margin-top: 27px;
     align-items: center;
+    border-bottom: 2px solid #C00A23;
+    padding-bottom: 15px;
+
   }
 
   .facebook{
