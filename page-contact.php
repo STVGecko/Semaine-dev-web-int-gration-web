@@ -87,9 +87,14 @@ if(isset($_POST['Envoyer'])) {
           <p class="contact_names" type="Nom"> <input class="contact_input" placeholder="Ecrivez votre nom ici..." name="nom" value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" ></input></p>
           <p class="contact_names" type="Téléphone"> <input class="contact_input" placeholder="Ecrivez votre téléphone ici..." name="telephone"></input></p>
         </div><!-- FIN CONTACT DROITE-->
-        <div class="contact_message"><p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici" name="message" value="<?php if(isset($_POST['message'])) { echo $_POST['message']; } ?>"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
-M2A Maçonnerie.</p><a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-dinformation
-" target="_blank" class="lien_en_savoir_plus"> En savoir plus ></a></div>
+        <div class="contact_message">
+          <p class="contact_names" type="Message"><input type="textarea" class="contact_input" placeholder="Ecrivez votre message ici" name="message" value="<?php if(isset($_POST['message'])) { echo $_POST['message']; } ?>"></p><p class="en_savoir_plus">En envoyant ce message, vous consentez à la collecte et au traitement des données renseignées ci-dessus pour l’usage exclusif de
+M2A Maçonnerie.
+          </p>
+          <a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-dinformation
+" target="_blank" class="lien_en_savoir_plus">
+            En savoir plus >
+          </a></div>
         <div class="contact_button">
           <input class="contact_button" type="submit" value="Envoyer" name="Envoyer"></input>
         </div>
