@@ -217,7 +217,7 @@ div.nav ul li.current_page_item a:before {
 
   header div.wrap_header div.hamburger{
     display: block;
-    	left: 925px;
+    left: 925px;
   }
 
   div.logo img{
@@ -280,8 +280,8 @@ div.nav ul li.current_page_item a:before {
 
   .estimation{
     padding: 16px 30px;
-    margin-top: 16px;
-    margin-left: 184px;
+    margin-top: 6px;
+    margin-left: 189px;
     font-size: 28px;
   }
 
@@ -296,7 +296,6 @@ div.nav ul li.current_page_item a:before {
 
   header div.wrap_header div.hamburger{
     left: 750px;
-    margin-top : 58px;
   }
 
   div.nav.show ul {
@@ -347,22 +346,26 @@ div.nav ul li.current_page_item a:before {
     }
 
     div.logo img{
-      width: 124px;
+      width: 105px;
     }
 
     .estimation{
-      margin-top: 4px;
+      margin-top: 0px;
       font-size: 11px;
       width: 121px;
       margin-left: 22px;
 
     }
 
-    header div.wrap_header div.hamburger{
-      left: 315px;
-      margin-top : 36px;
-      width: 34px;
-      height: 31px;
+    header div.wrap_header div.hamburger {
+    	left: 315px;
+    	margin-top: 38px;
+    	width: 34px;
+    	height: 24px;
+    }
+
+    header div.wrap_header div.hamburger span:nth-child(2) {
+    	top: 48%;
     }
 
     div.nav.show ul{
