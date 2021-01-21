@@ -381,7 +381,12 @@ margin : 70px -65px;
     	margin-left: 27%;
     	line-height: 27px;
     	font-size: 24px;
-    	margin-top: 11%;
+    	margin-top: 7%;
+    }
+
+    .home_picture .absolute img {
+    	margin-top: -11%;
+      width: 6%;
     }
 
     .wrap_page {
