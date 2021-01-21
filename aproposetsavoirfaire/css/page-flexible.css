@@ -374,6 +374,9 @@ p.legend{
   }
 
 /*a propos*/
+.picture_ap_h img, .picture_ap_l img{
+  display: none;
+}
 
 }
 
