@@ -1,4 +1,4 @@
-var mem = $('.text_icon').text();
+var mem = $('.text_icon-replace').text();
     mem = mem.replace('arobaze','@');
 var mem2 = $('p.mail-replace').text();
     mem2 = mem2.replace('arobaze','@');
