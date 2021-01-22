@@ -24,7 +24,7 @@ h1.h1_flex{
 .underline_flex_know-how{
   border-top: 6px solid #C00A23;
   width: 189px;
-  margin-left: 0%;
+  margin-left: 46%;
   margin-top : 10px;
   margin-bottom: 30px;
 }
@@ -32,9 +32,9 @@ h1.h1_flex{
 .underline_flex_about{
   border-top: 6px solid #C00A23;
   width: 162px;
-  margin-left: 47%;
+  margin-left: 0%;
   margin-top : 10px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .intro_text {
