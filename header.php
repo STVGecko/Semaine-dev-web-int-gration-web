@@ -31,7 +31,7 @@
 			      </div>
 			      <div class="mail">
 			        <img src="<?php echo get_template_directory_uri();?>/images/mail_header.svg">
-			        <div class="text_icon"><?php $mail=get_field('mail', get_option('page_on_front')); echo $mail; ?></div>
+			        <div class="text_icon"><?php $mail=get_field('mail'); echo $mail; ?></div>
 			    </div>
 						<div class="estimation">
 							<a href="<?php $contact = get_field('lcontact', get_option('page_on_front')); echo $contact; ?>">
