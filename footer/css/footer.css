@@ -79,13 +79,15 @@ p.big_font0{
   align-self: center;
 }
 
-
-@media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
+@media screen and (max-width: 1468px) { /*(petite tablette paysage)*/
 
   footer{
     background-image: none;
     background-position: none;
   }
+
+
+@media screen and (max-width: 1024px) { /*(petite tablette paysage)*/
 
   footer div.wrap_footer {
   	flex-direction: column;
