@@ -12,7 +12,7 @@
 				<div class="block">
 					<p class="big_font0">Coordonnées</p>
 						<p class="fine_font"><?php $num=get_field('telephone', get_option( 'page_on_front' )); echo $num; ?></p>
-						<p class="fine font"><?php $mail=get_field('mail', get_option( 'page_on_front' )); echo(str_replace("@", "arobaze", $mail)); ?></p>
+						<p class="mail-replace"><?php $mail=get_field('mail', get_option( 'page_on_front' )); echo(str_replace("@", "arobaze", $mail)); ?></p>
 				</div>
 				<div class="block">
 						<p class="fine_font"><?php $adresse=get_field('adresse', get_option( 'page_on_front' )); echo $adresse; ?></p>
