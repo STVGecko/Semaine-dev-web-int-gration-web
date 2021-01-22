@@ -3,4 +3,4 @@ var mem = $('.text_icon').text();
 var mem2 = $('p.mail-replace').text();
     mem2 = mem2.replace('arobaze','@');
     $('.text_icon').html(mem);
-    $('p.mail-replace').html(mem);
+    $('p.mail-replace').html(mem2);
