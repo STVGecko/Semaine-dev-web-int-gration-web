@@ -44,6 +44,7 @@
 			navUL[0].classList.toggle('show');
 		});
 	</script>
+	<script type='text/javascript' src='<?php echo(get_template_directory_uri().'/header/js/scripts.js');?>' id='app-js'></script>
 </footer>
 <?php wp_footer(); ?>
 </body>
