@@ -61,11 +61,12 @@ header div.wrap_header div.hamburger span:nth-child(3){
 }
 
 .global_menu{
-  margin-right: 111px;
+  margin-right: 230px;
 }
 
 .info_bar{ /*phone + mail + deviis*/
-display: flex;
+  display: flex;
+  margin-right: -210px
 }
 
 
@@ -116,6 +117,7 @@ display: flex;
 
 div.nav{
   padding-top: 5%;
+  margin-left: -18px;
 }
 
 div.nav ul{
