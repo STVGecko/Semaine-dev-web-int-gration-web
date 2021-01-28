@@ -301,6 +301,7 @@ div.nav ul li.current_page_item a:before {
 
   div.logo img{
     width: 250px;
+    margin-top: 0px;
   }
 
   header div.wrap_header div.hamburger{
