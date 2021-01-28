@@ -239,6 +239,7 @@ div.nav ul li.current_page_item a:before {
 
   div.nav{
     display: none;
+    margin-left: 0px;
   }
 
   div.nav.show{
