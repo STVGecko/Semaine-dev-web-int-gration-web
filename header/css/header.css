@@ -243,7 +243,9 @@ div.nav ul li.current_page_item a:before {
 
   div.nav.show{
     display: flex;
+    align-items: center;
     margin-top: 8px;
+    margin-left: 0px;
   }
 
   div.nav.show ul{
