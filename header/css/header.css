@@ -324,7 +324,7 @@ div.nav ul li.current_page_item a:before {
     left: 590px;
     width: 47px;
     height: 33px;
-    margin-top: 54px;
+    margin-top: 41px;
   }
 
   div.logo{
@@ -337,9 +337,9 @@ div.nav ul li.current_page_item a:before {
 
   .estimation{
     padding: 8px 0px;
-    margin-top: 16px;
-    font-size: 20px;
+    margin-top: 6px;
     margin-left: 101px;
+    font-size: 20px;
   }
 
   div.nav.show ul li a{
