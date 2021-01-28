@@ -361,15 +361,15 @@ div.nav ul li.current_page_item a:before {
     }
 
     .estimation {
-    	margin-top: 3px;
+      margin-top: -3px;
+      margin-left: 10px;
     	font-size: 11px;
     	width: 121px;
-    	margin-left: 10px;
     }
 
     header div.wrap_header div.hamburger {
     	left: 290px;
-    	margin-top: 40px;
+    	margin-top: 33px;
     	width: 34px;
     	height: 24px;
     }
