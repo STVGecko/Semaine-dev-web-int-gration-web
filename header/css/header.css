@@ -225,11 +225,11 @@ div.nav ul li.current_page_item a:before {
 
   div.logo img{
     width: 320px;
+    margin-top: 20px;
   }
 
   .logo{
     margin-top: 1%;
-    margin-bottom: 2.5%;
   }
 
 .global_menu{
