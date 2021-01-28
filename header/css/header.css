@@ -203,15 +203,6 @@ div.nav ul li a:before {
 div.nav ul li a:hover {
   color: white;
 }
-/*div#nav il li.current_page_item a:hover{
-  color: #C00A23;
-}
-div#nav il li.current_page_item a:after{
-  color: #C00A23;
-  background-color:none;
-  background: none;
-
-}*/
 div.nav ul li.current_page_item a,
 div.nav ul li.current_page_item a:after,
 div.nav ul li.current_page_item a:before {
@@ -229,7 +220,7 @@ div.nav ul li.current_page_item a:before {
 
   header div.wrap_header div.hamburger{
     display: block;
-    left: 925px;
+    left: 970px;
   }
 
   div.logo img{
