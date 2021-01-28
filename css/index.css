@@ -83,7 +83,7 @@ a {
 margin-bottom: 110px;
 }
 
-.section_index a{
+.section_index a:not(:first-child){
   margin-left: 32px;
 }
 
