@@ -1,11 +1,13 @@
-p.title_mentionl{
-  font-family: 'Mukta Mahee', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  color: #FFFFFF;
-  line-height: 30px;
+p.title_mentionl {
+	font-family: 'Mukta Mahee', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 30px;
+	margin-bottom: 18px;
+	text-decoration: underline;
 }
 
 p.info_mentionl{
@@ -16,6 +18,7 @@ p.info_mentionl{
   text-align: center;
   color: #FFFFFF;
   line-height: 30px;
+  margin-bottom: 18px;
 }
 
 @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
