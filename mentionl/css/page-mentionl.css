@@ -29,13 +29,13 @@ p.kanzai {
 	text-align: center;
 	color: #FFFFFF;
 	line-height: 30px;
-	margin-bottom: 40px;
 }
 
 div.underline_mentionl{
 	width: 100%;
 	height: 2px;
 	background-color: #C00A23;
+  margin: 40px auto;
 }
 
 @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/

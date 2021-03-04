@@ -10,7 +10,7 @@ Template Name: Mentions légales
 
     <h1 class="h1_flex">Mentions légales</h1>
     <div class="underline_realization"></div>
-    <p class="title_mentionl">Intégrateurs web :</p>
+    <p class="title_mentionl">Intégrateurs site-web :</p>
     <p class="info_mentionl">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
     <p class="title_mentionl">Graphistes :</p>
     <p class="info_mentionl">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
