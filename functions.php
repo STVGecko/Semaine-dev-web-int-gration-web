@@ -10,7 +10,7 @@ function scripts() {
   wp_enqueue_style( 'page-fexible', get_template_directory_uri().'/aproposetsavoirfaire/css/page-flexible.css');
   wp_enqueue_style( 'page-realisations', get_template_directory_uri().'/realisation/css/page-realisations.css');
   wp_enqueue_style( 'page-contact', get_template_directory_uri().'/contact/css/page-contact.css');
-  wp_enqueue_style( 'page-mentionl', get_template_directory_uri().'/contact/css/page-mentionl.css');
+  wp_enqueue_style( 'page-mentionl', get_template_directory_uri().'/mentionl/css/page-mentionl.css');
   wp_enqueue_script('main-jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js');
 }
 add_action( 'wp_enqueue_scripts', 'scripts' );
