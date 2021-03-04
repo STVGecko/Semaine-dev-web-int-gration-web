@@ -4,7 +4,7 @@ Template Name: Mentions légales
 */
 ?>
 
-
+<?php get_header(); ?>
 
   <section class="wrap_realization">
 
