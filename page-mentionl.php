@@ -1,8 +1,7 @@
 <?php
 /*
-Template Name: Nom du modèle
+Template Name: Mentions légales
 */
-
 ?>
 
 <?php get_header(); ?>
