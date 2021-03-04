@@ -9,6 +9,7 @@ Template Name: Mentions légales
   <section class="wrap_realization">
 
     <h1 class="h1_flex">Mentions légales</h1>
+    <div class="underline_realization"></div>
     <p class="title_mentionl">Intégrateurs web</p>
     <p class="info_mentionl">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
     <p class="title_mentionl">Graphistes</p>
