@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+
 
   <section class="wrap_realization">
     <?php $projet = get_field('project'); ?>
