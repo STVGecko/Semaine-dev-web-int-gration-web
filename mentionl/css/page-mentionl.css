@@ -1,15 +1,29 @@
-p.title_mentionl_kanzai{
-
-}
-
-p.info_mentionl_kanzai{
-  
-}
-
 p.title_mentionl{
-
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 30px;
 }
 
 p.info_mentionl{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 30px;
+}
 
+@media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
+  p.title_mentionl{
+      font-size: 15px;
+  }
+
+  p.info_mentionl{
+      font-size: 15px;
+  }
 }
