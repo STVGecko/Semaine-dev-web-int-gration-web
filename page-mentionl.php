@@ -19,7 +19,7 @@ Template Name: Mentions légales
     <?php $mentions_legales = get_field('mentions_legales');
     var_dump($mentions_legales)?>
     <?php foreach ($mentions_legales as $mention_legale): ?>
-    <p class="title_mentionl"><?php echo($mention_legale = get_field('titre_mentions_legales')); ?></p>
+    <p class="title_mentionl"><?php echo($mention_legale["titre_mentions_legales"]); ?></p>
     <p class="info_mentionl"><?php $mention_legale = get_field('infos_mentions_legales'); echo $mention_legale; ?></p>
     <?php endforeach; ?>
   </section>
