@@ -9,14 +9,6 @@ Template Name: Mentions légales
   <section class="wrap_realization">
 
     <h1 class="h1_flex">Mentions légales</h1>
-    <div class="underline_realization"></div>
-    <p class="title_mentionl">Intégrateurs site-web :</p>
-    <p class="info_mentionl">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
-    <p class="title_mentionl">Graphistes :</p>
-    <p class="info_mentionl">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
-    <p class="kanzai">Agence Kanzaï ©2020-2021</p>
-
-    <div class="underline_mentionl"></div>
 
     <?php $mentions_legales = get_field('mentions_legales');?>
     <?php //var_dump($mentions_legales);?>
@@ -24,6 +16,16 @@ Template Name: Mentions légales
     <p class="title_mentionl"><?php echo($mention_legale["titre_mentions_legales"]); ?></p>
     <p class="info_mentionl"><?php echo($mention_legale["infos_mentions_legales"]) ?></p>
     <?php endforeach; ?>
+
+    <div class="underline_mentionl"></div>
+
+    <div class="underline_realization"></div>
+    <p class="title_mentionl">Intégrateurs site-web :</p>
+    <p class="info_mentionl">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
+    <p class="title_mentionl">Graphistes :</p>
+    <p class="info_mentionl">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
+    <p class="kanzai">Agence Kanzaï ©2020-2021</p>
+
   </section>
 </body>
 
