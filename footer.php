@@ -28,7 +28,6 @@
 
 				</div>
 	      <div class="block">
-						<!--<p class="fine_font"><a href="">Données personnelles</a></p>-->
 	          <p class="fine_font"><a href="<?php $copi=get_field('lmention', get_option( 'page_on_front' )); echo $copi; ?>">Mentions légales</a></p>
 	          <p class="fine_font"><?php $copi=get_field('copyright', get_option( 'page_on_front' )); echo $copi; ?></p>
 				</div>
