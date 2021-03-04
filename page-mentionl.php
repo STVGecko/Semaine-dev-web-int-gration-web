@@ -13,5 +13,3 @@
     <?php endforeach; ?>
   </section>
 </body>
-
-<?php get_footer(); ?>
