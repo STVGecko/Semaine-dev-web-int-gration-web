@@ -16,7 +16,7 @@ Template Name: Mentions légales
     <p class="info_mentionl">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
     <p class="kanzai">Agence Kanzaï ©2020-2021</p>
 
-    <div class="underline"></div>
+    <div class="underline_mentionl"></div>
 
     <?php $mentions_legales = get_field('mentions_legales');?>
     <?php //var_dump($mentions_legales);?>
