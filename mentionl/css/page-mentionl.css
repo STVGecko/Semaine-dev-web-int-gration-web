@@ -21,6 +21,17 @@ p.info_mentionl{
   margin-bottom: 18px;
 }
 
+p.kanzai {
+	font-family: 'Mukta Mahee', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 30px;
+	margin-bottom: 18px;
+}
+
 @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
   p.title_mentionl{
       font-size: 15px;

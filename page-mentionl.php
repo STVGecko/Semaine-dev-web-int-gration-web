@@ -14,8 +14,8 @@ Template Name: Mentions légales
     <p class="info_mentionl">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
     <p class="title_mentionl">Graphistes :</p>
     <p class="info_mentionl">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
-    <p class="info_mentionl">Agence Kanzaï ©2020-2021</p>
-    
+    <p class="kanzai">Agence Kanzaï ©2020-2021</p>
+
     <?php $mentions_legales = get_field('mentions_legales');?>
     <?php //var_dump($mentions_legales);?>
     <?php foreach ($mentions_legales as $mention_legale): ?>
