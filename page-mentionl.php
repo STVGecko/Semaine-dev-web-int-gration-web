@@ -1,3 +1,10 @@
+<?php
+/*
+Template Name: Nom du modèle
+*/
+
+?>
+
 <?php get_header(); ?>
 
   <section class="wrap_realization">
