@@ -3,8 +3,11 @@
   <section class="wrap_realization">
 
     <h1 class="h1_flex">Mentions légales</h1>
-    <p class="title_mentionl_kanzai"></p>
-    <p class="info_mentionl_kanzai"></p>
+    <p class="title_mentionl_kanzai">Intégrateurs web</p>
+    <p class="info_mentionl_kanzai">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
+    <p class="title_mentionl_kanzai">Graphistes</p>
+    <p class="info_mentionl_kanzai">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
+    <p class="kanzai">Agence Kanzaï ©2020-2021</p>
 
     <?php $mentions_legales = get_field('mentions_legales'); ?>
     <?php foreach ($mentions_legales as $mention_legale): ?>
