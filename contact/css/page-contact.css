@@ -107,6 +107,7 @@ h2.contact_title{
   box-shadow:  0 0 10px black;
 }
 h2.devis_title {
+  text-align: center;
 	color: white;
 	font-family: 'Noto Sans', sans-serif;
 	font-style: normal;
