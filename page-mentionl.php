@@ -19,13 +19,18 @@ Template Name: Mentions légales
     <?php endforeach; ?>
 
     <div class="underline_mentionl"></div>
-    
+
     <p class="title_mentionl">Intégrateurs site-web :</p>
     <p class="info_mentionl">Steeven Lombardi, Clément Desouches Lucas Reymonet, Diego Prieto-Rodriguez</p>
     <p class="title_mentionl">Graphistes :</p>
     <p class="info_mentionl">Loriane Kah, Anthony Nehlig, Côme Fisset</p>
     <p class="kanzai">Agence Kanzaï ©2020-2021</p>
 
+    <div class="underline_mentionl"></div>
+
+    <p class="info_mentionl">Université Savoie Mont Blanc, Technolac : <a href="https://www.univ-smb.fr/" target="_blank">site web</a></p>
+    <p class="info_mentionl">Institut Universitaire de Technologie, Technolac : <a href="https://www.iut-chy.univ-smb.fr/" target="_blank">site web</a></p>
+    <p class="info_mentionl">Pôle MMI, Métiers du Multimédia et de l'Internet, Technolac : <a href="https://mmi.univ-smb.fr/site/" target="_blank">site web</a></p>
   </section>
 </body>
 
