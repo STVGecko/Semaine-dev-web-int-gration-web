@@ -20,6 +20,11 @@ p.info_mentionl{
   margin-bottom: 18px;
 }
 
+p.info_mentionl a.mentionl{
+	text-decoration: none;
+	color: white;
+}
+
 p.kanzai {
 	font-family: 'Mukta Mahee', sans-serif;
 	font-style: normal;
@@ -35,11 +40,6 @@ div.underline_mentionl{
 	height: 2px;
 	background-color: #C00A23;
   margin: 40px auto;
-}
-
-p.info_mentionl a.mentionl{
-	text-decoration: none;
-	color: white;
 }
 
 @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
