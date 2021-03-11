@@ -37,7 +37,7 @@ div.underline_mentionl{
   margin: 40px auto;
 }
 
-a.mentionl{
+p.info_mentionl a.mentionl{
 	text-decoration: none;
 	color: white;
 }
