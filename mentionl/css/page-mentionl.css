@@ -37,6 +37,11 @@ div.underline_mentionl{
   margin: 40px auto;
 }
 
+a.mentionl{
+	text-decoration: none;
+	color: white;
+}
+
 @media screen and (max-width: 375px) {  /*(petite tablette portrait)*/
   p.title_mentionl{
       font-size: 15px;

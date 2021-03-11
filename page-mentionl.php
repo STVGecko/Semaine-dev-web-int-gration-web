@@ -28,9 +28,9 @@ Template Name: Mentions légales
 
     <div class="underline_mentionl"></div>
 
-    <p class="info_mentionl">Université Savoie Mont Blanc, Technolac : <a href="https://www.univ-smb.fr/" target="_blank">site web</a></p>
-    <p class="info_mentionl">Institut Universitaire de Technologie, Technolac : <a href="https://www.iut-chy.univ-smb.fr/" target="_blank">site web</a></p>
-    <p class="info_mentionl">Pôle MMI, Métiers du Multimédia et de l'Internet, Technolac : <a href="https://mmi.univ-smb.fr/site/" target="_blank">site web</a></p>
+    <p class="info_mentionl"><a class="mentionl" href="https://www.univ-smb.fr/" target="_blank">Université Savoie Mont Blanc, Technolac</a></p>
+    <p class="info_mentionl"><a class="mentionl" href="https://www.iut-chy.univ-smb.fr/" target="_blank">Institut Universitaire de Technologie, Technolac</a></p>
+    <p class="info_mentionl"><a class="mentionl" href="https://mmi.univ-smb.fr/site/" target="_blank">Pôle MMI, Métiers du Multimédia et de l'Internet, Technolac</a></p>
   </section>
 </body>
 
